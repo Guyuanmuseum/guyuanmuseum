@@ -63,11 +63,21 @@ a {
 }
 
 .header-inner {
-  display: flex;
+  display: grid;
+  gap: 10px;
+  padding: 14px 0 16px;
+}
+
+.header-topline {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
   align-items: center;
-  justify-content: space-between;
   gap: 24px;
-  padding: 16px 0;
+}
+
+.header-action-row {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .brand span,
@@ -88,16 +98,9 @@ a {
 
 .logo {
   display: block;
-  height: 72px;
+  max-height: 70px;
   width: auto;
-}
-
-.hero-logo {
-  display: block;
-  width: min(340px, 72vw);
-  height: auto;
-  margin: 0 0 28px;
-  filter: drop-shadow(0 24px 44px rgb(0 0 0 / 0.32));
+  object-fit: contain;
 }
 
 .brand strong,
@@ -111,9 +114,33 @@ a {
 
 .main-nav {
   display: flex;
-  gap: 12px;
-  color: var(--stone-300);
-  font-size: 0.72rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(14px, 1.8vw, 30px);
+  color: var(--stone-100);
+}
+
+.main-nav a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  text-align: center;
+  line-height: 1.08;
+  white-space: nowrap;
+}
+
+.main-nav span {
+  font-size: 1.68rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.main-nav small {
+  font-size: 1.08rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
 }
 
 .main-nav a:hover,
@@ -1031,7 +1058,7 @@ a {
 
 @media (max-width: 1120px) {
   .main-nav {
-    display: none;
+    justify-content: flex-start;
   }
 }
 
@@ -1080,8 +1107,12 @@ a {
     width: min(100% - 32px, 1280px);
   }
 
-  .header-button {
-    display: none;
+  .header-topline {
+    grid-template-columns: 1fr;
+  }
+
+  .header-action-row {
+    justify-content: flex-start;
   }
 
   .hero-inner {
