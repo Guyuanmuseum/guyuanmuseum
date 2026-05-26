@@ -64,20 +64,17 @@ a {
 
 .header-inner {
   display: grid;
-  gap: 10px;
-  padding: 14px 0 16px;
-}
-
-.header-topline {
-  display: grid;
   grid-template-columns: auto minmax(0, 1fr);
   align-items: center;
-  gap: 24px;
+  gap: clamp(36px, 5vw, 78px);
+  padding: 18px 0 20px;
 }
 
-.header-action-row {
+.header-left {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
 }
 
 .brand span,
@@ -98,7 +95,8 @@ a {
 
 .logo {
   display: block;
-  max-height: 70px;
+  height: 115px;
+  max-height: 120px;
   width: auto;
   object-fit: contain;
 }
@@ -115,7 +113,7 @@ a {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
   gap: clamp(14px, 1.8vw, 30px);
   color: var(--stone-100);
@@ -164,6 +162,10 @@ a {
     background 160ms ease,
     color 160ms ease,
     border-color 160ms ease;
+}
+
+.header-button {
+  margin-top: 2px;
 }
 
 .button-primary {
@@ -1107,12 +1109,16 @@ a {
     width: min(100% - 32px, 1280px);
   }
 
-  .header-topline {
+  .header-inner {
     grid-template-columns: 1fr;
   }
 
-  .header-action-row {
-    justify-content: flex-start;
+  .header-left {
+    align-items: flex-start;
+  }
+
+  .logo {
+    height: 96px;
   }
 
   .hero-inner {
