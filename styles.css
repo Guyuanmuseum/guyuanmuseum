@@ -1,20 +1,23 @@
 :root {
   color-scheme: dark;
-  --stone-950: #8b1e1e;
-  --stone-900: #a52a24;
-  --stone-850: #7c1b1b;
-  --stone-800: #9a2a24;
-  --stone-700: #b33a2b;
-  --stone-600: #c45a4a;
-  --stone-400: #e0c2bb;
-  --stone-300: #f0ddd7;
+  --stone-950: #3b0f12;
+  --stone-900: #5d171b;
+  --stone-850: #711c20;
+  --stone-800: #8b2526;
+  --stone-700: #a33a32;
+  --stone-600: #bd6b5e;
+  --stone-400: #dac2b8;
+  --stone-300: #f1dfd6;
   --stone-100: #f5f5f4;
-  --amber-500: #d8a742;
-  --amber-400: #e4bd61;
-  --amber-300: #f0d487;
-  --amber-50: #f7f1e8;
-  --red-900: #b33a2b;
+  --amber-500: #c79535;
+  --amber-400: #d8ad59;
+  --amber-300: #ead19a;
+  --amber-50: #f8f0e4;
+  --red-900: #8b2526;
   --dark-brown: #1e1512;
+  --museum-shadow: 0 28px 76px rgb(30 21 18 / 0.42);
+  --panel-border: rgb(216 167 66 / 0.24);
+  --paper-line: rgb(111 69 38 / 0.11);
 }
 
 * {
@@ -30,14 +33,30 @@ section {
 }
 
 body {
+  position: relative;
   margin: 0;
   min-height: 100vh;
   background:
-    linear-gradient(180deg, #8b1e1e 0%, #a52a24 48%, #8b1e1e 100%);
+    radial-gradient(circle at 18% -4%, rgb(216 167 66 / 0.16), transparent 28rem),
+    radial-gradient(circle at 88% 18%, rgb(248 240 228 / 0.08), transparent 24rem),
+    linear-gradient(180deg, #3b0f12 0%, #64191d 42%, #4a1115 72%, #2a0d0f 100%);
   color: var(--stone-100);
   font-family:
     Inter, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, rgb(248 240 228 / 0.026) 0 1px, transparent 1px 7px),
+    repeating-linear-gradient(0deg, rgb(30 21 18 / 0.035) 0 1px, transparent 1px 11px);
+  mix-blend-mode: soft-light;
+  opacity: 0.72;
 }
 
 a {
@@ -49,9 +68,12 @@ a {
   position: sticky;
   top: 0;
   z-index: 50;
-  border-bottom: 1px solid rgb(216 167 66 / 0.28);
-  background: rgb(30 21 18 / 0.9);
-  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgb(216 167 66 / 0.22);
+  background:
+    linear-gradient(180deg, rgb(30 21 18 / 0.94), rgb(55 17 16 / 0.9)),
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 0.025) 0 1px, transparent 1px 8px);
+  box-shadow: 0 12px 42px rgb(30 21 18 / 0.28);
+  backdrop-filter: blur(18px);
 }
 
 .header-inner,
@@ -69,7 +91,7 @@ a {
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
   gap: clamp(24px, 3vw, 48px);
-  padding: 18px 0 20px;
+  padding: 20px 0 22px;
 }
 
 .header-left {
@@ -169,11 +191,17 @@ a {
   line-height: 1.08;
   padding: 0;
   transition:
-    color 160ms ease;
+    color 180ms ease,
+    text-shadow 180ms ease;
 }
 
 .language-toggle:hover {
   color: var(--stone-100);
+}
+
+.main-nav a:hover,
+.language-toggle:hover {
+  text-shadow: 0 0 18px rgb(216 167 66 / 0.3);
 }
 
 [data-lang="en"] .lang-zh,
@@ -186,8 +214,8 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 48px;
-  border-radius: 14px;
-  padding: 0 20px;
+  border-radius: 999px;
+  padding: 0 22px;
   border: 1px solid transparent;
   font-family:
     Inter, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", ui-sans-serif, system-ui, -apple-system,
@@ -200,7 +228,9 @@ a {
   transition:
     background 160ms ease,
     color 160ms ease,
-    border-color 160ms ease;
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
 }
 
 .header-button {
@@ -210,75 +240,90 @@ a {
 }
 
 .button-primary {
-  background: var(--amber-500);
+  border-color: rgb(248 240 228 / 0.22);
+  background:
+    linear-gradient(180deg, #dfbd70, var(--amber-500));
   color: var(--stone-950);
+  box-shadow: 0 14px 34px rgb(30 21 18 / 0.18);
 }
 
 .button-primary:hover {
-  background: var(--amber-400);
+  background:
+    linear-gradient(180deg, #ebcf8c, var(--amber-400));
+  box-shadow: 0 18px 42px rgb(30 21 18 / 0.24);
+  transform: translateY(-1px);
 }
 
 .button-outline {
-  border-color: var(--stone-600);
+  border-color: rgb(216 167 66 / 0.32);
   color: var(--stone-100);
+  background: rgb(248 240 228 / 0.04);
 }
 
 .button-outline:hover {
-  background: rgb(165 42 36 / 0.68);
+  background: rgb(248 240 228 / 0.1);
+  transform: translateY(-1px);
 }
 
 .hero {
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(135deg, #8b1e1e 0%, #a52a24 48%, #b33a2b 100%);
+    radial-gradient(circle at 18% 18%, rgb(216 167 66 / 0.16), transparent 28rem),
+    radial-gradient(circle at 78% 12%, rgb(248 240 228 / 0.1), transparent 24rem),
+    linear-gradient(135deg, #3b0f12 0%, #681a1e 48%, #8b2526 100%);
+  border-bottom: 1px solid rgb(216 167 66 / 0.2);
 }
 
 .hero-bg {
   position: absolute;
   inset: 0;
-  opacity: 0.52;
+  opacity: 0.72;
   background:
-    radial-gradient(circle at 0% 0%, rgb(216 167 66 / 0.28) 0 11%, transparent 32%),
-    radial-gradient(circle at 100% 100%, rgb(179 58 43 / 0.72) 0 17%, transparent 42%),
-    radial-gradient(circle at 50% 18%, rgb(247 241 232 / 0.12) 0 10%, transparent 34%);
-  filter: blur(30px);
+    linear-gradient(90deg, rgb(30 21 18 / 0.34), transparent 34%, rgb(30 21 18 / 0.28)),
+    radial-gradient(circle at 0% 0%, rgb(216 167 66 / 0.22) 0 11%, transparent 32%),
+    radial-gradient(circle at 100% 100%, rgb(139 30 30 / 0.72) 0 17%, transparent 42%),
+    repeating-linear-gradient(115deg, rgb(248 240 228 / 0.045) 0 1px, transparent 1px 16px);
+  filter: blur(18px);
 }
 
 .hero-inner {
   position: relative;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
-  gap: 48px;
+  gap: clamp(48px, 7vw, 88px);
   align-items: center;
-  padding: 104px 0;
+  padding: clamp(116px, 12vw, 162px) 0;
 }
 
 .pill {
   display: inline-flex;
   width: fit-content;
-  border: 1px solid rgb(216 167 66 / 0.42);
+  border: 1px solid rgb(216 167 66 / 0.34);
   border-radius: 999px;
-  padding: 9px 16px;
+  background: rgb(248 240 228 / 0.055);
+  padding: 10px 18px;
   color: var(--amber-300);
   font-size: 0.88rem;
   letter-spacing: 0;
   text-transform: none;
+  box-shadow: inset 0 0 0 1px rgb(248 240 228 / 0.035);
 }
 
 .hero h1 {
   position: relative;
   max-width: 900px;
-  margin: 24px 0 0;
-  font-size: clamp(3.25rem, 8vw, 6.9rem);
+  margin: 30px 0 0;
+  font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+  font-size: clamp(3.45rem, 8.8vw, 7.5rem);
   line-height: 1;
-  font-weight: 760;
-  letter-spacing: -0.015em;
+  font-weight: 620;
+  letter-spacing: -0.012em;
   color: var(--amber-50);
   text-shadow:
     0 1px 0 rgb(255 255 255 / 0.18),
-    0 18px 54px rgb(216 167 66 / 0.26),
-    0 2px 18px rgb(30 21 18 / 0.72);
+    0 22px 68px rgb(216 167 66 / 0.28),
+    0 3px 22px rgb(30 21 18 / 0.78);
 }
 
 .hero h1::before {
@@ -298,11 +343,11 @@ a {
 .hero h1::after {
   content: "";
   display: block;
-  width: min(240px, 42vw);
+  width: min(310px, 48vw);
   height: 2px;
-  margin-top: 24px;
-  background: linear-gradient(90deg, var(--amber-500), rgb(216 167 66 / 0));
-  box-shadow: 0 0 22px rgb(216 167 66 / 0.32);
+  margin-top: 30px;
+  background: linear-gradient(90deg, rgb(234 209 154 / 0), var(--amber-500), rgb(216 167 66 / 0));
+  box-shadow: 0 0 26px rgb(216 167 66 / 0.34);
 }
 
 .hero h1 span,
@@ -324,7 +369,7 @@ a {
 
 .hero-lede {
   max-width: 760px;
-  margin: 28px 0 0;
+  margin: 34px 0 0;
   color: var(--stone-300);
   font-size: clamp(1.26rem, 1.45vw, 1.46rem);
   line-height: 1.82;
@@ -341,25 +386,29 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-top: 36px;
+  margin-top: 44px;
 }
 
 .gallery-frame {
-  border: 1px solid var(--stone-700);
-  border-radius: 32px;
-  background: rgb(247 241 232 / 0.12);
-  padding: 16px;
-  box-shadow: 0 25px 60px rgb(0 0 0 / 0.35);
+  border: 1px solid var(--panel-border);
+  border-radius: 34px;
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.18), rgb(248 240 228 / 0.07)),
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 0.035) 0 1px, transparent 1px 12px);
+  padding: 18px;
+  box-shadow: var(--museum-shadow);
 }
 
 .gallery-card {
   min-height: 620px;
-  border: 1px solid var(--stone-700);
+  border: 1px solid rgb(216 167 66 / 0.24);
   border-radius: 24px;
   background:
-    linear-gradient(145deg, rgb(165 42 36 / 0.88), rgb(139 30 30 / 0.9), rgb(179 58 43 / 0.62)),
-    repeating-linear-gradient(135deg, rgb(255 255 255 / 0.08) 0 1px, transparent 1px 10px);
+    linear-gradient(145deg, rgb(248 240 228 / 0.1), transparent 36%),
+    linear-gradient(145deg, rgb(96 25 25 / 0.92), rgb(59 15 18 / 0.94), rgb(139 37 38 / 0.62)),
+    repeating-linear-gradient(135deg, rgb(255 255 255 / 0.055) 0 1px, transparent 1px 10px);
   padding: 32px;
+  box-shadow: inset 0 0 0 1px rgb(248 240 228 / 0.04);
 }
 
 .gallery-panel {
@@ -379,10 +428,11 @@ a {
   display: block;
   width: 100%;
   height: 150px;
-  border: 1px solid rgb(214 211 209 / 0.12);
+  border: 1px solid rgb(216 167 66 / 0.2);
   border-radius: 16px;
   object-fit: contain;
-  background: rgb(30 21 18 / 0.34);
+  background: rgb(248 240 228 / 0.08);
+  box-shadow: 0 14px 30px rgb(30 21 18 / 0.28);
 }
 
 .print-row {
@@ -396,10 +446,11 @@ a {
   display: block;
   width: 100%;
   height: 80px;
-  border: 1px solid rgb(214 211 209 / 0.12);
+  border: 1px solid rgb(216 167 66 / 0.18);
   border-radius: 12px;
   object-fit: contain;
-  background: rgb(30 21 18 / 0.34);
+  background: rgb(248 240 228 / 0.08);
+  box-shadow: 0 12px 22px rgb(30 21 18 / 0.22);
 }
 
 .gallery-preview p {
@@ -410,11 +461,15 @@ a {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 108px 0;
 }
 
 .works-section {
-  padding-top: 92px;
+  position: relative;
+  padding-top: 118px;
+  background:
+    radial-gradient(circle at 8% 8%, rgb(216 167 66 / 0.11), transparent 26rem),
+    linear-gradient(180deg, rgb(59 15 18 / 0.26), rgb(96 25 25 / 0.18));
 }
 
 .section-heading {
@@ -422,29 +477,32 @@ a {
   align-items: end;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 52px;
 }
 
 .section-heading h2,
 .timeline-inner h2,
 .research-inner h2 {
   margin: 12px 0 0;
+  font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
   font-size: clamp(2.2rem, 4vw, 3rem);
   line-height: 1.13;
-  font-weight: 650;
+  font-weight: 520;
+  letter-spacing: -0.01em;
 }
 
 .authorization-section {
-  border-block: 1px solid rgb(216 167 66 / 0.2);
+  border-block: 1px solid var(--panel-border);
   background:
-    linear-gradient(180deg, rgb(165 42 36 / 0.72), rgb(139 30 30 / 0.9)),
-    radial-gradient(circle at 16% 12%, rgb(216 167 66 / 0.18), transparent 36%);
+    radial-gradient(circle at 16% 12%, rgb(216 167 66 / 0.14), transparent 34rem),
+    linear-gradient(180deg, rgb(96 25 25 / 0.86), rgb(59 15 18 / 0.94)),
+    repeating-linear-gradient(90deg, rgb(248 240 228 / 0.025) 0 1px, transparent 1px 9px);
 }
 
 .authorization-inner {
   width: min(100% - 48px, 1280px);
   margin: 0 auto;
-  padding: 88px 0;
+  padding: 112px 0;
 }
 
 .authorization-heading {
@@ -454,9 +512,10 @@ a {
 
 .authorization-heading h2 {
   margin: 14px 0 0;
+  font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
   font-size: clamp(2.2rem, 4.8vw, 4.6rem);
   line-height: 1.05;
-  font-weight: 650;
+  font-weight: 520;
 }
 
 .authorization-heading p.zh {
@@ -473,10 +532,13 @@ a {
 }
 
 .authorization-copy > div {
-  border: 1px solid rgb(216 167 66 / 0.24);
-  border-radius: 18px;
-  background: rgb(247 241 232 / 0.08);
-  padding: 30px;
+  border: 1px solid var(--panel-border);
+  border-radius: 20px;
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.12), rgb(248 240 228 / 0.07)),
+    repeating-linear-gradient(0deg, rgb(248 240 228 / 0.035) 0 1px, transparent 1px 12px);
+  box-shadow: 0 24px 54px rgb(30 21 18 / 0.26);
+  padding: 36px;
 }
 
 .authorization-copy h3 {
@@ -508,6 +570,8 @@ a {
 .ghost-link {
   color: var(--amber-300);
   font-weight: 650;
+  border-bottom: 1px solid rgb(216 167 66 / 0.34);
+  padding-bottom: 4px;
 }
 
 .works-grid {
@@ -517,15 +581,29 @@ a {
 }
 
 .info-card {
-  border: 1px solid var(--stone-800);
-  border-radius: 24px;
-  background: rgb(165 42 36 / 0.42);
-  box-shadow: 0 16px 36px rgb(0 0 0 / 0.24);
+  border: 1px solid var(--panel-border);
+  border-radius: 20px;
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.12), rgb(248 240 228 / 0.065)),
+    repeating-linear-gradient(135deg, rgb(255 255 255 / 0.03) 0 1px, transparent 1px 14px);
+  box-shadow: 0 22px 48px rgb(30 21 18 / 0.24);
+  transition:
+    border-color 180ms ease,
+    transform 180ms ease,
+    background 180ms ease;
+}
+
+.info-card:hover {
+  border-color: rgb(216 167 66 / 0.42);
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.15), rgb(248 240 228 / 0.08)),
+    repeating-linear-gradient(135deg, rgb(255 255 255 / 0.035) 0 1px, transparent 1px 14px);
+  transform: translateY(-2px);
 }
 
 .collection-intro {
   max-width: 1040px;
-  margin: -14px 0 38px;
+  margin: -18px 0 54px;
   color: var(--stone-300);
   font-size: 1.28rem;
   line-height: 1.86;
@@ -545,10 +623,14 @@ a {
 .featured-artwork,
 .supporting-artworks figure {
   margin: 0;
-  border: 1px solid rgb(216 167 66 / 0.28);
-  background: var(--amber-50);
+  border: 1px solid rgb(162 116 48 / 0.28);
+  background:
+    linear-gradient(180deg, rgb(255 252 244 / 0.92), var(--amber-50)),
+    repeating-linear-gradient(0deg, var(--paper-line) 0 1px, transparent 1px 13px);
   color: var(--stone-950);
-  box-shadow: 0 18px 46px rgb(0 0 0 / 0.24);
+  box-shadow:
+    0 26px 72px rgb(30 21 18 / 0.28),
+    inset 0 0 0 1px rgb(255 255 255 / 0.54);
 }
 
 .featured-artwork {
@@ -556,8 +638,8 @@ a {
   grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.55fr);
   gap: 30px;
   align-items: center;
-  border-radius: 22px;
-  padding: 24px;
+  border-radius: 18px;
+  padding: clamp(24px, 3vw, 38px);
 }
 
 .artwork-open {
@@ -574,9 +656,13 @@ a {
 .artwork-open img {
   display: block;
   width: 100%;
-  border: 1px solid rgb(87 83 78 / 0.2);
-  background: #efe4d4;
+  border: 1px solid rgb(87 83 78 / 0.18);
+  background:
+    linear-gradient(180deg, #f4ead9, #eadbc5);
   object-fit: contain;
+  box-shadow:
+    0 18px 38px rgb(64 42 24 / 0.16),
+    inset 0 0 0 8px rgb(255 255 255 / 0.12);
 }
 
 .featured-artwork .artwork-open img {
@@ -586,7 +672,7 @@ a {
 }
 
 .featured-artwork figcaption {
-  padding: 18px 10px;
+  padding: 22px 14px;
 }
 
 .featured-artwork h3,
@@ -610,6 +696,8 @@ a {
 
 .featured-artwork .work-meta {
   margin-top: 22px;
+  border-top: 1px solid rgb(154 106 22 / 0.22);
+  padding-top: 18px;
 }
 
 .supporting-artworks {
@@ -621,6 +709,16 @@ a {
 .supporting-artworks figure {
   border-radius: 16px;
   overflow: hidden;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.supporting-artworks figure:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 30px 78px rgb(30 21 18 / 0.34),
+    inset 0 0 0 1px rgb(255 255 255 / 0.58);
 }
 
 .supporting-artworks .artwork-open {
@@ -633,7 +731,7 @@ a {
 }
 
 .supporting-artworks figcaption {
-  padding: 18px 18px 20px;
+  padding: 20px 20px 24px;
 }
 
 .supporting-artworks h3 {
@@ -649,7 +747,7 @@ a {
 
 .supporting-artworks p {
   margin: 12px 0 0;
-  color: #8f6724;
+  color: #87601e;
   font-size: 0.86rem;
   font-weight: 700;
   line-height: 1.45;
@@ -661,7 +759,8 @@ a {
   max-height: min(92vh, 920px);
   border: 1px solid rgb(216 167 66 / 0.36);
   border-radius: 20px;
-  background: #1e1512;
+  background:
+    linear-gradient(180deg, #241513, #140d0c);
   color: var(--stone-100);
   padding: 0;
   box-shadow: 0 30px 90px rgb(0 0 0 / 0.72);
@@ -729,12 +828,14 @@ a {
   grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
   gap: 34px;
   align-items: stretch;
-  border: 1px solid rgb(216 167 66 / 0.26);
-  border-radius: 22px;
-  background: var(--amber-50);
+  border: 1px solid rgb(162 116 48 / 0.28);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgb(255 252 244 / 0.92), var(--amber-50)),
+    repeating-linear-gradient(0deg, var(--paper-line) 0 1px, transparent 1px 13px);
   color: var(--stone-950);
   padding: 22px;
-  box-shadow: 0 24px 60px rgb(0 0 0 / 0.28);
+  box-shadow: 0 28px 76px rgb(30 21 18 / 0.3);
 }
 
 .featured-work img {
@@ -745,6 +846,7 @@ a {
   border-radius: 14px;
   object-fit: contain;
   background: #efe4d4;
+  box-shadow: 0 18px 38px rgb(64 42 24 / 0.18);
 }
 
 .featured-work > div {
@@ -821,12 +923,22 @@ a {
 }
 
 .work-card {
-  border: 1px solid rgb(120 113 108 / 0.28);
-  border-radius: 16px;
-  background: var(--amber-50);
+  border: 1px solid rgb(162 116 48 / 0.22);
+  border-radius: 15px;
+  background:
+    linear-gradient(180deg, rgb(255 252 244 / 0.92), var(--amber-50)),
+    repeating-linear-gradient(0deg, var(--paper-line) 0 1px, transparent 1px 13px);
   color: var(--stone-950);
-  box-shadow: 0 16px 36px rgb(0 0 0 / 0.24);
+  box-shadow: 0 20px 48px rgb(30 21 18 / 0.22);
   overflow: hidden;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.work-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 28px 64px rgb(30 21 18 / 0.3);
 }
 
 .work-card {
@@ -876,16 +988,18 @@ a {
 }
 
 .timeline-section {
-  border-block: 1px solid var(--stone-800);
+  border-block: 1px solid var(--panel-border);
   background:
-    linear-gradient(180deg, rgb(247 241 232 / 0.08), rgb(165 42 36 / 0.34));
+    radial-gradient(circle at 78% 18%, rgb(216 167 66 / 0.11), transparent 24rem),
+    linear-gradient(180deg, rgb(248 240 228 / 0.09), rgb(59 15 18 / 0.3)),
+    repeating-linear-gradient(90deg, rgb(248 240 228 / 0.025) 0 1px, transparent 1px 9px);
 }
 
 .timeline-inner {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
   gap: 48px;
-  padding: 80px 0;
+  padding: 108px 0;
 }
 
 .timeline-inner p {
@@ -903,10 +1017,12 @@ a {
   display: grid;
   grid-template-columns: 90px 1fr;
   gap: 20px;
-  border: 1px solid var(--stone-800);
+  border: 1px solid var(--panel-border);
   border-radius: 16px;
-  background: rgb(139 30 30 / 0.42);
-  padding: 20px;
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.12), rgb(248 240 228 / 0.06));
+  box-shadow: 0 18px 38px rgb(30 21 18 / 0.18);
+  padding: 22px;
 }
 
 .timeline-list strong {
@@ -927,11 +1043,11 @@ a {
 .archive-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 28px;
 }
 
 .info-card {
-  padding: 24px;
+  padding: 28px;
 }
 
 .icon {
@@ -959,15 +1075,19 @@ a {
 }
 
 .research-section {
-  background: var(--amber-50);
+  background:
+    linear-gradient(180deg, rgb(255 252 244 / 0.96), var(--amber-50)),
+    repeating-linear-gradient(0deg, var(--paper-line) 0 1px, transparent 1px 14px);
   color: var(--stone-950);
+  border-block: 1px solid rgb(162 116 48 / 0.2);
 }
 
 .guardian-section {
-  border-top: 1px solid var(--stone-800);
+  border-top: 1px solid var(--panel-border);
   background:
-    linear-gradient(135deg, rgb(139 30 30 / 0.86), rgb(165 42 36 / 0.72), rgb(179 58 43 / 0.34)),
-    radial-gradient(circle at 90% 20%, rgb(216 167 66 / 0.2), transparent 32%);
+    radial-gradient(circle at 90% 20%, rgb(216 167 66 / 0.16), transparent 30rem),
+    linear-gradient(135deg, rgb(59 15 18 / 0.92), rgb(96 25 25 / 0.8), rgb(139 37 38 / 0.42)),
+    repeating-linear-gradient(115deg, rgb(255 255 255 / 0.025) 0 1px, transparent 1px 16px);
 }
 
 .guardian-inner {
@@ -976,14 +1096,15 @@ a {
   gap: 48px;
   width: min(100% - 48px, 1280px);
   margin: 0 auto;
-  padding: 88px 0;
+  padding: 112px 0;
 }
 
 .guardian-copy h2 {
   margin: 14px 0 0;
   font-size: clamp(2.6rem, 5vw, 4.8rem);
   line-height: 1.02;
-  font-weight: 650;
+  font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+  font-weight: 520;
 }
 
 .guardian-copy h2 span {
@@ -1015,10 +1136,13 @@ a {
 }
 
 .guardian-panel div {
-  border: 1px solid rgb(216 167 66 / 0.26);
+  border: 1px solid var(--panel-border);
   border-radius: 18px;
-  background: rgb(247 241 232 / 0.08);
-  padding: 24px;
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.12), rgb(248 240 228 / 0.07)),
+    repeating-linear-gradient(0deg, rgb(248 240 228 / 0.025) 0 1px, transparent 1px 10px);
+  box-shadow: 0 18px 42px rgb(30 21 18 / 0.18);
+  padding: 28px;
 }
 
 .guardian-panel span {
@@ -1040,14 +1164,15 @@ a {
 
 .museum-sections {
   background:
-    linear-gradient(180deg, #a52a24 0%, #8b1e1e 100%);
-  border-top: 1px solid var(--stone-800);
+    radial-gradient(circle at 10% 0%, rgb(216 167 66 / 0.11), transparent 24rem),
+    linear-gradient(180deg, #681a1e 0%, #3b0f12 100%);
+  border-top: 1px solid var(--panel-border);
 }
 
 .museum-sections-inner {
   width: min(100% - 48px, 1280px);
   margin: 0 auto;
-  padding: 82px 0;
+  padding: 108px 0;
 }
 
 .museum-grid {
@@ -1057,11 +1182,21 @@ a {
 }
 
 .museum-grid article {
-  border: 1px solid var(--stone-800);
+  border: 1px solid var(--panel-border);
   border-radius: 18px;
-  background: rgb(247 241 232 / 0.08);
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.12), rgb(248 240 228 / 0.055));
+  box-shadow: 0 18px 42px rgb(30 21 18 / 0.18);
   min-height: 220px;
-  padding: 22px;
+  padding: 26px;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease;
+}
+
+.museum-grid article:hover {
+  border-color: rgb(216 167 66 / 0.4);
+  transform: translateY(-3px);
 }
 
 .museum-grid span {
@@ -1086,7 +1221,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  padding: 80px 0;
+  padding: 108px 0;
 }
 
 .research-inner .eyebrow {
@@ -1117,7 +1252,8 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 40px 0;
+  border-top: 1px solid rgb(216 167 66 / 0.18);
+  padding: 48px 0;
   color: var(--stone-400);
   font-size: 1.08rem;
 }
