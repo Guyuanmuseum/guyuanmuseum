@@ -18,7 +18,6 @@
           <a class="brand" href="#top" aria-label="Guyuan Museum home">
             <img src="logo-transparent.png" alt="Guyuan Museum Logo" class="logo">
           </a>
-          <a class="button button-primary header-button" href="#works" data-i18n="button.explore">Explore Collection</a>
         </div>
         <nav class="main-nav" aria-label="Main navigation">
           <a href="#works" data-i18n="nav.works">Works</a>
@@ -27,8 +26,9 @@
           <a href="#authorization" data-i18n="nav.authorization">Authorization</a>
           <a href="#guardian" data-i18n="nav.familyArchive">Family Archive</a>
           <a href="#research" data-i18n="nav.research">Research</a>
+          <button class="language-toggle" type="button" data-language-toggle onclick="window.setLanguage(document.body.dataset.lang === 'zh' ? 'en' : 'zh')">中文</button>
         </nav>
-        <button class="language-toggle" type="button" data-language-toggle onclick="window.setLanguage(document.body.dataset.lang === 'zh' ? 'en' : 'zh')">中文</button>
+        <a class="button button-primary header-button" href="#works" data-i18n="button.explore">Explore Collection</a>
       </div>
     </header>
 
@@ -39,7 +39,7 @@
           <div class="hero-copy reveal">
             <p class="eyebrow pill" data-i18n="hero.eyebrow">Chinese New Printmaking · Woodcut · Life Archive</p>
             <h1>
-              <span data-i18n="hero.title">The carved memory of modern China.</span>
+              <span data-i18n="hero.title">The carved memory of modern China</span>
             </h1>
             <p class="hero-lede" data-i18n="hero.lede">
               A museum-style digital archive dedicated to Gu Yuan's woodcut prints, watercolor works, life story,
@@ -68,7 +68,7 @@
                     <img src="assets/artworks/work-03.jpg" alt="Gu Yuan woodcut print, Support Our People's Army">
                     <img src="assets/artworks/work-05.jpg" alt="Gu Yuan woodcut print, Human Bridge">
                   </div>
-                  <p data-i18n="hero.galleryCaption">Major works from the Guyuan Museum digital collection.</p>
+                  <p data-i18n="hero.galleryCaption">Major works from the Guyuan Museum digital collection</p>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@
           <div class="authorization-heading">
             <p class="eyebrow" data-i18n="authorization.eyebrow">Official Authorization</p>
             <h2 data-i18n="authorization.title">Family-authorized international cultural archive</h2>
-            <p class="zh" data-i18n="authorization.subtitle">A family-authorized international cultural archive project.</p>
+            <p class="zh" data-i18n="authorization.subtitle">A family-authorized international cultural archive project</p>
           </div>
 
           <div class="authorization-copy">
@@ -191,10 +191,10 @@
 
       <section id="archive" class="section">
         <div class="archive-grid">
-          <article class="info-card"><span class="icon" aria-hidden="true">▧</span><h3 data-i18n="archive.card1.title">Works Database</h3><p data-i18n="archive.card1.body">Search by year, medium, theme, period, size, and collection source.</p></article>
-          <article class="info-card"><span class="icon" aria-hidden="true">▤</span><h3 data-i18n="archive.card2.title">Essays & Research</h3><p data-i18n="archive.card2.body">Scholarly essays, exhibition texts, bibliography, and teaching notes.</p></article>
-          <article class="info-card"><span class="icon" aria-hidden="true">▥</span><h3 data-i18n="archive.card3.title">Media Collection</h3><p data-i18n="archive.card3.body">Photos, letters, catalogues, newspaper clippings, and oral history.</p></article>
-          <article class="info-card"><span class="icon" aria-hidden="true">◎</span><h3 data-i18n="archive.card4.title">Bilingual Access</h3><p data-i18n="archive.card4.body">English and Chinese navigation for international museum visitors.</p></article>
+          <article class="info-card"><span class="icon" aria-hidden="true">▧</span><h3 data-i18n="archive.card1.title">Works Database</h3><p data-i18n="archive.card1.body">Search by year, medium, theme, period, size, and collection source</p></article>
+          <article class="info-card"><span class="icon" aria-hidden="true">▤</span><h3 data-i18n="archive.card2.title">Essays & Research</h3><p data-i18n="archive.card2.body">Scholarly essays, exhibition texts, bibliography, and teaching notes</p></article>
+          <article class="info-card"><span class="icon" aria-hidden="true">▥</span><h3 data-i18n="archive.card3.title">Media Collection</h3><p data-i18n="archive.card3.body">Photos, letters, catalogues, newspaper clippings, and oral history</p></article>
+          <article class="info-card"><span class="icon" aria-hidden="true">◎</span><h3 data-i18n="archive.card4.title">Bilingual Access</h3><p data-i18n="archive.card4.body">English and Chinese navigation for international museum visitors</p></article>
         </div>
       </section>
 
@@ -233,7 +233,7 @@
         <div class="research-inner">
           <div>
             <p class="eyebrow" data-i18n="research.eyebrow">Museum Strategy</p>
-            <h2><span data-i18n="research.title">Built for collectors, scholars, students, and the public.</span></h2>
+            <h2><span data-i18n="research.title">Built for collectors, scholars, students, and the public</span></h2>
           </div>
           <div class="research-copy">
             <p data-i18n="research.body1">The website should feel like a serious archive, not a commercial shop. Use museum-level metadata, large quiet images, captions, and a strong research section.</p>
@@ -244,8 +244,14 @@
     </main>
 
     <footer class="site-footer">
-      <p data-i18n="footer.copy">© Gu Yuan Online Museum. Research draft / design prototype.</p>
-      <div>
+      <div class="footer-credit">
+        <p data-i18n="footer.copy">© Gu Yuan Online Museum Research draft / design prototype</p>
+        <div class="footer-partnership">
+          <img src="assets/partners/owl-art-foundation-logo.png" alt="OWL Art Foundation logo">
+          <p data-i18n="footer.partnership">Digital cultural platform developed with support from OWL Art Foundation</p>
+        </div>
+      </div>
+      <div class="footer-links">
         <span data-i18n="footer.archive">▣ Museum archive</span>
         <span data-i18n="footer.timeline">◷ Timeline</span>
       </div>
@@ -276,14 +282,14 @@
           "nav.familyArchive": "Family Archive",
           "nav.research": "Research",
           "hero.eyebrow": "Chinese New Printmaking · Woodcut · Life Archive",
-          "hero.title": "The carved memory of modern China.",
+          "hero.title": "The carved memory of modern China",
           "hero.lede": "A museum-style digital archive dedicated to Gu Yuan's woodcut prints, watercolor works, life story, historical documents, exhibitions, and scholarly resources.",
           "hero.galleryEyebrow": "Featured Gallery",
           "hero.galleryTitle": "Yan'an Woodcuts",
-          "hero.galleryCaption": "Major works from the Guyuan Museum digital collection.",
+          "hero.galleryCaption": "Major works from the Guyuan Museum digital collection",
           "authorization.eyebrow": "Official Authorization",
           "authorization.title": "Family-authorized international cultural archive",
-          "authorization.subtitle": "A family-authorized international cultural archive project.",
+          "authorization.subtitle": "A family-authorized international cultural archive project",
           "works.eyebrow": "Major Works",
           "works.title": "Major Works Collection",
           "works.viewAll": "View all works",
@@ -299,13 +305,13 @@
           "timeline.1959": "Joined Central Academy of Fine Arts as an educator",
           "timeline.1996": "Passed away, leaving a major printmaking legacy",
           "archive.card1.title": "Works Database",
-          "archive.card1.body": "Search by year, medium, theme, period, size, and collection source.",
+          "archive.card1.body": "Search by year, medium, theme, period, size, and collection source",
           "archive.card2.title": "Essays & Research",
-          "archive.card2.body": "Scholarly essays, exhibition texts, bibliography, and teaching notes.",
+          "archive.card2.body": "Scholarly essays, exhibition texts, bibliography, and teaching notes",
           "archive.card3.title": "Media Collection",
-          "archive.card3.body": "Photos, letters, catalogues, newspaper clippings, and oral history.",
+          "archive.card3.body": "Photos, letters, catalogues, newspaper clippings, and oral history",
           "archive.card4.title": "Bilingual Access",
-          "archive.card4.body": "English and Chinese navigation for international museum visitors.",
+          "archive.card4.body": "English and Chinese navigation for international museum visitors",
           "guardian.eyebrow": "Family Archive Guardian",
           "guardian.title": "Gu Ancun",
           "guardian.subtitle": "Chief Curatorial Resource",
@@ -321,10 +327,11 @@
           "museum.card4": "International Research Center",
           "museum.card5": "Toronto Cultural Development Project",
           "research.eyebrow": "Museum Strategy",
-          "research.title": "Built for collectors, scholars, students, and the public.",
+          "research.title": "Built for collectors, scholars, students, and the public",
           "research.body1": "The website should feel like a serious archive, not a commercial shop. Use museum-level metadata, large quiet images, captions, and a strong research section.",
           "research.body2": "Future functions can include advanced search, interactive map, exhibition mode, educational downloads, provenance notes, and collection-rights management.",
-          "footer.copy": "© Gu Yuan Online Museum. Research draft / design prototype.",
+          "footer.copy": "© Gu Yuan Online Museum Research draft / design prototype",
+          "footer.partnership": "Digital cultural platform developed with support from OWL Art Foundation",
           "footer.archive": "▣ Museum archive",
           "footer.timeline": "◷ Timeline"
         },
@@ -339,14 +346,14 @@
           "nav.familyArchive": "家族檔案",
           "nav.research": "研究",
           "hero.eyebrow": "中國新興版畫 · 木刻 · 生平檔案",
-          "hero.title": "中國現代記憶的木刻史詩",
+          "hero.title": "中國現代記憶的\n木刻史詩",
           "hero.lede": "本網站以線上美術館形式，系統性收藏與展示古元的木刻版畫、水彩作品、人生歷程、歷史文獻、展覽資料與研究檔案。",
           "hero.galleryEyebrow": "精選展廳",
           "hero.galleryTitle": "延安木刻",
-          "hero.galleryCaption": "古元美術館數位館藏重要作品。",
+          "hero.galleryCaption": "古元美術館數位館藏重要作品",
           "authorization.eyebrow": "官方授權聲明",
           "authorization.title": "家族正式授權之國際文化檔案項目",
-          "authorization.subtitle": "經古元家族正式授權與支持建立。",
+          "authorization.subtitle": "經古元家族正式授權與支持建立",
           "works.eyebrow": "重要作品",
           "works.title": "經典作品館",
           "works.viewAll": "查看全部作品",
@@ -362,13 +369,13 @@
           "timeline.1959": "任教於中央美術學院，投身美術教育",
           "timeline.1996": "辭世，留下重要的版畫藝術遺產",
           "archive.card1.title": "作品資料庫",
-          "archive.card1.body": "可依年代、媒材、主題、時期、尺寸與收藏來源進行檢索。",
+          "archive.card1.body": "可依年代、媒材、主題、時期、尺寸與收藏來源進行檢索",
           "archive.card2.title": "論文與研究",
-          "archive.card2.body": "收錄學術文章、展覽文本、參考書目與教學資料。",
+          "archive.card2.body": "收錄學術文章、展覽文本、參考書目與教學資料",
           "archive.card3.title": "影像文獻",
-          "archive.card3.body": "包含照片、書信、圖錄、報刊剪影與口述歷史資料。",
+          "archive.card3.body": "包含照片、書信、圖錄、報刊剪影與口述歷史資料",
           "archive.card4.title": "雙語導覽",
-          "archive.card4.body": "提供中英文導覽，服務國際觀眾、研究者與收藏機構。",
+          "archive.card4.body": "提供中英文導覽，服務國際觀眾、研究者與收藏機構",
           "guardian.eyebrow": "家族檔案守護人",
           "guardian.title": "古安村",
           "guardian.subtitle": "首席策展資源",
@@ -387,7 +394,8 @@
           "research.title": "為收藏家、學者、學生與公眾而建立",
           "research.body1": "網站整體應呈現國際級線上博物館氣質，而非商業販售平台。建議使用大尺寸留白影像、說明文字、完整作品資料與研究型內容架構。",
           "research.body2": "未來可擴展功能包括作品資料庫檢索、互動展覽地圖、教育下載資源、收藏來源記錄，以及版權與授權管理系統。",
-          "footer.copy": "© 古元線上美術館。研究草案 / 設計原型。",
+          "footer.copy": "© 古元線上美術館 研究草案 / 設計原型",
+          "footer.partnership": "由 OWL Art Foundation 支持之數位文化平台",
           "footer.archive": "▣ 檔案館",
           "footer.timeline": "◷ 年表"
         }
