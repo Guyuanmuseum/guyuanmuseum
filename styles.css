@@ -1311,8 +1311,9 @@ a {
 
 .guardian-feature-profile {
   display: grid;
-  grid-template-columns: minmax(180px, 0.38fr) minmax(0, 1fr);
-  gap: 32px;
+  grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+  column-gap: clamp(56px, 5vw, 84px);
+  row-gap: 32px;
   align-items: start;
   margin-top: 30px;
 }
@@ -1320,7 +1321,9 @@ a {
 .guardian-portrait {
   position: relative;
   display: grid;
-  min-height: 360px;
+  width: 100%;
+  max-width: 260px;
+  min-width: 0;
   aspect-ratio: 3 / 4;
   align-content: end;
   overflow: hidden;
@@ -1334,6 +1337,10 @@ a {
     0 22px 56px rgb(16 9 8 / 0.24),
     inset 0 0 0 1px rgb(248 240 228 / 0.05);
   padding: 26px;
+}
+
+.guardian-feature-copy {
+  min-width: 0;
 }
 
 .guardian-portrait img,
@@ -1724,8 +1731,9 @@ a {
   }
 
   .guardian-portrait {
+    width: min(100%, 360px);
     max-width: 360px;
-    min-height: 300px;
+    min-height: 0;
   }
 }
 
