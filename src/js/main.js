@@ -2,6 +2,7 @@ const DATA_BASE = "/src/data/";
 
 const DATA_FILES = {
   site: "public/site-content.json",
+  homepageContent: "public/homepage-content.json",
   assets: "public/local-assets.json",
   manifest: "public/manifest.json",
   archiveIndex: "public/archive-index.json",
@@ -584,7 +585,7 @@ function makeRecordCard(title, body, meta, options = {}) {
   return card;
 }
 
-const PUBLIC_FAMILY_PROFILE_ORDER = ["Gu Yuan", "Jiang Yuheng", "Gu Ancun", "Wei Duan"];
+const PUBLIC_FAMILY_PROFILE_ORDER = ["Gu Yuan", "Jiang Yuheng", "Gu Ancun", "Gu Yayu", "Gu Juan", "Wei Duan"];
 
 const FAMILY_PROFILE_ZH = {
   "Gu Yuan": {
@@ -595,6 +596,12 @@ const FAMILY_PROFILE_ZH = {
   },
   "Gu Ancun": {
     role: "家族檔案代表",
+  },
+  "Gu Yayu": {
+    role: "家族檔案人物",
+  },
+  "Gu Juan": {
+    role: "家族檔案人物",
   },
 };
 
@@ -680,9 +687,16 @@ function renderHeader() {
 
 function renderHero() {
   const { hero, ui } = state.data.site;
+  const homepageIntro = records("homepageContent").find((item) => item.sectionId === "HOME-001");
+  const introText = homepageIntro
+    ? localizedField(homepageIntro, "englishContent", "chineseContent")
+    : localized(hero.ledeEn, hero.ledeCn);
+  const introElement = $("[data-hero-lede]");
+
   setText("[data-hero-eyebrow]", localized(hero.eyebrowEn, hero.eyebrowCn));
   setText("[data-hero-title]", localized(hero.titleEn, hero.titleCn));
-  setText("[data-hero-lede]", localized(hero.ledeEn, hero.ledeCn));
+  setText("[data-hero-lede]", introText);
+  if (introElement) introElement.hidden = !introText;
   setText("[data-hero-secondary]", localized(hero.secondaryEn, hero.secondaryCn));
   setText("[data-hero-primary]", `${localized(ui.primaryCtaEn, ui.primaryCtaCn)} ->`);
   setText("[data-hero-secondary-link]", localized(ui.secondaryCtaEn, ui.secondaryCtaCn));

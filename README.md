@@ -1,17 +1,19 @@
-Gu Yuan Digital Museum family archive image patch
+Gu Yuan Digital Museum HOME-001 homepage content patch
 
 Upload these files to the GitHub repository using the same folder structure:
 
-- src/data/public/historical-portrait-archive.json
+- index.html
+- styles.css
+- src/js/main.js
+- src/data/public/homepage-content.json
 - src/data/public/manifest.json
-- assets/family-archive/FAM-012_Gu_Yuan_Working_in_Studio_master.jpeg
-- assets/family-archive/FAM-013_Gu_Yuan_with_Artists_and_Students_master.jpeg
-- assets/family-archive/FAM-014_Gu_Yuan_Field_Research_and_Sketching_master.jpeg
-- assets/family-archive/FAM-016_Young_Gu_Yuan_and_Wife_master.jpeg
-- assets/family-archive/FAM-017_Young_Gu_Yuan_and_Wife_Revolutionary_Period_master.jpeg
 
-This patch adds five records to the Historical Portrait Archive / Family Archive
-section and keeps the captions bilingual in English and Traditional Chinese.
+The Google Sheet tab "Homepage Content" was also added in the browser with:
 
-After uploading to GitHub, Vercel should redeploy automatically if the GitHub
-repository is connected to the Vercel project.
+- Section ID: HOME-001
+- Website Area: Main Introduction
+- Chinese Content: blank
+- Status: Draft
+
+The website now renders the homepage hero introduction from
+src/data/public/homepage-content.json.

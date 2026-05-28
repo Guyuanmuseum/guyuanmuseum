@@ -1,0 +1,27 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Homepage Content",
+    "generatedAt": "2026-05-28T00:00:00.000000+00:00",
+    "headers": [
+      "Section ID",
+      "Website Area",
+      "English Content",
+      "Chinese Content",
+      "Status",
+      "Notes"
+    ]
+  },
+  "visibility": "public",
+  "records": [
+    {
+      "sectionId": "HOME-001",
+      "websiteArea": "Main Introduction",
+      "englishContent": "Gu Yuan was one of the most important woodcut artists of modern China. His work recorded the spirit, struggle, and transformation of twentieth-century China through powerful black-and-white imagery and deeply human visual storytelling.\n\nAs an artist, educator, and cultural figure, Gu Yuan played an influential role in the development of modern Chinese printmaking and art education. His works are closely connected with the history of Yan'an woodcut art, revolutionary visual culture, and the formation of modern Chinese artistic identity.\n\nThe Gu Yuan Digital Museum is created to preserve, organize, and share his artistic legacy with international audiences. Through photographs, artworks, family memories, oral history, archival materials, and research, this platform aims to build a living digital archive of Gu Yuan's life, art, and lasting influence.",
+      "chineseContent": "",
+      "status": "Draft",
+      "notes": "Homepage official introduction, to be placed under the main hero title and Chinese subtitle."
+    }
+  ]
+}
