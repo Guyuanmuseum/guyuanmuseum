@@ -29,6 +29,14 @@
       "file": "internal/digital-workflow.json",
       "visibility": "internal"
     },
+    "departmentTabTargets": {
+      "file": "internal/department-tab-targets.json",
+      "visibility": "internal"
+    },
+    "referenceLibrary": {
+      "file": "internal/reference-library.json",
+      "visibility": "internal"
+    },
     "imageIntakeChecklist": {
       "file": "internal/image-intake-checklist.json",
       "visibility": "internal"
@@ -67,6 +75,17 @@
         "Estimated Time",
         "Priority",
         "Status"
+      ]
+    },
+    {
+      "key": "department-tab-targets",
+      "file": "internal/department-tab-targets.json",
+      "visibility": "internal",
+      "sheetName": "Department Tab Targets",
+      "recordCount": 8,
+      "headers": [
+        "Department",
+        "Ideal Tabs"
       ]
     },
     {
@@ -302,6 +321,23 @@
         "Purpose",
         "Key Content",
         "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "reference-library",
+      "file": "internal/reference-library.json",
+      "visibility": "internal",
+      "sheetName": "04_Reference_Library",
+      "recordCount": 10,
+      "headers": [
+        "Reference ID",
+        "Reference Type",
+        "Title / Source",
+        "Related Systems",
+        "Importance Level",
+        "Access Status",
+        "Citation Status",
         "Notes"
       ]
     },

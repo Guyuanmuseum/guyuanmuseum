@@ -8,6 +8,7 @@ This folder contains static JSON exported from the Gu Yuan Digital Museum Google
 - `public/archive-index.json` is a derived index for future AI search, archive filtering, collection pages, exhibition pages, and multilingual rendering.
 - `public/local-assets.json` maps existing local image files while Sheet image URLs are still pending.
 - `internal/image-intake-checklist.json` tracks museum image intake status, missing files, duplicate files, unclear names, and recommended upload categories.
+- `internal/reference-library.json` and `internal/department-tab-targets.json` preserve research-source planning and department tab targets for future scaling.
 
 Language standard: public website content is English + Traditional Chinese (`zh-Hant`). Do not add Simplified Chinese to public-facing JSON fields or rendered UI text.
 

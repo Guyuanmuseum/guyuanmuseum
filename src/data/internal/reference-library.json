@@ -1,0 +1,248 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "04_Reference_Library",
+    "generatedAt": "2026-05-28T16:56:42Z",
+    "headers": [
+      "Reference ID",
+      "Reference Type",
+      "Title / Source",
+      "Related Systems",
+      "Importance Level",
+      "Access Status",
+      "Citation Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "referenceId": "REF-001",
+      "referenceType": "Book",
+      "titleSource": "Publications about Gu Yuan and modern Chinese woodcut art",
+      "relatedSystems": "Research / Biography",
+      "importanceLevel": "Highest",
+      "accessStatus": "Partial",
+      "citationStatus": "Planning",
+      "notes": "Core scholarly references"
+    },
+    {
+      "_row": 3,
+      "referenceId": "REF-002",
+      "referenceType": "Museum Archive",
+      "titleSource": "Gu Yuan Art Museum materials and exhibition references",
+      "relatedSystems": "Collections / Exhibitions",
+      "importanceLevel": "Highest",
+      "accessStatus": "Active",
+      "citationStatus": "Partial",
+      "notes": "Institutional archive source"
+    },
+    {
+      "_row": 4,
+      "referenceId": "REF-003",
+      "referenceType": "Academic Journal",
+      "titleSource": "Scholarly essays on modern Chinese printmaking",
+      "relatedSystems": "Academic Notes / Research",
+      "importanceLevel": "High",
+      "accessStatus": "Planning",
+      "citationStatus": "Not Organized",
+      "notes": "Research infrastructure"
+    },
+    {
+      "_row": 5,
+      "referenceId": "REF-004",
+      "referenceType": "Family Oral History",
+      "titleSource": "Interviews and family memory records",
+      "relatedSystems": "Oral History / Family Archive",
+      "importanceLevel": "Highest",
+      "accessStatus": "Ongoing",
+      "citationStatus": "Partial",
+      "notes": "Unique living archive source"
+    },
+    {
+      "_row": 6,
+      "referenceId": "REF-005",
+      "referenceType": "Historical Documents",
+      "titleSource": "Wartime and revolutionary cultural records",
+      "relatedSystems": "Historical Context",
+      "importanceLevel": "High",
+      "accessStatus": "Planning",
+      "citationStatus": "Not Organized",
+      "notes": "Historical verification"
+    },
+    {
+      "_row": 7,
+      "referenceId": "REF-006",
+      "referenceType": "CAFA Records",
+      "titleSource": "Educational and institutional documentation",
+      "relatedSystems": "Educational Legacy",
+      "importanceLevel": "High",
+      "accessStatus": "Partial",
+      "citationStatus": "Planning",
+      "notes": "Institutional significance"
+    },
+    {
+      "_row": 8,
+      "referenceId": "REF-007",
+      "referenceType": "Exhibition Catalogs",
+      "titleSource": "Historical exhibition and curatorial publications",
+      "relatedSystems": "Exhibitions / Publications",
+      "importanceLevel": "Medium",
+      "accessStatus": "Future",
+      "citationStatus": "Not Started",
+      "notes": "Curatorial research"
+    },
+    {
+      "_row": 9,
+      "referenceId": "REF-008",
+      "referenceType": "Public Archive Sources",
+      "titleSource": "Public museum websites and historical databases",
+      "relatedSystems": "References / SEO",
+      "importanceLevel": "Medium",
+      "accessStatus": "Active",
+      "citationStatus": "Partial",
+      "notes": "Supplemental research"
+    },
+    {
+      "_row": 10,
+      "referenceId": "REF-009",
+      "referenceType": "Media & Documentary Sources",
+      "titleSource": "Interviews, documentaries, and visual references",
+      "relatedSystems": "Media Assets / Oral History",
+      "importanceLevel": "Medium",
+      "accessStatus": "Future",
+      "citationStatus": "Not Started",
+      "notes": "Multimedia archive"
+    },
+    {
+      "_row": 11,
+      "referenceId": "REF-010",
+      "referenceType": "Internal Research Notes",
+      "titleSource": "Museum research development and archive planning",
+      "relatedSystems": "Research Methodology",
+      "importanceLevel": "High",
+      "accessStatus": "Active",
+      "citationStatus": "Partial",
+      "notes": "Institutional memory"
+    }
+  ],
+  "referenceLibraryPrinciples": [
+    {
+      "_row": 17,
+      "principle": "Source transparency",
+      "description": "Track where information originates"
+    },
+    {
+      "_row": 18,
+      "principle": "Historical verification",
+      "description": "Use reliable and cross-checked sources"
+    },
+    {
+      "_row": 19,
+      "principle": "Preserve primary sources",
+      "description": "Original materials have highest value"
+    },
+    {
+      "_row": 20,
+      "principle": "Build scalable research systems",
+      "description": "Organize references for long-term scholarship"
+    },
+    {
+      "_row": 21,
+      "principle": "Support bilingual accessibility",
+      "description": "Prepare future Chinese/English research systems"
+    }
+  ],
+  "referenceCategories": [
+    {
+      "_row": 27,
+      "category": "Books & Publications",
+      "description": "Scholarly books and museum publications"
+    },
+    {
+      "_row": 28,
+      "category": "Institutional Archives",
+      "description": "Museum, university, and archive materials"
+    },
+    {
+      "_row": 29,
+      "category": "Oral History Sources",
+      "description": "Interviews and family memory"
+    },
+    {
+      "_row": 30,
+      "category": "Historical Records",
+      "description": "Government and historical documentation"
+    },
+    {
+      "_row": 31,
+      "category": "Exhibition Materials",
+      "description": "Curatorial catalogs and exhibition texts"
+    },
+    {
+      "_row": 32,
+      "category": "Digital Sources",
+      "description": "Online archives and museum databases"
+    }
+  ],
+  "futureReferenceSystems": [
+    {
+      "_row": 38,
+      "system": "AI Citation Assistant",
+      "purpose": "Intelligent source organization",
+      "status": "Future"
+    },
+    {
+      "_row": 39,
+      "system": "Bilingual Research Database",
+      "purpose": "Chinese/English reference system",
+      "status": "Future"
+    },
+    {
+      "_row": 40,
+      "system": "Interactive Source Mapping",
+      "purpose": "Link references with collections and timeline",
+      "status": "Future"
+    },
+    {
+      "_row": 41,
+      "system": "Museum Research Portal",
+      "purpose": "Public scholarly accessibility",
+      "status": "Future"
+    },
+    {
+      "_row": 42,
+      "system": "Archive Verification Workflow",
+      "purpose": "Source validation and reliability tracking",
+      "status": "Planning"
+    }
+  ],
+  "longTermReferenceVision": [
+    {
+      "_row": 48,
+      "visionArea": "Museum-Level Scholarship",
+      "goal": "Build a respected research infrastructure"
+    },
+    {
+      "_row": 49,
+      "visionArea": "Historical Integrity",
+      "goal": "Maintain trustworthy archive systems"
+    },
+    {
+      "_row": 50,
+      "visionArea": "International Accessibility",
+      "goal": "Support worldwide scholarship"
+    },
+    {
+      "_row": 51,
+      "visionArea": "Long-Term Preservation",
+      "goal": "Preserve valuable research materials"
+    },
+    {
+      "_row": 52,
+      "visionArea": "AI-Supported Research Systems",
+      "goal": "Develop intelligent archive discovery"
+    }
+  ]
+}
