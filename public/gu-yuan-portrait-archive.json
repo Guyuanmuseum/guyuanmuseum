@@ -1,0 +1,81 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Gu Yuan Portrait Archive｜古元肖像檔案",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "ID",
+      "File Name",
+      "Title EN",
+      "Title CN",
+      "Year",
+      "Category",
+      "Medium",
+      "People/Subject",
+      "Description EN",
+      "Description CN",
+      "Source",
+      "Rights Status",
+      "Collection",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "id": "PH-019",
+      "fileName": "GY-PH-1940s-YoungGuYuan-01.jpg",
+      "titleEn": "Young Gu Yuan",
+      "titleCn": "青年時期古元",
+      "year": "circa 1940s",
+      "category": "Portrait",
+      "medium": "Historical photograph",
+      "peopleSubject": "Gu Yuan",
+      "descriptionEn": "Early portrait of Gu Yuan during his young revolutionary and artistic years.",
+      "descriptionCn": "古元青年時期的歷史肖像照片。",
+      "source": "Uploaded material",
+      "rightsStatus": "To be confirmed",
+      "collection": "Gu Yuan Portrait Archive",
+      "status": "Draft",
+      "notes": "Early Yan’an-era appearance"
+    },
+    {
+      "_row": 3,
+      "id": "PH-020",
+      "fileName": "GY-PH-1950s-GuYuanStudioPortrait.jpg",
+      "titleEn": "Gu Yuan Studio Portrait",
+      "titleCn": "古元工作肖像",
+      "year": "circa 1950s",
+      "category": "Portrait",
+      "medium": "Historical photograph",
+      "peopleSubject": "Gu Yuan",
+      "descriptionEn": "Mid-century portrait showing Gu Yuan during his mature artistic period.",
+      "descriptionCn": "展現古元成熟藝術時期的中期肖像。",
+      "source": "Uploaded material",
+      "rightsStatus": "To be confirmed",
+      "collection": "Gu Yuan Portrait Archive",
+      "status": "Draft",
+      "notes": "Important archival portrait"
+    },
+    {
+      "_row": 4,
+      "id": "PH-021",
+      "fileName": "GY-PH-1990s-OlderGuYuan.jpg",
+      "titleEn": "Older Gu Yuan",
+      "titleCn": "晚年古元",
+      "year": "circa 1990s",
+      "category": "Portrait",
+      "medium": "Historical photograph",
+      "peopleSubject": "Gu Yuan",
+      "descriptionEn": "Late-life portrait of Gu Yuan reflecting his senior years and artistic legacy.",
+      "descriptionCn": "展現古元晚年時期與藝術遺產階段的肖像。",
+      "source": "Uploaded material",
+      "rightsStatus": "To be confirmed",
+      "collection": "Gu Yuan Portrait Archive",
+      "status": "Draft",
+      "notes": "Important legacy portrait"
+    }
+  ]
+}

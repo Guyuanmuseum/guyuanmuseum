@@ -1,0 +1,141 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "International Positioning",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Position ID",
+      "Positioning Direction",
+      "Description EN",
+      "Description CN",
+      "Target Audience",
+      "International Relevance",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "positionId": "POS-001",
+      "positioningDirection": "Digital Museum",
+      "descriptionEn": "A bilingual digital museum dedicated to the life, artworks, and visual legacy of Gu Yuan.",
+      "descriptionCn": "以古元生平、作品與視覺遺產為核心的雙語數字美術館。",
+      "targetAudience": "General public / museums",
+      "internationalRelevance": "Highest",
+      "priority": "Active",
+      "status": "Core identity",
+      "notes": null
+    },
+    {
+      "_row": 3,
+      "positionId": "POS-002",
+      "positioningDirection": "Visual Culture Archive",
+      "descriptionEn": "A research-oriented archive focused on modern Chinese visual culture and printmaking history.",
+      "descriptionCn": "聚焦中國現代視覺文化與版畫歷史的研究型檔案平臺。",
+      "targetAudience": "Researchers / universities",
+      "internationalRelevance": "Highest",
+      "priority": "Active",
+      "status": "Academic positioning",
+      "notes": null
+    },
+    {
+      "_row": 4,
+      "positionId": "POS-003",
+      "positioningDirection": "Digital Humanities Project",
+      "descriptionEn": "A digital humanities initiative combining archive systems, metadata, AI, and cultural preservation.",
+      "descriptionCn": "結合檔案系統、metadata、AI 與文化保存的數字人文項目。",
+      "targetAudience": "Universities / grants",
+      "internationalRelevance": "Highest",
+      "priority": "Active",
+      "status": "Future funding importance",
+      "notes": null
+    },
+    {
+      "_row": 5,
+      "positionId": "POS-004",
+      "positioningDirection": "Family Archive System",
+      "descriptionEn": "A living archive preserving intergenerational family memory connected to Gu Yuan’s artistic legacy.",
+      "descriptionCn": "保存與古元藝術遺產相關跨代家族記憶的活體檔案系統。",
+      "targetAudience": "Archive studies / museums",
+      "internationalRelevance": "High",
+      "priority": "Active",
+      "status": "Unique project identity",
+      "notes": null
+    },
+    {
+      "_row": 6,
+      "positionId": "POS-005",
+      "positioningDirection": "International Research Platform",
+      "descriptionEn": "A platform supporting international research on modern Chinese printmaking and visual history.",
+      "descriptionCn": "支持中國現代版畫與視覺歷史國際研究的平臺。",
+      "targetAudience": "Scholars / institutions",
+      "internationalRelevance": "Highest",
+      "priority": "Active",
+      "status": "University collaboration",
+      "notes": null
+    },
+    {
+      "_row": 7,
+      "positionId": "POS-006",
+      "positioningDirection": "Cultural Preservation Initiative",
+      "descriptionEn": "A cultural preservation project focused on safeguarding important visual heritage through digital methods.",
+      "descriptionCn": "通過數字化方式保存重要視覺文化遺產的文化保存項目。",
+      "targetAudience": "Foundations / heritage institutions",
+      "internationalRelevance": "High",
+      "priority": "Active",
+      "status": "Preservation positioning",
+      "notes": null
+    },
+    {
+      "_row": 8,
+      "positionId": "POS-007",
+      "positioningDirection": "Cross-Cultural Translation Project",
+      "descriptionEn": "A bilingual interpretation system translating Chinese visual culture into international museum language.",
+      "descriptionCn": "將中國視覺文化轉化為國際美術館語言的雙語翻譯項目。",
+      "targetAudience": "International audience",
+      "internationalRelevance": "High",
+      "priority": "Active",
+      "status": "Important differentiation",
+      "notes": null
+    },
+    {
+      "_row": 9,
+      "positionId": "POS-008",
+      "positioningDirection": "Contemporary Legacy Platform",
+      "descriptionEn": "A platform connecting historical archive, contemporary research, and younger generations of contributors.",
+      "descriptionCn": "連接歷史檔案、當代研究與年輕一代貢獻者的平臺。",
+      "targetAudience": "Youth / education",
+      "internationalRelevance": "Medium",
+      "priority": "Active",
+      "status": "Living continuity",
+      "notes": null
+    },
+    {
+      "_row": 10,
+      "positionId": "POS-009",
+      "positioningDirection": "Museum Research Infrastructure",
+      "descriptionEn": "A structured museum-grade metadata and archive system for long-term cultural research.",
+      "descriptionCn": "用於長期文化研究的 museum-grade metadata 與檔案系統。",
+      "targetAudience": "Museum professionals",
+      "internationalRelevance": "High",
+      "priority": "Active",
+      "status": "Professional archive framework",
+      "notes": null
+    },
+    {
+      "_row": 11,
+      "positionId": "POS-010",
+      "positioningDirection": "AI-Readable Cultural Archive",
+      "descriptionEn": "An AI-structured archive designed for future intelligent search, research, and preservation systems.",
+      "descriptionCn": "面向未來 AI 搜索、研究與保存系統建立的智能檔案平臺。",
+      "targetAudience": "AI / digital humanities",
+      "internationalRelevance": "Highest",
+      "priority": "Planning",
+      "status": "Future innovation direction",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Legal & Foundation Strategy",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Legal ID",
+      "Development Area",
+      "Description EN",
+      "Description CN",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "legalId": "LEG-001",
+      "developmentArea": "Archive Ownership",
+      "descriptionEn": "Clarify ownership and stewardship of digital archive materials",
+      "descriptionCn": "明确數字檔案材料的所有权與管理权",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Important long-term foundation"
+    },
+    {
+      "_row": 3,
+      "legalId": "LEG-002",
+      "developmentArea": "Family Archive Authorization",
+      "descriptionEn": "Maintain family authorization and archive contribution records",
+      "descriptionCn": "保存家族授权與檔案貢獻記錄",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Important institutional credibility"
+    },
+    {
+      "_row": 4,
+      "legalId": "LEG-003",
+      "developmentArea": "Copyright Strategy",
+      "descriptionEn": "Establish copyright and reproduction guidelines for artworks and archive materials",
+      "descriptionCn": "建立作品與檔案材料版权及使用规範",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Avoid future legal issues"
+    },
+    {
+      "_row": 5,
+      "legalId": "LEG-004",
+      "developmentArea": "Digital Rights Management",
+      "descriptionEn": "Define digital publication and website usage permissions",
+      "descriptionCn": "明确數字發布與网站使用权限",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Website protection"
+    },
+    {
+      "_row": 6,
+      "legalId": "LEG-005",
+      "developmentArea": "Nonprofit Development",
+      "descriptionEn": "Explore future nonprofit or cultural foundation structure",
+      "descriptionCn": "探索未來 nonprofit 或文化基金會結構",
+      "priority": "High",
+      "status": "Future",
+      "notes": "Long-term organizational growth"
+    },
+    {
+      "_row": 7,
+      "legalId": "LEG-006",
+      "developmentArea": "Foundation Registration",
+      "descriptionEn": "Potential future registration of cultural foundation",
+      "descriptionCn": "未來文化基金會注册可能性",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Depends on project growth"
+    },
+    {
+      "_row": 8,
+      "legalId": "LEG-007",
+      "developmentArea": "Institutional Agreements",
+      "descriptionEn": "Prepare museum and university collaboration agreements",
+      "descriptionCn": "准备美術館與大學合作协議",
+      "priority": "High",
+      "status": "Future",
+      "notes": "Important for partnerships"
+    },
+    {
+      "_row": 9,
+      "legalId": "LEG-008",
+      "developmentArea": "Archive Donation Policy",
+      "descriptionEn": "Establish future archive donation and acquisition guidelines",
+      "descriptionCn": "建立未來檔案捐贈與獲取规範",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Museum archive management"
+    },
+    {
+      "_row": 10,
+      "legalId": "LEG-009",
+      "developmentArea": "Image Usage Policy",
+      "descriptionEn": "Standardize image publication and citation rules",
+      "descriptionCn": "統一圖像發布與引用规範",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Website consistency"
+    },
+    {
+      "_row": 11,
+      "legalId": "LEG-010",
+      "developmentArea": "Research Citation Policy",
+      "descriptionEn": "Establish academic citation standards for archive use",
+      "descriptionCn": "建立學術引用规範",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "University research use"
+    },
+    {
+      "_row": 12,
+      "legalId": "LEG-011",
+      "developmentArea": "Oral History Consent",
+      "descriptionEn": "Develop oral history and interview consent framework",
+      "descriptionCn": "建立口述歷史與采访授权框架",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Important for archive ethics"
+    },
+    {
+      "_row": 13,
+      "legalId": "LEG-012",
+      "developmentArea": "International Collaboration Framework",
+      "descriptionEn": "Prepare future international collaboration protocols",
+      "descriptionCn": "准备國際合作框架",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Institutional expansion"
+    },
+    {
+      "_row": 14,
+      "legalId": "LEG-013",
+      "developmentArea": "Digital Preservation Policy",
+      "descriptionEn": "Establish long-term preservation and backup strategy",
+      "descriptionCn": "建立長期數字保存與备份策略",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Archive sustainability"
+    },
+    {
+      "_row": 15,
+      "legalId": "LEG-014",
+      "developmentArea": "AI Archive Governance",
+      "descriptionEn": "Define ethical and technical use of AI-generated archive systems",
+      "descriptionCn": "明确 AI 檔案系統的技術與伦理使用规範",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Future-facing issue"
+    },
+    {
+      "_row": 16,
+      "legalId": "LEG-015",
+      "developmentArea": "Public Access Policy",
+      "descriptionEn": "Define public vs restricted archive access levels",
+      "descriptionCn": "明确公開與限制访问檔案等级",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Important archive management"
+    }
+  ]
+}

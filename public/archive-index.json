@@ -1,0 +1,4614 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "derivedFrom": [
+      "artworks",
+      "photos-archive",
+      "collections",
+      "museum-canon",
+      "exhibitions",
+      "research-themes",
+      "keywords-tags"
+    ],
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "sheetName": "Derived archive index",
+    "headers": []
+  },
+  "scaleTargets": [
+    "AI search",
+    "Archive filtering",
+    "Collection pages",
+    "Exhibition pages",
+    "Multilingual rendering"
+  ],
+  "entries": [
+    {
+      "type": "artwork",
+      "id": "ART-001",
+      "title": {
+        "en": "Rent Reduction Meeting",
+        "zh": "減租會"
+      },
+      "summary": {
+        "en": "A major woodcut work depicting rural negotiation and social transformation during wartime China.",
+        "zh": "這是古元延安時期的重要木刻作品，描繪戰時中國鄉村社會變遷中的減租場景。"
+      },
+      "year": 1943,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-002",
+      "title": {
+        "en": "Burning Old Land Deeds",
+        "zh": "燒毀舊地契"
+      },
+      "summary": {
+        "en": "A work associated with land reform and the visual documentation of social change in northern China.",
+        "zh": "這件作品與土地改革相關，記錄了中國北方社會變遷中的重要歷史場景。"
+      },
+      "year": 1947,
+      "category": null,
+      "period": "Postwar China",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-003",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s significant works from the late 1940s, reflecting collective action and social experience during a period of transition.",
+        "zh": "古元20世紀40年代後期的重要作品之一，表現社會轉型時期的集體行動與歷史經驗。"
+      },
+      "year": 1948,
+      "category": null,
+      "period": "Postwar China",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-004",
+      "title": {
+        "en": "Divorce Petition",
+        "zh": "離婚訴"
+      },
+      "summary": {
+        "en": "A woodcut work reflecting legal, social, and everyday life issues in rural society during the Yan’an period.",
+        "zh": "這件木刻作品反映延安時期鄉村社會中的法律、家庭與日常生活議題。"
+      },
+      "year": 1942,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1942-DivorcePetition.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-005",
+      "title": {
+        "en": "Brother’s Holiday",
+        "zh": "哥哥的假期"
+      },
+      "summary": {
+        "en": "A work depicting the relationship between soldiers, families, and village communities during wartime.",
+        "zh": "作品描繪戰時環境中士兵、家庭與鄉村社群之間的關系。"
+      },
+      "year": 1942,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-006",
+      "title": {
+        "en": "Transporting Grass",
+        "zh": "運草"
+      },
+      "summary": {
+        "en": "An early woodcut showing Gu Yuan’s close observation of rural labor and everyday movement.",
+        "zh": "早期木刻作品之一，體現古元對鄉村勞動與日常生活動態的觀察。"
+      },
+      "year": 1942,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1942-TransportingGrass.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-007",
+      "title": {
+        "en": "Cattle",
+        "zh": "牛群"
+      },
+      "summary": {
+        "en": "A work created from Gu Yuan’s rural experience in Nianzhuang, focusing on animals, labor, and village life.",
+        "zh": "作品來自古元在碾莊鄉的農村經驗，關注牲畜、勞動與鄉村生活。"
+      },
+      "year": 1940,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-Cattle.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-008",
+      "title": {
+        "en": "Sheep",
+        "zh": "羊群"
+      },
+      "summary": {
+        "en": "A rural-life woodcut reflecting Gu Yuan’s interest in everyday scenes and local visual culture.",
+        "zh": "這件鄉村生活題材木刻體現了古元對日常場景與地方視覺文化的關注。"
+      },
+      "year": 1940,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-Sheep.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-009",
+      "title": {
+        "en": "Chopping Grass",
+        "zh": "鍘草"
+      },
+      "summary": {
+        "en": "A work connected to rural labor and the everyday rhythms of village life.",
+        "zh": "作品與鄉村勞動及村莊日常生活節奏相關。"
+      },
+      "year": 1940,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-ChoppingGrass.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-010",
+      "title": {
+        "en": "Chairman Mao Talking with Farmers",
+        "zh": "毛主席和農民談話"
+      },
+      "summary": {
+        "en": "A post-1949 work connected to new visual forms and public art in early People’s Republic China.",
+        "zh": "這是新中國初期與公共視覺藝術及新年畫形式相關的作品。"
+      },
+      "year": 1951,
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "New Year picture / print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1951-ChairmanMaoTalkingWithFarmers.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-011",
+      "title": {
+        "en": "Sugarcane Field",
+        "zh": "甘蔗園"
+      },
+      "summary": {
+        "en": "A lyrical work showing Gu Yuan’s interest in landscape, agricultural life, and visual atmosphere.",
+        "zh": "這件作品具有抒情特征，體現古元對風景、農業生活與視覺氛圍的關注。"
+      },
+      "year": 1956,
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1956-SugarcaneField.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-012",
+      "title": {
+        "en": "Jade Belt Bridge",
+        "zh": "玉帶橋"
+      },
+      "summary": {
+        "en": "A representative color woodcut reflecting Gu Yuan’s mature interest in landscape, composition, and poetic visual language.",
+        "zh": "這是一件具有代表性的套色木刻，體現古元成熟時期對風景、構圖與詩性視覺語言的探索。"
+      },
+      "year": 1962,
+      "category": null,
+      "period": "CAFA Period",
+      "medium": "Color woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-013",
+      "title": {
+        "en": "Liu Zhidan and the Red Guards",
+        "zh": "劉志丹和赤衛軍"
+      },
+      "summary": {
+        "en": "A historical-theme work connected to collective memory and revolutionary-era visual culture.",
+        "zh": "這是一件歷史題材作品，與集體記憶和革命時期視覺文化相關。"
+      },
+      "year": "1950s",
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1950s-LiuZhidanRedGuards.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-014",
+      "title": {
+        "en": "Lights of Zaoyuan",
+        "zh": "棗園燈光"
+      },
+      "summary": {
+        "en": "A representative work often associated with Gu Yuan’s historical and cultural visual memory.",
+        "zh": "這件代表作品常與古元的歷史記憶與文化視覺表達聯系在一起。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "To be confirmed",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-LightsOfZaoyuan.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-015",
+      "title": {
+        "en": "Morning Light of Zhuhai",
+        "zh": "珠海朝暉"
+      },
+      "summary": {
+        "en": "A late work dedicated to Gu Yuan’s hometown, reflecting memory, landscape, and return.",
+        "zh": "古元晚年獻給故鄉的重要作品，體現記憶、風景與回歸主題。"
+      },
+      "year": 1993,
+      "category": null,
+      "period": "Late Years and Legacy",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1993-MorningLightOfZhuhai.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-016",
+      "title": {
+        "en": "Xianglin’s Wife",
+        "zh": "祥林嫂"
+      },
+      "summary": {
+        "en": "A woodcut portrait based on the literary figure Xianglin Sao, reflecting Gu Yuan’s interest in psychological expression and social realism.",
+        "zh": "根據文學人物“祥林嫂”創作的木刻肖像，體現古元對人物心理與現實主義表達的關注。"
+      },
+      "year": 1956,
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-017",
+      "title": {
+        "en": "Untitled Portrait Study",
+        "zh": "無題人物習作"
+      },
+      "summary": {
+        "en": "An early expressive portrait study using strong black-and-white contrast and simplified composition.",
+        "zh": "早期表現性人物木刻習作，以強烈黑白對比與簡化構圖形成視覺張力。"
+      },
+      "year": "circa 1940s",
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-UntitledPortrait.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-018",
+      "title": {
+        "en": "Japanese Agents Forcing Villagers to Join Puppet Army",
+        "zh": "奪取私人物品參加偽軍"
+      },
+      "summary": {
+        "en": "Early anti-war woodcut depicting forced participation under wartime occupation.",
+        "zh": "反映戰爭時期強迫民眾參與偽軍的早期木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-PuppetArmy.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-019",
+      "title": {
+        "en": "Resistance Against Japanese Occupation",
+        "zh": "抗糧和暴動反抗"
+      },
+      "summary": {
+        "en": "A wartime woodcut related to civilian resistance and conflict during Japanese occupation.",
+        "zh": "與戰爭時期民眾反抗與衝突相關的木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Resistance.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-020",
+      "title": {
+        "en": "Protecting Livestock",
+        "zh": "誰保護牛馬"
+      },
+      "summary": {
+        "en": "A socially engaged woodcut focused on labor, agriculture, and wartime rural life.",
+        "zh": "關注勞動、農業與戰時鄉村生活的社會性木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-ProtectLivestock.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-021",
+      "title": {
+        "en": "Poison Gas Victims",
+        "zh": "善良人遭毒手"
+      },
+      "summary": {
+        "en": "A dramatic wartime scene reflecting violence and civilian suffering.",
+        "zh": "描繪戰爭暴力與平民苦難的戲劇性場景。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Victims.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-022",
+      "title": {
+        "en": "Refugees at the Village Entrance",
+        "zh": "編籃娘娘以糊口"
+      },
+      "summary": {
+        "en": "A woodcut focusing on survival, labor, and displacement during wartime.",
+        "zh": "聚焦戰爭時期生存、勞動與流離失所經驗的木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Refugees.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-023",
+      "title": {
+        "en": "Searching for Refugees",
+        "zh": "我鄉僻壤仍遭襲擊"
+      },
+      "summary": {
+        "en": "A wartime woodcut capturing displacement and the instability of rural society.",
+        "zh": "反映戰爭時期鄉村社會動蕩與流亡經驗的木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Attack.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-024",
+      "title": {
+        "en": "Japanese Bombing of Shanghai",
+        "zh": "八一三日寇開始進攻上海"
+      },
+      "summary": {
+        "en": "A historical wartime print referencing the Japanese attack on Shanghai.",
+        "zh": "以日軍進攻上海為主題的歷史性戰時木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Shanghai.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-025",
+      "title": {
+        "en": "Happiness and Longevity",
+        "zh": "幸福壽高齡"
+      },
+      "summary": {
+        "en": "A small-format folk-inspired print combining decorative symbolism and simplified carving language.",
+        "zh": "一件融合民間裝飾性語言與簡化刀法的小幅木刻作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Folk Graphic Style",
+      "medium": "Woodcut print / folk-style graphic",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-HappinessLongevity.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-026",
+      "title": {
+        "en": "Ex Libris Bird",
+        "zh": "EX-LIBRIS 藏書票（鳥）"
+      },
+      "summary": {
+        "en": "A woodcut ex libris reflecting Gu Yuan’s interest in print culture and graphic symbolism.",
+        "zh": "體現古元對印刷文化與圖像符號興趣的藏書票作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Graphic Design / Print Culture",
+      "medium": "Ex Libris woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-ExLibrisBird.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-027",
+      "title": {
+        "en": "Gu Yuan Bookplate",
+        "zh": "古元藏書票"
+      },
+      "summary": {
+        "en": "A personal ex libris using animal imagery and simplified folk-inspired composition.",
+        "zh": "使用動物圖像與民間化構圖的個人藏書票作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Graphic Design / Print Culture",
+      "medium": "Ex Libris woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-Bookplate.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-028",
+      "title": {
+        "en": "Steelworks Construction",
+        "zh": "我們自己修復"
+      },
+      "summary": {
+        "en": "A large industrial-themed woodcut documenting reconstruction and industrial development after the war.",
+        "zh": "反映戰後工業建設與恢復的大型工業題材木刻作品。"
+      },
+      "year": 1949,
+      "category": null,
+      "period": "Early PRC Industrial Works",
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1949-Steelworks.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-029",
+      "title": {
+        "en": "Returning to Yan’an",
+        "zh": "回憶延安"
+      },
+      "summary": {
+        "en": "A reflective landscape work revisiting Yan’an through memory and visual atmosphere.",
+        "zh": "通過風景與視覺氛圍重新回望延安記憶的作品。"
+      },
+      "year": 1978,
+      "category": null,
+      "period": "Late Reflection Works",
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1978-RememberingYanan.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-030",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s most recognized works, depicting collective movement and wartime crossing under dramatic visual contrast.",
+        "zh": "古元最具代表性的作品之一，以強烈視覺對比表現戰爭中的集體行動與渡河場景。"
+      },
+      "year": 1948,
+      "category": null,
+      "period": "Postwar China",
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-031",
+      "title": {
+        "en": "Sifting Grain",
+        "zh": "篩糧"
+      },
+      "summary": {
+        "en": "A simplified rural-life image reflecting labor and agricultural rhythms through folk-inspired composition.",
+        "zh": "以民間化構圖描繪鄉村勞動與農業生活節奏的作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Rural Life / Folk Style",
+      "medium": "Folk-style woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-SiftingGrain.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-032",
+      "title": {
+        "en": "Literacy Campaign",
+        "zh": "識一千字"
+      },
+      "summary": {
+        "en": "A graphic work related to literacy and public education movements during wartime China.",
+        "zh": "與戰時識字運動和公共教育相關的圖像作品。"
+      },
+      "year": 1943,
+      "category": null,
+      "period": "Wartime Education Graphics",
+      "medium": "Folk-style woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-Literacy.jpg"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-033",
+      "title": {
+        "en": "Cooperative Society",
+        "zh": "合作社"
+      },
+      "summary": {
+        "en": "A woodcut depicting rural cooperative organization through simplified folk-inspired imagery.",
+        "zh": "通過民間化圖像表現鄉村合作社組織的木刻作品。"
+      },
+      "year": 1943,
+      "category": null,
+      "period": "Rural Graphic Culture",
+      "medium": "Folk-style woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-Cooperative.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-001",
+      "title": {
+        "en": "Xianglin’s Wife",
+        "zh": "祥林嫂"
+      },
+      "summary": {
+        "en": "A woodcut portrait based on the literary figure Xianglin Sao.",
+        "zh": "根據文學人物“祥林嫂”創作的木刻肖像。"
+      },
+      "year": 1956,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-002",
+      "title": {
+        "en": "Untitled Portrait Study",
+        "zh": "無題人物習作"
+      },
+      "summary": {
+        "en": "Early expressive portrait using strong black-white contrast.",
+        "zh": "使用強烈黑白對比的人物木刻習作。"
+      },
+      "year": "circa 1940s",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-UntitledPortrait.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-003",
+      "title": {
+        "en": "Forced Participation in Puppet Army",
+        "zh": "被迫參加偽軍"
+      },
+      "summary": {
+        "en": "Early wartime woodcut about occupation and coercion.",
+        "zh": "描繪戰爭占領與強迫行為的早期木刻。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-PuppetArmy.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-004",
+      "title": {
+        "en": "Resistance Scene",
+        "zh": "反抗場景"
+      },
+      "summary": {
+        "en": "Wartime scene depicting social conflict and resistance.",
+        "zh": "描繪戰爭時期社會衝突與反抗的場景。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Resistance.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-005",
+      "title": {
+        "en": "Protecting Livestock",
+        "zh": "保護牛馬"
+      },
+      "summary": {
+        "en": "Rural wartime labor scene connected to agriculture.",
+        "zh": "與農業勞動相關的戰時鄉村場景。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-ProtectLivestock.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-006",
+      "title": {
+        "en": "Poison Gas Victims",
+        "zh": "遭毒氣傷害的人們"
+      },
+      "summary": {
+        "en": "Dramatic wartime woodcut reflecting civilian suffering.",
+        "zh": "描繪戰爭苦難與平民受害的木刻作品。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Victims.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-007",
+      "title": {
+        "en": "Refugees",
+        "zh": "難民"
+      },
+      "summary": {
+        "en": "Wartime displacement and survival scene.",
+        "zh": "戰爭中的流亡與生存場景。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Refugees.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-008",
+      "title": {
+        "en": "Rural Attack",
+        "zh": "鄉村襲擊"
+      },
+      "summary": {
+        "en": "Wartime violence in rural society.",
+        "zh": "描繪鄉村社會中的戰爭暴力。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Attack.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-009",
+      "title": {
+        "en": "Attack on Shanghai",
+        "zh": "日軍進攻上海"
+      },
+      "summary": {
+        "en": "Historical wartime scene referencing Shanghai.",
+        "zh": "與上海戰爭相關的歷史木刻作品。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Shanghai.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-010",
+      "title": {
+        "en": "Bird Symbol Print",
+        "zh": "鳥紋圖形"
+      },
+      "summary": {
+        "en": "Decorative folk-inspired graphic design.",
+        "zh": "民間裝飾風格的鳥紋圖形設計。"
+      },
+      "year": "Unknown",
+      "category": "Graphic Design",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-BirdSymbol.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-011",
+      "title": {
+        "en": "Ex Libris Bird",
+        "zh": "鳥主題藏書票"
+      },
+      "summary": {
+        "en": "A bird-themed ex libris woodcut.",
+        "zh": "鳥主題藏書票木刻作品。"
+      },
+      "year": "Unknown",
+      "category": "Ex Libris",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-ExLibrisBird.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-012",
+      "title": {
+        "en": "Gu Yuan Bookplate",
+        "zh": "古元藏書票"
+      },
+      "summary": {
+        "en": "Personal ex libris using animal imagery.",
+        "zh": "使用動物圖像的個人藏書票。"
+      },
+      "year": "Unknown",
+      "category": "Ex Libris",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-Bookplate.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-013",
+      "title": {
+        "en": "Steelworks Construction",
+        "zh": "鋼鐵建設"
+      },
+      "summary": {
+        "en": "Industrial reconstruction and steel production scene.",
+        "zh": "描繪工業重建與鋼鐵生產場景。"
+      },
+      "year": 1949,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1949-Steelworks.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-014",
+      "title": {
+        "en": "Remembering Yan’an",
+        "zh": "回憶延安"
+      },
+      "summary": {
+        "en": "Reflective landscape recalling Yan’an.",
+        "zh": "回望延安記憶的風景作品。"
+      },
+      "year": 1978,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1978-RememberingYanan.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-015",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s best-known masterpieces.",
+        "zh": "古元最著名代表作之一。"
+      },
+      "year": 1948,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-016",
+      "title": {
+        "en": "Sifting Grain",
+        "zh": "篩糧"
+      },
+      "summary": {
+        "en": "Rural agricultural labor scene.",
+        "zh": "鄉村農業勞動場景。"
+      },
+      "year": "Unknown",
+      "category": "Folk Graphic",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-SiftingGrain.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-017",
+      "title": {
+        "en": "Literacy Campaign",
+        "zh": "識一千字"
+      },
+      "summary": {
+        "en": "Educational print related to literacy campaigns.",
+        "zh": "與識字運動相關的教育圖像。"
+      },
+      "year": 1943,
+      "category": "Educational Graphic",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-Literacy.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-018",
+      "title": {
+        "en": "Cooperative Society",
+        "zh": "合作社"
+      },
+      "summary": {
+        "en": null,
+        "zh": null
+      },
+      "year": 1943,
+      "category": "Folk Graphic",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": null,
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-Cooperative.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-019",
+      "title": {
+        "en": "Young Gu Yuan",
+        "zh": "青年時期古元"
+      },
+      "summary": {
+        "en": "Early portrait of Gu Yuan during his young revolutionary and artistic years.",
+        "zh": "古元青年時期的歷史肖像照片。"
+      },
+      "year": "circa 1940s",
+      "category": "Portrait",
+      "period": null,
+      "medium": "Historical photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/portraits/GY-PH-1940s-YoungGuYuan-01.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-020",
+      "title": {
+        "en": "Gu Yuan Studio Portrait",
+        "zh": "古元工作肖像"
+      },
+      "summary": {
+        "en": "Mid-century portrait showing Gu Yuan during his mature artistic period.",
+        "zh": "展現古元成熟藝術時期的中期肖像。"
+      },
+      "year": "circa 1950s",
+      "category": "Portrait",
+      "period": null,
+      "medium": "Historical photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/portraits/GY-PH-1950s-GuYuanStudioPortrait.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-021",
+      "title": {
+        "en": "Older Gu Yuan",
+        "zh": "晚年古元"
+      },
+      "summary": {
+        "en": "Late-life portrait of Gu Yuan reflecting his senior years and artistic legacy.",
+        "zh": "展現古元晚年時期與藝術遺產階段的肖像。"
+      },
+      "year": "circa 1990s",
+      "category": "Portrait",
+      "period": null,
+      "medium": "Historical photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/portraits/GY-PH-1990s-OlderGuYuan.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-022",
+      "title": {
+        "en": "Winter Landscape",
+        "zh": "冬日風景"
+      },
+      "summary": {
+        "en": "A lyrical watercolor landscape featuring snow, bare trees, and reflected sunset light.",
+        "zh": "一幅描繪雪景、樹木與夕陽倒影的抒情水彩風景。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Watercolor",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-WC-WinterLandscape.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-023",
+      "title": {
+        "en": "Yan’an Landscape",
+        "zh": "延安風景"
+      },
+      "summary": {
+        "en": "Landscape woodcut depicting the Yan’an region and pagoda imagery.",
+        "zh": "描繪延安地區與寶塔山視覺形象的風景木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-YananLandscape.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-024",
+      "title": {
+        "en": "Prosperity and Fortune",
+        "zh": "興旺發財"
+      },
+      "summary": {
+        "en": "Folk-style New Year print using traditional auspicious imagery.",
+        "zh": "使用傳統吉祥圖像的民間年畫作品。"
+      },
+      "year": "Unknown",
+      "category": "Folk Print",
+      "period": null,
+      "medium": "New Year print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-NY-NewYearPrint.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-025",
+      "title": {
+        "en": "Rural Gathering",
+        "zh": "鄉村聚會"
+      },
+      "summary": {
+        "en": "A social-realist woodcut showing interaction among villagers.",
+        "zh": "展現鄉村人物互動場景的現實主義木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-RuralGathering.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-026",
+      "title": {
+        "en": "Refugee Family",
+        "zh": "難民家庭"
+      },
+      "summary": {
+        "en": "Wartime refugee scene focusing on family displacement and hardship.",
+        "zh": "描繪戰爭時期家庭流離失所與苦難的木刻作品。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-RefugeeFamily.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-027",
+      "title": {
+        "en": "Wartime Evacuation",
+        "zh": "戰時疏散"
+      },
+      "summary": {
+        "en": "A wartime scene showing civilian displacement and evacuation.",
+        "zh": "描繪平民流亡與戰時撤離的木刻作品。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Evacuation.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-028",
+      "title": {
+        "en": "Industrial Worker",
+        "zh": "工業工人"
+      },
+      "summary": {
+        "en": "Industrial-themed woodcut focusing on labor and machinery.",
+        "zh": "以工業勞動與機械生產為主題的木刻作品。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-IndustrialWorker.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-029",
+      "title": {
+        "en": "Village Storytelling",
+        "zh": "鄉村講述"
+      },
+      "summary": {
+        "en": "A village storytelling or discussion scene in Yan’an-style visual language.",
+        "zh": "使用延安視覺語言描繪鄉村講述與討論場景。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Storytelling.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-030",
+      "title": {
+        "en": "Wartime Resistance Scene",
+        "zh": "戰時抵抗場景"
+      },
+      "summary": {
+        "en": "Early wartime resistance image with dramatic composition.",
+        "zh": "具有戲劇性構圖的早期戰爭抵抗木刻。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-WartimeDoor.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-031",
+      "title": {
+        "en": "Exhibition Speech",
+        "zh": "展覽發言現場"
+      },
+      "summary": {
+        "en": "A speaker presenting at a Gu Yuan-related exhibition or academic event.",
+        "zh": "古元相關展覽或學術活動中的發言現場。"
+      },
+      "year": "Unknown",
+      "category": "Exhibition Photo",
+      "period": null,
+      "medium": "Photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/exhibitions/GY-PH-ExhibitionSpeech.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-032",
+      "title": {
+        "en": "Viewing the Exhibition",
+        "zh": "觀看古元展覽"
+      },
+      "summary": {
+        "en": "A visitor viewing Gu Yuan’s works in a museum exhibition setting.",
+        "zh": "觀眾在美術館觀看古元作品展覽。"
+      },
+      "year": "Unknown",
+      "category": "Exhibition Photo",
+      "period": null,
+      "medium": "Photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/exhibitions/GY-PH-ExhibitionViewing.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-033",
+      "title": {
+        "en": "Family Visit to Exhibition",
+        "zh": "家屬參觀展覽"
+      },
+      "summary": {
+        "en": "Family members visiting a Gu Yuan exhibition.",
+        "zh": "家屬參觀古元相關展覽現場。"
+      },
+      "year": "Unknown",
+      "category": "Exhibition Photo",
+      "period": null,
+      "medium": "Photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/family/GY-PH-FamilyVisit.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-034",
+      "title": {
+        "en": "Beijing Cityscape",
+        "zh": "北京城市風景"
+      },
+      "summary": {
+        "en": "A cityscape print combining traditional architecture and modern urban development.",
+        "zh": "結合傳統建築與現代城市發展的北京風景木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-BeijingCityscape.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-035",
+      "title": {
+        "en": "Transporting Grass",
+        "zh": "運草"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s iconic rural labor scenes featuring horse carts and agricultural movement.",
+        "zh": "古元最經典的鄉村勞動場景之一，描繪馬車運輸與農業勞動。"
+      },
+      "year": "circa 1940s",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-TransportingGrass.jpg"
+    },
+    {
+      "type": "photo",
+      "id": "PH-036",
+      "title": {
+        "en": "Yan’an Landscape (Color Version)",
+        "zh": "延安風景（彩色版）"
+      },
+      "summary": {
+        "en": "A color landscape representation of the Yan’an region.",
+        "zh": "彩色表現的延安地區風景木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-YananLandscape-Color.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-001",
+      "title": {
+        "en": "Early Wartime Woodcuts",
+        "zh": "早期戰時木刻"
+      },
+      "summary": {
+        "en": "Early woodcuts documenting war, displacement, violence, and civilian survival during the Japanese invasion period.",
+        "zh": "記錄戰爭、流亡、暴力與平民生存經驗的早期木刻作品。"
+      },
+      "year": "1939–1940",
+      "category": "Wartime Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Resistance.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-002",
+      "title": {
+        "en": "Yan’an Visual Culture",
+        "zh": "延安視覺文化"
+      },
+      "summary": {
+        "en": "Works created during the Yan’an period reflecting rural life, social transformation, and wartime experience.",
+        "zh": "延安時期描繪鄉村生活、社會變遷與戰爭經驗的作品。"
+      },
+      "year": "1940–1945",
+      "category": "Rural Society and Wartime Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-003",
+      "title": {
+        "en": "Folk Graphic Language",
+        "zh": "民間圖像語言"
+      },
+      "summary": {
+        "en": "Woodcuts and graphic works influenced by folk art, New Year prints, and popular visual culture.",
+        "zh": "受民間藝術、年畫與大眾視覺文化影響的木刻與圖像作品。"
+      },
+      "year": "1940s–1950s",
+      "category": "Folk Visual Tradition",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-SiftingGrain.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-004",
+      "title": {
+        "en": "Industrial Modernity",
+        "zh": "工業現代性"
+      },
+      "summary": {
+        "en": "Industrial-themed prints documenting reconstruction, factories, workers, and postwar modernization.",
+        "zh": "描繪工業建設、工廠、工人與戰後現代化的工業題材作品。"
+      },
+      "year": "1949–1960s",
+      "category": "Industry and Reconstruction",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1949-Steelworks.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-005",
+      "title": {
+        "en": "Landscape and Memory",
+        "zh": "風景與記憶"
+      },
+      "summary": {
+        "en": "Landscape-oriented works reflecting memory, poetry, place, and emotional attachment to homeland.",
+        "zh": "以風景、記憶、詩意與故鄉情感為主題的作品。"
+      },
+      "year": "1960s–1990s",
+      "category": "Landscape and Reflection",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-006",
+      "title": {
+        "en": "Portrait Archive",
+        "zh": "古元肖像檔案"
+      },
+      "summary": {
+        "en": "Historical portraits documenting different stages of Gu Yuan’s life and artistic career.",
+        "zh": "記錄古元人生與藝術階段的歷史肖像檔案。"
+      },
+      "year": "1940s–1990s",
+      "category": "Artist Documentation",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/portraits/GY-PH-1950s-GuYuanStudioPortrait.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-007",
+      "title": {
+        "en": "Exhibition Archive",
+        "zh": "展覽檔案"
+      },
+      "summary": {
+        "en": "Exhibition photos, museum activities, lectures, and public engagement related to Gu Yuan’s legacy.",
+        "zh": "與古元藝術遺產相關的展覽、講座、美術館活動與公共傳播檔案。"
+      },
+      "year": "2000s–Present",
+      "category": "Museum and Public Memory",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/exhibitions/GY-PH-ExhibitionViewing.jpg"
+    },
+    {
+      "type": "collection",
+      "id": "COL-008",
+      "title": {
+        "en": "Family Archive",
+        "zh": "家族檔案"
+      },
+      "summary": {
+        "en": "Family photographs, memories, contributors, and intergenerational cultural continuity connected to Gu Yuan’s legacy.",
+        "zh": "與古元藝術遺產相關的家族照片、記憶、貢獻者與跨代文化傳承。"
+      },
+      "year": "Multi-generational",
+      "category": "Intergenerational Continuity",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json",
+      "imageUrlFile": "/images/family/GY-PH-FamilyVisit.jpg"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-001",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s most internationally recognized woodcuts, representing collective struggle and modern Chinese printmaking.",
+        "zh": "古元最具國際代表性的木刻之一，體現現代中國版畫中的集體經驗與歷史張力。"
+      },
+      "year": 1948,
+      "category": "Postwar China",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-002",
+      "title": {
+        "en": "Rent Reduction Meeting",
+        "zh": "減租會"
+      },
+      "summary": {
+        "en": "A landmark work of Yan’an woodcut culture and one of the defining works of modern Chinese printmaking.",
+        "zh": "延安木刻文化的重要代表作，也是中國現代版畫史上的經典作品。"
+      },
+      "year": 1943,
+      "category": "Yan’an Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-003",
+      "title": {
+        "en": "Divorce Petition",
+        "zh": "離婚訴"
+      },
+      "summary": {
+        "en": "A socially important woodcut exploring legal reform, gender, and village society.",
+        "zh": "探討法律、女性與鄉村社會的重要木刻作品。"
+      },
+      "year": 1942,
+      "category": "Yan’an Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-004",
+      "title": {
+        "en": "Transporting Grass",
+        "zh": "運草"
+      },
+      "summary": {
+        "en": "A major rural labor scene demonstrating Gu Yuan’s mature visual composition and observation of movement.",
+        "zh": "展現古元成熟構圖與勞動場景觀察的重要作品。"
+      },
+      "year": 1942,
+      "category": "Rural Life",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-005",
+      "title": {
+        "en": "Brother’s Holiday",
+        "zh": "哥哥的假期"
+      },
+      "summary": {
+        "en": "A widely recognized work reflecting wartime village life and human relationships.",
+        "zh": "反映戰時鄉村生活與人物關系的重要作品。"
+      },
+      "year": 1942,
+      "category": "Yan’an Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-006",
+      "title": {
+        "en": "Jade Belt Bridge",
+        "zh": "玉帶橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s most celebrated later-period color woodcuts known for poetic composition and lyrical atmosphere.",
+        "zh": "古元後期最著名的套色木刻之一，以詩意構圖與抒情氛圍著稱。"
+      },
+      "year": 1962,
+      "category": "Landscape and Memory",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-007",
+      "title": {
+        "en": "Xianglin’s Wife",
+        "zh": "祥林嫂"
+      },
+      "summary": {
+        "en": "A psychologically expressive portrait based on a major literary figure in modern Chinese literature.",
+        "zh": "以現代文學經典人物為基礎的心理性木刻肖像作品。"
+      },
+      "year": 1956,
+      "category": "Social Realism",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-008",
+      "title": {
+        "en": "Burning Old Land Deeds",
+        "zh": "燒毀舊地契"
+      },
+      "summary": {
+        "en": "A major historical woodcut documenting social transformation and land reform.",
+        "zh": "記錄社會變遷與土地改革的重要歷史木刻。"
+      },
+      "year": 1947,
+      "category": "Postwar China",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-009",
+      "title": {
+        "en": "Yan’an Landscape",
+        "zh": "延安風景"
+      },
+      "summary": {
+        "en": "A landscape work important for understanding symbolic representations of Yan’an in visual culture.",
+        "zh": "對理解延安視覺文化中的象征性風景表達具有研究意義。"
+      },
+      "year": "Unknown",
+      "category": "Landscape and Memory",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-010",
+      "title": {
+        "en": "Literacy Campaign",
+        "zh": "識一千字"
+      },
+      "summary": {
+        "en": "A visual example of wartime literacy and educational graphic culture.",
+        "zh": "戰時識字運動與教育圖像文化的重要視覺案例。"
+      },
+      "year": 1943,
+      "category": "Folk Graphic Language",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-001",
+      "title": {
+        "en": "The Carved Memory of Modern China",
+        "zh": "中國現代記憶的木刻史詩"
+      },
+      "summary": {
+        "en": "A permanent digital exhibition introducing Gu Yuan’s major works and their role in modern Chinese visual culture.",
+        "zh": "介紹古元重要作品及其在中國現代視覺文化中意義的常設數字展覽。"
+      },
+      "year": null,
+      "category": "Masterpieces and Historical Narrative",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-002",
+      "title": {
+        "en": "Early Wartime Woodcuts",
+        "zh": "早期戰時木刻"
+      },
+      "summary": {
+        "en": "A thematic exhibition focusing on Gu Yuan’s earliest wartime woodcuts created around 1939–1940.",
+        "zh": "聚焦1939至1940年前後古元早期戰時木刻作品的專題展覽。"
+      },
+      "year": null,
+      "category": "Wartime Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1939-Resistance.jpg"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-003",
+      "title": {
+        "en": "Yan’an Visual Culture",
+        "zh": "延安視覺文化"
+      },
+      "summary": {
+        "en": "An exhibition exploring Gu Yuan’s Yan’an-period visual language and rural wartime experience.",
+        "zh": "探索古元延安時期視覺語言與鄉村戰爭經驗的研究型展覽。"
+      },
+      "year": null,
+      "category": "Rural Society and Wartime Experience",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-004",
+      "title": {
+        "en": "Folk Graphic Language",
+        "zh": "民間圖像語言"
+      },
+      "summary": {
+        "en": "A study exhibition examining Gu Yuan’s adaptation of folk art, New Year prints, and popular visual traditions.",
+        "zh": "研究古元如何吸收民間藝術、年畫與大眾視覺傳統的專題展覽。"
+      },
+      "year": null,
+      "category": "Folk Visual Tradition",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/artworks/GY-ART-Unknown-SiftingGrain.jpg"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-005",
+      "title": {
+        "en": "Landscape and Memory",
+        "zh": "風景與記憶"
+      },
+      "summary": {
+        "en": "A poetic exhibition exploring Gu Yuan’s landscape works and later reflections on place and memory.",
+        "zh": "探索古元風景作品與晚年記憶表達的詩意展覽。"
+      },
+      "year": null,
+      "category": "Landscape and Emotional Reflection",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-006",
+      "title": {
+        "en": "Family Archive and Living Memory",
+        "zh": "家族檔案與活體記憶"
+      },
+      "summary": {
+        "en": "A digital archive exhibition presenting family photographs, memories, oral history, and intergenerational continuity connected to Gu Yuan’s legacy.",
+        "zh": "展示與古元藝術遺產相關的家族照片、口述歷史與跨代文化延續的數字檔案展覽。"
+      },
+      "year": null,
+      "category": "Family Continuity",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/family/GY-PH-FamilyVisit.jpg"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-007",
+      "title": {
+        "en": "Gu Yuan and Contemporary Print Culture",
+        "zh": "古元與當代版畫文化"
+      },
+      "summary": {
+        "en": "An exhibition examining Gu Yuan’s influence on contemporary printmaking, visual culture, and younger generations of artists.",
+        "zh": "探討古元對當代版畫、視覺文化與年輕藝術家的影響。"
+      },
+      "year": null,
+      "category": "Legacy and Influence",
+      "period": null,
+      "medium": null,
+      "status": "Planning",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-008",
+      "title": {
+        "en": "Digital Preservation Project",
+        "zh": "數字保存計劃"
+      },
+      "summary": {
+        "en": "A presentation of the ongoing digital preservation, translation, archive organization, and international research efforts related to Gu Yuan’s legacy.",
+        "zh": "展示古元數字保存、翻譯、檔案整理與國際研究工作的數字項目展覽。"
+      },
+      "year": null,
+      "category": "Digital Humanities and Preservation",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json",
+      "imageUrlFile": "/images/exhibitions/GY-PH-ExhibitionViewing.jpg"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-001",
+      "title": {
+        "en": "Modern Chinese Printmaking",
+        "zh": "中國現代版畫"
+      },
+      "summary": {
+        "en": "Research on the development of modern Chinese woodcut printmaking through Gu Yuan’s artistic practice.",
+        "zh": "通過古元藝術實踐研究中國現代木刻版畫的發展。"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-002",
+      "title": {
+        "en": "Yan’an Visual Culture",
+        "zh": "延安視覺文化"
+      },
+      "summary": {
+        "en": "Study of visual language, rural imagery, and wartime representation during the Yan’an period.",
+        "zh": "研究延安時期視覺語言、鄉村圖像與戰爭表達。"
+      },
+      "year": null,
+      "category": "Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-003",
+      "title": {
+        "en": "Wartime Visual Documentation",
+        "zh": "戰時視覺記錄"
+      },
+      "summary": {
+        "en": "Exploration of how woodcut prints documented war, displacement, and civilian experience.",
+        "zh": "探討木刻如何記錄戰爭、流亡與平民經驗。"
+      },
+      "year": null,
+      "category": "Historical Visual Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-004",
+      "title": {
+        "en": "Folk Graphic Language",
+        "zh": "民間圖像語言"
+      },
+      "summary": {
+        "en": "Study of Gu Yuan’s adaptation of folk visual traditions and New Year print aesthetics.",
+        "zh": "研究古元如何吸收民間視覺傳統與年畫美學。"
+      },
+      "year": null,
+      "category": "Folk Art Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-005",
+      "title": {
+        "en": "Social Realism in Chinese Art",
+        "zh": "中國藝術中的社會現實主義"
+      },
+      "summary": {
+        "en": "Examination of social realism and everyday life representation in Gu Yuan’s works.",
+        "zh": "研究古元作品中的社會現實主義與日常生活表達。"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-006",
+      "title": {
+        "en": "Rural Society and Labor Imagery",
+        "zh": "鄉村社會與勞動圖像"
+      },
+      "summary": {
+        "en": "Research on agricultural labor, rural society, and village visual culture.",
+        "zh": "研究農業勞動、鄉村社會與村莊視覺文化。"
+      },
+      "year": null,
+      "category": "Social History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-007",
+      "title": {
+        "en": "Cross-Cultural Translation of Chinese Art",
+        "zh": "中國藝術的跨文化翻譯"
+      },
+      "summary": {
+        "en": "Research on translating Chinese visual culture into international museum and academic language.",
+        "zh": "研究如何將中國視覺文化轉化為國際美術館與學術語言。"
+      },
+      "year": null,
+      "category": "Translation Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-008",
+      "title": {
+        "en": "Family Archive and Oral History",
+        "zh": "家族檔案與口述歷史"
+      },
+      "summary": {
+        "en": "Study of family memory, oral history, and intergenerational archive preservation.",
+        "zh": "研究家族記憶、口述歷史與跨代檔案保存。"
+      },
+      "year": null,
+      "category": "Archive Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-009",
+      "title": {
+        "en": "Museum Digital Preservation",
+        "zh": "美術館數字保存"
+      },
+      "summary": {
+        "en": "Research on digital archiving, metadata systems, and online preservation of cultural heritage.",
+        "zh": "研究文化遺產數字檔案、metadata系統與在線保存。"
+      },
+      "year": null,
+      "category": "Digital Humanities",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-010",
+      "title": {
+        "en": "Gu Yuan’s Influence on Contemporary Art",
+        "zh": "古元對當代藝術的影響"
+      },
+      "summary": {
+        "en": "Examination of Gu Yuan’s influence on later generations of artists, printmakers, and visual culture.",
+        "zh": "研究古元對後代藝術家、版畫家與視覺文化的影響。"
+      },
+      "year": null,
+      "category": "Contemporary Art Studies",
+      "period": null,
+      "medium": null,
+      "status": "Planning",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-001",
+      "title": {
+        "en": "Woodcut Printmaking",
+        "zh": "木刻版畫"
+      },
+      "summary": {
+        "en": "Modern Chinese woodcut printmaking practice",
+        "zh": "中國現代木刻版畫實踐"
+      },
+      "year": null,
+      "category": "Medium",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-002",
+      "title": {
+        "en": "Yan’an",
+        "zh": "延安"
+      },
+      "summary": {
+        "en": "Yan’an wartime visual and cultural context",
+        "zh": "延安時期視覺與文化背景"
+      },
+      "year": null,
+      "category": "Historical Location",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-003",
+      "title": {
+        "en": "Wartime China",
+        "zh": "戰時中國"
+      },
+      "summary": {
+        "en": "Visual representation of wartime society",
+        "zh": "戰爭時期社會視覺表達"
+      },
+      "year": null,
+      "category": "Historical Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-004",
+      "title": {
+        "en": "Rural Labor",
+        "zh": "鄉村勞動"
+      },
+      "summary": {
+        "en": "Agricultural work and labor imagery",
+        "zh": "農業勞動與勞動圖像"
+      },
+      "year": null,
+      "category": "Social Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-005",
+      "title": {
+        "en": "Folk Visual Language",
+        "zh": "民間視覺語言"
+      },
+      "summary": {
+        "en": "Folk-inspired graphic and symbolic imagery",
+        "zh": "受民間藝術影響的視覺語言"
+      },
+      "year": null,
+      "category": "Visual Language",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-006",
+      "title": {
+        "en": "Social Realism",
+        "zh": "社會現實主義"
+      },
+      "summary": {
+        "en": "Realist representation of ordinary people and society",
+        "zh": "對普通人和社會現實的藝術表達"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-007",
+      "title": {
+        "en": "Modern Chinese Art",
+        "zh": "中國現代藝術"
+      },
+      "summary": {
+        "en": "Twentieth-century Chinese visual art development",
+        "zh": "20世紀中國視覺藝術發展"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-008",
+      "title": {
+        "en": "Print Culture",
+        "zh": "印刷文化"
+      },
+      "summary": {
+        "en": "Printmaking, publishing, and graphic culture",
+        "zh": "版畫、出版與圖像傳播文化"
+      },
+      "year": null,
+      "category": "Media Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-009",
+      "title": {
+        "en": "Landscape and Memory",
+        "zh": "風景與記憶"
+      },
+      "summary": {
+        "en": "Emotional and poetic landscape representation",
+        "zh": "情感與詩性風景表達"
+      },
+      "year": null,
+      "category": "Visual Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-010",
+      "title": {
+        "en": "Industrial Modernity",
+        "zh": "工業現代性"
+      },
+      "summary": {
+        "en": "Industrialization and reconstruction imagery",
+        "zh": "工業化與重建圖像"
+      },
+      "year": null,
+      "category": "Historical Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-011",
+      "title": {
+        "en": "Family Archive",
+        "zh": "家族檔案"
+      },
+      "summary": {
+        "en": "Family-based cultural memory and preservation",
+        "zh": "家族文化記憶與保存"
+      },
+      "year": null,
+      "category": "Archive Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-012",
+      "title": {
+        "en": "Oral History",
+        "zh": "口述歷史"
+      },
+      "summary": {
+        "en": "Firsthand family and historical memory",
+        "zh": "第一手家族與歷史記憶"
+      },
+      "year": null,
+      "category": "Archive Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-013",
+      "title": {
+        "en": "Museum Archive",
+        "zh": "美術館檔案"
+      },
+      "summary": {
+        "en": "Institutional archive and preservation systems",
+        "zh": "美術館檔案與保存系統"
+      },
+      "year": null,
+      "category": "Museum Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-014",
+      "title": {
+        "en": "Cross-Cultural Translation",
+        "zh": "跨文化翻譯"
+      },
+      "summary": {
+        "en": "Translation of Chinese visual culture for international audiences",
+        "zh": "中國視覺文化的國際化翻譯"
+      },
+      "year": null,
+      "category": "Translation Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-015",
+      "title": {
+        "en": "Digital Preservation",
+        "zh": "數字保存"
+      },
+      "summary": {
+        "en": "Digital archiving and preservation workflow",
+        "zh": "數字檔案與保存流程"
+      },
+      "year": null,
+      "category": "Digital Humanities",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-016",
+      "title": {
+        "en": "Intergenerational Legacy",
+        "zh": "跨代傳承"
+      },
+      "summary": {
+        "en": "Artistic and cultural continuity across generations",
+        "zh": "藝術與文化的跨代延續"
+      },
+      "year": null,
+      "category": "Cultural Heritage",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-017",
+      "title": {
+        "en": "Contemporary Influence",
+        "zh": "當代影響"
+      },
+      "summary": {
+        "en": "Influence on younger generations and later artists",
+        "zh": "對後代藝術家與視覺文化的影響"
+      },
+      "year": null,
+      "category": "Contemporary Art",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-018",
+      "title": {
+        "en": "Museum Canon",
+        "zh": "核心館藏"
+      },
+      "summary": {
+        "en": "Core masterpieces and canonical works",
+        "zh": "美術館核心館藏作品"
+      },
+      "year": null,
+      "category": "Museum Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-019",
+      "title": {
+        "en": "Chinese Visual Culture",
+        "zh": "中國視覺文化"
+      },
+      "summary": {
+        "en": "Development of modern Chinese visual imagery",
+        "zh": "中國現代視覺圖像發展"
+      },
+      "year": null,
+      "category": "Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-020",
+      "title": {
+        "en": "Educational Graphics",
+        "zh": "教育圖像"
+      },
+      "summary": {
+        "en": "Literacy and public education graphics",
+        "zh": "識字與公共教育圖像"
+      },
+      "year": null,
+      "category": "Educational Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    }
+  ],
+  "records": [
+    {
+      "type": "artwork",
+      "id": "ART-001",
+      "title": {
+        "en": "Rent Reduction Meeting",
+        "zh": "減租會"
+      },
+      "summary": {
+        "en": "A major woodcut work depicting rural negotiation and social transformation during wartime China.",
+        "zh": "這是古元延安時期的重要木刻作品，描繪戰時中國鄉村社會變遷中的減租場景。"
+      },
+      "year": 1943,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-002",
+      "title": {
+        "en": "Burning Old Land Deeds",
+        "zh": "燒毀舊地契"
+      },
+      "summary": {
+        "en": "A work associated with land reform and the visual documentation of social change in northern China.",
+        "zh": "這件作品與土地改革相關，記錄了中國北方社會變遷中的重要歷史場景。"
+      },
+      "year": 1947,
+      "category": null,
+      "period": "Postwar China",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-003",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s significant works from the late 1940s, reflecting collective action and social experience during a period of transition.",
+        "zh": "古元20世紀40年代後期的重要作品之一，表現社會轉型時期的集體行動與歷史經驗。"
+      },
+      "year": 1948,
+      "category": null,
+      "period": "Postwar China",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-004",
+      "title": {
+        "en": "Divorce Petition",
+        "zh": "離婚訴"
+      },
+      "summary": {
+        "en": "A woodcut work reflecting legal, social, and everyday life issues in rural society during the Yan’an period.",
+        "zh": "這件木刻作品反映延安時期鄉村社會中的法律、家庭與日常生活議題。"
+      },
+      "year": 1942,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-005",
+      "title": {
+        "en": "Brother’s Holiday",
+        "zh": "哥哥的假期"
+      },
+      "summary": {
+        "en": "A work depicting the relationship between soldiers, families, and village communities during wartime.",
+        "zh": "作品描繪戰時環境中士兵、家庭與鄉村社群之間的關系。"
+      },
+      "year": 1942,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-006",
+      "title": {
+        "en": "Transporting Grass",
+        "zh": "運草"
+      },
+      "summary": {
+        "en": "An early woodcut showing Gu Yuan’s close observation of rural labor and everyday movement.",
+        "zh": "早期木刻作品之一，體現古元對鄉村勞動與日常生活動態的觀察。"
+      },
+      "year": 1942,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-007",
+      "title": {
+        "en": "Cattle",
+        "zh": "牛群"
+      },
+      "summary": {
+        "en": "A work created from Gu Yuan’s rural experience in Nianzhuang, focusing on animals, labor, and village life.",
+        "zh": "作品來自古元在碾莊鄉的農村經驗，關注牲畜、勞動與鄉村生活。"
+      },
+      "year": 1940,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-008",
+      "title": {
+        "en": "Sheep",
+        "zh": "羊群"
+      },
+      "summary": {
+        "en": "A rural-life woodcut reflecting Gu Yuan’s interest in everyday scenes and local visual culture.",
+        "zh": "這件鄉村生活題材木刻體現了古元對日常場景與地方視覺文化的關注。"
+      },
+      "year": 1940,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-009",
+      "title": {
+        "en": "Chopping Grass",
+        "zh": "鍘草"
+      },
+      "summary": {
+        "en": "A work connected to rural labor and the everyday rhythms of village life.",
+        "zh": "作品與鄉村勞動及村莊日常生活節奏相關。"
+      },
+      "year": 1940,
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-010",
+      "title": {
+        "en": "Chairman Mao Talking with Farmers",
+        "zh": "毛主席和農民談話"
+      },
+      "summary": {
+        "en": "A post-1949 work connected to new visual forms and public art in early People’s Republic China.",
+        "zh": "這是新中國初期與公共視覺藝術及新年畫形式相關的作品。"
+      },
+      "year": 1951,
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "New Year picture / print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-011",
+      "title": {
+        "en": "Sugarcane Field",
+        "zh": "甘蔗園"
+      },
+      "summary": {
+        "en": "A lyrical work showing Gu Yuan’s interest in landscape, agricultural life, and visual atmosphere.",
+        "zh": "這件作品具有抒情特征，體現古元對風景、農業生活與視覺氛圍的關注。"
+      },
+      "year": 1956,
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-012",
+      "title": {
+        "en": "Jade Belt Bridge",
+        "zh": "玉帶橋"
+      },
+      "summary": {
+        "en": "A representative color woodcut reflecting Gu Yuan’s mature interest in landscape, composition, and poetic visual language.",
+        "zh": "這是一件具有代表性的套色木刻，體現古元成熟時期對風景、構圖與詩性視覺語言的探索。"
+      },
+      "year": 1962,
+      "category": null,
+      "period": "CAFA Period",
+      "medium": "Color woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-013",
+      "title": {
+        "en": "Liu Zhidan and the Red Guards",
+        "zh": "劉志丹和赤衛軍"
+      },
+      "summary": {
+        "en": "A historical-theme work connected to collective memory and revolutionary-era visual culture.",
+        "zh": "這是一件歷史題材作品，與集體記憶和革命時期視覺文化相關。"
+      },
+      "year": "1950s",
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-014",
+      "title": {
+        "en": "Lights of Zaoyuan",
+        "zh": "棗園燈光"
+      },
+      "summary": {
+        "en": "A representative work often associated with Gu Yuan’s historical and cultural visual memory.",
+        "zh": "這件代表作品常與古元的歷史記憶與文化視覺表達聯系在一起。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "To be confirmed",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-015",
+      "title": {
+        "en": "Morning Light of Zhuhai",
+        "zh": "珠海朝暉"
+      },
+      "summary": {
+        "en": "A late work dedicated to Gu Yuan’s hometown, reflecting memory, landscape, and return.",
+        "zh": "古元晚年獻給故鄉的重要作品，體現記憶、風景與回歸主題。"
+      },
+      "year": 1993,
+      "category": null,
+      "period": "Late Years and Legacy",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-016",
+      "title": {
+        "en": "Xianglin’s Wife",
+        "zh": "祥林嫂"
+      },
+      "summary": {
+        "en": "A woodcut portrait based on the literary figure Xianglin Sao, reflecting Gu Yuan’s interest in psychological expression and social realism.",
+        "zh": "根據文學人物“祥林嫂”創作的木刻肖像，體現古元對人物心理與現實主義表達的關注。"
+      },
+      "year": 1956,
+      "category": null,
+      "period": "Early PRC Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-017",
+      "title": {
+        "en": "Untitled Portrait Study",
+        "zh": "無題人物習作"
+      },
+      "summary": {
+        "en": "An early expressive portrait study using strong black-and-white contrast and simplified composition.",
+        "zh": "早期表現性人物木刻習作，以強烈黑白對比與簡化構圖形成視覺張力。"
+      },
+      "year": "circa 1940s",
+      "category": null,
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-018",
+      "title": {
+        "en": "Japanese Agents Forcing Villagers to Join Puppet Army",
+        "zh": "奪取私人物品參加偽軍"
+      },
+      "summary": {
+        "en": "Early anti-war woodcut depicting forced participation under wartime occupation.",
+        "zh": "反映戰爭時期強迫民眾參與偽軍的早期木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-019",
+      "title": {
+        "en": "Resistance Against Japanese Occupation",
+        "zh": "抗糧和暴動反抗"
+      },
+      "summary": {
+        "en": "A wartime woodcut related to civilian resistance and conflict during Japanese occupation.",
+        "zh": "與戰爭時期民眾反抗與衝突相關的木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-020",
+      "title": {
+        "en": "Protecting Livestock",
+        "zh": "誰保護牛馬"
+      },
+      "summary": {
+        "en": "A socially engaged woodcut focused on labor, agriculture, and wartime rural life.",
+        "zh": "關注勞動、農業與戰時鄉村生活的社會性木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-021",
+      "title": {
+        "en": "Poison Gas Victims",
+        "zh": "善良人遭毒手"
+      },
+      "summary": {
+        "en": "A dramatic wartime scene reflecting violence and civilian suffering.",
+        "zh": "描繪戰爭暴力與平民苦難的戲劇性場景。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-022",
+      "title": {
+        "en": "Refugees at the Village Entrance",
+        "zh": "編籃娘娘以糊口"
+      },
+      "summary": {
+        "en": "A woodcut focusing on survival, labor, and displacement during wartime.",
+        "zh": "聚焦戰爭時期生存、勞動與流離失所經驗的木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-023",
+      "title": {
+        "en": "Searching for Refugees",
+        "zh": "我鄉僻壤仍遭襲擊"
+      },
+      "summary": {
+        "en": "A wartime woodcut capturing displacement and the instability of rural society.",
+        "zh": "反映戰爭時期鄉村社會動蕩與流亡經驗的木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-024",
+      "title": {
+        "en": "Japanese Bombing of Shanghai",
+        "zh": "八一三日寇開始進攻上海"
+      },
+      "summary": {
+        "en": "A historical wartime print referencing the Japanese attack on Shanghai.",
+        "zh": "以日軍進攻上海為主題的歷史性戰時木刻作品。"
+      },
+      "year": 1939,
+      "category": null,
+      "period": "Early Wartime Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-025",
+      "title": {
+        "en": "Happiness and Longevity",
+        "zh": "幸福壽高齡"
+      },
+      "summary": {
+        "en": "A small-format folk-inspired print combining decorative symbolism and simplified carving language.",
+        "zh": "一件融合民間裝飾性語言與簡化刀法的小幅木刻作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Folk Graphic Style",
+      "medium": "Woodcut print / folk-style graphic",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-026",
+      "title": {
+        "en": "Ex Libris Bird",
+        "zh": "EX-LIBRIS 藏書票（鳥）"
+      },
+      "summary": {
+        "en": "A woodcut ex libris reflecting Gu Yuan’s interest in print culture and graphic symbolism.",
+        "zh": "體現古元對印刷文化與圖像符號興趣的藏書票作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Graphic Design / Print Culture",
+      "medium": "Ex Libris woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-027",
+      "title": {
+        "en": "Gu Yuan Bookplate",
+        "zh": "古元藏書票"
+      },
+      "summary": {
+        "en": "A personal ex libris using animal imagery and simplified folk-inspired composition.",
+        "zh": "使用動物圖像與民間化構圖的個人藏書票作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Graphic Design / Print Culture",
+      "medium": "Ex Libris woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-028",
+      "title": {
+        "en": "Steelworks Construction",
+        "zh": "我們自己修復"
+      },
+      "summary": {
+        "en": "A large industrial-themed woodcut documenting reconstruction and industrial development after the war.",
+        "zh": "反映戰後工業建設與恢復的大型工業題材木刻作品。"
+      },
+      "year": 1949,
+      "category": null,
+      "period": "Early PRC Industrial Works",
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-029",
+      "title": {
+        "en": "Returning to Yan’an",
+        "zh": "回憶延安"
+      },
+      "summary": {
+        "en": "A reflective landscape work revisiting Yan’an through memory and visual atmosphere.",
+        "zh": "通過風景與視覺氛圍重新回望延安記憶的作品。"
+      },
+      "year": 1978,
+      "category": null,
+      "period": "Late Reflection Works",
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-030",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s most recognized works, depicting collective movement and wartime crossing under dramatic visual contrast.",
+        "zh": "古元最具代表性的作品之一，以強烈視覺對比表現戰爭中的集體行動與渡河場景。"
+      },
+      "year": 1948,
+      "category": null,
+      "period": "Postwar China",
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-031",
+      "title": {
+        "en": "Sifting Grain",
+        "zh": "篩糧"
+      },
+      "summary": {
+        "en": "A simplified rural-life image reflecting labor and agricultural rhythms through folk-inspired composition.",
+        "zh": "以民間化構圖描繪鄉村勞動與農業生活節奏的作品。"
+      },
+      "year": "Unknown",
+      "category": null,
+      "period": "Rural Life / Folk Style",
+      "medium": "Folk-style woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-032",
+      "title": {
+        "en": "Literacy Campaign",
+        "zh": "識一千字"
+      },
+      "summary": {
+        "en": "A graphic work related to literacy and public education movements during wartime China.",
+        "zh": "與戰時識字運動和公共教育相關的圖像作品。"
+      },
+      "year": 1943,
+      "category": null,
+      "period": "Wartime Education Graphics",
+      "medium": "Folk-style woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "artwork",
+      "id": "ART-033",
+      "title": {
+        "en": "Cooperative Society",
+        "zh": "合作社"
+      },
+      "summary": {
+        "en": "A woodcut depicting rural cooperative organization through simplified folk-inspired imagery.",
+        "zh": "通過民間化圖像表現鄉村合作社組織的木刻作品。"
+      },
+      "year": 1943,
+      "category": null,
+      "period": "Rural Graphic Culture",
+      "medium": "Folk-style woodcut",
+      "status": "Draft",
+      "sourceFile": "artworks.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-001",
+      "title": {
+        "en": "Xianglin’s Wife",
+        "zh": "祥林嫂"
+      },
+      "summary": {
+        "en": "A woodcut portrait based on the literary figure Xianglin Sao.",
+        "zh": "根據文學人物“祥林嫂”創作的木刻肖像。"
+      },
+      "year": 1956,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-002",
+      "title": {
+        "en": "Untitled Portrait Study",
+        "zh": "無題人物習作"
+      },
+      "summary": {
+        "en": "Early expressive portrait using strong black-white contrast.",
+        "zh": "使用強烈黑白對比的人物木刻習作。"
+      },
+      "year": "circa 1940s",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-003",
+      "title": {
+        "en": "Forced Participation in Puppet Army",
+        "zh": "被迫參加偽軍"
+      },
+      "summary": {
+        "en": "Early wartime woodcut about occupation and coercion.",
+        "zh": "描繪戰爭占領與強迫行為的早期木刻。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-004",
+      "title": {
+        "en": "Resistance Scene",
+        "zh": "反抗場景"
+      },
+      "summary": {
+        "en": "Wartime scene depicting social conflict and resistance.",
+        "zh": "描繪戰爭時期社會衝突與反抗的場景。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-005",
+      "title": {
+        "en": "Protecting Livestock",
+        "zh": "保護牛馬"
+      },
+      "summary": {
+        "en": "Rural wartime labor scene connected to agriculture.",
+        "zh": "與農業勞動相關的戰時鄉村場景。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-006",
+      "title": {
+        "en": "Poison Gas Victims",
+        "zh": "遭毒氣傷害的人們"
+      },
+      "summary": {
+        "en": "Dramatic wartime woodcut reflecting civilian suffering.",
+        "zh": "描繪戰爭苦難與平民受害的木刻作品。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-007",
+      "title": {
+        "en": "Refugees",
+        "zh": "難民"
+      },
+      "summary": {
+        "en": "Wartime displacement and survival scene.",
+        "zh": "戰爭中的流亡與生存場景。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-008",
+      "title": {
+        "en": "Rural Attack",
+        "zh": "鄉村襲擊"
+      },
+      "summary": {
+        "en": "Wartime violence in rural society.",
+        "zh": "描繪鄉村社會中的戰爭暴力。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-009",
+      "title": {
+        "en": "Attack on Shanghai",
+        "zh": "日軍進攻上海"
+      },
+      "summary": {
+        "en": "Historical wartime scene referencing Shanghai.",
+        "zh": "與上海戰爭相關的歷史木刻作品。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-010",
+      "title": {
+        "en": "Bird Symbol Print",
+        "zh": "鳥紋圖形"
+      },
+      "summary": {
+        "en": "Decorative folk-inspired graphic design.",
+        "zh": "民間裝飾風格的鳥紋圖形設計。"
+      },
+      "year": "Unknown",
+      "category": "Graphic Design",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-011",
+      "title": {
+        "en": "Ex Libris Bird",
+        "zh": "鳥主題藏書票"
+      },
+      "summary": {
+        "en": "A bird-themed ex libris woodcut.",
+        "zh": "鳥主題藏書票木刻作品。"
+      },
+      "year": "Unknown",
+      "category": "Ex Libris",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-012",
+      "title": {
+        "en": "Gu Yuan Bookplate",
+        "zh": "古元藏書票"
+      },
+      "summary": {
+        "en": "Personal ex libris using animal imagery.",
+        "zh": "使用動物圖像的個人藏書票。"
+      },
+      "year": "Unknown",
+      "category": "Ex Libris",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-013",
+      "title": {
+        "en": "Steelworks Construction",
+        "zh": "鋼鐵建設"
+      },
+      "summary": {
+        "en": "Industrial reconstruction and steel production scene.",
+        "zh": "描繪工業重建與鋼鐵生產場景。"
+      },
+      "year": 1949,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-014",
+      "title": {
+        "en": "Remembering Yan’an",
+        "zh": "回憶延安"
+      },
+      "summary": {
+        "en": "Reflective landscape recalling Yan’an.",
+        "zh": "回望延安記憶的風景作品。"
+      },
+      "year": 1978,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-015",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s best-known masterpieces.",
+        "zh": "古元最著名代表作之一。"
+      },
+      "year": 1948,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-016",
+      "title": {
+        "en": "Sifting Grain",
+        "zh": "篩糧"
+      },
+      "summary": {
+        "en": "Rural agricultural labor scene.",
+        "zh": "鄉村農業勞動場景。"
+      },
+      "year": "Unknown",
+      "category": "Folk Graphic",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-017",
+      "title": {
+        "en": "Literacy Campaign",
+        "zh": "識一千字"
+      },
+      "summary": {
+        "en": "Educational print related to literacy campaigns.",
+        "zh": "與識字運動相關的教育圖像。"
+      },
+      "year": 1943,
+      "category": "Educational Graphic",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-018",
+      "title": {
+        "en": "Cooperative Society",
+        "zh": "合作社"
+      },
+      "summary": {
+        "en": null,
+        "zh": null
+      },
+      "year": 1943,
+      "category": "Folk Graphic",
+      "period": null,
+      "medium": "Folk-style print",
+      "status": null,
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-019",
+      "title": {
+        "en": "Young Gu Yuan",
+        "zh": "青年時期古元"
+      },
+      "summary": {
+        "en": "Early portrait of Gu Yuan during his young revolutionary and artistic years.",
+        "zh": "古元青年時期的歷史肖像照片。"
+      },
+      "year": "circa 1940s",
+      "category": "Portrait",
+      "period": null,
+      "medium": "Historical photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-020",
+      "title": {
+        "en": "Gu Yuan Studio Portrait",
+        "zh": "古元工作肖像"
+      },
+      "summary": {
+        "en": "Mid-century portrait showing Gu Yuan during his mature artistic period.",
+        "zh": "展現古元成熟藝術時期的中期肖像。"
+      },
+      "year": "circa 1950s",
+      "category": "Portrait",
+      "period": null,
+      "medium": "Historical photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-021",
+      "title": {
+        "en": "Older Gu Yuan",
+        "zh": "晚年古元"
+      },
+      "summary": {
+        "en": "Late-life portrait of Gu Yuan reflecting his senior years and artistic legacy.",
+        "zh": "展現古元晚年時期與藝術遺產階段的肖像。"
+      },
+      "year": "circa 1990s",
+      "category": "Portrait",
+      "period": null,
+      "medium": "Historical photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-022",
+      "title": {
+        "en": "Winter Landscape",
+        "zh": "冬日風景"
+      },
+      "summary": {
+        "en": "A lyrical watercolor landscape featuring snow, bare trees, and reflected sunset light.",
+        "zh": "一幅描繪雪景、樹木與夕陽倒影的抒情水彩風景。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Watercolor",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-023",
+      "title": {
+        "en": "Yan’an Landscape",
+        "zh": "延安風景"
+      },
+      "summary": {
+        "en": "Landscape woodcut depicting the Yan’an region and pagoda imagery.",
+        "zh": "描繪延安地區與寶塔山視覺形象的風景木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-024",
+      "title": {
+        "en": "Prosperity and Fortune",
+        "zh": "興旺發財"
+      },
+      "summary": {
+        "en": "Folk-style New Year print using traditional auspicious imagery.",
+        "zh": "使用傳統吉祥圖像的民間年畫作品。"
+      },
+      "year": "Unknown",
+      "category": "Folk Print",
+      "period": null,
+      "medium": "New Year print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-025",
+      "title": {
+        "en": "Rural Gathering",
+        "zh": "鄉村聚會"
+      },
+      "summary": {
+        "en": "A social-realist woodcut showing interaction among villagers.",
+        "zh": "展現鄉村人物互動場景的現實主義木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-026",
+      "title": {
+        "en": "Refugee Family",
+        "zh": "難民家庭"
+      },
+      "summary": {
+        "en": "Wartime refugee scene focusing on family displacement and hardship.",
+        "zh": "描繪戰爭時期家庭流離失所與苦難的木刻作品。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-027",
+      "title": {
+        "en": "Wartime Evacuation",
+        "zh": "戰時疏散"
+      },
+      "summary": {
+        "en": "A wartime scene showing civilian displacement and evacuation.",
+        "zh": "描繪平民流亡與戰時撤離的木刻作品。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-028",
+      "title": {
+        "en": "Industrial Worker",
+        "zh": "工業工人"
+      },
+      "summary": {
+        "en": "Industrial-themed woodcut focusing on labor and machinery.",
+        "zh": "以工業勞動與機械生產為主題的木刻作品。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-029",
+      "title": {
+        "en": "Village Storytelling",
+        "zh": "鄉村講述"
+      },
+      "summary": {
+        "en": "A village storytelling or discussion scene in Yan’an-style visual language.",
+        "zh": "使用延安視覺語言描繪鄉村講述與討論場景。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-030",
+      "title": {
+        "en": "Wartime Resistance Scene",
+        "zh": "戰時抵抗場景"
+      },
+      "summary": {
+        "en": "Early wartime resistance image with dramatic composition.",
+        "zh": "具有戲劇性構圖的早期戰爭抵抗木刻。"
+      },
+      "year": 1939,
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-031",
+      "title": {
+        "en": "Exhibition Speech",
+        "zh": "展覽發言現場"
+      },
+      "summary": {
+        "en": "A speaker presenting at a Gu Yuan-related exhibition or academic event.",
+        "zh": "古元相關展覽或學術活動中的發言現場。"
+      },
+      "year": "Unknown",
+      "category": "Exhibition Photo",
+      "period": null,
+      "medium": "Photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-032",
+      "title": {
+        "en": "Viewing the Exhibition",
+        "zh": "觀看古元展覽"
+      },
+      "summary": {
+        "en": "A visitor viewing Gu Yuan’s works in a museum exhibition setting.",
+        "zh": "觀眾在美術館觀看古元作品展覽。"
+      },
+      "year": "Unknown",
+      "category": "Exhibition Photo",
+      "period": null,
+      "medium": "Photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-033",
+      "title": {
+        "en": "Family Visit to Exhibition",
+        "zh": "家屬參觀展覽"
+      },
+      "summary": {
+        "en": "Family members visiting a Gu Yuan exhibition.",
+        "zh": "家屬參觀古元相關展覽現場。"
+      },
+      "year": "Unknown",
+      "category": "Exhibition Photo",
+      "period": null,
+      "medium": "Photograph",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-034",
+      "title": {
+        "en": "Beijing Cityscape",
+        "zh": "北京城市風景"
+      },
+      "summary": {
+        "en": "A cityscape print combining traditional architecture and modern urban development.",
+        "zh": "結合傳統建築與現代城市發展的北京風景木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-035",
+      "title": {
+        "en": "Transporting Grass",
+        "zh": "運草"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s iconic rural labor scenes featuring horse carts and agricultural movement.",
+        "zh": "古元最經典的鄉村勞動場景之一，描繪馬車運輸與農業勞動。"
+      },
+      "year": "circa 1940s",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "photo",
+      "id": "PH-036",
+      "title": {
+        "en": "Yan’an Landscape (Color Version)",
+        "zh": "延安風景（彩色版）"
+      },
+      "summary": {
+        "en": "A color landscape representation of the Yan’an region.",
+        "zh": "彩色表現的延安地區風景木刻。"
+      },
+      "year": "Unknown",
+      "category": "Artwork",
+      "period": null,
+      "medium": "Color woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-001",
+      "title": {
+        "en": "Early Wartime Woodcuts",
+        "zh": "早期戰時木刻"
+      },
+      "summary": {
+        "en": "Early woodcuts documenting war, displacement, violence, and civilian survival during the Japanese invasion period.",
+        "zh": "記錄戰爭、流亡、暴力與平民生存經驗的早期木刻作品。"
+      },
+      "year": "1939–1940",
+      "category": "Wartime Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-002",
+      "title": {
+        "en": "Yan’an Visual Culture",
+        "zh": "延安視覺文化"
+      },
+      "summary": {
+        "en": "Works created during the Yan’an period reflecting rural life, social transformation, and wartime experience.",
+        "zh": "延安時期描繪鄉村生活、社會變遷與戰爭經驗的作品。"
+      },
+      "year": "1940–1945",
+      "category": "Rural Society and Wartime Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-003",
+      "title": {
+        "en": "Folk Graphic Language",
+        "zh": "民間圖像語言"
+      },
+      "summary": {
+        "en": "Woodcuts and graphic works influenced by folk art, New Year prints, and popular visual culture.",
+        "zh": "受民間藝術、年畫與大眾視覺文化影響的木刻與圖像作品。"
+      },
+      "year": "1940s–1950s",
+      "category": "Folk Visual Tradition",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-004",
+      "title": {
+        "en": "Industrial Modernity",
+        "zh": "工業現代性"
+      },
+      "summary": {
+        "en": "Industrial-themed prints documenting reconstruction, factories, workers, and postwar modernization.",
+        "zh": "描繪工業建設、工廠、工人與戰後現代化的工業題材作品。"
+      },
+      "year": "1949–1960s",
+      "category": "Industry and Reconstruction",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-005",
+      "title": {
+        "en": "Landscape and Memory",
+        "zh": "風景與記憶"
+      },
+      "summary": {
+        "en": "Landscape-oriented works reflecting memory, poetry, place, and emotional attachment to homeland.",
+        "zh": "以風景、記憶、詩意與故鄉情感為主題的作品。"
+      },
+      "year": "1960s–1990s",
+      "category": "Landscape and Reflection",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-006",
+      "title": {
+        "en": "Portrait Archive",
+        "zh": "古元肖像檔案"
+      },
+      "summary": {
+        "en": "Historical portraits documenting different stages of Gu Yuan’s life and artistic career.",
+        "zh": "記錄古元人生與藝術階段的歷史肖像檔案。"
+      },
+      "year": "1940s–1990s",
+      "category": "Artist Documentation",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-007",
+      "title": {
+        "en": "Exhibition Archive",
+        "zh": "展覽檔案"
+      },
+      "summary": {
+        "en": "Exhibition photos, museum activities, lectures, and public engagement related to Gu Yuan’s legacy.",
+        "zh": "與古元藝術遺產相關的展覽、講座、美術館活動與公共傳播檔案。"
+      },
+      "year": "2000s–Present",
+      "category": "Museum and Public Memory",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "collection",
+      "id": "COL-008",
+      "title": {
+        "en": "Family Archive",
+        "zh": "家族檔案"
+      },
+      "summary": {
+        "en": "Family photographs, memories, contributors, and intergenerational cultural continuity connected to Gu Yuan’s legacy.",
+        "zh": "與古元藝術遺產相關的家族照片、記憶、貢獻者與跨代文化傳承。"
+      },
+      "year": "Multi-generational",
+      "category": "Intergenerational Continuity",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "collections.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-001",
+      "title": {
+        "en": "Human Bridge",
+        "zh": "人橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s most internationally recognized woodcuts, representing collective struggle and modern Chinese printmaking.",
+        "zh": "古元最具國際代表性的木刻之一，體現現代中國版畫中的集體經驗與歷史張力。"
+      },
+      "year": 1948,
+      "category": "Postwar China",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-002",
+      "title": {
+        "en": "Rent Reduction Meeting",
+        "zh": "減租會"
+      },
+      "summary": {
+        "en": "A landmark work of Yan’an woodcut culture and one of the defining works of modern Chinese printmaking.",
+        "zh": "延安木刻文化的重要代表作，也是中國現代版畫史上的經典作品。"
+      },
+      "year": 1943,
+      "category": "Yan’an Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-003",
+      "title": {
+        "en": "Divorce Petition",
+        "zh": "離婚訴"
+      },
+      "summary": {
+        "en": "A socially important woodcut exploring legal reform, gender, and village society.",
+        "zh": "探討法律、女性與鄉村社會的重要木刻作品。"
+      },
+      "year": 1942,
+      "category": "Yan’an Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-004",
+      "title": {
+        "en": "Transporting Grass",
+        "zh": "運草"
+      },
+      "summary": {
+        "en": "A major rural labor scene demonstrating Gu Yuan’s mature visual composition and observation of movement.",
+        "zh": "展現古元成熟構圖與勞動場景觀察的重要作品。"
+      },
+      "year": 1942,
+      "category": "Rural Life",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-005",
+      "title": {
+        "en": "Brother’s Holiday",
+        "zh": "哥哥的假期"
+      },
+      "summary": {
+        "en": "A widely recognized work reflecting wartime village life and human relationships.",
+        "zh": "反映戰時鄉村生活與人物關系的重要作品。"
+      },
+      "year": 1942,
+      "category": "Yan’an Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-006",
+      "title": {
+        "en": "Jade Belt Bridge",
+        "zh": "玉帶橋"
+      },
+      "summary": {
+        "en": "One of Gu Yuan’s most celebrated later-period color woodcuts known for poetic composition and lyrical atmosphere.",
+        "zh": "古元後期最著名的套色木刻之一，以詩意構圖與抒情氛圍著稱。"
+      },
+      "year": 1962,
+      "category": "Landscape and Memory",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-007",
+      "title": {
+        "en": "Xianglin’s Wife",
+        "zh": "祥林嫂"
+      },
+      "summary": {
+        "en": "A psychologically expressive portrait based on a major literary figure in modern Chinese literature.",
+        "zh": "以現代文學經典人物為基礎的心理性木刻肖像作品。"
+      },
+      "year": 1956,
+      "category": "Social Realism",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-008",
+      "title": {
+        "en": "Burning Old Land Deeds",
+        "zh": "燒毀舊地契"
+      },
+      "summary": {
+        "en": "A major historical woodcut documenting social transformation and land reform.",
+        "zh": "記錄社會變遷與土地改革的重要歷史木刻。"
+      },
+      "year": 1947,
+      "category": "Postwar China",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-009",
+      "title": {
+        "en": "Yan’an Landscape",
+        "zh": "延安風景"
+      },
+      "summary": {
+        "en": "A landscape work important for understanding symbolic representations of Yan’an in visual culture.",
+        "zh": "對理解延安視覺文化中的象征性風景表達具有研究意義。"
+      },
+      "year": "Unknown",
+      "category": "Landscape and Memory",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "canon",
+      "id": "CAN-010",
+      "title": {
+        "en": "Literacy Campaign",
+        "zh": "識一千字"
+      },
+      "summary": {
+        "en": "A visual example of wartime literacy and educational graphic culture.",
+        "zh": "戰時識字運動與教育圖像文化的重要視覺案例。"
+      },
+      "year": 1943,
+      "category": "Folk Graphic Language",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "museum-canon.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-001",
+      "title": {
+        "en": "The Carved Memory of Modern China",
+        "zh": "中國現代記憶的木刻史詩"
+      },
+      "summary": {
+        "en": "A permanent digital exhibition introducing Gu Yuan’s major works and their role in modern Chinese visual culture.",
+        "zh": "介紹古元重要作品及其在中國現代視覺文化中意義的常設數字展覽。"
+      },
+      "year": null,
+      "category": "Masterpieces and Historical Narrative",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-002",
+      "title": {
+        "en": "Early Wartime Woodcuts",
+        "zh": "早期戰時木刻"
+      },
+      "summary": {
+        "en": "A thematic exhibition focusing on Gu Yuan’s earliest wartime woodcuts created around 1939–1940.",
+        "zh": "聚焦1939至1940年前後古元早期戰時木刻作品的專題展覽。"
+      },
+      "year": null,
+      "category": "Wartime Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-003",
+      "title": {
+        "en": "Yan’an Visual Culture",
+        "zh": "延安視覺文化"
+      },
+      "summary": {
+        "en": "An exhibition exploring Gu Yuan’s Yan’an-period visual language and rural wartime experience.",
+        "zh": "探索古元延安時期視覺語言與鄉村戰爭經驗的研究型展覽。"
+      },
+      "year": null,
+      "category": "Rural Society and Wartime Experience",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-004",
+      "title": {
+        "en": "Folk Graphic Language",
+        "zh": "民間圖像語言"
+      },
+      "summary": {
+        "en": "A study exhibition examining Gu Yuan’s adaptation of folk art, New Year prints, and popular visual traditions.",
+        "zh": "研究古元如何吸收民間藝術、年畫與大眾視覺傳統的專題展覽。"
+      },
+      "year": null,
+      "category": "Folk Visual Tradition",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-005",
+      "title": {
+        "en": "Landscape and Memory",
+        "zh": "風景與記憶"
+      },
+      "summary": {
+        "en": "A poetic exhibition exploring Gu Yuan’s landscape works and later reflections on place and memory.",
+        "zh": "探索古元風景作品與晚年記憶表達的詩意展覽。"
+      },
+      "year": null,
+      "category": "Landscape and Emotional Reflection",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-006",
+      "title": {
+        "en": "Family Archive and Living Memory",
+        "zh": "家族檔案與活體記憶"
+      },
+      "summary": {
+        "en": "A digital archive exhibition presenting family photographs, memories, oral history, and intergenerational continuity connected to Gu Yuan’s legacy.",
+        "zh": "展示與古元藝術遺產相關的家族照片、口述歷史與跨代文化延續的數字檔案展覽。"
+      },
+      "year": null,
+      "category": "Family Continuity",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-007",
+      "title": {
+        "en": "Gu Yuan and Contemporary Print Culture",
+        "zh": "古元與當代版畫文化"
+      },
+      "summary": {
+        "en": "An exhibition examining Gu Yuan’s influence on contemporary printmaking, visual culture, and younger generations of artists.",
+        "zh": "探討古元對當代版畫、視覺文化與年輕藝術家的影響。"
+      },
+      "year": null,
+      "category": "Legacy and Influence",
+      "period": null,
+      "medium": null,
+      "status": "Planning",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "exhibition",
+      "id": "EXH-008",
+      "title": {
+        "en": "Digital Preservation Project",
+        "zh": "數字保存計劃"
+      },
+      "summary": {
+        "en": "A presentation of the ongoing digital preservation, translation, archive organization, and international research efforts related to Gu Yuan’s legacy.",
+        "zh": "展示古元數字保存、翻譯、檔案整理與國際研究工作的數字項目展覽。"
+      },
+      "year": null,
+      "category": "Digital Humanities and Preservation",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "exhibitions.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-001",
+      "title": {
+        "en": "Modern Chinese Printmaking",
+        "zh": "中國現代版畫"
+      },
+      "summary": {
+        "en": "Research on the development of modern Chinese woodcut printmaking through Gu Yuan’s artistic practice.",
+        "zh": "通過古元藝術實踐研究中國現代木刻版畫的發展。"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-002",
+      "title": {
+        "en": "Yan’an Visual Culture",
+        "zh": "延安視覺文化"
+      },
+      "summary": {
+        "en": "Study of visual language, rural imagery, and wartime representation during the Yan’an period.",
+        "zh": "研究延安時期視覺語言、鄉村圖像與戰爭表達。"
+      },
+      "year": null,
+      "category": "Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-003",
+      "title": {
+        "en": "Wartime Visual Documentation",
+        "zh": "戰時視覺記錄"
+      },
+      "summary": {
+        "en": "Exploration of how woodcut prints documented war, displacement, and civilian experience.",
+        "zh": "探討木刻如何記錄戰爭、流亡與平民經驗。"
+      },
+      "year": null,
+      "category": "Historical Visual Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-004",
+      "title": {
+        "en": "Folk Graphic Language",
+        "zh": "民間圖像語言"
+      },
+      "summary": {
+        "en": "Study of Gu Yuan’s adaptation of folk visual traditions and New Year print aesthetics.",
+        "zh": "研究古元如何吸收民間視覺傳統與年畫美學。"
+      },
+      "year": null,
+      "category": "Folk Art Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-005",
+      "title": {
+        "en": "Social Realism in Chinese Art",
+        "zh": "中國藝術中的社會現實主義"
+      },
+      "summary": {
+        "en": "Examination of social realism and everyday life representation in Gu Yuan’s works.",
+        "zh": "研究古元作品中的社會現實主義與日常生活表達。"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-006",
+      "title": {
+        "en": "Rural Society and Labor Imagery",
+        "zh": "鄉村社會與勞動圖像"
+      },
+      "summary": {
+        "en": "Research on agricultural labor, rural society, and village visual culture.",
+        "zh": "研究農業勞動、鄉村社會與村莊視覺文化。"
+      },
+      "year": null,
+      "category": "Social History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-007",
+      "title": {
+        "en": "Cross-Cultural Translation of Chinese Art",
+        "zh": "中國藝術的跨文化翻譯"
+      },
+      "summary": {
+        "en": "Research on translating Chinese visual culture into international museum and academic language.",
+        "zh": "研究如何將中國視覺文化轉化為國際美術館與學術語言。"
+      },
+      "year": null,
+      "category": "Translation Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-008",
+      "title": {
+        "en": "Family Archive and Oral History",
+        "zh": "家族檔案與口述歷史"
+      },
+      "summary": {
+        "en": "Study of family memory, oral history, and intergenerational archive preservation.",
+        "zh": "研究家族記憶、口述歷史與跨代檔案保存。"
+      },
+      "year": null,
+      "category": "Archive Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-009",
+      "title": {
+        "en": "Museum Digital Preservation",
+        "zh": "美術館數字保存"
+      },
+      "summary": {
+        "en": "Research on digital archiving, metadata systems, and online preservation of cultural heritage.",
+        "zh": "研究文化遺產數字檔案、metadata系統與在線保存。"
+      },
+      "year": null,
+      "category": "Digital Humanities",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "research-theme",
+      "id": "RES-010",
+      "title": {
+        "en": "Gu Yuan’s Influence on Contemporary Art",
+        "zh": "古元對當代藝術的影響"
+      },
+      "summary": {
+        "en": "Examination of Gu Yuan’s influence on later generations of artists, printmakers, and visual culture.",
+        "zh": "研究古元對後代藝術家、版畫家與視覺文化的影響。"
+      },
+      "year": null,
+      "category": "Contemporary Art Studies",
+      "period": null,
+      "medium": null,
+      "status": "Planning",
+      "sourceFile": "research-themes.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-001",
+      "title": {
+        "en": "Woodcut Printmaking",
+        "zh": "木刻版畫"
+      },
+      "summary": {
+        "en": "Modern Chinese woodcut printmaking practice",
+        "zh": "中國現代木刻版畫實踐"
+      },
+      "year": null,
+      "category": "Medium",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-002",
+      "title": {
+        "en": "Yan’an",
+        "zh": "延安"
+      },
+      "summary": {
+        "en": "Yan’an wartime visual and cultural context",
+        "zh": "延安時期視覺與文化背景"
+      },
+      "year": null,
+      "category": "Historical Location",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-003",
+      "title": {
+        "en": "Wartime China",
+        "zh": "戰時中國"
+      },
+      "summary": {
+        "en": "Visual representation of wartime society",
+        "zh": "戰爭時期社會視覺表達"
+      },
+      "year": null,
+      "category": "Historical Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-004",
+      "title": {
+        "en": "Rural Labor",
+        "zh": "鄉村勞動"
+      },
+      "summary": {
+        "en": "Agricultural work and labor imagery",
+        "zh": "農業勞動與勞動圖像"
+      },
+      "year": null,
+      "category": "Social Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-005",
+      "title": {
+        "en": "Folk Visual Language",
+        "zh": "民間視覺語言"
+      },
+      "summary": {
+        "en": "Folk-inspired graphic and symbolic imagery",
+        "zh": "受民間藝術影響的視覺語言"
+      },
+      "year": null,
+      "category": "Visual Language",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-006",
+      "title": {
+        "en": "Social Realism",
+        "zh": "社會現實主義"
+      },
+      "summary": {
+        "en": "Realist representation of ordinary people and society",
+        "zh": "對普通人和社會現實的藝術表達"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-007",
+      "title": {
+        "en": "Modern Chinese Art",
+        "zh": "中國現代藝術"
+      },
+      "summary": {
+        "en": "Twentieth-century Chinese visual art development",
+        "zh": "20世紀中國視覺藝術發展"
+      },
+      "year": null,
+      "category": "Art History",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-008",
+      "title": {
+        "en": "Print Culture",
+        "zh": "印刷文化"
+      },
+      "summary": {
+        "en": "Printmaking, publishing, and graphic culture",
+        "zh": "版畫、出版與圖像傳播文化"
+      },
+      "year": null,
+      "category": "Media Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-009",
+      "title": {
+        "en": "Landscape and Memory",
+        "zh": "風景與記憶"
+      },
+      "summary": {
+        "en": "Emotional and poetic landscape representation",
+        "zh": "情感與詩性風景表達"
+      },
+      "year": null,
+      "category": "Visual Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-010",
+      "title": {
+        "en": "Industrial Modernity",
+        "zh": "工業現代性"
+      },
+      "summary": {
+        "en": "Industrialization and reconstruction imagery",
+        "zh": "工業化與重建圖像"
+      },
+      "year": null,
+      "category": "Historical Theme",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-011",
+      "title": {
+        "en": "Family Archive",
+        "zh": "家族檔案"
+      },
+      "summary": {
+        "en": "Family-based cultural memory and preservation",
+        "zh": "家族文化記憶與保存"
+      },
+      "year": null,
+      "category": "Archive Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-012",
+      "title": {
+        "en": "Oral History",
+        "zh": "口述歷史"
+      },
+      "summary": {
+        "en": "Firsthand family and historical memory",
+        "zh": "第一手家族與歷史記憶"
+      },
+      "year": null,
+      "category": "Archive Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-013",
+      "title": {
+        "en": "Museum Archive",
+        "zh": "美術館檔案"
+      },
+      "summary": {
+        "en": "Institutional archive and preservation systems",
+        "zh": "美術館檔案與保存系統"
+      },
+      "year": null,
+      "category": "Museum Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-014",
+      "title": {
+        "en": "Cross-Cultural Translation",
+        "zh": "跨文化翻譯"
+      },
+      "summary": {
+        "en": "Translation of Chinese visual culture for international audiences",
+        "zh": "中國視覺文化的國際化翻譯"
+      },
+      "year": null,
+      "category": "Translation Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-015",
+      "title": {
+        "en": "Digital Preservation",
+        "zh": "數字保存"
+      },
+      "summary": {
+        "en": "Digital archiving and preservation workflow",
+        "zh": "數字檔案與保存流程"
+      },
+      "year": null,
+      "category": "Digital Humanities",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-016",
+      "title": {
+        "en": "Intergenerational Legacy",
+        "zh": "跨代傳承"
+      },
+      "summary": {
+        "en": "Artistic and cultural continuity across generations",
+        "zh": "藝術與文化的跨代延續"
+      },
+      "year": null,
+      "category": "Cultural Heritage",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-017",
+      "title": {
+        "en": "Contemporary Influence",
+        "zh": "當代影響"
+      },
+      "summary": {
+        "en": "Influence on younger generations and later artists",
+        "zh": "對後代藝術家與視覺文化的影響"
+      },
+      "year": null,
+      "category": "Contemporary Art",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-018",
+      "title": {
+        "en": "Museum Canon",
+        "zh": "核心館藏"
+      },
+      "summary": {
+        "en": "Core masterpieces and canonical works",
+        "zh": "美術館核心館藏作品"
+      },
+      "year": null,
+      "category": "Museum Studies",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-019",
+      "title": {
+        "en": "Chinese Visual Culture",
+        "zh": "中國視覺文化"
+      },
+      "summary": {
+        "en": "Development of modern Chinese visual imagery",
+        "zh": "中國現代視覺圖像發展"
+      },
+      "year": null,
+      "category": "Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    },
+    {
+      "type": "keyword",
+      "id": "TAG-020",
+      "title": {
+        "en": "Educational Graphics",
+        "zh": "教育圖像"
+      },
+      "summary": {
+        "en": "Literacy and public education graphics",
+        "zh": "識字與公共教育圖像"
+      },
+      "year": null,
+      "category": "Educational Visual Culture",
+      "period": null,
+      "medium": null,
+      "status": "Active",
+      "sourceFile": "keywords-tags.json"
+    }
+  ]
+}

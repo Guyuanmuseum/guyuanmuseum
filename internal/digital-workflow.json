@@ -1,0 +1,165 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Digital Workflow",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Workflow ID",
+      "Stage",
+      "Input",
+      "Process",
+      "Output",
+      "Platform",
+      "Automation Potential",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "workflowId": "WF-001",
+      "stage": "Research Collection",
+      "input": "Photos / documents / family memory",
+      "process": "Organize and identify archive materials",
+      "output": "Structured archive entries",
+      "platform": "Google Sheet",
+      "automationPotential": "High",
+      "status": "Active",
+      "notes": "Main archive intake process"
+    },
+    {
+      "_row": 3,
+      "workflowId": "WF-002",
+      "stage": "Metadata Structuring",
+      "input": "Raw archive material",
+      "process": "Add IDs, dates, tags, collections, rights",
+      "output": "Standardized metadata",
+      "platform": "Google Sheet",
+      "automationPotential": "High",
+      "status": "Active",
+      "notes": "Museum archive foundation"
+    },
+    {
+      "_row": 4,
+      "workflowId": "WF-003",
+      "stage": "Translation Workflow",
+      "input": "Chinese archive text",
+      "process": "Museum-style bilingual translation",
+      "output": "EN + CN archive text",
+      "platform": "AI + Google Sheet",
+      "automationPotential": "High",
+      "status": "Active",
+      "notes": "Internationalization system"
+    },
+    {
+      "_row": 5,
+      "workflowId": "WF-004",
+      "stage": "Curatorial Classification",
+      "input": "Artworks and photos",
+      "process": "Assign collections and canon levels",
+      "output": "Curated archive structure",
+      "platform": "Google Sheet",
+      "automationPotential": "Medium",
+      "status": "Active",
+      "notes": "Museum logic system"
+    },
+    {
+      "_row": 6,
+      "workflowId": "WF-005",
+      "stage": "AI Processing",
+      "input": "Structured database",
+      "process": "Generate summaries, captions, tags",
+      "output": "AI-ready content",
+      "platform": "AI Workflow",
+      "automationPotential": "Very High",
+      "status": "Active",
+      "notes": "Future AI archive search"
+    },
+    {
+      "_row": 7,
+      "workflowId": "WF-006",
+      "stage": "JSON Conversion",
+      "input": "Structured Google Sheet data",
+      "process": "Convert spreadsheet into JSON format",
+      "output": "Website-ready data",
+      "platform": "GitHub",
+      "automationPotential": "Very High",
+      "status": "Planning",
+      "notes": "Future automation core"
+    },
+    {
+      "_row": 8,
+      "workflowId": "WF-007",
+      "stage": "GitHub Sync",
+      "input": "JSON data",
+      "process": "Push updated content to repository",
+      "output": "Updated website content",
+      "platform": "GitHub",
+      "automationPotential": "High",
+      "status": "Planning",
+      "notes": "Codex integration later"
+    },
+    {
+      "_row": 9,
+      "workflowId": "WF-008",
+      "stage": "Website Deployment",
+      "input": "GitHub repository",
+      "process": "Automatic deployment",
+      "output": "Live website update",
+      "platform": "Vercel",
+      "automationPotential": "High",
+      "status": "Planning",
+      "notes": "Website automation"
+    },
+    {
+      "_row": 10,
+      "workflowId": "WF-009",
+      "stage": "Archive Review",
+      "input": "Draft content",
+      "process": "Family and curator review",
+      "output": "Approved archive content",
+      "platform": "Review Notes System",
+      "automationPotential": "Medium",
+      "status": "Active",
+      "notes": "Archive verification"
+    },
+    {
+      "_row": 11,
+      "workflowId": "WF-010",
+      "stage": "Museum Publishing",
+      "input": "Approved archive materials",
+      "process": "Public presentation",
+      "output": "Museum website pages",
+      "platform": "Website",
+      "automationPotential": "High",
+      "status": "Active",
+      "notes": "Public-facing layer"
+    },
+    {
+      "_row": 12,
+      "workflowId": "WF-011",
+      "stage": "Research Expansion",
+      "input": "Existing archive system",
+      "process": "Add scholars, essays, oral history",
+      "output": "Research platform",
+      "platform": "Archive + AI",
+      "automationPotential": "High",
+      "status": "Planning",
+      "notes": "University-level development"
+    },
+    {
+      "_row": 13,
+      "workflowId": "WF-012",
+      "stage": "Digital Preservation",
+      "input": "Structured archive system",
+      "process": "Long-term storage and backup",
+      "output": "Sustainable archive",
+      "platform": "Google Drive + GitHub",
+      "automationPotential": "Highest",
+      "status": "Active",
+      "notes": "Long-term preservation strategy"
+    }
+  ]
+}

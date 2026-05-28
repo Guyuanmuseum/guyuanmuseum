@@ -1,0 +1,175 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "People  Contributors tab",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "ID",
+      "Name EN",
+      "Name CN",
+      "Role",
+      "Relationship",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "id": "PEO-001",
+      "nameEn": "Gu Yuan",
+      "nameCn": "古元",
+      "role": "Artist",
+      "relationship": "Central archive figure",
+      "notes": "One of the most influential modern Chinese printmakers and visual artists of the twentieth century",
+      "imageUrlFile": "/images/portraits/GY-PH-1950s-GuYuanStudioPortrait.jpg"
+    },
+    {
+      "_row": 3,
+      "id": "PEO-002",
+      "nameEn": "Gu Ancun",
+      "nameCn": "古安村",
+      "role": "Family Archive Representative",
+      "relationship": "Daughter of Gu Yuan",
+      "notes": "Primary family archive contributor and important holder of family archival memory",
+      "imageUrlFile": "/images/family/GY-FAM-GuAncun.jpg"
+    },
+    {
+      "_row": 4,
+      "id": "PEO-003",
+      "nameEn": "Emily Huang",
+      "nameCn": "黃Emily",
+      "role": "Digital Archive Curator",
+      "relationship": "Project organizer",
+      "notes": "Oversees the Gu Yuan Digital Museum archive system, international development, and digital preservation workflow"
+    },
+    {
+      "_row": 5,
+      "id": "PEO-004",
+      "nameEn": "Wei Duan",
+      "nameCn": "段薇",
+      "role": "International Curator / Translation Director/Living Family Archive Representative/Intergenerational Curatorial Bridge",
+      "relationship": "Granddaughter of Gu Yuan",
+      "notes": "Raised by Gu Yuan and his wife from infancy and accompanied them throughout their later years. Serves as the international curator for Gu Yuan’s artworks and oversees the international translation and cross-cultural interpretation of his artistic legacy. Contributes to family archive communication, intergenerational preservation, and international cultural outreach.",
+      "imageUrlFile": "/images/family/GY-FAM-WeiDuan-BrookeDuan.jpg"
+    },
+    {
+      "_row": 6,
+      "id": "PEO-005",
+      "nameEn": "Tommy Zhang",
+      "nameCn": "張Tommy",
+      "role": "Contributor / Youth Ambassador / Emerging Artist",
+      "relationship": "Eldest son of Wei Duan; great-grandson of Gu Yuan",
+      "notes": "Currently based in China. Passionate about art, animation, and print media. His artworks have entered the art market in China. Represents the next generation of artistic development connected to the Gu Yuan family legacy and may pursue a future professional direction in the arts."
+    },
+    {
+      "_row": 7,
+      "id": "PEO-006",
+      "nameEn": "Sonny Zhang",
+      "nameCn": "張Sonny",
+      "role": "Family Descendant",
+      "relationship": "Child of Wei Duan",
+      "notes": "Represents the younger generation connected to the Gu Yuan family archive"
+    },
+    {
+      "_row": 8,
+      "id": "PEO-007",
+      "nameEn": "Lanny Zhang",
+      "nameCn": "張Lanny",
+      "role": "Family Descendant",
+      "relationship": "Child of Wei Duan",
+      "notes": "Participates in international cultural and educational development connected to the archive project"
+    },
+    {
+      "_row": 9,
+      "id": "PEO-008",
+      "nameEn": "Steven Zhang",
+      "nameCn": "張Steven",
+      "role": "Family Descendant",
+      "relationship": "Child of Wei Duan",
+      "notes": "Represents the younger generation connected to the Gu Yuan family archive"
+    },
+    {
+      "_row": 10,
+      "id": "PEO-009",
+      "nameEn": "Xu Bing",
+      "nameCn": "徐冰",
+      "role": "Artist / Former Student",
+      "relationship": "Student of Gu Yuan",
+      "notes": "Internationally recognized contemporary artist influenced by Gu Yuan’s teaching and artistic philosophy"
+    },
+    {
+      "_row": 11,
+      "id": "PEO-010",
+      "nameEn": "Gu Yuan Art Museum",
+      "nameCn": "古元美術館",
+      "role": "Institutional Partner",
+      "relationship": "Museum institution",
+      "notes": "Major institutional archive and exhibition center dedicated to Gu Yuan’s artistic legacy"
+    },
+    {
+      "_row": 12,
+      "id": "PEO-011",
+      "nameEn": "Central Academy of Fine Arts",
+      "nameCn": "中央美術學院",
+      "role": "Academic Institution",
+      "relationship": "Institutional connection",
+      "notes": "Gu Yuan served as professor and President of CAFA"
+    },
+    {
+      "_row": 13,
+      "id": "PEO-012",
+      "nameEn": "Kevin Huang",
+      "nameCn": "黃Kevin",
+      "role": "Contributor / Youth Ambassador",
+      "relationship": "Extended archive contributor",
+      "notes": "Colby College student contributing to research, art history, and international archive development"
+    },
+    {
+      "_row": 14,
+      "id": "PEO-013",
+      "nameEn": "Claire Huang",
+      "nameCn": "黃Claire",
+      "role": "Contributor / Youth Ambassador",
+      "relationship": "Extended archive contributor",
+      "notes": "Shattuck-St. Mary’s student representing youth cultural exchange and international engagement"
+    },
+    {
+      "_row": 15,
+      "id": "PEO-014",
+      "nameEn": "May Huang",
+      "nameCn": "黃May",
+      "role": "Contributor / Youth Ambassador",
+      "relationship": "Extended archive contributor",
+      "notes": "Represents the future generation of cultural preservation and youth archive participation"
+    },
+    {
+      "_row": 16,
+      "id": "PEO-015",
+      "nameEn": "Jiang Yuheng",
+      "nameCn": "蔣玉衡",
+      "role": "Family Archive Figure",
+      "relationship": "Wife of Gu Yuan",
+      "notes": "Married Gu Yuan in Yan’an in 1944. Accompanied and supported Gu Yuan throughout his artistic and family life. Important figure within the Gu Yuan family history and archive memory.",
+      "imageUrlFile": "/images/family/GY-FAM-JiangYuheng.jpg"
+    },
+    {
+      "_row": 17,
+      "id": "PEO-016",
+      "nameEn": "Gu Luojie",
+      "nameCn": "古羅結",
+      "role": "Family Member",
+      "relationship": "Son of Gu Yuan",
+      "notes": "Son of Gu Yuan and part of the Gu Yuan family lineage."
+    },
+    {
+      "_row": 18,
+      "id": "PEO-017",
+      "nameEn": "Gu Suran",
+      "nameCn": "古素然",
+      "role": "Family Member",
+      "relationship": "Daughter of Gu Yuan",
+      "notes": "Daughter of Gu Yuan and part of the Gu Yuan family lineage."
+    }
+  ]
+}

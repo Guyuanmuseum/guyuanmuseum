@@ -1,0 +1,171 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Website Status",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Update ID",
+      "Website Section",
+      "Content Source",
+      "Main Tasks",
+      "Priority",
+      "Status",
+      "Notes"
+    ],
+    "sourceSheetName": "Website Update Plan",
+    "note": "No exact Website Status tab was present in the export; this mirrors Website Update Plan status rows."
+  },
+  "records": [
+    {
+      "_row": 2,
+      "updateId": "UPD-001",
+      "websiteSection": "Homepage Hero",
+      "contentSource": "Homepage Strategy",
+      "mainTasks": "Update hero image, title, subtitle, museum atmosphere",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Main visual identity"
+    },
+    {
+      "_row": 3,
+      "updateId": "UPD-002",
+      "websiteSection": "About Gu Yuan",
+      "contentSource": "Biography / Timeline",
+      "mainTasks": "Add international biography and timeline",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Core educational page"
+    },
+    {
+      "_row": 4,
+      "updateId": "UPD-003",
+      "websiteSection": "Collections Page",
+      "contentSource": "Collections tab",
+      "mainTasks": "Create collection navigation structure",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Museum structure core"
+    },
+    {
+      "_row": 5,
+      "updateId": "UPD-004",
+      "websiteSection": "Museum Canon Page",
+      "contentSource": "Museum Canon tab",
+      "mainTasks": "Highlight masterpieces and canonical works",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Main museum identity"
+    },
+    {
+      "_row": 6,
+      "updateId": "UPD-005",
+      "websiteSection": "Exhibition Page",
+      "contentSource": "Exhibitions tab",
+      "mainTasks": "Add digital exhibition structure",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Curatorial experience"
+    },
+    {
+      "_row": 7,
+      "updateId": "UPD-006",
+      "websiteSection": "Archive Page",
+      "contentSource": "Artwork / Photo database",
+      "mainTasks": "Create searchable archive layout",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Research portal"
+    },
+    {
+      "_row": 8,
+      "updateId": "UPD-007",
+      "websiteSection": "Research Page",
+      "contentSource": "Research Themes tab",
+      "mainTasks": "Add academic themes and research directions",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "University-facing section"
+    },
+    {
+      "_row": 9,
+      "updateId": "UPD-008",
+      "websiteSection": "Family Archive Page",
+      "contentSource": "Family Archive system",
+      "mainTasks": "Present family continuity and oral memory",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Unique archive identity"
+    },
+    {
+      "_row": 10,
+      "updateId": "UPD-009",
+      "websiteSection": "Contributors Page",
+      "contentSource": "Governance Structure",
+      "mainTasks": "Add contributors and youth ambassadors",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Institutional structure"
+    },
+    {
+      "_row": 11,
+      "updateId": "UPD-010",
+      "websiteSection": "Digital Preservation Page",
+      "contentSource": "Digital Workflow tab",
+      "mainTasks": "Explain archive and preservation workflow",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Funding and institutional value"
+    },
+    {
+      "_row": 12,
+      "updateId": "UPD-011",
+      "websiteSection": "AI Search System",
+      "contentSource": "Keywords / JSON structure",
+      "mainTasks": "Build future AI-powered search framework",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Long-term innovation"
+    },
+    {
+      "_row": 13,
+      "updateId": "UPD-012",
+      "websiteSection": "Publications Page",
+      "contentSource": "Research archive",
+      "mainTasks": "Add essays, references, catalogues",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Academic growth"
+    },
+    {
+      "_row": 14,
+      "updateId": "UPD-013",
+      "websiteSection": "Oral History Page",
+      "contentSource": "Family archive / interviews",
+      "mainTasks": "Add interviews and memory narratives",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Living archive system"
+    },
+    {
+      "_row": 15,
+      "updateId": "UPD-014",
+      "websiteSection": "Institutional Collaboration Page",
+      "contentSource": "Institutional Strategy",
+      "mainTasks": "Add museum and university partnerships",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "External collaboration"
+    },
+    {
+      "_row": 16,
+      "updateId": "UPD-015",
+      "websiteSection": "Footer / Contact",
+      "contentSource": "Metadata / governance",
+      "mainTasks": "Add contact, copyright, archive notice",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Institutional professionalism"
+    }
+  ]
+}

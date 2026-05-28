@@ -1,0 +1,51 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "6-Month Priority Plan",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Month",
+      "Priority",
+      "Main Tasks"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "month": "Month 1",
+      "priority": "Structure",
+      "mainTasks": "Complete database tabs and upload core biography / timeline"
+    },
+    {
+      "_row": 3,
+      "month": "Month 2",
+      "priority": "Content",
+      "mainTasks": "Expand artworks, photos, museum canon, collections"
+    },
+    {
+      "_row": 4,
+      "month": "Month 3",
+      "priority": "Website",
+      "mainTasks": "Update homepage, biography, collections, exhibitions"
+    },
+    {
+      "_row": 5,
+      "month": "Month 4",
+      "priority": "Review",
+      "mainTasks": "Family review, source verification, correction"
+    },
+    {
+      "_row": 6,
+      "month": "Month 5",
+      "priority": "Outreach",
+      "mainTasks": "Create project deck and begin university / museum outreach"
+    },
+    {
+      "_row": 7,
+      "month": "Month 6",
+      "priority": "Launch",
+      "mainTasks": "Launch Version 1 international digital museum"
+    }
+  ]
+}

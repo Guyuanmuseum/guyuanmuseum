@@ -1,0 +1,45 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "人物身份 metadata",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "ID",
+      "File Name",
+      "Title EN",
+      "Title CN",
+      "Year",
+      "Category",
+      "Medium",
+      "People/Subject",
+      "Description EN",
+      "Description CN",
+      "Source",
+      "Rights Status",
+      "Collection",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "id": "PH-031",
+      "fileName": "GY-PH-ExhibitionSpeech.jpg",
+      "titleEn": "Gu Ancun Speaking at Exhibition",
+      "titleCn": "古安村展覽發言",
+      "year": "Unknown",
+      "category": "Exhibition Photo",
+      "medium": "Photograph",
+      "peopleSubject": "Gu Ancun",
+      "descriptionEn": "Gu Ancun speaking at a Gu Yuan-related exhibition or academic event.",
+      "descriptionCn": "古安村在古元相關展覽或學術活動中的發言現場。",
+      "source": "Uploaded material",
+      "rightsStatus": "To be confirmed",
+      "collection": "Exhibition Archive",
+      "status": "Draft",
+      "notes": "Daughter of Gu Yuan,Gu Yuan Family Archive Contributor"
+    }
+  ]
+}

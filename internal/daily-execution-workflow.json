@@ -1,0 +1,152 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Daily Execution Workflow",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Task ID",
+      "Daily Workflow Stage",
+      "Main Action",
+      "Platform",
+      "Output",
+      "Estimated Time",
+      "Priority",
+      "Status"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "taskId": "EXEC-001",
+      "dailyWorkflowStage": "Collect Materials",
+      "mainAction": "Collect artworks, photos, family documents, references",
+      "platform": "Google Drive",
+      "output": "Raw archive materials",
+      "estimatedTime": "30–60 min",
+      "priority": "Highest",
+      "status": "Active"
+    },
+    {
+      "_row": 3,
+      "taskId": "EXEC-002",
+      "dailyWorkflowStage": "Archive Sorting",
+      "mainAction": "Rename and organize files into folders",
+      "platform": "Google Drive",
+      "output": "Structured folders",
+      "estimatedTime": "30 min",
+      "priority": "Highest",
+      "status": "Active"
+    },
+    {
+      "_row": 4,
+      "taskId": "EXEC-003",
+      "dailyWorkflowStage": "Database Entry",
+      "mainAction": "Add metadata into Google Sheet",
+      "platform": "Google Sheet",
+      "output": "Structured archive entries",
+      "estimatedTime": "30–90 min",
+      "priority": "Highest",
+      "status": "Active"
+    },
+    {
+      "_row": 5,
+      "taskId": "EXEC-004",
+      "dailyWorkflowStage": "Translation Review",
+      "mainAction": "Refine EN/CN museum-style language",
+      "platform": "AI + Google Sheet",
+      "output": "International-ready text",
+      "estimatedTime": "30–60 min",
+      "priority": "High",
+      "status": "Active"
+    },
+    {
+      "_row": 6,
+      "taskId": "EXEC-005",
+      "dailyWorkflowStage": "Collection Assignment",
+      "mainAction": "Assign artworks into collections",
+      "platform": "Google Sheet",
+      "output": "Curatorial structure",
+      "estimatedTime": "20–40 min",
+      "priority": "High",
+      "status": "Active"
+    },
+    {
+      "_row": 7,
+      "taskId": "EXEC-006",
+      "dailyWorkflowStage": "Museum Canon Review",
+      "mainAction": "Identify masterpiece / canon works",
+      "platform": "Google Sheet",
+      "output": "Museum hierarchy",
+      "estimatedTime": "20–30 min",
+      "priority": "High",
+      "status": "Active"
+    },
+    {
+      "_row": 8,
+      "taskId": "EXEC-007",
+      "dailyWorkflowStage": "Website Content Update",
+      "mainAction": "Transfer archive content into website sections",
+      "platform": "Website / GitHub",
+      "output": "Updated public pages",
+      "estimatedTime": "30–90 min",
+      "priority": "Highest",
+      "status": "Planning"
+    },
+    {
+      "_row": 9,
+      "taskId": "EXEC-008",
+      "dailyWorkflowStage": "Family Review",
+      "mainAction": "Send screenshots or pages to Gu Ancun / Wei Duan",
+      "platform": "WeChat",
+      "output": "Corrections and archive validation",
+      "estimatedTime": "Flexible",
+      "priority": "High",
+      "status": "Active"
+    },
+    {
+      "_row": 10,
+      "taskId": "EXEC-009",
+      "dailyWorkflowStage": "AI Structuring",
+      "mainAction": "Convert structured archive into AI-readable format",
+      "platform": "JSON / GitHub",
+      "output": "AI archive system",
+      "estimatedTime": "Future",
+      "priority": "Medium",
+      "status": "Planning"
+    },
+    {
+      "_row": 11,
+      "taskId": "EXEC-010",
+      "dailyWorkflowStage": "Backup & Preservation",
+      "mainAction": "Backup sheets and images",
+      "platform": "Google Drive + GitHub",
+      "output": "Archive safety",
+      "estimatedTime": "10–20 min",
+      "priority": "Highest",
+      "status": "Active"
+    },
+    {
+      "_row": 12,
+      "taskId": "EXEC-011",
+      "dailyWorkflowStage": "Research Expansion",
+      "mainAction": "Add academic themes and references",
+      "platform": "Research tab",
+      "output": "Research growth",
+      "estimatedTime": "Flexible",
+      "priority": "Medium",
+      "status": "Planning"
+    },
+    {
+      "_row": 13,
+      "taskId": "EXEC-012",
+      "dailyWorkflowStage": "Outreach Preparation",
+      "mainAction": "Build presentation deck and institutional materials",
+      "platform": "PPT / Canva",
+      "output": "Partnership-ready materials",
+      "estimatedTime": "Flexible",
+      "priority": "Medium",
+      "status": "Planning"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Governance Structure",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Role ID",
+      "Position Title EN",
+      "Position Title CN",
+      "Person",
+      "Main Responsibilities",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "roleId": "GOV-001",
+      "positionTitleEn": "Founder & Digital Archive Director",
+      "positionTitleCn": "創始人與數字檔案总监",
+      "person": "Emily Huang",
+      "mainResponsibilities": "Project vision, digital archive strategy, AI workflow, international development, institutional coordination",
+      "status": "Active",
+      "notes": "Core project leadership"
+    },
+    {
+      "_row": 3,
+      "roleId": "GOV-002",
+      "positionTitleEn": "Family Archive Representative",
+      "positionTitleCn": "家族檔案代表",
+      "person": "Gu Ancun",
+      "mainResponsibilities": "Family archive guidance, historical verification, family memory preservation",
+      "status": "Active",
+      "notes": "Primary family archive authority"
+    },
+    {
+      "_row": 4,
+      "roleId": "GOV-003",
+      "positionTitleEn": "International Curator & Translation Director",
+      "positionTitleCn": "國際策展人與翻譯總監",
+      "person": "Wei Duan",
+      "mainResponsibilities": "International curatorial direction, artwork translation, cross-cultural interpretation, family archive continuity",
+      "status": "Active",
+      "notes": "Core international cultural role"
+    },
+    {
+      "_row": 5,
+      "roleId": "GOV-004",
+      "positionTitleEn": "Youth Ambassador / Emerging Artist",
+      "positionTitleCn": "青年文化大使 / 新生代藝術家",
+      "person": "Tommy Zhang",
+      "mainResponsibilities": "Youth cultural outreach, contemporary artistic continuity, visual media contribution",
+      "status": "Active",
+      "notes": "Future artistic direction"
+    },
+    {
+      "_row": 6,
+      "roleId": "GOV-005",
+      "positionTitleEn": "Contributor / Youth Ambassador",
+      "positionTitleCn": "貢獻者 / 青年文化大使",
+      "person": "Sonny Zhang",
+      "mainResponsibilities": "Youth participation and cultural continuity",
+      "status": "Active",
+      "notes": "Family archive continuity"
+    },
+    {
+      "_row": 7,
+      "roleId": "GOV-006",
+      "positionTitleEn": "Contributor / Youth Ambassador",
+      "positionTitleCn": "貢獻者 / 青年文化大使",
+      "person": "Lanny Zhang",
+      "mainResponsibilities": "International cultural communication and educational outreach",
+      "status": "Active",
+      "notes": "International youth direction"
+    },
+    {
+      "_row": 8,
+      "roleId": "GOV-007",
+      "positionTitleEn": "Contributor / Youth Ambassador",
+      "positionTitleCn": "貢獻者 / 青年文化大使",
+      "person": "Steven Zhang",
+      "mainResponsibilities": "Youth archive participation and cultural preservation",
+      "status": "Active",
+      "notes": "Future archive continuity"
+    },
+    {
+      "_row": 9,
+      "roleId": "GOV-008",
+      "positionTitleEn": "Research Contributor / Youth Ambassador",
+      "positionTitleCn": "研究貢獻者 / 青年文化大使",
+      "person": "Kevin Huang",
+      "mainResponsibilities": "Art history research, archive development, academic contribution",
+      "status": "Active",
+      "notes": "University-level research potential"
+    },
+    {
+      "_row": 10,
+      "roleId": "GOV-009",
+      "positionTitleEn": "Contributor / Youth Ambassador",
+      "positionTitleCn": "貢獻者 / 青年文化大使",
+      "person": "Claire Huang",
+      "mainResponsibilities": "Youth cultural exchange and international engagement",
+      "status": "Active",
+      "notes": "International youth outreach"
+    },
+    {
+      "_row": 11,
+      "roleId": "GOV-010",
+      "positionTitleEn": "Contributor / Youth Ambassador",
+      "positionTitleCn": "貢獻者 / 青年文化大使",
+      "person": "May Huang",
+      "mainResponsibilities": "Youth archive participation and educational continuity",
+      "status": "Active",
+      "notes": "Next-generation cultural education"
+    },
+    {
+      "_row": 12,
+      "roleId": "GOV-011",
+      "positionTitleEn": "Institutional Partner",
+      "positionTitleCn": "機構合作方",
+      "person": "Gu Yuan Art Museum",
+      "mainResponsibilities": "Museum collaboration, archive reference, exhibition context",
+      "status": "Planning",
+      "notes": "Key China-side institution"
+    },
+    {
+      "_row": 13,
+      "roleId": "GOV-012",
+      "positionTitleEn": "Academic Institution",
+      "positionTitleCn": "學術機構",
+      "person": "Central Academy of Fine Arts",
+      "mainResponsibilities": "Historical institutional connection and academic context",
+      "status": "Planning",
+      "notes": "Important historical relationship"
+    }
+  ]
+}

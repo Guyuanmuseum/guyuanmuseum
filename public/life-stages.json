@@ -1,0 +1,113 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Life Stages｜人生階段數據庫",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "ID",
+      "Stage EN",
+      "Stage CN",
+      "Period",
+      "Theme EN",
+      "Theme CN",
+      "Description EN",
+      "Description CN",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "id": "STAGE-001",
+      "stageEn": "Early Life",
+      "stageCn": "早年成長",
+      "period": "1919–1937",
+      "themeEn": "Zhuhai and Early Education",
+      "themeCn": "珠海與早期教育",
+      "descriptionEn": "Gu Yuan’s early years in southern China shaped his visual sensitivity to rural landscapes, village life, and local culture.",
+      "descriptionCn": "古元在中國南方的成長經歷塑造了他對鄉村景觀、地方文化與日常生活的視覺感受力。",
+      "status": "Draft",
+      "notes": "Initial framework"
+    },
+    {
+      "_row": 3,
+      "id": "STAGE-002",
+      "stageEn": "Yan’an Period",
+      "stageCn": "延安時期",
+      "period": "1938–1945",
+      "themeEn": "Wartime Printmaking and Visual Culture",
+      "themeCn": "戰時木刻與視覺文化",
+      "descriptionEn": "During his years in Yan’an, Gu Yuan developed woodcut printmaking into a socially engaged visual language connected to wartime experience and rural society.",
+      "descriptionCn": "延安時期，古元逐漸將木刻發展為一種與戰爭經驗及鄉村社會緊密相關的社會性視覺語言。",
+      "status": "Draft",
+      "notes": "Initial framework"
+    },
+    {
+      "_row": 4,
+      "id": "STAGE-003",
+      "stageEn": "Postwar China",
+      "stageCn": "戰後時期",
+      "period": "1945–1949",
+      "themeEn": "Land Reform and Social Transformation",
+      "themeCn": "土地改革與社會轉型",
+      "descriptionEn": "Following the end of the war, Gu Yuan participated in visual documentation of land reform and social transformation in northern China.",
+      "descriptionCn": "戰後時期，古元參與了中國北方土地改革與社會變遷的視覺記錄。",
+      "status": "Draft",
+      "notes": "Initial framework"
+    },
+    {
+      "_row": 5,
+      "id": "STAGE-004",
+      "stageEn": "Early PRC Period",
+      "stageCn": "新中國初期",
+      "period": "1949–1959",
+      "themeEn": "National Art Institutions and Printmaking",
+      "themeCn": "國家藝術機構與版畫發展",
+      "descriptionEn": "In the early years of the People’s Republic of China, Gu Yuan contributed to national art publishing, printmaking development, and visual education.",
+      "descriptionCn": "在新中國初期，古元參與國家藝術出版、版畫發展與視覺教育建設。",
+      "status": "Draft",
+      "notes": "Initial framework"
+    },
+    {
+      "_row": 6,
+      "id": "STAGE-005",
+      "stageEn": "CAFA Period",
+      "stageCn": "中央美院時期",
+      "period": "1959–1987",
+      "themeEn": "Art Education and Institutional Leadership",
+      "themeCn": "美術教育與學院領導",
+      "descriptionEn": "As professor and later President of the Central Academy of Fine Arts, Gu Yuan played a major role in modern Chinese art education.",
+      "descriptionCn": "作為中央美術學院教授及院長，古元在中國現代美術教育中發揮了重要作用。",
+      "status": "Draft",
+      "notes": "Initial framework"
+    },
+    {
+      "_row": 7,
+      "id": "STAGE-006",
+      "stageEn": "Late Years and Legacy",
+      "stageCn": "晚年與遺產",
+      "period": "1987–1996",
+      "themeEn": "Memory, Landscape, and Reflection",
+      "themeCn": "記憶、風景與回望",
+      "descriptionEn": "In his later years, Gu Yuan increasingly reflected on memory, landscape, and his relationship to his hometown and artistic legacy.",
+      "descriptionCn": "晚年時期，古元更多關注記憶、風景以及故鄉與藝術遺產之間的關系。",
+      "status": "Draft",
+      "notes": "Initial framework"
+    },
+    {
+      "_row": 8,
+      "id": "STAGE-007",
+      "stageEn": "Digital Preservation",
+      "stageCn": "數字保存與當代傳承",
+      "period": "1996–Present",
+      "themeEn": "Museum, Archive, and Global Access",
+      "themeCn": "美術館、檔案與全球傳播",
+      "descriptionEn": "Today, Gu Yuan’s works and archives continue to be preserved through museums, research, and digital initiatives aimed at international accessibility.",
+      "descriptionCn": null,
+      "status": null,
+      "notes": null
+    }
+  ]
+}

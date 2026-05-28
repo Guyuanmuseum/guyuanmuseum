@@ -1,0 +1,163 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Timeline時間線",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Year",
+      "Event EN",
+      "Event CN",
+      "Category"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "year": 1919,
+      "eventEn": "Gu Yuan was born in Nazhou Village, Tangjiawan, Zhuhai, Guangdong Province.",
+      "eventCn": "古元出生於廣東珠海唐家灣那洲村。",
+      "category": "Early Life"
+    },
+    {
+      "_row": 3,
+      "year": 1932,
+      "eventEn": "Entered Guangdong Provincial No.1 Middle School (Guangya High School).",
+      "eventCn": "考入廣東省立第一中學（廣雅中學）。",
+      "category": "Education"
+    },
+    {
+      "_row": 4,
+      "year": 1937,
+      "eventEn": "Returned to his hometown after the outbreak of the Second Sino-Japanese War and worked as a substitute primary school teacher.",
+      "eventCn": "抗日戰爭爆發後回鄉擔任小學代課教師。",
+      "category": "Wartime China"
+    },
+    {
+      "_row": 5,
+      "year": 1938,
+      "eventEn": "Went to Yan’an and studied at Shaanbei Public School and Lu Xun Academy of Arts.",
+      "eventCn": "奔赴延安，先後進入陝北公學與魯迅藝術學院學習。",
+      "category": "Yan’an Period"
+    },
+    {
+      "_row": 6,
+      "year": 1939,
+      "eventEn": "Began woodcut printmaking and created early works during his studies in Yan’an.",
+      "eventCn": "開始木刻創作，并完成早期作品。",
+      "category": "Printmaking"
+    },
+    {
+      "_row": 7,
+      "year": 1940,
+      "eventEn": "Worked in Nianzhuang Township, Yan’an County, where he documented rural life through woodcut art.",
+      "eventCn": "在延安縣碾莊鄉工作，并以木刻記錄農村生活。",
+      "category": "Rural Life"
+    },
+    {
+      "_row": 8,
+      "year": 1942,
+      "eventEn": "Attended the Yan’an Forum on Literature and Art; his works received national attention through the National Woodcut Exhibition in Chongqing.",
+      "eventCn": "參加延安文藝座談會，其作品在重慶全國木刻展受到廣泛關注。",
+      "category": "Wartime Printmaking"
+    },
+    {
+      "_row": 9,
+      "year": 1944,
+      "eventEn": "Recognized as a model cultural and educational worker in the Shaan-Gan-Ning Border Region.",
+      "eventCn": "被評為陝甘寧邊區文教模範。",
+      "category": "Recognition"
+    },
+    {
+      "_row": 10,
+      "year": 1945,
+      "eventEn": "Left Yan’an with Lu Xun Academy and later remained in the North China Liberated Area.",
+      "eventCn": "隨魯藝離開延安，後留在華北解放區。",
+      "category": "Postwar China"
+    },
+    {
+      "_row": 11,
+      "year": 1947,
+      "eventEn": "Participated in land reform and created works including Burning Old Land Deeds.",
+      "eventCn": "參與土地改革并創作《燒毀舊地契》等作品。",
+      "category": "Land Reform"
+    },
+    {
+      "_row": 12,
+      "year": 1949,
+      "eventEn": "Participated in the First World Peace Congress.",
+      "eventCn": "參加第一屆世界和平大會。",
+      "category": "International Exchange"
+    },
+    {
+      "_row": 13,
+      "year": 1951,
+      "eventEn": "Created Chairman Mao Talking with Farmers, which received a national New Year Picture award.",
+      "eventCn": "創作《毛主席和農民談話》，獲全國新年畫獎項。",
+      "category": "New China"
+    },
+    {
+      "_row": 14,
+      "year": 1952,
+      "eventEn": "Became Director of the Creative Studio at People’s Fine Arts Publishing House.",
+      "eventCn": "出任人民美術出版社創作室主任。",
+      "category": "Art Institution"
+    },
+    {
+      "_row": 15,
+      "year": 1959,
+      "eventEn": "Joined the Central Academy of Fine Arts as professor and head of printmaking studies.",
+      "eventCn": "調任中央美術學院教授及版畫系負責人。",
+      "category": "CAFA Period"
+    },
+    {
+      "_row": 16,
+      "year": 1979,
+      "eventEn": "Appointed Vice President of the Central Academy of Fine Arts.",
+      "eventCn": "任中央美術學院副院長。",
+      "category": "Leadership"
+    },
+    {
+      "_row": 17,
+      "year": 1983,
+      "eventEn": "Became President of the Central Academy of Fine Arts.",
+      "eventCn": "任中央美術學院院長。",
+      "category": "Leadership"
+    },
+    {
+      "_row": 18,
+      "year": 1987,
+      "eventEn": "Received the Order of the Oak Crown from Luxembourg.",
+      "eventCn": "獲盧森堡皇冠勳章。",
+      "category": "International Recognition"
+    },
+    {
+      "_row": 19,
+      "year": 1996,
+      "eventEn": "Passed away in Beijing at the age of 77.",
+      "eventCn": "於北京逝世，享年77歲。",
+      "category": "Legacy"
+    },
+    {
+      "_row": 20,
+      "year": 2007,
+      "eventEn": "A group of works and archival materials were donated to Zhuhai according to his wishes.",
+      "eventCn": "按其遺願，部分作品與檔案捐贈珠海。",
+      "category": "Legacy"
+    },
+    {
+      "_row": 21,
+      "year": 2023,
+      "eventEn": "Major works by Gu Yuan were added to China’s restricted export list for post-1911 artists.",
+      "eventCn": "古元重要作品被列入限制出境名單。",
+      "category": "Cultural Preservation"
+    },
+    {
+      "_row": 22,
+      "year": 2024,
+      "eventEn": "The new building of Gu Yuan Art Museum in Zhuhai opened to the public.",
+      "eventCn": "珠海古元美術館新館正式開放。",
+      "category": "Museum Development"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Project Deck",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Slide ID",
+      "Slide Title EN",
+      "Slide Title CN",
+      "Purpose",
+      "Key Content",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "slideId": "DECK-001",
+      "slideTitleEn": "Project Vision",
+      "slideTitleCn": "項目願景",
+      "purpose": "Introduce the mission",
+      "keyContent": "Gu Yuan Digital Museum as an international digital archive of modern Chinese visual culture",
+      "status": "Draft",
+      "notes": "Opening slide"
+    },
+    {
+      "_row": 3,
+      "slideId": "DECK-002",
+      "slideTitleEn": "Why Gu Yuan Matters",
+      "slideTitleCn": "古元為何重要",
+      "purpose": "Explain historical value",
+      "keyContent": "Modern Chinese printmaking, Yan’an visual culture, CAFA leadership, cultural memory",
+      "status": "Draft",
+      "notes": "Core argument"
+    },
+    {
+      "_row": 4,
+      "slideId": "DECK-003",
+      "slideTitleEn": "The Need for Digital Preservation",
+      "slideTitleCn": "為什么需要數字保存",
+      "purpose": "Explain urgency",
+      "keyContent": "Major original works are difficult to access internationally; digital archive creates global research access",
+      "status": "Draft",
+      "notes": "Very important"
+    },
+    {
+      "_row": 5,
+      "slideId": "DECK-004",
+      "slideTitleEn": "Archive Structure",
+      "slideTitleCn": "檔案結構",
+      "purpose": "Show system",
+      "keyContent": "Timeline, Biography, Artworks, Photos, Sources, People, Collections",
+      "status": "Draft",
+      "notes": "Use Google Sheet screenshots later"
+    },
+    {
+      "_row": 6,
+      "slideId": "DECK-005",
+      "slideTitleEn": "Museum Canon",
+      "slideTitleCn": "核心館藏",
+      "purpose": "Highlight masterpieces",
+      "keyContent": "Human Bridge, Rent Reduction Meeting, Divorce Petition, Transporting Grass, Jade Belt Bridge",
+      "status": "Draft",
+      "notes": "Visual slide"
+    },
+    {
+      "_row": 7,
+      "slideId": "DECK-006",
+      "slideTitleEn": "Research Themes",
+      "slideTitleCn": "研究方向",
+      "purpose": "Show academic value",
+      "keyContent": "Modern Chinese printmaking, wartime visual culture, folk graphic language, digital humanities",
+      "status": "Draft",
+      "notes": "University-facing"
+    },
+    {
+      "_row": 8,
+      "slideId": "DECK-007",
+      "slideTitleEn": "Family Archive Support",
+      "slideTitleCn": "家族檔案支持",
+      "purpose": "Establish credibility",
+      "keyContent": "Gu Ancun, Wei Duan, family memory, oral history, intergenerational preservation",
+      "status": "Draft",
+      "notes": "Very important"
+    },
+    {
+      "_row": 9,
+      "slideId": "DECK-008",
+      "slideTitleEn": "International Curatorial Team",
+      "slideTitleCn": "國際策展团队",
+      "purpose": "Show roles",
+      "keyContent": "Emily Huang, Wei Duan, youth ambassadors, contributors",
+      "status": "Draft",
+      "notes": "Team slide"
+    },
+    {
+      "_row": 10,
+      "slideId": "DECK-009",
+      "slideTitleEn": "Digital Humanities + AI",
+      "slideTitleCn": "數字人文與AI",
+      "purpose": "Show innovation",
+      "keyContent": "Google Sheet database, metadata, JSON, GitHub, Vercel, AI search future",
+      "status": "Draft",
+      "notes": "Funding value"
+    },
+    {
+      "_row": 11,
+      "slideId": "DECK-010",
+      "slideTitleEn": "Youth Ambassadors",
+      "slideTitleCn": "青年文化大使",
+      "purpose": "Show future continuity",
+      "keyContent": "Tommy, Sonny, Lanny, Steven, Kevin, Claire, May",
+      "status": "Draft",
+      "notes": "Education/outreach"
+    },
+    {
+      "_row": 12,
+      "slideId": "DECK-011",
+      "slideTitleEn": "Institutional Opportunities",
+      "slideTitleCn": "機構合作機會",
+      "purpose": "Show partnership path",
+      "keyContent": "Universities, museums, foundations, cultural organizations",
+      "status": "Draft",
+      "notes": "Partnership slide"
+    },
+    {
+      "_row": 13,
+      "slideId": "DECK-012",
+      "slideTitleEn": "Funding Needs",
+      "slideTitleCn": "資金需求",
+      "purpose": "Prepare grant/sponsor ask",
+      "keyContent": "Digital archive, translation, image rights, website, research, exhibition",
+      "status": "Draft",
+      "notes": "Future fundraising"
+    },
+    {
+      "_row": 14,
+      "slideId": "DECK-013",
+      "slideTitleEn": "Roadmap",
+      "slideTitleCn": "發展路線圖",
+      "purpose": "Show timeline",
+      "keyContent": "6-month website build, 1-year archive expansion, 3-year international platform",
+      "status": "Draft",
+      "notes": "Strategic slide"
+    },
+    {
+      "_row": 15,
+      "slideId": "DECK-014",
+      "slideTitleEn": "Call to Collaboration",
+      "slideTitleCn": "合作邀请",
+      "purpose": "Closing",
+      "keyContent": "Invite museums, universities, researchers, funders, and cultural partners",
+      "status": "Draft",
+      "notes": "Final slide"
+    }
+  ]
+}

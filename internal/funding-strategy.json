@@ -1,0 +1,185 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Funding Strategy",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Funding ID",
+      "Funding Type",
+      "Target Organization / Source",
+      "Purpose",
+      "Possible Amount / Support",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "fundingId": "FUND-001",
+      "fundingType": "Arts Grant",
+      "targetOrganizationSource": "Canada Council for the Arts",
+      "purpose": "Digital archive and cultural preservation",
+      "possibleAmountSupport": "Medium to Large",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Major Canadian arts funding"
+    },
+    {
+      "_row": 3,
+      "fundingId": "FUND-002",
+      "fundingType": "Provincial Arts Grant",
+      "targetOrganizationSource": "Ontario Arts Council",
+      "purpose": "Archive, exhibition, education support",
+      "possibleAmountSupport": "Small to Medium",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Local Ontario support"
+    },
+    {
+      "_row": 4,
+      "fundingId": "FUND-003",
+      "fundingType": "Digital Humanities Grant",
+      "targetOrganizationSource": "Universities / Research Centers",
+      "purpose": "AI archive and metadata development",
+      "possibleAmountSupport": "Medium to Large",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Strong university direction"
+    },
+    {
+      "_row": 5,
+      "fundingId": "FUND-004",
+      "fundingType": "Museum Partnership Support",
+      "targetOrganizationSource": "Museums and galleries",
+      "purpose": "Exhibition collaboration and archive visibility",
+      "possibleAmountSupport": "Institutional support",
+      "priority": "High",
+      "status": "Future",
+      "notes": "Museum collaboration path"
+    },
+    {
+      "_row": 6,
+      "fundingId": "FUND-005",
+      "fundingType": "Cultural Heritage Grant",
+      "targetOrganizationSource": "Heritage organizations",
+      "purpose": "Preservation of modern Chinese visual culture",
+      "possibleAmountSupport": "Medium",
+      "priority": "High",
+      "status": "Future",
+      "notes": "Archive preservation direction"
+    },
+    {
+      "_row": 7,
+      "fundingId": "FUND-006",
+      "fundingType": "Academic Collaboration",
+      "targetOrganizationSource": "Universities",
+      "purpose": "Research assistantships and student participation",
+      "possibleAmountSupport": "Research support",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "York / Colby potential"
+    },
+    {
+      "_row": 8,
+      "fundingId": "FUND-007",
+      "fundingType": "Foundation Sponsorship",
+      "targetOrganizationSource": "Cultural foundations",
+      "purpose": "International cultural exchange and archive growth",
+      "possibleAmountSupport": "Medium to Large",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Long-term institutional funding"
+    },
+    {
+      "_row": 9,
+      "fundingId": "FUND-008",
+      "fundingType": "Corporate Sponsorship",
+      "targetOrganizationSource": "Technology and media companies",
+      "purpose": "AI archive infrastructure and website development",
+      "possibleAmountSupport": "Medium",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "AI / digital innovation angle"
+    },
+    {
+      "_row": 10,
+      "fundingId": "FUND-009",
+      "fundingType": "Private Donation",
+      "targetOrganizationSource": "Collectors and supporters",
+      "purpose": "Archive expansion and preservation",
+      "possibleAmountSupport": "Flexible",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Supporter network"
+    },
+    {
+      "_row": 11,
+      "fundingId": "FUND-010",
+      "fundingType": "Educational Program Support",
+      "targetOrganizationSource": "Schools and youth programs",
+      "purpose": "Youth ambassador and cultural education initiatives",
+      "possibleAmountSupport": "Small to Medium",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Educational outreach"
+    },
+    {
+      "_row": 12,
+      "fundingId": "FUND-011",
+      "fundingType": "Exhibition Funding",
+      "targetOrganizationSource": "Art institutions",
+      "purpose": "Future digital or physical exhibitions",
+      "possibleAmountSupport": "Medium",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "International exhibition direction"
+    },
+    {
+      "_row": 13,
+      "fundingId": "FUND-012",
+      "fundingType": "Translation Support",
+      "targetOrganizationSource": "Cultural exchange organizations",
+      "purpose": "Bilingual archive translation and interpretation",
+      "possibleAmountSupport": "Small to Medium",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Important international access"
+    },
+    {
+      "_row": 14,
+      "fundingId": "FUND-013",
+      "fundingType": "Archive Digitization Support",
+      "targetOrganizationSource": "Preservation initiatives",
+      "purpose": "Scanning, metadata, image organization",
+      "possibleAmountSupport": "Medium",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Immediate practical need"
+    },
+    {
+      "_row": 15,
+      "fundingId": "FUND-014",
+      "fundingType": "Research Publication Support",
+      "targetOrganizationSource": "Academic publishers / grants",
+      "purpose": "Essays, catalogues, research publications",
+      "possibleAmountSupport": "Medium",
+      "priority": "Future",
+      "status": "Planning",
+      "notes": "Academic development"
+    },
+    {
+      "_row": 16,
+      "fundingId": "FUND-015",
+      "fundingType": "AI Innovation Funding",
+      "targetOrganizationSource": "Digital innovation programs",
+      "purpose": "AI-powered archive search and intelligent metadata systems",
+      "possibleAmountSupport": "Large",
+      "priority": "Future",
+      "status": "Planning",
+      "notes": "Long-term innovation direction"
+    }
+  ]
+}

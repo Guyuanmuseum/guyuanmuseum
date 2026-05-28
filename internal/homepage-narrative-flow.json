@@ -1,0 +1,101 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Homepage Narrative Flow",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Hero Artwork"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 3,
+      "heroArtwork": "The Carved Memory of Modern China"
+    },
+    {
+      "_row": 4,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 5,
+      "heroArtwork": "Featured Masterpiece"
+    },
+    {
+      "_row": 6,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 7,
+      "heroArtwork": "Who Was Gu Yuan?"
+    },
+    {
+      "_row": 8,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 9,
+      "heroArtwork": "Collections"
+    },
+    {
+      "_row": 10,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 11,
+      "heroArtwork": "Exhibitions"
+    },
+    {
+      "_row": 12,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 13,
+      "heroArtwork": "Research"
+    },
+    {
+      "_row": 14,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 15,
+      "heroArtwork": "Family Archive"
+    },
+    {
+      "_row": 16,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 17,
+      "heroArtwork": "Digital Preservation"
+    },
+    {
+      "_row": 18,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 19,
+      "heroArtwork": "Youth Ambassadors"
+    },
+    {
+      "_row": 20,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 21,
+      "heroArtwork": "AI Archive Search"
+    },
+    {
+      "_row": 22,
+      "heroArtwork": "↓"
+    },
+    {
+      "_row": 23,
+      "heroArtwork": "International Collaboration"
+    }
+  ]
+}

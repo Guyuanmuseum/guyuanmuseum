@@ -1,0 +1,240 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Metadata Standards ",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Standard ID",
+      "Field Name",
+      "Format Standard",
+      "Example",
+      "Description",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "standardId": "META-001",
+      "fieldName": "Artwork ID",
+      "formatStandard": "ART-###",
+      "example": "ART-001",
+      "description": "Unique identifier for artworks",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Never duplicate"
+    },
+    {
+      "_row": 3,
+      "standardId": "META-002",
+      "fieldName": "Photo ID",
+      "formatStandard": "PH-###",
+      "example": "PH-021",
+      "description": "Unique identifier for photos and archive images",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Separate from artworks"
+    },
+    {
+      "_row": 4,
+      "standardId": "META-003",
+      "fieldName": "Collection ID",
+      "formatStandard": "COL-###",
+      "example": "COL-002",
+      "description": "Unique identifier for collections",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Used for museum structure"
+    },
+    {
+      "_row": 5,
+      "standardId": "META-004",
+      "fieldName": "Exhibition ID",
+      "formatStandard": "EXH-###",
+      "example": "EXH-001",
+      "description": "Unique identifier for exhibitions",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Used in exhibition system"
+    },
+    {
+      "_row": 6,
+      "standardId": "META-005",
+      "fieldName": "Research ID",
+      "formatStandard": "RES-###",
+      "example": "RES-004",
+      "description": "Unique identifier for research themes",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Research framework"
+    },
+    {
+      "_row": 7,
+      "standardId": "META-006",
+      "fieldName": "People ID",
+      "formatStandard": "PEO-###",
+      "example": "PEO-002",
+      "description": "Unique identifier for contributors and archive figures",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Family and institution structure"
+    },
+    {
+      "_row": 8,
+      "standardId": "META-007",
+      "fieldName": "Tag ID",
+      "formatStandard": "TAG-###",
+      "example": "TAG-015",
+      "description": "Unique identifier for keywords and AI search tags",
+      "priority": "High",
+      "status": "Active",
+      "notes": "AI search system"
+    },
+    {
+      "_row": 9,
+      "standardId": "META-008",
+      "fieldName": "File Naming",
+      "formatStandard": "GY-Category-Year-Title",
+      "example": "GY-ART-1948-HumanBridge.jpg",
+      "description": "Standardized file naming system",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Museum archive standard"
+    },
+    {
+      "_row": 10,
+      "standardId": "META-009",
+      "fieldName": "Date Format",
+      "formatStandard": "YYYY",
+      "example": 1948,
+      "description": "Standard year formatting",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Use circa when uncertain"
+    },
+    {
+      "_row": 11,
+      "standardId": "META-010",
+      "fieldName": "Approximate Date",
+      "formatStandard": "circa YYYY",
+      "example": "circa 1940s",
+      "description": "Used for uncertain historical dates",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Important for archive accuracy"
+    },
+    {
+      "_row": 12,
+      "standardId": "META-011",
+      "fieldName": "Rights Status",
+      "formatStandard": "Controlled vocabulary",
+      "example": "To be confirmed",
+      "description": "Standard rights management wording",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Avoid copyright risk"
+    },
+    {
+      "_row": 13,
+      "standardId": "META-012",
+      "fieldName": "Source Format",
+      "formatStandard": "Controlled vocabulary",
+      "example": "Family archive",
+      "description": "Standard source attribution format",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Archive provenance"
+    },
+    {
+      "_row": 14,
+      "standardId": "META-013",
+      "fieldName": "Language System",
+      "formatStandard": "EN + CN bilingual",
+      "example": "Human Bridge / 人橋",
+      "description": "All public entries should be bilingual",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "International archive requirement"
+    },
+    {
+      "_row": 15,
+      "standardId": "META-014",
+      "fieldName": "Collection Linking",
+      "formatStandard": "Multiple allowed",
+      "example": "Museum Canon / Yan’an Visual Culture",
+      "description": "One artwork may belong to multiple collections",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Cross-reference system"
+    },
+    {
+      "_row": 16,
+      "standardId": "META-015",
+      "fieldName": "Canon Level",
+      "formatStandard": "Controlled vocabulary",
+      "example": "Masterpiece",
+      "description": "Standardized museum hierarchy system",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Museum-level classification"
+    },
+    {
+      "_row": 17,
+      "standardId": "META-016",
+      "fieldName": "Status Tracking",
+      "formatStandard": "Controlled vocabulary",
+      "example": "Draft / Active / Pending",
+      "description": "Workflow management system",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Database workflow"
+    },
+    {
+      "_row": 18,
+      "standardId": "META-017",
+      "fieldName": "Translation Standard",
+      "formatStandard": "Museum English",
+      "example": "Rural Labor",
+      "description": "Use international museum-style translation language",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Avoid propaganda wording"
+    },
+    {
+      "_row": 19,
+      "standardId": "META-018",
+      "fieldName": "Description Length",
+      "formatStandard": "Short museum format",
+      "example": "1–3 sentences",
+      "description": "Standard archive description length",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "Website readability"
+    },
+    {
+      "_row": 20,
+      "standardId": "META-019",
+      "fieldName": "Archive Category",
+      "formatStandard": "Controlled vocabulary",
+      "example": "Artwork / Portrait / Exhibition",
+      "description": "Main archive classification system",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Search structure"
+    },
+    {
+      "_row": 21,
+      "standardId": "META-020",
+      "fieldName": "Preservation Priority",
+      "formatStandard": "Highest / High / Medium",
+      "example": "Highest",
+      "description": "Priority level for preservation and upload",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "Collection management"
+    }
+  ]
+}

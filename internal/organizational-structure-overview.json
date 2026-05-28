@@ -1,0 +1,61 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Organizational Structure Overvi",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Founder & Digital Archive Director"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "founderDigitalArchiveDirector": "│"
+    },
+    {
+      "_row": 3,
+      "founderDigitalArchiveDirector": "├── Family Archive Representative"
+    },
+    {
+      "_row": 4,
+      "founderDigitalArchiveDirector": "│"
+    },
+    {
+      "_row": 5,
+      "founderDigitalArchiveDirector": "├── International Curator & Translation Director"
+    },
+    {
+      "_row": 6,
+      "founderDigitalArchiveDirector": "│"
+    },
+    {
+      "_row": 7,
+      "founderDigitalArchiveDirector": "├── Research Contributors"
+    },
+    {
+      "_row": 8,
+      "founderDigitalArchiveDirector": "│"
+    },
+    {
+      "_row": 9,
+      "founderDigitalArchiveDirector": "├── Youth Ambassadors"
+    },
+    {
+      "_row": 10,
+      "founderDigitalArchiveDirector": "│"
+    },
+    {
+      "_row": 11,
+      "founderDigitalArchiveDirector": "├── Emerging Artists"
+    },
+    {
+      "_row": 12,
+      "founderDigitalArchiveDirector": "│"
+    },
+    {
+      "_row": 13,
+      "founderDigitalArchiveDirector": "└── Institutional Partners"
+    }
+  ]
+}

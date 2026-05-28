@@ -1,0 +1,540 @@
+{
+  "source": {
+    "type": "Internal derived asset intake report",
+    "generatedAt": "2026-05-28",
+    "basis": "Local files under /public/images and current JSON imageUrlFile metadata",
+    "googleSheetWorkbookStatus": "Full Excel workbook was not available locally during this scan"
+  },
+  "visibility": "internal",
+  "languageStandard": {
+    "publicWebsite": "English + Traditional Chinese",
+    "chineseStandard": "zh-Hant",
+    "rule": "Do not add Simplified Chinese to public-facing JSON fields or rendered UI text."
+  },
+  "placeholderPolicy": {
+    "status": "Active",
+    "rule": "If an image file is missing or fails to load, render the museum-style image placeholder instead of a broken image.",
+    "publicPrioritySections": [
+      "Museum Canon",
+      "Homepage",
+      "Collections",
+      "Family Archive"
+    ]
+  },
+  "folderWorkflow": [
+    {
+      "category": "artworks",
+      "filesystemPath": "/public/images/artworks/",
+      "publicPathPrefix": "/images/artworks/",
+      "recommendedFor": "Artwork images, artwork details, woodcuts, watercolor, prints, and confirmed work records"
+    },
+    {
+      "category": "portraits",
+      "filesystemPath": "/public/images/portraits/",
+      "publicPathPrefix": "/images/portraits/",
+      "recommendedFor": "Individual portrait photographs and artist portrait records"
+    },
+    {
+      "category": "exhibitions",
+      "filesystemPath": "/public/images/exhibitions/",
+      "publicPathPrefix": "/images/exhibitions/",
+      "recommendedFor": "Exhibition installation views, opening events, speeches, and gallery documentation"
+    },
+    {
+      "category": "family",
+      "filesystemPath": "/public/images/family/",
+      "publicPathPrefix": "/images/family/",
+      "recommendedFor": "Authorized family archive photographs and family profile portraits"
+    },
+    {
+      "category": "archive",
+      "filesystemPath": "/public/images/archive/",
+      "publicPathPrefix": "/images/archive/",
+      "recommendedFor": "Archival documents, letters, scans, research images, ephemera, and uncertain historical materials"
+    }
+  ],
+  "namingStandard": {
+    "pattern": "GY-<CATEGORY>-<YEAR_OR_PERIOD>-<ShortEnglishTitle>.<ext>",
+    "examples": [
+      "GY-ART-1948-HumanBridge.jpg",
+      "GY-PH-1950s-GuYuanStudioPortrait.jpg",
+      "GY-FAM-GuAncun.jpg",
+      "GY-EXH-2026-DigitalMuseumLaunch.jpg",
+      "GY-ARC-Undated-LetterScan01.jpg"
+    ],
+    "uncertaintyRule": "Do not guess artwork titles, dates, identities, or categories. Mark uncertain items as To be confirmed."
+  },
+  "scanSummary": {
+    "imageFileCount": 13,
+    "jsonImageBasenameCount": 54,
+    "matchedFileCount": 12,
+    "imagesMissingFromJsonCount": 1,
+    "jsonEntriesMissingImageFilesCount": 42,
+    "duplicateContentGroupCount": 1,
+    "filesByCategoryFolder": {
+      "artworks": 13,
+      "photos": 0,
+      "portraits": 0,
+      "exhibitions": 0,
+      "family": 0,
+      "archive": 0
+    }
+  },
+  "matchedFiles": [
+    {
+      "file": "/public/images/artworks/GY-ART-1940-Cattle.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1940-Cattle.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1940-ChoppingGrass.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1940-ChoppingGrass.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1940-Sheep.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1940-Sheep.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1942-BrothersHoliday.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1942-DivorcePetition.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1942-DivorcePetition.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1942-TransportingGrass.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1942-TransportingGrass.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1943-RentReductionMeeting.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1948-HumanBridge.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1948-HumanBridge.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1956-XianglinSao.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1956-XianglinSao.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1962-JadeBeltBridge.jpg",
+      "jsonPath": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-TransportingGrass.jpg",
+      "jsonPath": "/images/artworks/GY-ART-TransportingGrass.jpg",
+      "recommendedCategory": "artworks",
+      "status": "To be confirmed",
+      "note": "Exact duplicate content also exists as GY-ART-1942-TransportingGrass.jpg."
+    }
+  ],
+  "imagesMissingFromJson": [
+    {
+      "file": "/public/images/artworks/GY-ART-1943-WinterSchool.jpg",
+      "status": "To be confirmed",
+      "recommendedCategory": "artworks",
+      "recommendedJsonPath": "/images/artworks/GY-ART-1943-WinterSchool.jpg",
+      "note": "File exists locally and is listed in the local asset map, but it is not present in current sheet-derived imageUrlFile records."
+    }
+  ],
+  "jsonEntriesMissingImageFiles": [
+    {
+      "fileName": "GY-ART-1943-Literacy.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1943-Literacy.jpg",
+      "firstReference": "src/data/public/museum-canon.json",
+      "record": "CAN-010",
+      "title": "Literacy Campaign",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1939-Resistance.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1939-Resistance.jpg",
+      "firstReference": "src/data/public/collections.json",
+      "record": "COL-001",
+      "title": "Early Wartime Woodcuts",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Unknown-SiftingGrain.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Unknown-SiftingGrain.jpg",
+      "firstReference": "src/data/public/collections.json",
+      "record": "COL-003",
+      "title": "Folk Graphic Language",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1949-Steelworks.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1949-Steelworks.jpg",
+      "firstReference": "src/data/public/collections.json",
+      "record": "COL-004",
+      "title": "Industrial Modernity",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-PH-1950s-GuYuanStudioPortrait.jpg",
+      "expectedPath": "/images/portraits/GY-PH-1950s-GuYuanStudioPortrait.jpg",
+      "firstReference": "src/data/public/collections.json",
+      "record": "COL-006",
+      "title": "Portrait Archive",
+      "recommendedCategory": "portraits"
+    },
+    {
+      "fileName": "GY-PH-ExhibitionViewing.jpg",
+      "expectedPath": "/images/exhibitions/GY-PH-ExhibitionViewing.jpg",
+      "firstReference": "src/data/public/collections.json",
+      "record": "COL-007",
+      "title": "Exhibition Archive",
+      "recommendedCategory": "exhibitions"
+    },
+    {
+      "fileName": "GY-PH-FamilyVisit.jpg",
+      "expectedPath": "/images/family/GY-PH-FamilyVisit.jpg",
+      "firstReference": "src/data/public/collections.json",
+      "record": "COL-008",
+      "title": "Family Archive",
+      "recommendedCategory": "family"
+    },
+    {
+      "fileName": "GY-FAM-GuAncun.jpg",
+      "expectedPath": "/images/family/GY-FAM-GuAncun.jpg",
+      "firstReference": "src/data/public/people-contributors.json",
+      "record": "PEO-002",
+      "title": "Gu Ancun",
+      "recommendedCategory": "family"
+    },
+    {
+      "fileName": "GY-FAM-WeiDuan-BrookeDuan.jpg",
+      "expectedPath": "/images/family/GY-FAM-WeiDuan-BrookeDuan.jpg",
+      "firstReference": "src/data/public/people-contributors.json",
+      "record": "PEO-004",
+      "title": "Wei Duan",
+      "recommendedCategory": "family"
+    },
+    {
+      "fileName": "GY-FAM-JiangYuheng.jpg",
+      "expectedPath": "/images/family/GY-FAM-JiangYuheng.jpg",
+      "firstReference": "src/data/public/people-contributors.json",
+      "record": "PEO-015",
+      "title": "Jiang Yuheng",
+      "recommendedCategory": "family"
+    },
+    {
+      "fileName": "GY-ART-1940-UntitledPortrait.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1940-UntitledPortrait.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-002",
+      "title": "Untitled Portrait Study",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1939-PuppetArmy.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1939-PuppetArmy.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-003",
+      "title": "Forced Participation in Puppet Army",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1939-ProtectLivestock.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1939-ProtectLivestock.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-005",
+      "title": "Protecting Livestock",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1939-Victims.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1939-Victims.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-006",
+      "title": "Poison Gas Victims",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1939-Refugees.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1939-Refugees.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-007",
+      "title": "Refugees",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1939-Attack.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1939-Attack.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-008",
+      "title": "Rural Attack",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1939-Shanghai.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1939-Shanghai.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-009",
+      "title": "Attack on Shanghai",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Unknown-BirdSymbol.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Unknown-BirdSymbol.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-010",
+      "title": "Bird Symbol Print",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Unknown-ExLibrisBird.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Unknown-ExLibrisBird.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-011",
+      "title": "Ex Libris Bird",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Unknown-Bookplate.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Unknown-Bookplate.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-012",
+      "title": "Gu Yuan Bookplate",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1978-RememberingYanan.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1978-RememberingYanan.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-014",
+      "title": "Remembering Yan’an",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1943-Cooperative.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1943-Cooperative.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-018",
+      "title": "Cooperative Society",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-PH-1940s-YoungGuYuan-01.jpg",
+      "expectedPath": "/images/portraits/GY-PH-1940s-YoungGuYuan-01.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-019",
+      "title": "Young Gu Yuan",
+      "recommendedCategory": "portraits"
+    },
+    {
+      "fileName": "GY-PH-1990s-OlderGuYuan.jpg",
+      "expectedPath": "/images/portraits/GY-PH-1990s-OlderGuYuan.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-021",
+      "title": "Older Gu Yuan",
+      "recommendedCategory": "portraits"
+    },
+    {
+      "fileName": "GY-WC-WinterLandscape.jpg",
+      "expectedPath": "/images/artworks/GY-WC-WinterLandscape.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-022",
+      "title": "Winter Landscape",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-YananLandscape.jpg",
+      "expectedPath": "/images/artworks/GY-ART-YananLandscape.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-023",
+      "title": "Yan’an Landscape",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-NY-NewYearPrint.jpg",
+      "expectedPath": "/images/artworks/GY-NY-NewYearPrint.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-024",
+      "title": "Prosperity and Fortune",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-RuralGathering.jpg",
+      "expectedPath": "/images/artworks/GY-ART-RuralGathering.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-025",
+      "title": "Rural Gathering",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-RefugeeFamily.jpg",
+      "expectedPath": "/images/artworks/GY-ART-RefugeeFamily.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-026",
+      "title": "Refugee Family",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Evacuation.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Evacuation.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-027",
+      "title": "Wartime Evacuation",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-IndustrialWorker.jpg",
+      "expectedPath": "/images/artworks/GY-ART-IndustrialWorker.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-028",
+      "title": "Industrial Worker",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Storytelling.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Storytelling.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-029",
+      "title": "Village Storytelling",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-WartimeDoor.jpg",
+      "expectedPath": "/images/artworks/GY-ART-WartimeDoor.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-030",
+      "title": "Wartime Resistance Scene",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-PH-ExhibitionSpeech.jpg",
+      "expectedPath": "/images/exhibitions/GY-PH-ExhibitionSpeech.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-031",
+      "title": "Exhibition Speech",
+      "recommendedCategory": "exhibitions"
+    },
+    {
+      "fileName": "GY-ART-BeijingCityscape.jpg",
+      "expectedPath": "/images/artworks/GY-ART-BeijingCityscape.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-034",
+      "title": "Beijing Cityscape",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-YananLandscape-Color.jpg",
+      "expectedPath": "/images/artworks/GY-ART-YananLandscape-Color.jpg",
+      "firstReference": "src/data/public/photos-archive.json",
+      "record": "PH-036",
+      "title": "Yan’an Landscape (Color Version)",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1951-ChairmanMaoTalkingWithFarmers.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1951-ChairmanMaoTalkingWithFarmers.jpg",
+      "firstReference": "src/data/public/artworks.json",
+      "record": "ART-010",
+      "title": "Chairman Mao Talking with Farmers",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1956-SugarcaneField.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1956-SugarcaneField.jpg",
+      "firstReference": "src/data/public/artworks.json",
+      "record": "ART-011",
+      "title": "Sugarcane Field",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1950s-LiuZhidanRedGuards.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1950s-LiuZhidanRedGuards.jpg",
+      "firstReference": "src/data/public/artworks.json",
+      "record": "ART-013",
+      "title": "Liu Zhidan and the Red Guards",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Unknown-LightsOfZaoyuan.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Unknown-LightsOfZaoyuan.jpg",
+      "firstReference": "src/data/public/artworks.json",
+      "record": "ART-014",
+      "title": "Lights of Zaoyuan",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-1993-MorningLightOfZhuhai.jpg",
+      "expectedPath": "/images/artworks/GY-ART-1993-MorningLightOfZhuhai.jpg",
+      "firstReference": "src/data/public/artworks.json",
+      "record": "ART-015",
+      "title": "Morning Light of Zhuhai",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "fileName": "GY-ART-Unknown-HappinessLongevity.jpg",
+      "expectedPath": "/images/artworks/GY-ART-Unknown-HappinessLongevity.jpg",
+      "firstReference": "src/data/public/artworks.json",
+      "record": "ART-025",
+      "title": "Happiness and Longevity",
+      "recommendedCategory": "artworks"
+    }
+  ],
+  "duplicateFiles": [
+    {
+      "status": "Preserve for now",
+      "files": [
+        "/public/images/artworks/GY-ART-1942-TransportingGrass.jpg",
+        "/public/images/artworks/GY-ART-TransportingGrass.jpg"
+      ],
+      "recommendedCanonicalFile": "/public/images/artworks/GY-ART-1942-TransportingGrass.jpg",
+      "recommendedCanonicalJsonPath": "/images/artworks/GY-ART-1942-TransportingGrass.jpg",
+      "note": "Files have identical content. Do not delete either file until curatorial approval."
+    }
+  ],
+  "unclearNames": [
+    {
+      "file": "/public/images/artworks/GY-ART-TransportingGrass.jpg",
+      "status": "To be confirmed",
+      "reason": "Filename lacks year and duplicates GY-ART-1942-TransportingGrass.jpg.",
+      "recommendedFilename": "GY-ART-1942-TransportingGrass.jpg",
+      "recommendedCategory": "artworks"
+    },
+    {
+      "file": "/public/images/artworks/GY-ART-1943-WinterSchool.jpg",
+      "status": "To be confirmed",
+      "reason": "File is present locally but not in current sheet-derived imageUrlFile metadata.",
+      "recommendedFilename": "GY-ART-1943-WinterSchool.jpg",
+      "recommendedCategory": "artworks"
+    }
+  ],
+  "intakeChecklist": [
+    "Place each image in the correct category folder before JSON updates.",
+    "Use the Image URL/File field as the canonical public path when available.",
+    "Use only direct public image paths such as /images/artworks/FileName.jpg.",
+    "Do not use Google Sheet links as image URLs unless they are direct public image files.",
+    "Mark uncertain titles, years, people, and categories as To be confirmed.",
+    "Preserve duplicates until curatorial approval.",
+    "Confirm rights status before public exhibition use.",
+    "Run an image audit before publishing new image batches."
+  ],
+  "nextFixesNeeded": [
+    "Add missing portrait images for Gu Yuan, Gu Ancun, Wei Duan / Brooke Duan, and Jiang Yuheng.",
+    "Add missing exhibition images under /public/images/exhibitions/.",
+    "Add missing family archive images under /public/images/family/.",
+    "Confirm whether GY-ART-1943-WinterSchool.jpg should be added to a sheet-derived public record.",
+    "Resolve the duplicate Transporting Grass filenames after curatorial approval.",
+    "When the full Google Sheet Excel workbook is available, re-run this audit against the workbook and JSON together."
+  ]
+}

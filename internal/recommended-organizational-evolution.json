@@ -1,0 +1,45 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Recommended Organizational Evol",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Stage",
+      "Organizational Form",
+      "Main Goal"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "stage": "Stage 1",
+      "organizationalForm": "Independent Digital Archive Project",
+      "mainGoal": "Build website and archive system"
+    },
+    {
+      "_row": 3,
+      "stage": "Stage 2",
+      "organizationalForm": "Research & Cultural Initiative",
+      "mainGoal": "Develop university and museum collaboration"
+    },
+    {
+      "_row": 4,
+      "stage": "Stage 3",
+      "organizationalForm": "Cultural Preservation Platform",
+      "mainGoal": "Expand archive, research, and exhibitions"
+    },
+    {
+      "_row": 5,
+      "stage": "Stage 4",
+      "organizationalForm": "Nonprofit / Foundation Possibility",
+      "mainGoal": "Long-term sustainability and funding"
+    },
+    {
+      "_row": 6,
+      "stage": "Stage 5",
+      "organizationalForm": "International Digital Museum Network",
+      "mainGoal": "Global collaboration and research platform"
+    }
+  ]
+}

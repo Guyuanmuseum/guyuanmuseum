@@ -1,0 +1,25 @@
+{
+  "source": {
+    "note": "Local image map used while the Google Sheet Image URL/File fields are pending."
+  },
+  "artworks": {
+    "Rent Reduction Meeting": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg",
+    "Burning Old Land Deeds": "/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg",
+    "Human Bridge": "/images/artworks/GY-ART-1948-HumanBridge.jpg",
+    "Divorce Petition": "/images/artworks/GY-ART-1942-DivorcePetition.jpg",
+    "Brother’s Holiday": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg",
+    "Transporting Grass": "/images/artworks/GY-ART-1942-TransportingGrass.jpg",
+    "Cattle": "/images/artworks/GY-ART-1940-Cattle.jpg",
+    "Sheep": "/images/artworks/GY-ART-1940-Sheep.jpg",
+    "Chopping Grass": "/images/artworks/GY-ART-1940-ChoppingGrass.jpg",
+    "Jade Belt Bridge": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg",
+    "Xianglin’s Wife": "/images/artworks/GY-ART-1956-XianglinSao.jpg",
+    "Winter School": "/images/artworks/GY-ART-1943-WinterSchool.jpg"
+  },
+  "fallbacks": [
+    "/images/artworks/GY-ART-1948-HumanBridge.jpg",
+    "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg",
+    "/images/artworks/GY-ART-1942-TransportingGrass.jpg",
+    "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+  ]
+}
