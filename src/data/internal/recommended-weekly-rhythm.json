@@ -1,0 +1,49 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Recommended Weekly Rhythm",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Day Type",
+      "Main Focus"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "dayType": "Monday",
+      "mainFocus": "Artwork database"
+    },
+    {
+      "_row": 3,
+      "dayType": "Tuesday",
+      "mainFocus": "Biography / timeline"
+    },
+    {
+      "_row": 4,
+      "dayType": "Wednesday",
+      "mainFocus": "Collections / museum canon"
+    },
+    {
+      "_row": 5,
+      "dayType": "Thursday",
+      "mainFocus": "Website updates"
+    },
+    {
+      "_row": 6,
+      "dayType": "Friday",
+      "mainFocus": "Research / translation"
+    },
+    {
+      "_row": 7,
+      "dayType": "Saturday",
+      "mainFocus": "Family archive / oral history"
+    },
+    {
+      "_row": 8,
+      "dayType": "Sunday",
+      "mainFocus": "Review / backup / planning"
+    }
+  ]
+}

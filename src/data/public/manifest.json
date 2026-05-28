@@ -1,0 +1,413 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00"
+  },
+  "visibility": "public",
+  "scaleTargets": [
+    "AI search",
+    "Archive filtering",
+    "Collection pages",
+    "Exhibition pages",
+    "Multilingual rendering"
+  ],
+  "requestedAliases": {
+    "timeline": {
+      "file": "public/timeline.json",
+      "visibility": "public"
+    },
+    "biography": {
+      "file": "public/biography.json",
+      "visibility": "public"
+    },
+    "lifeStages": {
+      "file": "public/life-stages.json",
+      "visibility": "public"
+    },
+    "artworks": {
+      "file": "public/artworks.json",
+      "visibility": "public"
+    },
+    "photosArchive": {
+      "file": "public/photos-archive.json",
+      "visibility": "public"
+    },
+    "sources": {
+      "file": "public/sources.json",
+      "visibility": "public"
+    },
+    "collections": {
+      "file": "public/collections.json",
+      "visibility": "public"
+    },
+    "museumCanon": {
+      "file": "public/museum-canon.json",
+      "visibility": "public"
+    },
+    "exhibitions": {
+      "file": "public/exhibitions.json",
+      "visibility": "public"
+    },
+    "researchThemes": {
+      "file": "public/research-themes.json",
+      "visibility": "public"
+    },
+    "keywordsTags": {
+      "file": "public/keywords-tags.json",
+      "visibility": "public"
+    },
+    "peopleContributors": {
+      "file": "public/people-contributors.json",
+      "visibility": "public"
+    },
+    "websiteArchitecture": {
+      "file": "public/website-architecture.json",
+      "visibility": "public"
+    }
+  },
+  "files": [
+    {
+      "key": "archive-index",
+      "file": "public/archive-index.json",
+      "visibility": "public",
+      "sheetName": "Derived archive index",
+      "recordCount": 125,
+      "headers": []
+    },
+    {
+      "key": "artworks",
+      "file": "public/artworks.json",
+      "visibility": "public",
+      "sheetName": "Artworks Database｜作品数据库",
+      "recordCount": 33,
+      "headers": [
+        "ID",
+        "Title EN",
+        "Title CN",
+        "Year",
+        "Medium",
+        "Period",
+        "Description EN",
+        "Description CN",
+        "Image URL/File",
+        "Collection/Location",
+        "Source",
+        "Rights/Copyright",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "biography",
+      "file": "public/biography.json",
+      "visibility": "public",
+      "sheetName": "Biography生平",
+      "recordCount": 6,
+      "headers": [
+        "ID",
+        "Section",
+        "Title EN",
+        "Title CN",
+        "Content EN",
+        "Content CN",
+        "Status"
+      ]
+    },
+    {
+      "key": "collections",
+      "file": "public/collections.json",
+      "visibility": "public",
+      "sheetName": "Collections",
+      "recordCount": 8,
+      "headers": [
+        "Collection ID",
+        "Collection Title EN",
+        "Collection Title CN",
+        "Years",
+        "Theme",
+        "Description EN",
+        "Description CN",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "exhibitions",
+      "file": "public/exhibitions.json",
+      "visibility": "public",
+      "sheetName": "Exhibitions tab",
+      "recordCount": 8,
+      "headers": [
+        "Exhibition ID",
+        "Exhibition Title EN",
+        "Exhibition Title CN",
+        "Exhibition Type",
+        "Theme",
+        "Description EN",
+        "Description CN",
+        "Related Collections",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "gu-yuan-portrait-archive",
+      "file": "public/gu-yuan-portrait-archive.json",
+      "visibility": "public",
+      "sheetName": "Gu Yuan Portrait Archive｜古元肖像档案",
+      "recordCount": 3,
+      "headers": [
+        "ID",
+        "File Name",
+        "Title EN",
+        "Title CN",
+        "Year",
+        "Category",
+        "Medium",
+        "People/Subject",
+        "Description EN",
+        "Description CN",
+        "Source",
+        "Rights Status",
+        "Collection",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "international-positioning",
+      "file": "public/international-positioning.json",
+      "visibility": "public",
+      "sheetName": "International Positioning",
+      "recordCount": 10,
+      "headers": [
+        "Position ID",
+        "Positioning Direction",
+        "Description EN",
+        "Description CN",
+        "Target Audience",
+        "International Relevance",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "keywords-tags",
+      "file": "public/keywords-tags.json",
+      "visibility": "public",
+      "sheetName": "Keywords  Tags ",
+      "recordCount": 20,
+      "headers": [
+        "Tag ID",
+        "Keyword EN",
+        "Keyword CN",
+        "Category",
+        "Description EN",
+        "Description CN",
+        "Related Collections",
+        "Priority",
+        "Status"
+      ]
+    },
+    {
+      "key": "life-stages",
+      "file": "public/life-stages.json",
+      "visibility": "public",
+      "sheetName": "Life Stages｜人生阶段数据库",
+      "recordCount": 7,
+      "headers": [
+        "ID",
+        "Stage EN",
+        "Stage CN",
+        "Period",
+        "Theme EN",
+        "Theme CN",
+        "Description EN",
+        "Description CN",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "local-assets",
+      "file": "public/local-assets.json",
+      "visibility": "public",
+      "sheetName": "Local asset map",
+      "recordCount": 1,
+      "headers": []
+    },
+    {
+      "key": "museum-canon",
+      "file": "public/museum-canon.json",
+      "visibility": "public",
+      "sheetName": "Museum Canon tab",
+      "recordCount": 10,
+      "headers": [
+        "Canon ID",
+        "Artwork Title EN",
+        "Artwork Title CN",
+        "Year",
+        "Canon Level",
+        "Collection",
+        "Importance EN",
+        "Importance CN",
+        "International Relevance",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "official-international-description",
+      "file": "public/official-international-description.json",
+      "visibility": "public",
+      "sheetName": "Official International Descript",
+      "recordCount": 5,
+      "headers": [
+        "Official Positioning Statement (EN)"
+      ]
+    },
+    {
+      "key": "people-contributors",
+      "file": "public/people-contributors.json",
+      "visibility": "public",
+      "sheetName": "People  Contributors tab",
+      "recordCount": 17,
+      "headers": [
+        "ID",
+        "Name EN",
+        "Name CN",
+        "Role",
+        "Relationship",
+        "Notes"
+      ]
+    },
+    {
+      "key": "people-identity-metadata",
+      "file": "public/people-identity-metadata.json",
+      "visibility": "public",
+      "sheetName": "人物身份 metadata",
+      "recordCount": 1,
+      "headers": [
+        "ID",
+        "File Name",
+        "Title EN",
+        "Title CN",
+        "Year",
+        "Category",
+        "Medium",
+        "People/Subject",
+        "Description EN",
+        "Description CN",
+        "Source",
+        "Rights Status",
+        "Collection",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "photos-archive",
+      "file": "public/photos-archive.json",
+      "visibility": "public",
+      "sheetName": "Photos Archive照片庫",
+      "recordCount": 36,
+      "headers": [
+        "ID",
+        "File Name",
+        "Title EN",
+        "Title CN",
+        "Year",
+        "Category",
+        "Medium",
+        "People/Subject",
+        "Description EN",
+        "Description CN",
+        "Source",
+        "Rights Status",
+        "Collection",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "research-themes",
+      "file": "public/research-themes.json",
+      "visibility": "public",
+      "sheetName": "Research Themes tab",
+      "recordCount": 10,
+      "headers": [
+        "Research ID",
+        "Research Theme EN",
+        "Research Theme CN",
+        "Category",
+        "Description EN",
+        "Description CN",
+        "Related Collections",
+        "International Relevance",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "site-content",
+      "file": "public/site-content.json",
+      "visibility": "public",
+      "sheetName": "Derived site content",
+      "recordCount": 1,
+      "headers": []
+    },
+    {
+      "key": "sources",
+      "file": "public/sources.json",
+      "visibility": "public",
+      "sheetName": "Sources｜资料来源数据库",
+      "recordCount": 15,
+      "headers": [
+        "ID",
+        "Source Type",
+        "Title",
+        "Author/Institution",
+        "Year",
+        "URL/File",
+        "Reliability",
+        "Used For",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "timeline",
+      "file": "public/timeline.json",
+      "visibility": "public",
+      "sheetName": "Timeline時間線",
+      "recordCount": 21,
+      "headers": [
+        "Year",
+        "Event EN",
+        "Event CN",
+        "Category"
+      ]
+    },
+    {
+      "key": "website-architecture",
+      "file": "public/website-architecture.json",
+      "visibility": "public",
+      "sheetName": "Website Architecture",
+      "recordCount": 16,
+      "headers": [
+        "Page ID",
+        "Page Name EN",
+        "Page Name CN",
+        "Main Purpose",
+        "Main Content",
+        "Related Systems",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    }
+  ]
+}

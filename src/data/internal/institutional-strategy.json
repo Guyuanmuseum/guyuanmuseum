@@ -1,0 +1,185 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Institutional Strategy",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Strategy ID",
+      "Institution Type",
+      "Target Institution / Direction",
+      "Purpose",
+      "Possible Collaboration",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "strategyId": "INS-001",
+      "institutionType": "University",
+      "targetInstitutionDirection": "York University",
+      "purpose": "Academic support and digital humanities development",
+      "possibleCollaboration": "Independent study, professor mentorship, student research, digital archive project",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Emily’s university connection"
+    },
+    {
+      "_row": 3,
+      "strategyId": "INS-002",
+      "institutionType": "University",
+      "targetInstitutionDirection": "Colby College",
+      "purpose": "Art history and student research connection",
+      "possibleCollaboration": "Research contribution through Kevin Huang, art history collaboration, student project",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Strong future connection"
+    },
+    {
+      "_row": 4,
+      "strategyId": "INS-003",
+      "institutionType": "Art School",
+      "targetInstitutionDirection": "Central Academy of Fine Arts",
+      "purpose": "Historical and institutional connection",
+      "possibleCollaboration": "Archive verification, academic reference, exhibition history",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Gu Yuan served as CAFA president"
+    },
+    {
+      "_row": 5,
+      "strategyId": "INS-004",
+      "institutionType": "Museum",
+      "targetInstitutionDirection": "Gu Yuan Art Museum, Zhuhai",
+      "purpose": "Core institutional archive and museum partner",
+      "possibleCollaboration": "Collection reference, exhibition materials, artwork verification",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Most important China-side museum"
+    },
+    {
+      "_row": 6,
+      "strategyId": "INS-005",
+      "institutionType": "Museum",
+      "targetInstitutionDirection": "National Art Museum of China",
+      "purpose": "Artwork and exhibition reference",
+      "possibleCollaboration": "Research citation, exhibition records, institutional credibility",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Important national-level source"
+    },
+    {
+      "_row": 7,
+      "strategyId": "INS-006",
+      "institutionType": "Museum / Archive",
+      "targetInstitutionDirection": "Asia Art Archive",
+      "purpose": "International modern Chinese art research",
+      "possibleCollaboration": "Archive collaboration, research listing, digital humanities dialogue",
+      "priority": "High",
+      "status": "Future",
+      "notes": "Strong international archive fit"
+    },
+    {
+      "_row": 8,
+      "strategyId": "INS-007",
+      "institutionType": "Museum / Research",
+      "targetInstitutionDirection": "Getty Research Institute",
+      "purpose": "International research and preservation direction",
+      "possibleCollaboration": "Digital archive, research fellowship, modern Asian art documentation",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Long-term possibility"
+    },
+    {
+      "_row": 9,
+      "strategyId": "INS-008",
+      "institutionType": "Cultural Institution",
+      "targetInstitutionDirection": "Asia Society",
+      "purpose": "International cultural exchange",
+      "possibleCollaboration": "Exhibition, lecture, cultural program, Chinese visual culture discussion",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Good overseas platform"
+    },
+    {
+      "_row": 10,
+      "strategyId": "INS-009",
+      "institutionType": "Foundation",
+      "targetInstitutionDirection": "Canada Council for the Arts",
+      "purpose": "Funding and cultural preservation",
+      "possibleCollaboration": "Digital art, archive, exhibition, cultural project grants",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Important Canadian funding direction"
+    },
+    {
+      "_row": 11,
+      "strategyId": "INS-010",
+      "institutionType": "Foundation",
+      "targetInstitutionDirection": "Ontario Arts Council",
+      "purpose": "Arts and community cultural support",
+      "possibleCollaboration": "Digital archive, cultural education, exhibition support",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Local funding opportunity"
+    },
+    {
+      "_row": 12,
+      "strategyId": "INS-011",
+      "institutionType": "Government / Culture",
+      "targetInstitutionDirection": "Canadian cultural heritage programs",
+      "purpose": "Cultural preservation and multicultural education",
+      "possibleCollaboration": "Heritage preservation, digital cultural archive support",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Useful for NGO development"
+    },
+    {
+      "_row": 13,
+      "strategyId": "INS-012",
+      "institutionType": "University / Museum",
+      "targetInstitutionDirection": "Digital Humanities Centers",
+      "purpose": "AI archive and metadata research",
+      "possibleCollaboration": "AI-ready archive, digital humanities research collaboration",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Strong future direction"
+    },
+    {
+      "_row": 14,
+      "strategyId": "INS-013",
+      "institutionType": "Local Community",
+      "targetInstitutionDirection": "Chinese Canadian cultural organizations",
+      "purpose": "Community outreach and public education",
+      "possibleCollaboration": "Lectures, exhibitions, youth ambassador programs",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Helps public engagement"
+    },
+    {
+      "_row": 15,
+      "strategyId": "INS-014",
+      "institutionType": "Media",
+      "targetInstitutionDirection": "International art media / Chinese overseas media",
+      "purpose": "Visibility and cultural communication",
+      "possibleCollaboration": "Interviews, project coverage, digital museum introduction",
+      "priority": "Medium",
+      "status": "Future",
+      "notes": "Useful after website stabilizes"
+    },
+    {
+      "_row": 16,
+      "strategyId": "INS-015",
+      "institutionType": "Schools",
+      "targetInstitutionDirection": "Youth education programs",
+      "purpose": "Youth ambassador and cultural education",
+      "possibleCollaboration": "Student projects, visual culture learning, archive education",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Connects to next-generation mission"
+    }
+  ]
+}

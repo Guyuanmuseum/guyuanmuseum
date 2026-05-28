@@ -1,0 +1,152 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Gu Ancun  Review Notes｜古安村反馈表",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "ID",
+      "Date",
+      "Reviewer",
+      "Page/Section",
+      "Original Content",
+      "Feedback",
+      "Action Needed",
+      "Action By",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "id": "REV-001",
+      "date": "2026-05-27",
+      "reviewer": "Gu Ancun",
+      "pageSection": "Biography / Introduction",
+      "originalContent": "International introduction draft",
+      "feedback": "To be reviewed by Gu Ancun",
+      "actionNeeded": "Confirm accuracy of basic positioning and wording",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Send website link by WeChat"
+    },
+    {
+      "_row": 3,
+      "id": "REV-002",
+      "date": "2026-05-27",
+      "reviewer": "Gu Ancun",
+      "pageSection": "Timeline",
+      "originalContent": "1919 birth information",
+      "feedback": "To be reviewed by Gu Ancun",
+      "actionNeeded": "Confirm birthplace wording and family background",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Important for early life section"
+    },
+    {
+      "_row": 4,
+      "id": "REV-003",
+      "date": "2026-05-27",
+      "reviewer": "Gu Ancun",
+      "pageSection": "Timeline",
+      "originalContent": "1938 Yan’an entry",
+      "feedback": "To be reviewed by Gu Ancun",
+      "actionNeeded": "Confirm route, timing, and related family memory",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Could become oral history note"
+    },
+    {
+      "_row": 5,
+      "id": "REV-004",
+      "date": "2026-05-27",
+      "reviewer": "Gu Ancun",
+      "pageSection": "Artworks",
+      "originalContent": "List of representative works",
+      "feedback": "To be reviewed by Gu Ancun",
+      "actionNeeded": "Confirm titles, years, and priority artworks",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Useful before public publication"
+    },
+    {
+      "_row": 6,
+      "id": "REV-005",
+      "date": "2026-05-27",
+      "reviewer": "Gu Ancun",
+      "pageSection": "Photos",
+      "originalContent": "Old photographs section",
+      "feedback": "To be collected",
+      "actionNeeded": "Request photo titles, approximate dates, people, and rights status",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Family archive priority"
+    },
+    {
+      "_row": 7,
+      "id": "REV-006",
+      "date": "2026-05-27",
+      "reviewer": "Gu Ancun",
+      "pageSection": "Sources",
+      "originalContent": "Baidu-based initial structure",
+      "feedback": "Needs verification",
+      "actionNeeded": "Confirm which facts are accurate and which need correction",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Do not publish as final without review"
+    },
+    {
+      "_row": 8,
+      "id": "REV-007",
+      "date": "2026-05-27",
+      "reviewer": "VV",
+      "pageSection": "Biography / Life Stages",
+      "originalContent": "Life stages framework",
+      "feedback": "To be reviewed by VV",
+      "actionNeeded": "Ask VV to suggest missing stages or family-related context",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Secondary family review"
+    },
+    {
+      "_row": 9,
+      "id": "REV-008",
+      "date": "2026-05-27",
+      "reviewer": "Emily",
+      "pageSection": "Website Status",
+      "originalContent": "Biography page",
+      "feedback": "Draft content in progress",
+      "actionNeeded": "Upload international biography draft to website",
+      "actionBy": "Emily",
+      "status": "In Progress",
+      "notes": "First public-facing update"
+    },
+    {
+      "_row": 10,
+      "id": "REV-009",
+      "date": "2026-05-27",
+      "reviewer": "Gu Ancun",
+      "pageSection": "Digital Museum Concept",
+      "originalContent": "Overseas digital archive positioning",
+      "feedback": "To be discussed",
+      "actionNeeded": "Confirm whether the positioning is acceptable for family and museum collaboration",
+      "actionBy": "Emily",
+      "status": "Pending",
+      "notes": "Important strategic review"
+    },
+    {
+      "_row": 11,
+      "id": "REV-010",
+      "date": "2026-05-27",
+      "reviewer": "Emily",
+      "pageSection": "Copyright / Rights",
+      "originalContent": "Artwork and photo usage",
+      "feedback": "Rights not confirmed",
+      "actionNeeded": "Mark all images as “rights to be confirmed” before publication",
+      "actionBy": "Emily",
+      "status": "In Progress",
+      "notes": "Avoid copyright risk"
+    }
+  ]
+}

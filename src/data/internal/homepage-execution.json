@@ -1,0 +1,185 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Homepage Execution",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Homepage Task ID",
+      "Homepage Area",
+      "Main Action",
+      "Content Source",
+      "Visual Direction",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "homepageTaskId": "HOMEEXEC-001",
+      "homepageArea": "Hero Section",
+      "mainAction": "Replace current homepage with museum-style hero section",
+      "contentSource": "Homepage Strategy",
+      "visualDirection": "Cinematic / museum atmosphere",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Main international impression"
+    },
+    {
+      "_row": 3,
+      "homepageTaskId": "HOMEEXEC-002",
+      "homepageArea": "Main Title",
+      "mainAction": "Use “The Carved Memory of Modern China”",
+      "contentSource": "Existing website",
+      "visualDirection": "Large serif typography",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Main curatorial identity"
+    },
+    {
+      "_row": 4,
+      "homepageTaskId": "HOMEEXEC-003",
+      "homepageArea": "Chinese Subtitle",
+      "mainAction": "Add “中国现代记忆的木刻史诗”",
+      "contentSource": "Existing content",
+      "visualDirection": "Elegant bilingual layout",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Cultural identity"
+    },
+    {
+      "_row": 5,
+      "homepageTaskId": "HOMEEXEC-004",
+      "homepageArea": "Featured Artwork",
+      "mainAction": "Use Human Bridge or Rent Reduction Meeting",
+      "contentSource": "Museum Canon",
+      "visualDirection": "Full-width masterpiece image",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Museum-quality presentation"
+    },
+    {
+      "_row": 6,
+      "homepageTaskId": "HOMEEXEC-005",
+      "homepageArea": "Introductory Statement",
+      "mainAction": "Add short international museum introduction",
+      "contentSource": "International Positioning",
+      "visualDirection": "Editorial museum style",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "International audience orientation"
+    },
+    {
+      "_row": 7,
+      "homepageTaskId": "HOMEEXEC-006",
+      "homepageArea": "Collections Navigation",
+      "mainAction": "Add collection categories grid",
+      "contentSource": "Collections tab",
+      "visualDirection": "Minimal museum cards",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Core navigation system"
+    },
+    {
+      "_row": 8,
+      "homepageTaskId": "HOMEEXEC-007",
+      "homepageArea": "Featured Exhibition",
+      "mainAction": "Add “The Carved Memory of Modern China” exhibition block",
+      "contentSource": "Exhibitions tab",
+      "visualDirection": "Exhibition banner style",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Curatorial experience"
+    },
+    {
+      "_row": 9,
+      "homepageTaskId": "HOMEEXEC-008",
+      "homepageArea": "Timeline Highlight",
+      "mainAction": "Add 1919–1996 timeline strip",
+      "contentSource": "Timeline system",
+      "visualDirection": "Minimal horizontal timeline",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Historical orientation"
+    },
+    {
+      "_row": 10,
+      "homepageTaskId": "HOMEEXEC-009",
+      "homepageArea": "Family Archive Highlight",
+      "mainAction": "Add family archive section",
+      "contentSource": "Family Archive",
+      "visualDirection": "Warm archival aesthetic",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "Unique archive identity"
+    },
+    {
+      "_row": 11,
+      "homepageTaskId": "HOMEEXEC-010",
+      "homepageArea": "Research Entry",
+      "mainAction": "Add research portal section",
+      "contentSource": "Research Themes",
+      "visualDirection": "Academic editorial style",
+      "priority": "High",
+      "status": "Planning",
+      "notes": "University-facing layer"
+    },
+    {
+      "_row": 12,
+      "homepageTaskId": "HOMEEXEC-011",
+      "homepageArea": "Digital Preservation",
+      "mainAction": "Add AI + archive workflow section",
+      "contentSource": "Digital Workflow",
+      "visualDirection": "Tech + museum hybrid",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Future funding value"
+    },
+    {
+      "_row": 13,
+      "homepageTaskId": "HOMEEXEC-012",
+      "homepageArea": "Youth Ambassadors",
+      "mainAction": "Add next-generation contributors section",
+      "contentSource": "Governance Structure",
+      "visualDirection": "Contemporary clean layout",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Living archive continuity"
+    },
+    {
+      "_row": 14,
+      "homepageTaskId": "HOMEEXEC-013",
+      "homepageArea": "Footer Upgrade",
+      "mainAction": "Add archive footer, copyright, contact",
+      "contentSource": "Metadata Standards",
+      "visualDirection": "Institutional footer style",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Professionalism"
+    },
+    {
+      "_row": 15,
+      "homepageTaskId": "HOMEEXEC-014",
+      "homepageArea": "Mobile Optimization",
+      "mainAction": "Ensure mobile museum experience",
+      "contentSource": "Website system",
+      "visualDirection": "Responsive layout",
+      "priority": "High",
+      "status": "Future",
+      "notes": "Important user experience"
+    },
+    {
+      "_row": 16,
+      "homepageTaskId": "HOMEEXEC-015",
+      "homepageArea": "Website Atmosphere",
+      "mainAction": "Remove propaganda feeling; strengthen museum atmosphere",
+      "contentSource": "Entire homepage",
+      "visualDirection": "Deep crimson + archive aesthetic",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Core visual direction"
+    }
+  ]
+}

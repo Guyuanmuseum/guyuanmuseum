@@ -1,0 +1,152 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Research Themes tab",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Research ID",
+      "Research Theme EN",
+      "Research Theme CN",
+      "Category",
+      "Description EN",
+      "Description CN",
+      "Related Collections",
+      "International Relevance",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "researchId": "RES-001",
+      "researchThemeEn": "Modern Chinese Printmaking",
+      "researchThemeCn": "中国现代版画",
+      "category": "Art History",
+      "descriptionEn": "Research on the development of modern Chinese woodcut printmaking through Gu Yuan’s artistic practice.",
+      "descriptionCn": "通过古元艺术实践研究中国现代木刻版画的发展。",
+      "relatedCollections": "Museum Canon",
+      "internationalRelevance": "Very High",
+      "status": "Active",
+      "notes": "Core international topic"
+    },
+    {
+      "_row": 3,
+      "researchId": "RES-002",
+      "researchThemeEn": "Yan’an Visual Culture",
+      "researchThemeCn": "延安视觉文化",
+      "category": "Visual Culture",
+      "descriptionEn": "Study of visual language, rural imagery, and wartime representation during the Yan’an period.",
+      "descriptionCn": "研究延安时期视觉语言、乡村图像与战争表达。",
+      "relatedCollections": "Yan’an Visual Culture",
+      "internationalRelevance": "Very High",
+      "status": "Active",
+      "notes": "Important global research field"
+    },
+    {
+      "_row": 4,
+      "researchId": "RES-003",
+      "researchThemeEn": "Wartime Visual Documentation",
+      "researchThemeCn": "战时视觉记录",
+      "category": "Historical Visual Studies",
+      "descriptionEn": "Exploration of how woodcut prints documented war, displacement, and civilian experience.",
+      "descriptionCn": "探讨木刻如何记录战争、流亡与平民经验。",
+      "relatedCollections": "Early Wartime Woodcuts",
+      "internationalRelevance": "Very High",
+      "status": "Active",
+      "notes": "Important historical archive value"
+    },
+    {
+      "_row": 5,
+      "researchId": "RES-004",
+      "researchThemeEn": "Folk Graphic Language",
+      "researchThemeCn": "民间图像语言",
+      "category": "Folk Art Studies",
+      "descriptionEn": "Study of Gu Yuan’s adaptation of folk visual traditions and New Year print aesthetics.",
+      "descriptionCn": "研究古元如何吸收民间视觉传统与年画美学。",
+      "relatedCollections": "Folk Graphic Language",
+      "internationalRelevance": "High",
+      "status": "Active",
+      "notes": "Visual language system"
+    },
+    {
+      "_row": 6,
+      "researchId": "RES-005",
+      "researchThemeEn": "Social Realism in Chinese Art",
+      "researchThemeCn": "中国艺术中的社会现实主义",
+      "category": "Art History",
+      "descriptionEn": "Examination of social realism and everyday life representation in Gu Yuan’s works.",
+      "descriptionCn": "研究古元作品中的社会现实主义与日常生活表达。",
+      "relatedCollections": "Museum Canon",
+      "internationalRelevance": "High",
+      "status": "Active",
+      "notes": "Human-centered imagery"
+    },
+    {
+      "_row": 7,
+      "researchId": "RES-006",
+      "researchThemeEn": "Rural Society and Labor Imagery",
+      "researchThemeCn": "乡村社会与劳动图像",
+      "category": "Social History",
+      "descriptionEn": "Research on agricultural labor, rural society, and village visual culture.",
+      "descriptionCn": "研究农业劳动、乡村社会与村庄视觉文化。",
+      "relatedCollections": "Rural Life",
+      "internationalRelevance": "High",
+      "status": "Active",
+      "notes": "Rural studies direction"
+    },
+    {
+      "_row": 8,
+      "researchId": "RES-007",
+      "researchThemeEn": "Cross-Cultural Translation of Chinese Art",
+      "researchThemeCn": "中国艺术的跨文化翻译",
+      "category": "Translation Studies",
+      "descriptionEn": "Research on translating Chinese visual culture into international museum and academic language.",
+      "descriptionCn": "研究如何将中国视觉文化转化为国际美术馆与学术语言。",
+      "relatedCollections": "Translation System",
+      "internationalRelevance": "Very High",
+      "status": "Active",
+      "notes": "Important international framework"
+    },
+    {
+      "_row": 9,
+      "researchId": "RES-008",
+      "researchThemeEn": "Family Archive and Oral History",
+      "researchThemeCn": "家族档案与口述历史",
+      "category": "Archive Studies",
+      "descriptionEn": "Study of family memory, oral history, and intergenerational archive preservation.",
+      "descriptionCn": "研究家族记忆、口述历史与跨代档案保存。",
+      "relatedCollections": "Family Archive",
+      "internationalRelevance": "Very High",
+      "status": "Active",
+      "notes": "Living archive system"
+    },
+    {
+      "_row": 10,
+      "researchId": "RES-009",
+      "researchThemeEn": "Museum Digital Preservation",
+      "researchThemeCn": "美术馆数字保存",
+      "category": "Digital Humanities",
+      "descriptionEn": "Research on digital archiving, metadata systems, and online preservation of cultural heritage.",
+      "descriptionCn": "研究文化遗产数字档案、metadata系统与在线保存。",
+      "relatedCollections": "Digital Preservation Project",
+      "internationalRelevance": "Very High",
+      "status": "Active",
+      "notes": "Future AI integration"
+    },
+    {
+      "_row": 11,
+      "researchId": "RES-010",
+      "researchThemeEn": "Gu Yuan’s Influence on Contemporary Art",
+      "researchThemeCn": "古元对当代艺术的影响",
+      "category": "Contemporary Art Studies",
+      "descriptionEn": "Examination of Gu Yuan’s influence on later generations of artists, printmakers, and visual culture.",
+      "descriptionCn": "研究古元对后代艺术家、版画家与视觉文化的影响。",
+      "relatedCollections": "Contemporary Legacy",
+      "internationalRelevance": "High",
+      "status": "Planning",
+      "notes": "Includes Xu Bing connection"
+    }
+  ]
+}

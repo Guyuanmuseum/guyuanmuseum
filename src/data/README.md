@@ -1,0 +1,11 @@
+# Gu Yuan Digital Museum Data
+
+This folder contains static JSON exported from the Gu Yuan Digital Museum Google Sheet.
+
+- `public/` contains JSON that the public website may fetch and render.
+- `internal/` preserves planning, review, workflow, governance, and implementation tabs that should not be loaded by public pages yet.
+- `public/manifest.json` and `internal/manifest.json` map spreadsheet tabs to their generated JSON files.
+- `public/archive-index.json` is a derived index for future AI search, archive filtering, collection pages, exhibition pages, and multilingual rendering.
+- `public/local-assets.json` maps existing local image files while Sheet image URLs are still pending.
+
+Future Google Sheets API sync should read credentials from environment variables only. Do not commit `.env` files, private keys, or service-account JSON files.

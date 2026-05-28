@@ -1,0 +1,196 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Archive Roadmap",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Roadmap ID",
+      "Phase",
+      "Timeframe",
+      "Main Goal",
+      "Key Actions",
+      "Expected Output",
+      "Priority",
+      "Status"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "roadmapId": "ROAD-001",
+      "phase": "Phase 1",
+      "timeframe": "0–3 Months",
+      "mainGoal": "Build foundation archive system",
+      "keyActions": "Complete Google Sheet database, biography, timeline, artworks, photos, people, collections",
+      "expectedOutput": "Structured digital archive foundation",
+      "priority": "Highest",
+      "status": "Active"
+    },
+    {
+      "_row": 3,
+      "roadmapId": "ROAD-002",
+      "phase": "Phase 1",
+      "timeframe": "0–3 Months",
+      "mainGoal": "Website content upgrade",
+      "keyActions": "Update homepage, biography, collections, museum canon, exhibitions",
+      "expectedOutput": "International museum-style website version 1",
+      "priority": "Highest",
+      "status": "Active"
+    },
+    {
+      "_row": 4,
+      "roadmapId": "ROAD-003",
+      "phase": "Phase 1",
+      "timeframe": "0–3 Months",
+      "mainGoal": "Family archive review",
+      "keyActions": "Send website pages to Gu Ancun and Wei Duan for review",
+      "expectedOutput": "Verified family archive notes",
+      "priority": "Highest",
+      "status": "Active"
+    },
+    {
+      "_row": 5,
+      "roadmapId": "ROAD-004",
+      "phase": "Phase 2",
+      "timeframe": "3–6 Months",
+      "mainGoal": "Artwork database expansion",
+      "keyActions": "Add 50–100 artworks with images, captions, metadata, sources",
+      "expectedOutput": "Strong museum collection database",
+      "priority": "Highest",
+      "status": "Planning"
+    },
+    {
+      "_row": 6,
+      "roadmapId": "ROAD-005",
+      "phase": "Phase 2",
+      "timeframe": "3–6 Months",
+      "mainGoal": "Photo archive expansion",
+      "keyActions": "Add portraits, exhibition images, family photos, museum photos",
+      "expectedOutput": "Visual archive system",
+      "priority": "High",
+      "status": "Planning"
+    },
+    {
+      "_row": 7,
+      "roadmapId": "ROAD-006",
+      "phase": "Phase 2",
+      "timeframe": "3–6 Months",
+      "mainGoal": "Digital exhibition launch",
+      "keyActions": "Launch first online exhibition: The Carved Memory of Modern China",
+      "expectedOutput": "Public-facing digital exhibition",
+      "priority": "Highest",
+      "status": "Planning"
+    },
+    {
+      "_row": 8,
+      "roadmapId": "ROAD-007",
+      "phase": "Phase 2",
+      "timeframe": "3–6 Months",
+      "mainGoal": "Project deck creation",
+      "keyActions": "Build official international project presentation deck",
+      "expectedOutput": "Partnership and funding material",
+      "priority": "High",
+      "status": "Planning"
+    },
+    {
+      "_row": 9,
+      "roadmapId": "ROAD-008",
+      "phase": "Phase 3",
+      "timeframe": "6–12 Months",
+      "mainGoal": "Research platform development",
+      "keyActions": "Add research themes, essays, citations, academic sources",
+      "expectedOutput": "University-facing research platform",
+      "priority": "High",
+      "status": "Planning"
+    },
+    {
+      "_row": 10,
+      "roadmapId": "ROAD-009",
+      "phase": "Phase 3",
+      "timeframe": "6–12 Months",
+      "mainGoal": "Institutional outreach",
+      "keyActions": "Contact universities, museums, cultural organizations",
+      "expectedOutput": "Partnership pipeline",
+      "priority": "High",
+      "status": "Planning"
+    },
+    {
+      "_row": 11,
+      "roadmapId": "ROAD-010",
+      "phase": "Phase 3",
+      "timeframe": "6–12 Months",
+      "mainGoal": "Funding preparation",
+      "keyActions": "Prepare grant proposals and sponsorship package",
+      "expectedOutput": "Funding-ready project package",
+      "priority": "High",
+      "status": "Planning"
+    },
+    {
+      "_row": 12,
+      "roadmapId": "ROAD-011",
+      "phase": "Year 2",
+      "timeframe": "12–24 Months",
+      "mainGoal": "AI archive system",
+      "keyActions": "Connect Google Sheet / JSON / AI search",
+      "expectedOutput": "Intelligent archive search prototype",
+      "priority": "High",
+      "status": "Future"
+    },
+    {
+      "_row": 13,
+      "roadmapId": "ROAD-012",
+      "phase": "Year 2",
+      "timeframe": "12–24 Months",
+      "mainGoal": "Oral history project",
+      "keyActions": "Interview Gu Ancun, Wei Duan, family members, scholars",
+      "expectedOutput": "Oral history archive",
+      "priority": "Highest",
+      "status": "Future"
+    },
+    {
+      "_row": 14,
+      "roadmapId": "ROAD-013",
+      "phase": "Year 2",
+      "timeframe": "12–24 Months",
+      "mainGoal": "International exhibition proposal",
+      "keyActions": "Prepare digital or physical exhibition proposal",
+      "expectedOutput": "Museum collaboration package",
+      "priority": "High",
+      "status": "Future"
+    },
+    {
+      "_row": 15,
+      "roadmapId": "ROAD-014",
+      "phase": "Year 3",
+      "timeframe": "24–36 Months",
+      "mainGoal": "Digital humanities collaboration",
+      "keyActions": "Work with universities or research centers",
+      "expectedOutput": "Academic partnership project",
+      "priority": "High",
+      "status": "Future"
+    },
+    {
+      "_row": 16,
+      "roadmapId": "ROAD-015",
+      "phase": "Year 3",
+      "timeframe": "24–36 Months",
+      "mainGoal": "Publication development",
+      "keyActions": "Create bilingual catalogue or research publication",
+      "expectedOutput": "Academic / museum publication",
+      "priority": "Medium",
+      "status": "Future"
+    },
+    {
+      "_row": 17,
+      "roadmapId": "ROAD-016",
+      "phase": "Long Term",
+      "timeframe": "3–5 Years",
+      "mainGoal": "International digital museum platform",
+      "keyActions": "Expand into major research and cultural preservation platform",
+      "expectedOutput": "Recognized international archive",
+      "priority": "Highest",
+      "status": "Future"
+    }
+  ]
+}

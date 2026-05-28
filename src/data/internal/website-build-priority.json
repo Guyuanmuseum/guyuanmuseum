@@ -1,0 +1,81 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Website Build Priority",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Priority Level",
+      "Website Area",
+      "Why It Matters"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "priorityLevel": "Highest",
+      "websiteArea": "Homepage",
+      "whyItMatters": "First international impression"
+    },
+    {
+      "_row": 3,
+      "priorityLevel": "Highest",
+      "websiteArea": "About Gu Yuan",
+      "whyItMatters": "Core understanding of artist"
+    },
+    {
+      "_row": 4,
+      "priorityLevel": "Highest",
+      "websiteArea": "Collections",
+      "whyItMatters": "Museum navigation structure"
+    },
+    {
+      "_row": 5,
+      "priorityLevel": "Highest",
+      "websiteArea": "Museum Canon",
+      "whyItMatters": "Museum identity"
+    },
+    {
+      "_row": 6,
+      "priorityLevel": "Highest",
+      "websiteArea": "Archive",
+      "whyItMatters": "Research and database access"
+    },
+    {
+      "_row": 7,
+      "priorityLevel": "High",
+      "websiteArea": "Exhibitions",
+      "whyItMatters": "Curatorial experience"
+    },
+    {
+      "_row": 8,
+      "priorityLevel": "High",
+      "websiteArea": "Research",
+      "whyItMatters": "University credibility"
+    },
+    {
+      "_row": 9,
+      "priorityLevel": "High",
+      "websiteArea": "Family Archive",
+      "whyItMatters": "Unique archive identity"
+    },
+    {
+      "_row": 10,
+      "priorityLevel": "High",
+      "websiteArea": "Digital Preservation",
+      "whyItMatters": "Funding and institutional value"
+    },
+    {
+      "_row": 11,
+      "priorityLevel": "Medium",
+      "websiteArea": "Contributors",
+      "whyItMatters": "Organizational structure"
+    },
+    {
+      "_row": 12,
+      "priorityLevel": "Future",
+      "websiteArea": "AI Search",
+      "whyItMatters": "Innovation system"
+    }
+  ]
+}

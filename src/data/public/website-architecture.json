@@ -1,0 +1,213 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Website Architecture",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Page ID",
+      "Page Name EN",
+      "Page Name CN",
+      "Main Purpose",
+      "Main Content",
+      "Related Systems",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "pageId": "WEB-001",
+      "pageNameEn": "Home",
+      "pageNameCn": "首页",
+      "mainPurpose": "Main museum entrance",
+      "mainContent": "Hero image, featured masterpieces, museum introduction",
+      "relatedSystems": "Museum Canon / Exhibitions",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Main public-facing page"
+    },
+    {
+      "_row": 3,
+      "pageId": "WEB-002",
+      "pageNameEn": "About Gu Yuan",
+      "pageNameCn": "关于古元",
+      "mainPurpose": "Artist biography",
+      "mainContent": "Timeline, biography, portraits, historical overview",
+      "relatedSystems": "Timeline / Portrait Archive",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Core educational page"
+    },
+    {
+      "_row": 4,
+      "pageId": "WEB-003",
+      "pageNameEn": "Collections",
+      "pageNameCn": "馆藏专题",
+      "mainPurpose": "Museum collection navigation",
+      "mainContent": "Collection categories and artwork grouping",
+      "relatedSystems": "Collections System",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Museum structure core"
+    },
+    {
+      "_row": 5,
+      "pageId": "WEB-004",
+      "pageNameEn": "Museum Canon",
+      "pageNameCn": "核心馆藏",
+      "mainPurpose": "Showcase masterpieces",
+      "mainContent": "Masterpieces and canonical works",
+      "relatedSystems": "Museum Canon",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "High-level curation"
+    },
+    {
+      "_row": 6,
+      "pageId": "WEB-005",
+      "pageNameEn": "Exhibitions",
+      "pageNameCn": "展览",
+      "mainPurpose": "Digital exhibitions",
+      "mainContent": "Permanent and thematic exhibitions",
+      "relatedSystems": "Exhibition System",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Museum experience layer"
+    },
+    {
+      "_row": 7,
+      "pageId": "WEB-006",
+      "pageNameEn": "Archive",
+      "pageNameCn": "档案库",
+      "mainPurpose": "Archive database access",
+      "mainContent": "Photos, documents, artworks, metadata",
+      "relatedSystems": "Archive System",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Research portal"
+    },
+    {
+      "_row": 8,
+      "pageId": "WEB-007",
+      "pageNameEn": "Research",
+      "pageNameCn": "研究",
+      "mainPurpose": "Academic and research portal",
+      "mainContent": "Research themes, essays, keywords",
+      "relatedSystems": "Research System",
+      "priority": "High",
+      "status": "Active",
+      "notes": "University-facing system"
+    },
+    {
+      "_row": 9,
+      "pageId": "WEB-008",
+      "pageNameEn": "Timeline",
+      "pageNameCn": "时间线",
+      "mainPurpose": "Chronological navigation",
+      "mainContent": "Life events and historical milestones",
+      "relatedSystems": "Timeline JSON",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Biography navigation"
+    },
+    {
+      "_row": 10,
+      "pageId": "WEB-009",
+      "pageNameEn": "Family Archive",
+      "pageNameCn": "家族档案",
+      "mainPurpose": "Intergenerational archive",
+      "mainContent": "Family memory, oral history, contributors",
+      "relatedSystems": "Family Archive",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Unique archive identity"
+    },
+    {
+      "_row": 11,
+      "pageId": "WEB-010",
+      "pageNameEn": "Contributors",
+      "pageNameCn": "贡献者",
+      "mainPurpose": "Archive contributors",
+      "mainContent": "Curators, contributors, youth ambassadors",
+      "relatedSystems": "People System",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "Archive governance"
+    },
+    {
+      "_row": 12,
+      "pageId": "WEB-011",
+      "pageNameEn": "Digital Preservation",
+      "pageNameCn": "数字保存",
+      "mainPurpose": "Digital archive workflow",
+      "mainContent": "Preservation methods and workflow",
+      "relatedSystems": "Digital Workflow",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Future funding importance"
+    },
+    {
+      "_row": 13,
+      "pageId": "WEB-012",
+      "pageNameEn": "Search",
+      "pageNameCn": "搜索系统",
+      "mainPurpose": "AI-powered archive search",
+      "mainContent": "Tags, filters, keywords, metadata",
+      "relatedSystems": "AI Tags / JSON",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Future AI archive engine"
+    },
+    {
+      "_row": 14,
+      "pageId": "WEB-013",
+      "pageNameEn": "Publications",
+      "pageNameCn": "出版与文献",
+      "mainPurpose": "Publications and essays",
+      "mainContent": "Books, essays, articles, PDFs",
+      "relatedSystems": "Research Archive",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Academic expansion"
+    },
+    {
+      "_row": 15,
+      "pageId": "WEB-014",
+      "pageNameEn": "Oral History",
+      "pageNameCn": "口述历史",
+      "mainPurpose": "Interviews and memory",
+      "mainContent": "Family interviews and recordings",
+      "relatedSystems": "Oral History System",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Living archive system"
+    },
+    {
+      "_row": 16,
+      "pageId": "WEB-015",
+      "pageNameEn": "Education",
+      "pageNameCn": "教育项目",
+      "mainPurpose": "Educational outreach",
+      "mainContent": "Youth ambassador and educational programs",
+      "relatedSystems": "Youth Ambassador System",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Museum education direction"
+    },
+    {
+      "_row": 17,
+      "pageId": "WEB-016",
+      "pageNameEn": "International Collaboration",
+      "pageNameCn": "国际合作",
+      "mainPurpose": "Global outreach",
+      "mainContent": "Universities, museums, partnerships",
+      "relatedSystems": "International Development",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Future institutional growth"
+    }
+  ]
+}

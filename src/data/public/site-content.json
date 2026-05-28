@@ -1,0 +1,164 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "derivedFrom": [
+      "Homepage Execution",
+      "Official International Descript",
+      "Website Architecture"
+    ],
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "sheetName": "Derived site content",
+    "headers": []
+  },
+  "navigation": [
+    {
+      "id": "WEB-001",
+      "labelEn": "Home",
+      "labelCn": "首页",
+      "href": "#top"
+    },
+    {
+      "id": "WEB-002",
+      "labelEn": "About Gu Yuan",
+      "labelCn": "关于古元",
+      "href": "#life"
+    },
+    {
+      "id": "WEB-003",
+      "labelEn": "Collections",
+      "labelCn": "馆藏专题",
+      "href": "#collections"
+    },
+    {
+      "id": "WEB-004",
+      "labelEn": "Museum Canon",
+      "labelCn": "核心馆藏",
+      "href": "#works"
+    },
+    {
+      "id": "WEB-005",
+      "labelEn": "Exhibitions",
+      "labelCn": "展览",
+      "href": "#exhibitions"
+    },
+    {
+      "id": "WEB-006",
+      "labelEn": "Archive",
+      "labelCn": "档案库",
+      "href": "#archive"
+    },
+    {
+      "id": "WEB-007",
+      "labelEn": "Research",
+      "labelCn": "研究",
+      "href": "#research"
+    },
+    {
+      "id": "WEB-009",
+      "labelEn": "Family Archive",
+      "labelCn": "家族档案",
+      "href": "#guardian"
+    }
+  ],
+  "hero": {
+    "eyebrowEn": "Digital Museum",
+    "eyebrowCn": "数字美术馆",
+    "titleEn": "The Carved Memory of Modern China",
+    "titleCn": "中国现代记忆的木刻史诗",
+    "ledeEn": "The Gu Yuan Digital Museum is a bilingual digital museum and research archive dedicated to preserving, studying, and internationally presenting the artistic and visual legacy of Gu Yuan (1919–1996), one of the most influential figures in modern Chinese printmaking.",
+    "ledeCn": "古元数字美术馆是一个双语数字美术馆与研究型档案平台，致力于保存、研究并向国际社会呈现中国现代版画重要代表人物古元（1919–1996）的艺术与视觉遗产。",
+    "secondaryEn": "Combining museum-grade archive systems, digital preservation, cross-cultural translation, family archival memory, and AI-oriented metadata structures, the platform serves as an international research and cultural preservation initiative focused on modern Chinese visual culture.",
+    "secondaryCn": "项目结合 museum-grade 档案系统、数字保存、跨文化翻译、家族档案记忆与 AI 导向 metadata 结构，致力于成为中国现代视觉文化的重要国际研究与文化保存平台。"
+  },
+  "ui": {
+    "languageToggleEn": "中文",
+    "languageToggleCn": "English",
+    "primaryCtaEn": "Museum Canon",
+    "primaryCtaCn": "核心馆藏",
+    "secondaryCtaEn": "Timeline",
+    "secondaryCtaCn": "时间线"
+  },
+  "records": [
+    {
+      "source": {
+        "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+        "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+        "derivedFrom": [
+          "Homepage Execution",
+          "Official International Descript",
+          "Website Architecture"
+        ],
+        "generatedAt": "2026-05-28T01:09:48.232125+00:00"
+      },
+      "navigation": [
+        {
+          "id": "WEB-001",
+          "labelEn": "Home",
+          "labelCn": "首页",
+          "href": "#top"
+        },
+        {
+          "id": "WEB-002",
+          "labelEn": "About Gu Yuan",
+          "labelCn": "关于古元",
+          "href": "#life"
+        },
+        {
+          "id": "WEB-003",
+          "labelEn": "Collections",
+          "labelCn": "馆藏专题",
+          "href": "#collections"
+        },
+        {
+          "id": "WEB-004",
+          "labelEn": "Museum Canon",
+          "labelCn": "核心馆藏",
+          "href": "#works"
+        },
+        {
+          "id": "WEB-005",
+          "labelEn": "Exhibitions",
+          "labelCn": "展览",
+          "href": "#exhibitions"
+        },
+        {
+          "id": "WEB-006",
+          "labelEn": "Archive",
+          "labelCn": "档案库",
+          "href": "#archive"
+        },
+        {
+          "id": "WEB-007",
+          "labelEn": "Research",
+          "labelCn": "研究",
+          "href": "#research"
+        },
+        {
+          "id": "WEB-009",
+          "labelEn": "Family Archive",
+          "labelCn": "家族档案",
+          "href": "#guardian"
+        }
+      ],
+      "hero": {
+        "eyebrowEn": "Digital Museum",
+        "eyebrowCn": "数字美术馆",
+        "titleEn": "The Carved Memory of Modern China",
+        "titleCn": "中国现代记忆的木刻史诗",
+        "ledeEn": "The Gu Yuan Digital Museum is a bilingual digital museum and research archive dedicated to preserving, studying, and internationally presenting the artistic and visual legacy of Gu Yuan (1919–1996), one of the most influential figures in modern Chinese printmaking.",
+        "ledeCn": "古元数字美术馆是一个双语数字美术馆与研究型档案平台，致力于保存、研究并向国际社会呈现中国现代版画重要代表人物古元（1919–1996）的艺术与视觉遗产。",
+        "secondaryEn": "Combining museum-grade archive systems, digital preservation, cross-cultural translation, family archival memory, and AI-oriented metadata structures, the platform serves as an international research and cultural preservation initiative focused on modern Chinese visual culture.",
+        "secondaryCn": "项目结合 museum-grade 档案系统、数字保存、跨文化翻译、家族档案记忆与 AI 导向 metadata 结构，致力于成为中国现代视觉文化的重要国际研究与文化保存平台。"
+      },
+      "ui": {
+        "languageToggleEn": "中文",
+        "languageToggleCn": "English",
+        "primaryCtaEn": "Museum Canon",
+        "primaryCtaCn": "核心馆藏",
+        "secondaryCtaEn": "Timeline",
+        "secondaryCtaCn": "时间线"
+      }
+    }
+  ]
+}

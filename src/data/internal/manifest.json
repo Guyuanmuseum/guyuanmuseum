@@ -1,0 +1,396 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00"
+  },
+  "visibility": "internal",
+  "scaleTargets": [
+    "AI search",
+    "Archive filtering",
+    "Collection pages",
+    "Exhibition pages",
+    "Multilingual rendering"
+  ],
+  "requestedAliases": {
+    "reviewNotes": {
+      "file": "internal/review-notes.json",
+      "visibility": "internal"
+    },
+    "websiteStatus": {
+      "file": "internal/website-status.json",
+      "visibility": "internal"
+    },
+    "metadataStandards": {
+      "file": "internal/metadata-standards.json",
+      "visibility": "internal"
+    },
+    "digitalWorkflow": {
+      "file": "internal/digital-workflow.json",
+      "visibility": "internal"
+    }
+  },
+  "files": [
+    {
+      "key": "archive-roadmap",
+      "file": "internal/archive-roadmap.json",
+      "visibility": "internal",
+      "sheetName": "Archive Roadmap",
+      "recordCount": 16,
+      "headers": [
+        "Roadmap ID",
+        "Phase",
+        "Timeframe",
+        "Main Goal",
+        "Key Actions",
+        "Expected Output",
+        "Priority",
+        "Status"
+      ]
+    },
+    {
+      "key": "daily-execution-workflow",
+      "file": "internal/daily-execution-workflow.json",
+      "visibility": "internal",
+      "sheetName": "Daily Execution Workflow",
+      "recordCount": 12,
+      "headers": [
+        "Task ID",
+        "Daily Workflow Stage",
+        "Main Action",
+        "Platform",
+        "Output",
+        "Estimated Time",
+        "Priority",
+        "Status"
+      ]
+    },
+    {
+      "key": "digital-workflow",
+      "file": "internal/digital-workflow.json",
+      "visibility": "internal",
+      "sheetName": "Digital Workflow",
+      "recordCount": 12,
+      "headers": [
+        "Workflow ID",
+        "Stage",
+        "Input",
+        "Process",
+        "Output",
+        "Platform",
+        "Automation Potential",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "funding-priorities",
+      "file": "internal/funding-priorities.json",
+      "visibility": "internal",
+      "sheetName": "Funding Priorities",
+      "recordCount": 8,
+      "headers": [
+        "Priority Level",
+        "Main Goal",
+        "Why It Matters"
+      ]
+    },
+    {
+      "key": "funding-strategy",
+      "file": "internal/funding-strategy.json",
+      "visibility": "internal",
+      "sheetName": "Funding Strategy",
+      "recordCount": 15,
+      "headers": [
+        "Funding ID",
+        "Funding Type",
+        "Target Organization / Source",
+        "Purpose",
+        "Possible Amount / Support",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "governance-structure",
+      "file": "internal/governance-structure.json",
+      "visibility": "internal",
+      "sheetName": "Governance Structure",
+      "recordCount": 12,
+      "headers": [
+        "Role ID",
+        "Position Title EN",
+        "Position Title CN",
+        "Person",
+        "Main Responsibilities",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "homepage-execution",
+      "file": "internal/homepage-execution.json",
+      "visibility": "internal",
+      "sheetName": "Homepage Execution",
+      "recordCount": 15,
+      "headers": [
+        "Homepage Task ID",
+        "Homepage Area",
+        "Main Action",
+        "Content Source",
+        "Visual Direction",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "homepage-narrative-flow",
+      "file": "internal/homepage-narrative-flow.json",
+      "visibility": "internal",
+      "sheetName": "Homepage Narrative Flow",
+      "recordCount": 22,
+      "headers": [
+        "Hero Artwork"
+      ]
+    },
+    {
+      "key": "homepage-strategy",
+      "file": "internal/homepage-strategy.json",
+      "visibility": "internal",
+      "sheetName": "Homepage Strategy",
+      "recordCount": 14,
+      "headers": [
+        "Section ID",
+        "Homepage Section",
+        "Purpose",
+        "Main Content",
+        "Visual Direction",
+        "Related Systems",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "homepage-visual-hierarchy",
+      "file": "internal/homepage-visual-hierarchy.json",
+      "visibility": "internal",
+      "sheetName": "Homepage Visual Hierarchy",
+      "recordCount": 20,
+      "headers": [
+        "Hero Artwork"
+      ]
+    },
+    {
+      "key": "institutional-strategy",
+      "file": "internal/institutional-strategy.json",
+      "visibility": "internal",
+      "sheetName": "Institutional Strategy",
+      "recordCount": 15,
+      "headers": [
+        "Strategy ID",
+        "Institution Type",
+        "Target Institution / Direction",
+        "Purpose",
+        "Possible Collaboration",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "json-example-system",
+      "file": "internal/json-example-system.json",
+      "visibility": "internal",
+      "sheetName": "JSON Example System",
+      "recordCount": 40,
+      "headers": [
+        "Artwork JSON Example",
+        "{"
+      ]
+    },
+    {
+      "key": "json-structure",
+      "file": "internal/json-structure.json",
+      "visibility": "internal",
+      "sheetName": "JSON Structure",
+      "recordCount": 10,
+      "headers": [
+        "JSON Type",
+        "Purpose",
+        "Main Fields",
+        "Example",
+        "Website Usage",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "legal-foundation-strategy",
+      "file": "internal/legal-foundation-strategy.json",
+      "visibility": "internal",
+      "sheetName": "Legal & Foundation Strategy",
+      "recordCount": 15,
+      "headers": [
+        "Legal ID",
+        "Development Area",
+        "Description EN",
+        "Description CN",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "metadata-standards",
+      "file": "internal/metadata-standards.json",
+      "visibility": "internal",
+      "sheetName": "Metadata Standards ",
+      "recordCount": 20,
+      "headers": [
+        "Standard ID",
+        "Field Name",
+        "Format Standard",
+        "Example",
+        "Description",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "organizational-structure-overview",
+      "file": "internal/organizational-structure-overview.json",
+      "visibility": "internal",
+      "sheetName": "Organizational Structure Overvi",
+      "recordCount": 12,
+      "headers": [
+        "Founder & Digital Archive Director"
+      ]
+    },
+    {
+      "key": "project-deck",
+      "file": "internal/project-deck.json",
+      "visibility": "internal",
+      "sheetName": "Project Deck",
+      "recordCount": 14,
+      "headers": [
+        "Slide ID",
+        "Slide Title EN",
+        "Slide Title CN",
+        "Purpose",
+        "Key Content",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "recommended-organizational-evolution",
+      "file": "internal/recommended-organizational-evolution.json",
+      "visibility": "internal",
+      "sheetName": "Recommended Organizational Evol",
+      "recordCount": 5,
+      "headers": [
+        "Stage",
+        "Organizational Form",
+        "Main Goal"
+      ]
+    },
+    {
+      "key": "recommended-weekly-rhythm",
+      "file": "internal/recommended-weekly-rhythm.json",
+      "visibility": "internal",
+      "sheetName": "Recommended Weekly Rhythm",
+      "recordCount": 7,
+      "headers": [
+        "Day Type",
+        "Main Focus"
+      ]
+    },
+    {
+      "key": "review-notes",
+      "file": "internal/review-notes.json",
+      "visibility": "internal",
+      "sheetName": "Gu Ancun  Review Notes｜古安村反馈表",
+      "recordCount": 10,
+      "headers": [
+        "ID",
+        "Date",
+        "Reviewer",
+        "Page/Section",
+        "Original Content",
+        "Feedback",
+        "Action Needed",
+        "Action By",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "sheet8",
+      "file": "internal/sheet8.json",
+      "visibility": "internal",
+      "sheetName": "Sheet8",
+      "recordCount": 0,
+      "headers": []
+    },
+    {
+      "key": "six-month-priority-plan",
+      "file": "internal/six-month-priority-plan.json",
+      "visibility": "internal",
+      "sheetName": "6-Month Priority Plan",
+      "recordCount": 6,
+      "headers": [
+        "Month",
+        "Priority",
+        "Main Tasks"
+      ]
+    },
+    {
+      "key": "website-build-priority",
+      "file": "internal/website-build-priority.json",
+      "visibility": "internal",
+      "sheetName": "Website Build Priority",
+      "recordCount": 11,
+      "headers": [
+        "Priority Level",
+        "Website Area",
+        "Why It Matters"
+      ]
+    },
+    {
+      "key": "website-status",
+      "file": "internal/website-status.json",
+      "visibility": "internal",
+      "sheetName": "Website Status",
+      "recordCount": 15,
+      "headers": [
+        "Update ID",
+        "Website Section",
+        "Content Source",
+        "Main Tasks",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    },
+    {
+      "key": "website-update-plan",
+      "file": "internal/website-update-plan.json",
+      "visibility": "internal",
+      "sheetName": "Website Update Plan",
+      "recordCount": 15,
+      "headers": [
+        "Update ID",
+        "Website Section",
+        "Content Source",
+        "Main Tasks",
+        "Priority",
+        "Status",
+        "Notes"
+      ]
+    }
+  ]
+}

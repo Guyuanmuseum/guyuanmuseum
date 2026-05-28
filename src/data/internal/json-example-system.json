@@ -1,0 +1,214 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "JSON Example System",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Artwork JSON Example",
+      "{"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "artworkJsonExample": null,
+      "column2": "id: \"ART-001\","
+    },
+    {
+      "_row": 3,
+      "artworkJsonExample": null,
+      "column2": "title_en: \"Human Bridge\","
+    },
+    {
+      "_row": 4,
+      "artworkJsonExample": null,
+      "column2": "title_cn: \"人桥\","
+    },
+    {
+      "_row": 5,
+      "artworkJsonExample": null,
+      "column2": "year: 1948,"
+    },
+    {
+      "_row": 6,
+      "artworkJsonExample": null,
+      "column2": "medium: \"Woodcut print\","
+    },
+    {
+      "_row": 7,
+      "artworkJsonExample": null,
+      "column2": "collection: ["
+    },
+    {
+      "_row": 8,
+      "artworkJsonExample": null,
+      "column2": "Museum Canon,"
+    },
+    {
+      "_row": 9,
+      "artworkJsonExample": null,
+      "column2": "Postwar China"
+    },
+    {
+      "_row": 10,
+      "artworkJsonExample": null,
+      "column2": "],"
+    },
+    {
+      "_row": 11,
+      "artworkJsonExample": null,
+      "column2": "canon_level: \"Masterpiece\","
+    },
+    {
+      "_row": 12,
+      "artworkJsonExample": null,
+      "column2": "tags: ["
+    },
+    {
+      "_row": 13,
+      "artworkJsonExample": null,
+      "column2": "woodcut,"
+    },
+    {
+      "_row": 14,
+      "artworkJsonExample": null,
+      "column2": "wartime China,"
+    },
+    {
+      "_row": 15,
+      "artworkJsonExample": null,
+      "column2": "collective movement,"
+    },
+    {
+      "_row": 16,
+      "artworkJsonExample": null,
+      "column2": "modern Chinese printmaking"
+    },
+    {
+      "_row": 17,
+      "artworkJsonExample": null,
+      "column2": "],"
+    },
+    {
+      "_row": 18,
+      "artworkJsonExample": null,
+      "column2": "description_en: \"One of Gu Yuan’s most internationally recognized woodcuts.\","
+    },
+    {
+      "_row": 19,
+      "artworkJsonExample": null,
+      "column2": "description_cn: \"古元最具国际代表性的木刻作品之一。\","
+    },
+    {
+      "_row": 20,
+      "artworkJsonExample": null,
+      "column2": "status: \"Active\""
+    },
+    {
+      "_row": 21,
+      "artworkJsonExample": null,
+      "column2": "}"
+    },
+    {
+      "_row": 22,
+      "artworkJsonExample": "People JSON Example",
+      "column2": "{"
+    },
+    {
+      "_row": 23,
+      "artworkJsonExample": null,
+      "column2": "id: \"PEO-004\","
+    },
+    {
+      "_row": 24,
+      "artworkJsonExample": null,
+      "column2": "name_en: \"Wei Duan\","
+    },
+    {
+      "_row": 25,
+      "artworkJsonExample": null,
+      "column2": "name_cn: \"段薇\","
+    },
+    {
+      "_row": 26,
+      "artworkJsonExample": null,
+      "column2": "role: ["
+    },
+    {
+      "_row": 27,
+      "artworkJsonExample": null,
+      "column2": "International Curator,"
+    },
+    {
+      "_row": 28,
+      "artworkJsonExample": null,
+      "column2": "Translation Director"
+    },
+    {
+      "_row": 29,
+      "artworkJsonExample": null,
+      "column2": "],"
+    },
+    {
+      "_row": 30,
+      "artworkJsonExample": null,
+      "column2": "relationship: \"Granddaughter of Gu Yuan\","
+    },
+    {
+      "_row": 31,
+      "artworkJsonExample": null,
+      "column2": "notes: \"Raised by Gu Yuan and his wife from infancy and accompanied them throughout their later years.\""
+    },
+    {
+      "_row": 32,
+      "artworkJsonExample": null,
+      "column2": "}"
+    },
+    {
+      "_row": 33,
+      "artworkJsonExample": "Collection JSON Example",
+      "column2": "{"
+    },
+    {
+      "_row": 34,
+      "artworkJsonExample": null,
+      "column2": "id: \"COL-002\","
+    },
+    {
+      "_row": 35,
+      "artworkJsonExample": null,
+      "column2": "title_en: \"Yan’an Visual Culture\","
+    },
+    {
+      "_row": 36,
+      "artworkJsonExample": null,
+      "column2": "title_cn: \"延安视觉文化\","
+    },
+    {
+      "_row": 37,
+      "artworkJsonExample": null,
+      "column2": "years: \"1940–1945\","
+    },
+    {
+      "_row": 38,
+      "artworkJsonExample": null,
+      "column2": "theme: \"Rural Society and Wartime Culture\","
+    },
+    {
+      "_row": 39,
+      "artworkJsonExample": null,
+      "column2": "priority: \"Highest\","
+    },
+    {
+      "_row": 40,
+      "artworkJsonExample": null,
+      "column2": "status: \"Active\""
+    },
+    {
+      "_row": 41,
+      "artworkJsonExample": null,
+      "column2": "}"
+    }
+  ]
+}

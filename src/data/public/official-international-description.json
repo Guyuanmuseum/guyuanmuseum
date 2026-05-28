@@ -1,0 +1,33 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Official International Descript",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Official Positioning Statement (EN)"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "officialPositioningStatementEn": "The Gu Yuan Digital Museum is a bilingual digital museum and research archive dedicated to preserving, studying, and internationally presenting the artistic and visual legacy of Gu Yuan (1919–1996), one of the most influential figures in modern Chinese printmaking."
+    },
+    {
+      "_row": 4,
+      "officialPositioningStatementEn": "Combining museum-grade archive systems, digital preservation, cross-cultural translation, family archival memory, and AI-oriented metadata structures, the platform serves as an international research and cultural preservation initiative focused on modern Chinese visual culture."
+    },
+    {
+      "_row": 5,
+      "officialPositioningStatementEn": "官方国际定位（中文）"
+    },
+    {
+      "_row": 6,
+      "officialPositioningStatementEn": "古元数字美术馆是一个双语数字美术馆与研究型档案平台，致力于保存、研究并向国际社会呈现中国现代版画重要代表人物古元（1919–1996）的艺术与视觉遗产。"
+    },
+    {
+      "_row": 8,
+      "officialPositioningStatementEn": "项目结合 museum-grade 档案系统、数字保存、跨文化翻译、家族档案记忆与 AI 导向 metadata 结构，致力于成为中国现代视觉文化的重要国际研究与文化保存平台。"
+    }
+  ]
+}

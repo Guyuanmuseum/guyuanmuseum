@@ -1,0 +1,189 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Homepage Strategy",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Section ID",
+      "Homepage Section",
+      "Purpose",
+      "Main Content",
+      "Visual Direction",
+      "Related Systems",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "sectionId": "HOME-001",
+      "homepageSection": "Hero Section",
+      "purpose": "Main museum identity",
+      "mainContent": "Main title, tagline, hero artwork",
+      "visualDirection": "Cinematic / museum atmosphere",
+      "relatedSystems": "Museum Canon",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "First visual impression"
+    },
+    {
+      "_row": 3,
+      "sectionId": "HOME-002",
+      "homepageSection": "Featured Masterpiece",
+      "purpose": "Highlight canonical work",
+      "mainContent": "Human Bridge / Rent Reduction Meeting",
+      "visualDirection": "Large artwork presentation",
+      "relatedSystems": "Museum Canon",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Museum-level curation"
+    },
+    {
+      "_row": 4,
+      "sectionId": "HOME-003",
+      "homepageSection": "Introductory Statement",
+      "purpose": "Introduce Gu Yuan internationally",
+      "mainContent": "Short bilingual museum introduction",
+      "visualDirection": "Elegant editorial layout",
+      "relatedSystems": "Biography / Research",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "International audience"
+    },
+    {
+      "_row": 5,
+      "sectionId": "HOME-004",
+      "homepageSection": "Featured Exhibition",
+      "purpose": "Promote major exhibition",
+      "mainContent": "The Carved Memory of Modern China",
+      "visualDirection": "Museum exhibition banner",
+      "relatedSystems": "Exhibition System",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Main exhibition promotion"
+    },
+    {
+      "_row": 6,
+      "sectionId": "HOME-005",
+      "homepageSection": "Collections Navigation",
+      "purpose": "Main archive entry",
+      "mainContent": "Collection categories",
+      "visualDirection": "Grid-based navigation",
+      "relatedSystems": "Collections System",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Core website structure"
+    },
+    {
+      "_row": 7,
+      "sectionId": "HOME-006",
+      "homepageSection": "Timeline Highlight",
+      "purpose": "Historical context",
+      "mainContent": "Important milestones",
+      "visualDirection": "Minimal historical timeline",
+      "relatedSystems": "Timeline System",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "Historical orientation"
+    },
+    {
+      "_row": 8,
+      "sectionId": "HOME-007",
+      "homepageSection": "Research Portal Entry",
+      "purpose": "Academic direction",
+      "mainContent": "Research themes and publications",
+      "visualDirection": "Editorial / academic style",
+      "relatedSystems": "Research System",
+      "priority": "High",
+      "status": "Active",
+      "notes": "University-facing entry"
+    },
+    {
+      "_row": 9,
+      "sectionId": "HOME-008",
+      "homepageSection": "Family Archive Highlight",
+      "purpose": "Living archive identity",
+      "mainContent": "Family memory and contributors",
+      "visualDirection": "Intimate archival style",
+      "relatedSystems": "Family Archive",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Unique project identity"
+    },
+    {
+      "_row": 10,
+      "sectionId": "HOME-009",
+      "homepageSection": "Digital Preservation Section",
+      "purpose": "Digital museum identity",
+      "mainContent": "Archive workflow and preservation",
+      "visualDirection": "Tech + museum hybrid",
+      "relatedSystems": "Digital Preservation",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Funding and institutional value"
+    },
+    {
+      "_row": 11,
+      "sectionId": "HOME-010",
+      "homepageSection": "Youth Ambassadors",
+      "purpose": "Future generation participation",
+      "mainContent": "Contributors and youth ambassadors",
+      "visualDirection": "Contemporary cultural energy",
+      "relatedSystems": "Youth Ambassador System",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "Living archive continuity"
+    },
+    {
+      "_row": 12,
+      "sectionId": "HOME-011",
+      "homepageSection": "AI Archive Search",
+      "purpose": "Future AI functionality",
+      "mainContent": "Keyword and tag search",
+      "visualDirection": "Minimal search interface",
+      "relatedSystems": "AI Search System",
+      "priority": "Highest",
+      "status": "Planning",
+      "notes": "Future intelligent archive"
+    },
+    {
+      "_row": 13,
+      "sectionId": "HOME-012",
+      "homepageSection": "International Collaboration",
+      "purpose": "Institutional outreach",
+      "mainContent": "Universities and museum partners",
+      "visualDirection": "Professional institutional layout",
+      "relatedSystems": "International Collaboration",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Long-term partnerships"
+    },
+    {
+      "_row": 14,
+      "sectionId": "HOME-013",
+      "homepageSection": "Latest Archive Updates",
+      "purpose": "Dynamic archive growth",
+      "mainContent": "Recently added artworks and photos",
+      "visualDirection": "Archive feed layout",
+      "relatedSystems": "Archive Database",
+      "priority": "Medium",
+      "status": "Planning",
+      "notes": "Living database system"
+    },
+    {
+      "_row": 15,
+      "sectionId": "HOME-014",
+      "homepageSection": "Footer Archive Information",
+      "purpose": "Museum credibility",
+      "mainContent": "Copyright, archive notice, contact",
+      "visualDirection": "Minimal institutional footer",
+      "relatedSystems": "Metadata System",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Archive professionalism"
+    }
+  ]
+}

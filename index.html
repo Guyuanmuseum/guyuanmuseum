@@ -3,32 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guyuan Museum</title>
+    <title>Gu Yuan Digital Museum</title>
     <meta
       name="description"
-      content="A museum-style digital archive dedicated to Gu Yuan's woodcut prints, life story, historical documents, exhibitions, and scholarly resources."
+      content="A bilingual digital museum and research archive dedicated to Gu Yuan."
     />
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./src/js/main.js" defer></script>
   </head>
   <body data-lang="en">
     <header class="site-header">
       <div class="header-inner">
         <div class="header-left">
-          <a class="brand" href="#top" aria-label="Guyuan Museum home">
-            <img src="logo-transparent.png" alt="Guyuan Museum Logo" class="logo">
+          <a class="brand" href="#top" aria-label="Gu Yuan Digital Museum home">
+            <img src="logo-transparent.png" alt="Gu Yuan Digital Museum Logo" class="logo" />
           </a>
         </div>
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#works" data-i18n="nav.works">Works</a>
-          <a href="#life" data-i18n="nav.life">Life</a>
-          <a href="#archive" data-i18n="nav.archive">Archive</a>
-          <a href="#authorization" data-i18n="nav.authorization">Authorization</a>
-          <a href="#guardian" data-i18n="nav.familyArchive">Family Archive</a>
-          <a href="#research" data-i18n="nav.research">Research</a>
-          <button class="language-toggle" type="button" data-language-toggle onclick="window.setLanguage(document.body.dataset.lang === 'zh' ? 'en' : 'zh')">中文</button>
+        <nav class="main-nav" aria-label="Main navigation" data-nav>
+          <button class="language-toggle" type="button" data-language-toggle>中文</button>
         </nav>
-        <a class="button button-primary header-button" href="#works" data-i18n="button.explore">Explore Collection</a>
+        <a class="button button-primary header-button" href="#works" data-primary-cta></a>
       </div>
     </header>
 
@@ -37,230 +32,83 @@
         <div class="hero-bg" aria-hidden="true"></div>
         <div class="hero-inner">
           <div class="hero-copy reveal">
-            <p class="eyebrow pill" data-i18n="hero.eyebrow">Chinese New Printmaking · Woodcut · Life Archive</p>
-            <h1>
-              <span data-i18n="hero.title">The carved memory of modern China</span>
-            </h1>
-            <p class="hero-lede" data-i18n="hero.lede">
-              A museum-style digital archive dedicated to Gu Yuan's woodcut prints, watercolor works, life story,
-              historical documents, exhibitions, and scholarly resources.
-            </p>
+            <p class="eyebrow pill" data-hero-eyebrow></p>
+            <h1><span data-hero-title></span></h1>
+            <p class="hero-lede" data-hero-lede></p>
+            <p class="hero-lede hero-secondary" data-hero-secondary></p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#works">
-                <span data-i18n="button.enter">Enter the Museum</span>
-                <span aria-hidden="true">→</span>
-              </a>
-              <a class="button button-outline" href="#life" data-i18n="button.timeline">View Timeline</a>
+              <a class="button button-primary" href="#works" data-hero-primary></a>
+              <a class="button button-outline" href="#life" data-hero-secondary-link></a>
             </div>
           </div>
 
-          <div class="gallery-frame reveal" aria-label="Featured Gallery: Yan'an Woodcuts">
-            <div class="gallery-card">
-              <div class="gallery-panel">
-                <div>
-                  <p class="eyebrow" data-i18n="hero.galleryEyebrow">Featured Gallery</p>
-                  <h2 data-i18n="hero.galleryTitle">Yan'an Woodcuts</h2>
-                </div>
-                <div class="gallery-preview">
-                  <img src="assets/artworks/work-01.jpg" alt="Gu Yuan woodcut print, Winter School">
-                  <div class="print-row">
-                    <img src="assets/artworks/work-06.jpg" alt="Gu Yuan woodcut print, Rent Reduction Meeting">
-                    <img src="assets/artworks/work-03.jpg" alt="Gu Yuan woodcut print, Support Our People's Army">
-                    <img src="assets/artworks/work-05.jpg" alt="Gu Yuan woodcut print, Human Bridge">
-                  </div>
-                  <p data-i18n="hero.galleryCaption">Major works from the Guyuan Museum digital collection</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="gallery-frame reveal" aria-label="Featured Gallery" data-featured-gallery></div>
         </div>
       </section>
 
-      <section id="authorization" class="authorization-section">
+      <section class="archive-note-band" data-research-notes></section>
+
+      <section id="about" class="authorization-section">
         <div class="authorization-inner">
-          <div class="authorization-heading">
-            <p class="eyebrow" data-i18n="authorization.eyebrow">Official Authorization</p>
-            <h2 data-i18n="authorization.title">Family-authorized international cultural archive</h2>
-            <p class="zh" data-i18n="authorization.subtitle">A family-authorized international cultural archive project</p>
-          </div>
-
-          <div class="authorization-copy">
-            <div class="lang-block lang-en">
-              <h3>English</h3>
-              <p>This online museum and archival project is established with the authorization and support of Gu Yuan's family.</p>
-              <p>The project is developed in collaboration with Gu Ancun, daughter of the renowned Chinese printmaking master Gu Yuan, and supports the cultural and artistic continuation of the Gu Yuan artistic legacy in Toronto, Canada.</p>
-              <p>The initiative also supports Gu Yuan's granddaughter Duan Wei and her four children in preserving, promoting, researching, and developing the international cultural presence of Gu Yuan's art for future generations.</p>
-              <p>This platform aims to serve as:</p>
-              <ul>
-                <li>A digital museum and research archive</li>
-                <li>An educational and cultural platform</li>
-                <li>A bridge between Chinese printmaking history and international audiences</li>
-                <li>A future foundation for exhibitions, publications, educational programs, and cultural exchange in Canada</li>
-              </ul>
-            </div>
-
-            <div class="lang-block lang-zh">
-              <h3>繁體中文</h3>
-              <p>本線上美術館與數位檔案館項目，經古元家族正式授權與支持建立。</p>
-              <p>本項目由中國著名版畫藝術大師「古元」之女古安村女士協力支持，並致力於在加拿大多倫多推動古元藝術文化的國際傳承與發展。</p>
-              <p>同時，本項目亦支持古元外孫女段薇女士與其四位子女，共同參與古元藝術的保存、研究、推廣與未來國際文化發展工作。</p>
-              <p>本平台未來將作為：</p>
-              <ul>
-                <li>古元藝術數位美術館與研究檔案庫</li>
-                <li>國際藝術教育與文化交流平台</li>
-                <li>中國新興版畫歷史的重要海外展示窗口</li>
-                <li>未來展覽、出版、學術研究與加拿大文化推廣的重要基礎</li>
-              </ul>
-            </div>
-          </div>
+          <div class="authorization-heading" data-about-heading></div>
+          <div class="authorization-copy" data-about></div>
         </div>
       </section>
 
       <section id="works" class="section works-section">
-        <div class="section-heading works-heading">
-          <div>
-            <p class="eyebrow" data-i18n="works.eyebrow">Major Works</p>
-            <h2 data-i18n="works.title">Major Works Collection</h2>
-          </div>
-          <a class="ghost-link" href="#works" data-i18n="works.viewAll">View all works</a>
-        </div>
-
-        <p class="collection-intro" data-i18n="works.intro">
-          This collection presents a selection of Gu Yuan's most important woodcut prints, documenting rural life, social transformation, wartime memory, and the development of modern Chinese printmaking.
-        </p>
-
-        <div class="museum-feature-layout">
-          <figure class="featured-artwork">
-            <button class="artwork-open" type="button" data-src="assets/artworks/work-03.jpg" data-title="Support Our People's Own Army" data-title-zh="擁護咱們老百姓自己的軍隊" data-year="1943" data-medium="Woodcut print" data-medium-zh="木刻版畫" aria-label="Open full-size artwork: Support Our People's Own Army">
-              <img src="assets/artworks/work-03.jpg" alt="Gu Yuan artwork Support Our People's Own Army, 1943 woodcut print">
-            </button>
-            <figcaption>
-              <p class="work-category" data-i18n="works.featured">Featured Work</p>
-              <h3 data-art-title data-en="Support Our People's Own Army" data-zh="擁護咱們老百姓自己的軍隊">Support Our People's Own Army</h3>
-              <h4 class="lang-zh">擁護咱們老百姓自己的軍隊</h4>
-              <p class="work-meta" data-art-meta data-year="1943">1943 · Woodcut print</p>
-            </figcaption>
-          </figure>
-
-          <div class="supporting-artworks" aria-label="Supporting artworks">
-            <figure>
-              <button class="artwork-open" type="button" data-src="assets/artworks/work-01.jpg" data-title="Winter School" data-title-zh="冬學" data-year="1940" data-medium="Woodcut print" data-medium-zh="木刻版畫" aria-label="Open full-size artwork: Winter School">
-                <img src="assets/artworks/work-01.jpg" alt="Gu Yuan artwork Winter School, 1940 woodcut print">
-              </button>
-              <figcaption><h3 data-art-title data-en="Winter School" data-zh="冬學">Winter School</h3><h4 class="lang-zh">冬學</h4><p data-art-meta data-year="1940">1940 · Woodcut print</p></figcaption>
-            </figure>
-            <figure>
-              <button class="artwork-open" type="button" data-src="assets/artworks/work-06.jpg" data-title="Rent Reduction Meeting" data-title-zh="減租會" data-year="1943" data-medium="Woodcut print" data-medium-zh="木刻版畫" aria-label="Open full-size artwork: Rent Reduction Meeting">
-                <img src="assets/artworks/work-06.jpg" alt="Gu Yuan artwork Rent Reduction Meeting, 1943 woodcut print">
-              </button>
-              <figcaption><h3 data-art-title data-en="Rent Reduction Meeting" data-zh="減租會">Rent Reduction Meeting</h3><h4 class="lang-zh">減租會</h4><p data-art-meta data-year="1943">1943 · Woodcut print</p></figcaption>
-            </figure>
-            <figure>
-              <button class="artwork-open" type="button" data-src="assets/artworks/work-05.jpg" data-title="Human Bridge" data-title-zh="人橋" data-year="1948" data-medium="Woodcut print" data-medium-zh="木刻版畫" aria-label="Open full-size artwork: Human Bridge">
-                <img src="assets/artworks/work-05.jpg" alt="Gu Yuan artwork Human Bridge, 1948 woodcut print">
-              </button>
-              <figcaption><h3 data-art-title data-en="Human Bridge" data-zh="人橋">Human Bridge</h3><h4 class="lang-zh">人橋</h4><p data-art-meta data-year="1948">1948 · Woodcut print</p></figcaption>
-            </figure>
-            <figure>
-              <button class="artwork-open" type="button" data-src="assets/artworks/work-09.jpg" data-title="Early Spring" data-title-zh="初春" data-year="1979" data-medium="Woodcut print" data-medium-zh="木刻版畫" aria-label="Open full-size artwork: Early Spring">
-                <img src="assets/artworks/work-09.jpg" alt="Gu Yuan artwork Early Spring, 1979 woodcut print">
-              </button>
-              <figcaption><h3 data-art-title data-en="Early Spring" data-zh="初春">Early Spring</h3><h4 class="lang-zh">初春</h4><p data-art-meta data-year="1979">1979 · Woodcut print</p></figcaption>
-            </figure>
-          </div>
-        </div>
+        <div class="section-heading works-heading" data-works-heading></div>
+        <p class="collection-intro" data-works-intro></p>
+        <div class="museum-feature-layout" data-works></div>
       </section>
 
       <section id="life" class="timeline-section">
         <div class="timeline-inner">
-          <div>
-            <p class="eyebrow" data-i18n="life.eyebrow">Life</p>
-            <h2 data-i18n="life.title">Artist Timeline</h2>
-            <p data-i18n="life.intro">A clean chronological pathway helps visitors understand Gu Yuan's movement from Guangdong to Yan'an, from revolutionary printmaking to national art education.</p>
-          </div>
-          <div class="timeline-list">
-            <article><strong>1919</strong><span data-i18n="timeline.1919">Born in Guangdong, China</span></article>
-            <article><strong>1938</strong><span data-i18n="timeline.1938">Went to Yan'an and entered the revolutionary art environment</span></article>
-            <article><strong>1940</strong><span data-i18n="timeline.1940">Graduated from Lu Xun Academy of Literature and Art</span></article>
-            <article><strong>1940s</strong><span data-i18n="timeline.1940s">Created defining Yan'an woodcuts rooted in local life</span></article>
-            <article><strong>1959</strong><span data-i18n="timeline.1959">Joined Central Academy of Fine Arts as an educator</span></article>
-            <article><strong>1996</strong><span data-i18n="timeline.1996">Passed away, leaving a major printmaking legacy</span></article>
+          <div data-life-heading></div>
+          <div class="timeline-content">
+            <div class="timeline-list" data-timeline></div>
+            <div class="life-stage-grid" data-life-stages></div>
           </div>
         </div>
       </section>
 
       <section id="archive" class="section">
-        <div class="archive-grid">
-          <article class="info-card"><span class="icon" aria-hidden="true">▧</span><h3 data-i18n="archive.card1.title">Works Database</h3><p data-i18n="archive.card1.body">Search by year, medium, theme, period, size, and collection source</p></article>
-          <article class="info-card"><span class="icon" aria-hidden="true">▤</span><h3 data-i18n="archive.card2.title">Essays & Research</h3><p data-i18n="archive.card2.body">Scholarly essays, exhibition texts, bibliography, and teaching notes</p></article>
-          <article class="info-card"><span class="icon" aria-hidden="true">▥</span><h3 data-i18n="archive.card3.title">Media Collection</h3><p data-i18n="archive.card3.body">Photos, letters, catalogues, newspaper clippings, and oral history</p></article>
-          <article class="info-card"><span class="icon" aria-hidden="true">◎</span><h3 data-i18n="archive.card4.title">Bilingual Access</h3><p data-i18n="archive.card4.body">English and Chinese navigation for international museum visitors</p></article>
-        </div>
+        <div class="section-heading" data-archive-heading></div>
+        <div class="archive-grid" data-archive></div>
       </section>
 
       <section id="guardian" class="guardian-section">
         <div class="guardian-inner">
-          <div class="guardian-copy">
-            <p class="eyebrow" data-i18n="guardian.eyebrow">Family Archive Guardian</p>
-            <h2><span data-i18n="guardian.title">Gu Ancun</span><span data-i18n="guardian.subtitle">Chief Curatorial Resource</span></h2>
-            <p data-i18n="guardian.body">The family archive connection gives this online museum a direct cultural and historical foundation, supporting the preservation, interpretation, and institutional presentation of Gu Yuan's artistic legacy.</p>
-          </div>
-
-          <div class="guardian-panel" aria-label="Gu Ancun family archive credentials">
-            <div><span>01</span><h3 data-i18n="guardian.panel1">Family Archive Guardian</h3></div>
-            <div><span>02</span><h3 data-i18n="guardian.panel2">Chief Curatorial Resource</h3></div>
-            <div><span>03</span><h3 data-i18n="guardian.panel3">Institutional Archive Authority</h3></div>
-          </div>
+          <div class="guardian-copy" data-guardian-copy></div>
+          <div class="guardian-panel" aria-label="Family archive contributors" data-guardian-panel></div>
         </div>
       </section>
 
-      <section id="museum-sections" class="museum-sections">
+      <section id="collections" class="museum-sections">
         <div class="museum-sections-inner">
-          <div class="section-heading">
-            <div><p class="eyebrow" data-i18n="museum.eyebrow">Museum Structure</p><h2 data-i18n="museum.title">Major Museum Sections</h2></div>
-          </div>
-          <div class="museum-grid">
-            <article><span>01</span><h3 data-i18n="museum.card1">Master Works Collection</h3></article>
-            <article><span>02</span><h3 data-i18n="museum.card2">Gu Yuan Life &amp; History</h3></article>
-            <article><span>03</span><h3 data-i18n="museum.card3">Family Archive</h3></article>
-            <article><span>04</span><h3 data-i18n="museum.card4">International Research Center</h3></article>
-            <article><span>05</span><h3 data-i18n="museum.card5">Toronto Cultural Development Project</h3></article>
-          </div>
+          <div class="section-heading" data-collections-heading></div>
+          <div class="museum-grid" data-collections></div>
         </div>
+      </section>
+
+      <section id="exhibitions" class="section">
+        <div class="section-heading" data-exhibitions-heading></div>
+        <div class="exhibition-grid" data-exhibitions></div>
       </section>
 
       <section id="research" class="research-section">
         <div class="research-inner">
-          <div>
-            <p class="eyebrow" data-i18n="research.eyebrow">Museum Strategy</p>
-            <h2><span data-i18n="research.title">Built for collectors, scholars, students, and the public</span></h2>
-          </div>
-          <div class="research-copy">
-            <p data-i18n="research.body1">The website should feel like a serious archive, not a commercial shop. Use museum-level metadata, large quiet images, captions, and a strong research section.</p>
-            <p data-i18n="research.body2">Future functions can include advanced search, interactive map, exhibition mode, educational downloads, provenance notes, and collection-rights management.</p>
-          </div>
+          <div data-research-heading></div>
+          <div class="research-copy" data-research></div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="footer-credit">
-        <p data-i18n="footer.copy">© Gu Yuan Online Museum Research draft / design prototype</p>
-        <div class="footer-partnership">
-          <img src="assets/partners/owl-art-foundation-logo.png" alt="OWL Art Foundation logo">
-          <p data-i18n="footer.partnership">Digital cultural platform developed with support from OWL Art Foundation</p>
-        </div>
-      </div>
-      <div class="footer-links">
-        <span data-i18n="footer.archive">▣ Museum archive</span>
-        <span data-i18n="footer.timeline">◷ Timeline</span>
-      </div>
-    </footer>
+    <footer class="site-footer" data-footer></footer>
 
     <dialog class="artwork-modal" id="artwork-modal" aria-labelledby="modal-title">
       <div class="artwork-modal-inner">
         <button class="modal-close" type="button" aria-label="Close artwork viewer">&times;</button>
-        <img id="modal-image" alt="">
+        <img id="modal-image" alt="" />
         <div class="modal-caption">
           <h3 id="modal-title"></h3>
           <p id="modal-title-zh"></p>
@@ -268,192 +116,5 @@
         </div>
       </div>
     </dialog>
-
-    <script>
-      const translations = {
-        en: {
-          "button.explore": "Explore Collection",
-          "button.enter": "Enter the Museum",
-          "button.timeline": "View Timeline",
-          "nav.works": "Works",
-          "nav.life": "Life",
-          "nav.archive": "Archive",
-          "nav.authorization": "Authorization",
-          "nav.familyArchive": "Family Archive",
-          "nav.research": "Research",
-          "hero.eyebrow": "Chinese New Printmaking · Woodcut · Life Archive",
-          "hero.title": "The carved memory of modern China",
-          "hero.lede": "A museum-style digital archive dedicated to Gu Yuan's woodcut prints, watercolor works, life story, historical documents, exhibitions, and scholarly resources.",
-          "hero.galleryEyebrow": "Featured Gallery",
-          "hero.galleryTitle": "Yan'an Woodcuts",
-          "hero.galleryCaption": "Major works from the Guyuan Museum digital collection",
-          "authorization.eyebrow": "Official Authorization",
-          "authorization.title": "Family-authorized international cultural archive",
-          "authorization.subtitle": "A family-authorized international cultural archive project",
-          "works.eyebrow": "Major Works",
-          "works.title": "Major Works Collection",
-          "works.viewAll": "View all works",
-          "works.intro": "This collection presents a selection of Gu Yuan's most important woodcut prints, documenting rural life, social transformation, wartime memory, and the development of modern Chinese printmaking.",
-          "works.featured": "Featured Work",
-          "life.eyebrow": "Life",
-          "life.title": "Artist Timeline",
-          "life.intro": "A clean chronological pathway helps visitors understand Gu Yuan's movement from Guangdong to Yan'an, from revolutionary printmaking to national art education.",
-          "timeline.1919": "Born in Guangdong, China",
-          "timeline.1938": "Went to Yan'an and entered the revolutionary art environment",
-          "timeline.1940": "Graduated from Lu Xun Academy of Literature and Art",
-          "timeline.1940s": "Created defining Yan'an woodcuts rooted in local life",
-          "timeline.1959": "Joined Central Academy of Fine Arts as an educator",
-          "timeline.1996": "Passed away, leaving a major printmaking legacy",
-          "archive.card1.title": "Works Database",
-          "archive.card1.body": "Search by year, medium, theme, period, size, and collection source",
-          "archive.card2.title": "Essays & Research",
-          "archive.card2.body": "Scholarly essays, exhibition texts, bibliography, and teaching notes",
-          "archive.card3.title": "Media Collection",
-          "archive.card3.body": "Photos, letters, catalogues, newspaper clippings, and oral history",
-          "archive.card4.title": "Bilingual Access",
-          "archive.card4.body": "English and Chinese navigation for international museum visitors",
-          "guardian.eyebrow": "Family Archive Guardian",
-          "guardian.title": "Gu Ancun",
-          "guardian.subtitle": "Chief Curatorial Resource",
-          "guardian.body": "The family archive connection gives this online museum a direct cultural and historical foundation, supporting the preservation, interpretation, and institutional presentation of Gu Yuan's artistic legacy.",
-          "guardian.panel1": "Family Archive Guardian",
-          "guardian.panel2": "Chief Curatorial Resource",
-          "guardian.panel3": "Institutional Archive Authority",
-          "museum.eyebrow": "Museum Structure",
-          "museum.title": "Major Museum Sections",
-          "museum.card1": "Master Works Collection",
-          "museum.card2": "Gu Yuan Life & History",
-          "museum.card3": "Family Archive",
-          "museum.card4": "International Research Center",
-          "museum.card5": "Toronto Cultural Development Project",
-          "research.eyebrow": "Museum Strategy",
-          "research.title": "Built for collectors, scholars, students, and the public",
-          "research.body1": "The website should feel like a serious archive, not a commercial shop. Use museum-level metadata, large quiet images, captions, and a strong research section.",
-          "research.body2": "Future functions can include advanced search, interactive map, exhibition mode, educational downloads, provenance notes, and collection-rights management.",
-          "footer.copy": "© Gu Yuan Online Museum Research draft / design prototype",
-          "footer.partnership": "Digital cultural platform developed with support from OWL Art Foundation",
-          "footer.archive": "▣ Museum archive",
-          "footer.timeline": "◷ Timeline"
-        },
-        zh: {
-          "button.explore": "探索館藏",
-          "button.enter": "入館瀏覽",
-          "button.timeline": "觀看年表",
-          "nav.works": "作品集",
-          "nav.life": "生平",
-          "nav.archive": "檔案館",
-          "nav.authorization": "授權",
-          "nav.familyArchive": "家族檔案",
-          "nav.research": "研究",
-          "hero.eyebrow": "中國新興版畫 · 木刻 · 生平檔案",
-          "hero.title": "中國現代記憶的\n木刻史詩",
-          "hero.lede": "本網站以線上美術館形式，系統性收藏與展示古元的木刻版畫、水彩作品、人生歷程、歷史文獻、展覽資料與研究檔案。",
-          "hero.galleryEyebrow": "精選展廳",
-          "hero.galleryTitle": "延安木刻",
-          "hero.galleryCaption": "古元美術館數位館藏重要作品",
-          "authorization.eyebrow": "官方授權聲明",
-          "authorization.title": "家族正式授權之國際文化檔案項目",
-          "authorization.subtitle": "經古元家族正式授權與支持建立",
-          "works.eyebrow": "重要作品",
-          "works.title": "經典作品館",
-          "works.viewAll": "查看全部作品",
-          "works.intro": "本館藏精選古元重要木刻版畫，呈現鄉村生活、社會轉型、戰時記憶與中國現代版畫的發展脈絡。",
-          "works.featured": "精選作品",
-          "life.eyebrow": "生平",
-          "life.title": "藝術家年表",
-          "life.intro": "清晰的年代脈絡，協助觀眾理解古元從廣東走向延安，並由革命木刻實踐延伸至國家美術教育的重要歷程。",
-          "timeline.1919": "生於中國廣東",
-          "timeline.1938": "赴延安，進入革命文藝環境",
-          "timeline.1940": "畢業於魯迅藝術文學院",
-          "timeline.1940s": "創作以地方生活為根基的延安木刻代表作品",
-          "timeline.1959": "任教於中央美術學院，投身美術教育",
-          "timeline.1996": "辭世，留下重要的版畫藝術遺產",
-          "archive.card1.title": "作品資料庫",
-          "archive.card1.body": "可依年代、媒材、主題、時期、尺寸與收藏來源進行檢索",
-          "archive.card2.title": "論文與研究",
-          "archive.card2.body": "收錄學術文章、展覽文本、參考書目與教學資料",
-          "archive.card3.title": "影像文獻",
-          "archive.card3.body": "包含照片、書信、圖錄、報刊剪影與口述歷史資料",
-          "archive.card4.title": "雙語導覽",
-          "archive.card4.body": "提供中英文導覽，服務國際觀眾、研究者與收藏機構",
-          "guardian.eyebrow": "家族檔案守護人",
-          "guardian.title": "古安村",
-          "guardian.subtitle": "首席策展資源",
-          "guardian.body": "家族檔案的參與，使本線上美術館具備直接的文化與歷史基礎，並為古元藝術遺產的保存、詮釋與機構化展示提供重要支撐。",
-          "guardian.panel1": "家族檔案守護人",
-          "guardian.panel2": "首席策展資源",
-          "guardian.panel3": "機構級檔案權威",
-          "museum.eyebrow": "博物館架構",
-          "museum.title": "主要館藏單元",
-          "museum.card1": "經典作品館",
-          "museum.card2": "古元生平與歷史",
-          "museum.card3": "家族檔案館",
-          "museum.card4": "國際研究中心",
-          "museum.card5": "多倫多文化發展計畫",
-          "research.eyebrow": "博物館策展方向",
-          "research.title": "為收藏家、學者、學生與公眾而建立",
-          "research.body1": "網站整體應呈現國際級線上博物館氣質，而非商業販售平台。建議使用大尺寸留白影像、說明文字、完整作品資料與研究型內容架構。",
-          "research.body2": "未來可擴展功能包括作品資料庫檢索、互動展覽地圖、教育下載資源、收藏來源記錄，以及版權與授權管理系統。",
-          "footer.copy": "© 古元線上美術館 研究草案 / 設計原型",
-          "footer.partnership": "由 OWL Art Foundation 支持之數位文化平台",
-          "footer.archive": "▣ 檔案館",
-          "footer.timeline": "◷ 年表"
-        }
-      };
-
-      const artworkModal = document.getElementById("artwork-modal");
-      const modalImage = document.getElementById("modal-image");
-      const modalTitle = document.getElementById("modal-title");
-      const modalTitleZh = document.getElementById("modal-title-zh");
-      const modalMeta = document.getElementById("modal-meta");
-      const languageToggle = document.querySelector("[data-language-toggle]");
-
-      function setLanguage(language) {
-        const copy = translations[language];
-        document.documentElement.lang = language === "zh" ? "zh-Hant" : "en";
-        document.body.dataset.lang = language;
-        document.querySelectorAll("[data-i18n]").forEach((element) => {
-          element.textContent = copy[element.dataset.i18n] || "";
-        });
-        document.querySelectorAll("[data-art-title]").forEach((element) => {
-          element.textContent = language === "zh" ? element.dataset.zh : element.dataset.en;
-        });
-        document.querySelectorAll("[data-art-meta]").forEach((element) => {
-          element.textContent = `${element.dataset.year} · ${language === "zh" ? "木刻版畫" : "Woodcut print"}`;
-        });
-        document.querySelectorAll(".artwork-open").forEach((button) => {
-          button.dataset.medium = language === "zh" ? "木刻版畫" : "Woodcut print";
-          button.setAttribute("aria-label", `${language === "zh" ? "開啟作品大圖" : "Open full-size artwork"}: ${language === "zh" ? button.dataset.titleZh : button.dataset.title}`);
-        });
-        languageToggle.textContent = language === "zh" ? "English" : "中文";
-        languageToggle.setAttribute("aria-label", language === "zh" ? "Switch to English" : "切換至中文");
-      }
-
-      window.setLanguage = setLanguage;
-
-      document.querySelectorAll(".artwork-open").forEach((button) => {
-        button.addEventListener("click", () => {
-          const language = document.body.dataset.lang;
-          modalImage.src = button.dataset.src;
-          modalImage.alt = language === "zh" ? button.dataset.titleZh : button.dataset.title;
-          modalTitle.textContent = language === "zh" ? button.dataset.titleZh : button.dataset.title;
-          modalTitleZh.textContent = "";
-          modalMeta.textContent = `${button.dataset.year} · ${language === "zh" ? button.dataset.mediumZh : button.dataset.medium}`;
-          artworkModal.showModal();
-        });
-      });
-
-      document.querySelector(".modal-close").addEventListener("click", () => {
-        artworkModal.close();
-      });
-
-      artworkModal.addEventListener("click", (event) => {
-        if (event.target === artworkModal) {
-          artworkModal.close();
-        }
-      });
-
-      setLanguage("en");
-    </script>
   </body>
 </html>

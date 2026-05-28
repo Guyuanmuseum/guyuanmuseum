@@ -1,0 +1,126 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Collections",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Collection ID",
+      "Collection Title EN",
+      "Collection Title CN",
+      "Years",
+      "Theme",
+      "Description EN",
+      "Description CN",
+      "Priority",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "collectionId": "COL-001",
+      "collectionTitleEn": "Early Wartime Woodcuts",
+      "collectionTitleCn": "早期战时木刻",
+      "years": "1939–1940",
+      "theme": "Wartime Visual Culture",
+      "descriptionEn": "Early woodcuts documenting war, displacement, violence, and civilian survival during the Japanese invasion period.",
+      "descriptionCn": "记录战争、流亡、暴力与平民生存经验的早期木刻作品。",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Important international research direction"
+    },
+    {
+      "_row": 3,
+      "collectionId": "COL-002",
+      "collectionTitleEn": "Yan’an Visual Culture",
+      "collectionTitleCn": "延安视觉文化",
+      "years": "1940–1945",
+      "theme": "Rural Society and Wartime Culture",
+      "descriptionEn": "Works created during the Yan’an period reflecting rural life, social transformation, and wartime experience.",
+      "descriptionCn": "延安时期描绘乡村生活、社会变迁与战争经验的作品。",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Core museum canon"
+    },
+    {
+      "_row": 4,
+      "collectionId": "COL-003",
+      "collectionTitleEn": "Folk Graphic Language",
+      "collectionTitleCn": "民间图像语言",
+      "years": "1940s–1950s",
+      "theme": "Folk Visual Tradition",
+      "descriptionEn": "Woodcuts and graphic works influenced by folk art, New Year prints, and popular visual culture.",
+      "descriptionCn": "受民间艺术、年画与大众视觉文化影响的木刻与图像作品。",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Important visual language system"
+    },
+    {
+      "_row": 5,
+      "collectionId": "COL-004",
+      "collectionTitleEn": "Industrial Modernity",
+      "collectionTitleCn": "工业现代性",
+      "years": "1949–1960s",
+      "theme": "Industry and Reconstruction",
+      "descriptionEn": "Industrial-themed prints documenting reconstruction, factories, workers, and postwar modernization.",
+      "descriptionCn": "描绘工业建设、工厂、工人与战后现代化的工业题材作品。",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "Early PRC visual culture"
+    },
+    {
+      "_row": 6,
+      "collectionId": "COL-005",
+      "collectionTitleEn": "Landscape and Memory",
+      "collectionTitleCn": "风景与记忆",
+      "years": "1960s–1990s",
+      "theme": "Landscape and Reflection",
+      "descriptionEn": "Landscape-oriented works reflecting memory, poetry, place, and emotional attachment to homeland.",
+      "descriptionCn": "以风景、记忆、诗意与故乡情感为主题的作品。",
+      "priority": "Medium",
+      "status": "Active",
+      "notes": "Important late-period direction"
+    },
+    {
+      "_row": 7,
+      "collectionId": "COL-006",
+      "collectionTitleEn": "Portrait Archive",
+      "collectionTitleCn": "古元肖像档案",
+      "years": "1940s–1990s",
+      "theme": "Artist Documentation",
+      "descriptionEn": "Historical portraits documenting different stages of Gu Yuan’s life and artistic career.",
+      "descriptionCn": "记录古元人生与艺术阶段的历史肖像档案。",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Archive and exhibition use"
+    },
+    {
+      "_row": 8,
+      "collectionId": "COL-007",
+      "collectionTitleEn": "Exhibition Archive",
+      "collectionTitleCn": "展览档案",
+      "years": "2000s–Present",
+      "theme": "Museum and Public Memory",
+      "descriptionEn": "Exhibition photos, museum activities, lectures, and public engagement related to Gu Yuan’s legacy.",
+      "descriptionCn": "与古元艺术遗产相关的展览、讲座、美术馆活动与公共传播档案。",
+      "priority": "High",
+      "status": "Active",
+      "notes": "Museum context"
+    },
+    {
+      "_row": 9,
+      "collectionId": "COL-008",
+      "collectionTitleEn": "Family Archive",
+      "collectionTitleCn": "家族档案",
+      "years": "Multi-generational",
+      "theme": "Intergenerational Continuity",
+      "descriptionEn": "Family photographs, memories, contributors, and intergenerational cultural continuity connected to Gu Yuan’s legacy.",
+      "descriptionCn": "与古元艺术遗产相关的家族照片、记忆、贡献者与跨代文化传承。",
+      "priority": "Highest",
+      "status": "Active",
+      "notes": "Living archive system"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "JSON Structure",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "JSON Type",
+      "Purpose",
+      "Main Fields",
+      "Example",
+      "Website Usage",
+      "Status",
+      "Notes"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "jsonType": "Artwork JSON",
+      "purpose": "Artwork archive data",
+      "mainFields": "id, title, year, medium, tags",
+      "example": "ART-001",
+      "websiteUsage": "Artwork pages",
+      "status": "Active",
+      "notes": "Core archive system"
+    },
+    {
+      "_row": 3,
+      "jsonType": "Photo JSON",
+      "purpose": "Photo archive data",
+      "mainFields": "id, filename, category, people",
+      "example": "PH-001",
+      "websiteUsage": "Archive gallery",
+      "status": "Active",
+      "notes": "Portrait and exhibition photos"
+    },
+    {
+      "_row": 4,
+      "jsonType": "Collection JSON",
+      "purpose": "Collection structure",
+      "mainFields": "id, title, description, artworks",
+      "example": "COL-001",
+      "websiteUsage": "Collection pages",
+      "status": "Active",
+      "notes": "Museum navigation"
+    },
+    {
+      "_row": 5,
+      "jsonType": "Exhibition JSON",
+      "purpose": "Exhibition system",
+      "mainFields": "id, title, theme, collections",
+      "example": "EXH-001",
+      "websiteUsage": "Exhibition pages",
+      "status": "Active",
+      "notes": "Museum experience layer"
+    },
+    {
+      "_row": 6,
+      "jsonType": "Research JSON",
+      "purpose": "Research themes",
+      "mainFields": "id, theme, category, keywords",
+      "example": "RES-001",
+      "websiteUsage": "Research portal",
+      "status": "Active",
+      "notes": "University-level research"
+    },
+    {
+      "_row": 7,
+      "jsonType": "People JSON",
+      "purpose": "Contributors and family archive",
+      "mainFields": "id, role, relationship",
+      "example": "PEO-001",
+      "websiteUsage": "About / archive pages",
+      "status": "Active",
+      "notes": "Family archive structure"
+    },
+    {
+      "_row": 8,
+      "jsonType": "Tags JSON",
+      "purpose": "AI search keywords",
+      "mainFields": "id, keyword, category",
+      "example": "TAG-001",
+      "websiteUsage": "Search system",
+      "status": "Active",
+      "notes": "AI archive engine"
+    },
+    {
+      "_row": 9,
+      "jsonType": "Timeline JSON",
+      "purpose": "Chronological events",
+      "mainFields": "year, event, category",
+      "example": 1942,
+      "websiteUsage": "Timeline pages",
+      "status": "Active",
+      "notes": "Biography navigation"
+    },
+    {
+      "_row": 10,
+      "jsonType": "Museum Canon JSON",
+      "purpose": "Core masterpieces",
+      "mainFields": "id, canon_level, importance",
+      "example": "CAN-001",
+      "websiteUsage": "Homepage highlights",
+      "status": "Active",
+      "notes": "Museum hierarchy"
+    },
+    {
+      "_row": 11,
+      "jsonType": "Workflow JSON",
+      "purpose": "Internal digital workflow",
+      "mainFields": "stage, input, output",
+      "example": "WF-001",
+      "websiteUsage": "Internal management",
+      "status": "Planning",
+      "notes": "Automation logic"
+    }
+  ]
+}

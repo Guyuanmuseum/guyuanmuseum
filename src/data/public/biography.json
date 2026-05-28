@@ -1,0 +1,79 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Biography生平",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "ID",
+      "Section",
+      "Title EN",
+      "Title CN",
+      "Content EN",
+      "Content CN",
+      "Status"
+    ]
+  },
+  "records": [
+    {
+      "_row": 3,
+      "id": "BIO-001",
+      "section": "Introduction",
+      "titleEn": "Gu Yuan (1919–1996)",
+      "titleCn": "古元（1919–1996）",
+      "contentEn": "Gu Yuan was one of the most influential printmakers and visual artists in twentieth-century China. Through woodcut printmaking, watercolor, and art education, he documented the social transformations of modern China and became a key figure in the development of modern Chinese visual culture.",
+      "contentCn": "古元是20世纪中国最具影响力的版画家与视觉艺术家之一。他通过木刻、水彩与美术教育，记录了现代中国社会转型中的视觉经验，并成为中国现代视觉文化发展的关键人物。",
+      "status": "Draft"
+    },
+    {
+      "_row": 4,
+      "id": "BIO-002",
+      "section": "Early Life",
+      "titleEn": "Early Life and Zhuhai",
+      "titleCn": "早年成长与珠海",
+      "contentEn": "Born in Nazhou Village, Tangjiawan, in present-day Zhuhai, Guangdong Province, Gu Yuan spent his early years surrounded by the rural landscapes and coastal environment of southern China. These early visual memories later shaped the strong sense of locality and human warmth found in his works.",
+      "contentCn": "古元出生于今天广东珠海唐家湾那洲村，在中国南方乡村与海岸环境中成长。早年的乡土经验与自然记忆，后来深刻影响了他作品中的地方气息与人文温度。",
+      "status": "Draft"
+    },
+    {
+      "_row": 5,
+      "id": "BIO-003",
+      "section": "Yan’an Period",
+      "titleEn": "Yan’an and Woodcut Practice",
+      "titleCn": "延安时期与木刻实践",
+      "contentEn": "In 1938, Gu Yuan traveled to Yan’an and studied at the Lu Xun Academy of Arts. During this period, he developed woodcut printmaking as a visual language closely connected to rural life, wartime experience, and social transformation.",
+      "contentCn": "1938年，古元前往延安并进入鲁迅艺术学院学习。在这一时期，他逐渐将木刻发展为一种与乡村生活、战争经验与社会变迁紧密相关的视觉语言。",
+      "status": "Draft"
+    },
+    {
+      "_row": 6,
+      "id": "BIO-004",
+      "section": "Printmaking",
+      "titleEn": "Printmaking and Social Memory",
+      "titleCn": "木刻与社会记忆",
+      "contentEn": "Through works depicting land reform, labor, village life, and ordinary people, Gu Yuan helped transform modern Chinese woodcut into a form of visual social memory rooted in everyday experience.",
+      "contentCn": "通过描绘土地改革、劳动、乡村生活与普通人民，古元将现代中国木刻发展为一种植根于日常经验的社会视觉记忆形式。",
+      "status": "Draft"
+    },
+    {
+      "_row": 7,
+      "id": "BIO-005",
+      "section": "Education",
+      "titleEn": "Educator and CAFA",
+      "titleCn": "教育家与中央美院",
+      "contentEn": "Later, Gu Yuan became a professor and eventually President of the Central Academy of Fine Arts in Beijing, where he played an important role in shaping modern Chinese art education and printmaking practice.",
+      "contentCn": "后来，古元担任中央美术学院教授及院长，在中国现代美术教育与版画体系建设中发挥了重要作用。",
+      "status": "Draft"
+    },
+    {
+      "_row": 8,
+      "id": "BIO-006",
+      "section": "Legacy",
+      "titleEn": "Legacy and Digital Preservation",
+      "titleCn": "遗产与数字保存",
+      "contentEn": "Today, many of Gu Yuan’s major original works remain preserved within China and are difficult to access internationally. The Gu Yuan Digital Museum seeks to create an open platform for research, preservation, and global engagement with the visual history of twentieth-century China.",
+      "contentCn": "今天，古元许多重要原作仍主要保存在中国境内，国际公众较难系统接触。本数字博物馆希望建立一个开放的研究与保存平台，重新连接20世纪中国视觉历史与全球观众。",
+      "status": "Draft"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Funding Priorities",
+    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "headers": [
+      "Priority Level",
+      "Main Goal",
+      "Why It Matters"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "priorityLevel": "Highest",
+      "mainGoal": "Archive digitization",
+      "whyItMatters": "Core preservation foundation"
+    },
+    {
+      "_row": 3,
+      "priorityLevel": "Highest",
+      "mainGoal": "Website infrastructure",
+      "whyItMatters": "Public museum platform"
+    },
+    {
+      "_row": 4,
+      "priorityLevel": "Highest",
+      "mainGoal": "Translation system",
+      "whyItMatters": "International accessibility"
+    },
+    {
+      "_row": 5,
+      "priorityLevel": "High",
+      "mainGoal": "Research development",
+      "whyItMatters": "University-level credibility"
+    },
+    {
+      "_row": 6,
+      "priorityLevel": "High",
+      "mainGoal": "Metadata and AI system",
+      "whyItMatters": "Future scalability"
+    },
+    {
+      "_row": 7,
+      "priorityLevel": "Medium",
+      "mainGoal": "Exhibitions",
+      "whyItMatters": "Public visibility"
+    },
+    {
+      "_row": 8,
+      "priorityLevel": "Medium",
+      "mainGoal": "Educational outreach",
+      "whyItMatters": "Youth engagement"
+    },
+    {
+      "_row": 9,
+      "priorityLevel": "Future",
+      "mainGoal": "AI archive engine",
+      "whyItMatters": "Long-term innovation"
+    }
+  ]
+}
