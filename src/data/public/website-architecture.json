@@ -208,6 +208,18 @@
       "priority": "Medium",
       "status": "Planning",
       "notes": "Future institutional growth"
+    },
+    {
+      "_row": 18,
+      "pageId": "WEB-017",
+      "pageNameEn": "Support Us",
+      "pageNameCn": "支持我們",
+      "mainPurpose": "Future preservation support systems",
+      "mainContent": "Donate, membership, sponsorship, museum shop, and future programs",
+      "relatedSystems": "Funding Strategy / Digital Preservation / Education",
+      "priority": "Medium",
+      "status": "In Development",
+      "notes": "No payment, ecommerce, auction, or checkout functions active"
     }
   ]
 }

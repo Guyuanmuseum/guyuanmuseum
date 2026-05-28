@@ -17,6 +17,7 @@ const DATA_FILES = {
   research: "public/research-themes.json",
   keywords: "public/keywords-tags.json",
   people: "public/people-contributors.json",
+  support: "public/support-us.json",
   architecture: "public/website-architecture.json",
 };
 
@@ -998,6 +999,34 @@ function renderResearch() {
   research.append(themeGrid, workflowGrid);
 }
 
+function renderSupport() {
+  const heading = $("[data-support-heading]");
+  const grid = $("[data-support-cards]");
+  const note = $("[data-support-note]");
+  reset(heading);
+  reset(grid);
+
+  const intro = state.data.support?.intro || {};
+  heading.append(
+    makeHeading(
+      localized(intro.eyebrowEn, intro.eyebrowCn),
+      localized(intro.titleEn, intro.titleCn),
+      localized(intro.bodyEn, intro.bodyCn),
+    ),
+  );
+
+  records("support").forEach((item) => {
+    const card = createElement("article", "support-card");
+    card.append(createElement("span", "support-status", localized(item.statusEn, item.statusCn)));
+    card.append(createElement("p", "eyebrow", localized(item.categoryEn, item.categoryCn)));
+    card.append(createElement("h3", "", localized(item.titleEn, item.titleCn)));
+    card.append(createElement("p", "", localized(item.descriptionEn, item.descriptionCn)));
+    grid.append(card);
+  });
+
+  if (note) note.textContent = localized(intro.noteEn, intro.noteCn);
+}
+
 function renderFooter() {
   const footer = $("[data-footer]");
   reset(footer);
@@ -1078,6 +1107,7 @@ function renderAll() {
   renderCollections();
   renderExhibitions();
   renderResearch();
+  renderSupport();
   renderFooter();
   bindModal();
 }

@@ -59,6 +59,12 @@
       "labelEn": "Family Archive",
       "labelCn": "家族檔案",
       "href": "#guardian"
+    },
+    {
+      "id": "WEB-017",
+      "labelEn": "Support Us",
+      "labelCn": "支持我們",
+      "href": "#support"
     }
   ],
   "hero": {
@@ -139,6 +145,12 @@
           "labelEn": "Family Archive",
           "labelCn": "家族檔案",
           "href": "#guardian"
+        },
+        {
+          "id": "WEB-017",
+          "labelEn": "Support Us",
+          "labelCn": "支持我們",
+          "href": "#support"
         }
       ],
       "hero": {

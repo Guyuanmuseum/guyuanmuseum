@@ -1,0 +1,98 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Support Us",
+    "sourceType": "User-provided future support systems",
+    "generatedAt": "2026-05-28T17:12:45Z",
+    "headers": [
+      "Support ID",
+      "Title EN",
+      "Title CN",
+      "Category EN",
+      "Category CN",
+      "Description EN",
+      "Description CN",
+      "Status EN",
+      "Status CN",
+      "Notes"
+    ]
+  },
+  "intro": {
+    "eyebrowEn": "Support Us",
+    "eyebrowCn": "支持我們",
+    "titleEn": "Support the Digital Preservation of Gu Yuan’s Artistic Legacy",
+    "titleCn": "支持古元藝術遺產的數字保存",
+    "bodyEn": "This is a preservation-first digital museum. Future support systems will help sustain archive care, research access, translation, exhibitions, education, and long-term digital preservation.",
+    "bodyCn": "這是一個以保存為先的數字美術館。未來支持系統將協助檔案維護、研究開放、翻譯、展覽、教育與長期數字保存工作。",
+    "noteEn": "Payment, ecommerce, auction, and checkout functions are not active. All support programs are being prepared for future institutional use.",
+    "noteCn": "目前未啟用付款、電子商務、拍賣或結帳功能。所有支持項目均為未來機構化使用而準備。"
+  },
+  "records": [
+    {
+      "_row": 2,
+      "supportId": "SUP-001",
+      "titleEn": "Donate",
+      "titleCn": "捐贈",
+      "categoryEn": "Preservation Support",
+      "categoryCn": "保存支持",
+      "descriptionEn": "A future donation pathway for supporting archival preservation, digitization, research access, and long-term stewardship of Gu Yuan’s artistic legacy.",
+      "descriptionCn": "未來捐贈通道將用於支持古元藝術遺產的檔案保存、數字化、研究開放與長期維護。",
+      "statusEn": "Coming Soon",
+      "statusCn": "即將推出",
+      "notes": "No live payment function."
+    },
+    {
+      "_row": 3,
+      "supportId": "SUP-002",
+      "titleEn": "Membership",
+      "titleCn": "會員",
+      "categoryEn": "Institutional Community",
+      "categoryCn": "機構社群",
+      "descriptionEn": "A future membership framework for scholars, artists, educators, museums, and supporters who wish to follow and sustain the archive’s development.",
+      "descriptionCn": "未來會員框架將面向學者、藝術家、教育者、美術館與支持者，共同關注並支持檔案的長期發展。",
+      "statusEn": "Coming Soon",
+      "statusCn": "即將推出",
+      "notes": "No membership payment flow."
+    },
+    {
+      "_row": 4,
+      "supportId": "SUP-003",
+      "titleEn": "Sponsorship",
+      "titleCn": "贊助",
+      "categoryEn": "Research and Exhibition Support",
+      "categoryCn": "研究與展覽支持",
+      "descriptionEn": "A future institutional sponsorship pathway for archive digitization, scholarly research, exhibitions, translations, and public education programs.",
+      "descriptionCn": "未來機構贊助通道將支持檔案數字化、學術研究、展覽、翻譯與公共教育項目。",
+      "statusEn": "In Development",
+      "statusCn": "建設中",
+      "notes": "No sponsorship checkout."
+    },
+    {
+      "_row": 5,
+      "supportId": "SUP-004",
+      "titleEn": "Museum Shop",
+      "titleCn": "博物館商店",
+      "categoryEn": "Future Publications and Editions",
+      "categoryCn": "未來出版與衍生品",
+      "descriptionEn": "A future museum shop concept for publications, educational materials, archival editions, and carefully prepared cultural objects.",
+      "descriptionCn": "未來博物館商店構想將用於出版物、教育材料、檔案版本與經審慎策劃的文化物件。",
+      "statusEn": "In Development",
+      "statusCn": "建設中",
+      "notes": "No ecommerce or checkout."
+    },
+    {
+      "_row": 6,
+      "supportId": "SUP-005",
+      "titleEn": "Future Programs",
+      "titleCn": "未來項目",
+      "categoryEn": "Education and Public Research",
+      "categoryCn": "教育與公共研究",
+      "descriptionEn": "Future programs may include research fellowships, translation initiatives, educational workshops, archive residencies, and digital preservation collaborations.",
+      "descriptionCn": "未來項目可能包括研究資助、翻譯計畫、教育工作坊、檔案駐留與數字保存合作。",
+      "statusEn": "In Development",
+      "statusCn": "建設中",
+      "notes": "Program planning only."
+    }
+  ]
+}

@@ -1596,6 +1596,94 @@ a {
   color: #8b1e1e;
 }
 
+.support-section {
+  border-top: 1px solid var(--panel-border);
+  background:
+    linear-gradient(180deg, rgb(20 12 10 / 0.9), rgb(56 16 18 / 0.78)),
+    repeating-linear-gradient(90deg, rgb(248 240 228 / 0.018) 0 1px, transparent 1px 12px);
+}
+
+.support-inner {
+  width: min(100% - 48px, 1280px);
+  margin: 0 auto;
+  padding: 118px 0 124px;
+}
+
+.support-heading {
+  align-items: flex-start;
+  max-width: 960px;
+}
+
+.support-heading p:not(.eyebrow) {
+  max-width: 780px;
+  color: var(--stone-300);
+  font-size: 1.18rem;
+  line-height: 1.82;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.support-card {
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.1), rgb(248 240 228 / 0.052)),
+    repeating-linear-gradient(0deg, rgb(248 240 228 / 0.022) 0 1px, transparent 1px 14px);
+  box-shadow: 0 22px 52px rgb(16 9 8 / 0.2);
+  padding: 26px;
+}
+
+.support-card .eyebrow {
+  margin: 28px 0 0;
+  color: var(--amber-300);
+  font-size: 0.68rem;
+}
+
+.support-card h3 {
+  margin: 18px 0 0;
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  line-height: 1.18;
+  font-weight: 520;
+}
+
+.support-card p:not(.eyebrow) {
+  margin: 16px 0 0;
+  color: var(--stone-300);
+  font-size: 0.98rem;
+  line-height: 1.66;
+}
+
+.support-status {
+  align-self: flex-start;
+  border: 1px solid rgb(226 200 135 / 0.28);
+  border-radius: 999px;
+  background: rgb(20 12 10 / 0.24);
+  color: var(--amber-300);
+  padding: 7px 12px;
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.support-disclaimer {
+  max-width: 760px;
+  margin: 34px 0 0;
+  border-left: 1px solid rgb(226 200 135 / 0.34);
+  color: var(--stone-400);
+  padding-left: 18px;
+  font-size: 0.98rem;
+  line-height: 1.72;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -1701,6 +1789,7 @@ a {
   .museum-grid,
   .supporting-artworks,
   .exhibition-grid,
+  .support-grid,
   .research-card-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -1744,6 +1833,7 @@ a {
   .timeline-inner,
   .research-inner,
   .guardian-inner,
+  .support-inner,
   .authorization-inner,
   .archive-note-inner,
   .museum-sections-inner,
@@ -1786,6 +1876,7 @@ a {
   .supporting-artworks,
   .life-stage-grid,
   .exhibition-grid,
+  .support-grid,
   .research-card-grid {
     grid-template-columns: 1fr;
   }
