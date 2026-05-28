@@ -28,6 +28,10 @@
     "digitalWorkflow": {
       "file": "internal/digital-workflow.json",
       "visibility": "internal"
+    },
+    "imageIntakeChecklist": {
+      "file": "internal/image-intake-checklist.json",
+      "visibility": "internal"
     }
   },
   "files": [
@@ -181,6 +185,21 @@
       "recordCount": 20,
       "headers": [
         "Hero Artwork"
+      ]
+    },
+    {
+      "key": "image-intake-checklist",
+      "file": "internal/image-intake-checklist.json",
+      "visibility": "internal",
+      "sheetName": "Internal derived image intake checklist",
+      "recordCount": 1,
+      "headers": [
+        "matchedFiles",
+        "imagesMissingFromJson",
+        "jsonEntriesMissingImageFiles",
+        "duplicateFiles",
+        "unclearNames",
+        "recommendedCategories"
       ]
     },
     {

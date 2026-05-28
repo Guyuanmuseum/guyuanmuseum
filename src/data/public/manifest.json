@@ -79,7 +79,7 @@
       "key": "artworks",
       "file": "public/artworks.json",
       "visibility": "public",
-      "sheetName": "Artworks Database｜作品数据库",
+      "sheetName": "Artworks Database｜作品數據庫",
       "recordCount": 33,
       "headers": [
         "ID",
@@ -156,7 +156,7 @@
       "key": "gu-yuan-portrait-archive",
       "file": "public/gu-yuan-portrait-archive.json",
       "visibility": "public",
-      "sheetName": "Gu Yuan Portrait Archive｜古元肖像档案",
+      "sheetName": "Gu Yuan Portrait Archive｜古元肖像檔案",
       "recordCount": 3,
       "headers": [
         "ID",
@@ -216,7 +216,7 @@
       "key": "life-stages",
       "file": "public/life-stages.json",
       "visibility": "public",
-      "sheetName": "Life Stages｜人生阶段数据库",
+      "sheetName": "Life Stages｜人生階段數據庫",
       "recordCount": 7,
       "headers": [
         "ID",
@@ -363,7 +363,7 @@
       "key": "sources",
       "file": "public/sources.json",
       "visibility": "public",
-      "sheetName": "Sources｜资料来源数据库",
+      "sheetName": "Sources｜資料來源數據庫",
       "recordCount": 15,
       "headers": [
         "ID",

@@ -23,57 +23,61 @@
       "_row": 2,
       "canonId": "CAN-001",
       "artworkTitleEn": "Human Bridge",
-      "artworkTitleCn": "人桥",
+      "artworkTitleCn": "人橋",
       "year": 1948,
       "canonLevel": "Masterpiece",
       "collection": "Postwar China",
       "importanceEn": "One of Gu Yuan’s most internationally recognized woodcuts, representing collective struggle and modern Chinese printmaking.",
-      "importanceCn": "古元最具国际代表性的木刻之一，体现现代中国版画中的集体经验与历史张力。",
+      "importanceCn": "古元最具國際代表性的木刻之一，體現現代中國版畫中的集體經驗與歷史張力。",
       "internationalRelevance": "Very High",
       "status": "Active",
-      "notes": "Museum-level masterpiece"
+      "notes": "Museum-level masterpiece",
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
     },
     {
       "_row": 3,
       "canonId": "CAN-002",
       "artworkTitleEn": "Rent Reduction Meeting",
-      "artworkTitleCn": "减租会",
+      "artworkTitleCn": "減租會",
       "year": 1943,
       "canonLevel": "Masterpiece",
       "collection": "Yan’an Visual Culture",
       "importanceEn": "A landmark work of Yan’an woodcut culture and one of the defining works of modern Chinese printmaking.",
-      "importanceCn": "延安木刻文化的重要代表作，也是中国现代版画史上的经典作品。",
+      "importanceCn": "延安木刻文化的重要代表作，也是中國現代版畫史上的經典作品。",
       "internationalRelevance": "Very High",
       "status": "Active",
-      "notes": "Core museum canon"
+      "notes": "Core museum canon",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
     },
     {
       "_row": 4,
       "canonId": "CAN-003",
       "artworkTitleEn": "Divorce Petition",
-      "artworkTitleCn": "离婚诉",
+      "artworkTitleCn": "離婚訴",
       "year": 1942,
       "canonLevel": "Canon Work",
       "collection": "Yan’an Visual Culture",
       "importanceEn": "A socially important woodcut exploring legal reform, gender, and village society.",
-      "importanceCn": "探讨法律、女性与乡村社会的重要木刻作品。",
+      "importanceCn": "探討法律、女性與鄉村社會的重要木刻作品。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Frequently studied work"
+      "notes": "Frequently studied work",
+      "imageUrlFile": "/images/artworks/GY-ART-1942-DivorcePetition.jpg"
     },
     {
       "_row": 5,
       "canonId": "CAN-004",
       "artworkTitleEn": "Transporting Grass",
-      "artworkTitleCn": "运草",
+      "artworkTitleCn": "運草",
       "year": 1942,
       "canonLevel": "Canon Work",
       "collection": "Rural Life",
       "importanceEn": "A major rural labor scene demonstrating Gu Yuan’s mature visual composition and observation of movement.",
-      "importanceCn": "展现古元成熟构图与劳动场景观察的重要作品。",
+      "importanceCn": "展現古元成熟構圖與勞動場景觀察的重要作品。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Widely reproduced work"
+      "notes": "Widely reproduced work",
+      "imageUrlFile": "/images/artworks/GY-ART-1942-TransportingGrass.jpg"
     },
     {
       "_row": 6,
@@ -84,24 +88,26 @@
       "canonLevel": "Canon Work",
       "collection": "Yan’an Visual Culture",
       "importanceEn": "A widely recognized work reflecting wartime village life and human relationships.",
-      "importanceCn": "反映战时乡村生活与人物关系的重要作品。",
+      "importanceCn": "反映戰時鄉村生活與人物關系的重要作品。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Human-centered narrative"
+      "notes": "Human-centered narrative",
+      "imageUrlFile": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg"
     },
     {
       "_row": 7,
       "canonId": "CAN-006",
       "artworkTitleEn": "Jade Belt Bridge",
-      "artworkTitleCn": "玉带桥",
+      "artworkTitleCn": "玉帶橋",
       "year": 1962,
       "canonLevel": "Masterpiece",
       "collection": "Landscape and Memory",
       "importanceEn": "One of Gu Yuan’s most celebrated later-period color woodcuts known for poetic composition and lyrical atmosphere.",
-      "importanceCn": "古元后期最著名的套色木刻之一，以诗意构图与抒情氛围著称。",
+      "importanceCn": "古元後期最著名的套色木刻之一，以詩意構圖與抒情氛圍著稱。",
       "internationalRelevance": "Very High",
       "status": "Active",
-      "notes": "Major later masterpiece"
+      "notes": "Major later masterpiece",
+      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
     },
     {
       "_row": 8,
@@ -112,35 +118,37 @@
       "canonLevel": "Canon Work",
       "collection": "Social Realism",
       "importanceEn": "A psychologically expressive portrait based on a major literary figure in modern Chinese literature.",
-      "importanceCn": "以现代文学经典人物为基础的心理性木刻肖像作品。",
+      "importanceCn": "以現代文學經典人物為基礎的心理性木刻肖像作品。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Literary connection"
+      "notes": "Literary connection",
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
     },
     {
       "_row": 9,
       "canonId": "CAN-008",
       "artworkTitleEn": "Burning Old Land Deeds",
-      "artworkTitleCn": "烧毁旧地契",
+      "artworkTitleCn": "燒毀舊地契",
       "year": 1947,
       "canonLevel": "Canon Work",
       "collection": "Postwar China",
       "importanceEn": "A major historical woodcut documenting social transformation and land reform.",
-      "importanceCn": "记录社会变迁与土地改革的重要历史木刻。",
+      "importanceCn": "記錄社會變遷與土地改革的重要歷史木刻。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Historical significance"
+      "notes": "Historical significance",
+      "imageUrlFile": "/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg"
     },
     {
       "_row": 10,
       "canonId": "CAN-009",
       "artworkTitleEn": "Yan’an Landscape",
-      "artworkTitleCn": "延安风景",
+      "artworkTitleCn": "延安風景",
       "year": "Unknown",
       "canonLevel": "Research Work",
       "collection": "Landscape and Memory",
       "importanceEn": "A landscape work important for understanding symbolic representations of Yan’an in visual culture.",
-      "importanceCn": "对理解延安视觉文化中的象征性风景表达具有研究意义。",
+      "importanceCn": "對理解延安視覺文化中的象征性風景表達具有研究意義。",
       "internationalRelevance": "Medium",
       "status": "Active",
       "notes": "Landscape symbolism"
@@ -149,15 +157,16 @@
       "_row": 11,
       "canonId": "CAN-010",
       "artworkTitleEn": "Literacy Campaign",
-      "artworkTitleCn": "识一千字",
+      "artworkTitleCn": "識一千字",
       "year": 1943,
       "canonLevel": "Research Work",
       "collection": "Folk Graphic Language",
       "importanceEn": "A visual example of wartime literacy and educational graphic culture.",
-      "importanceCn": "战时识字运动与教育图像文化的重要视觉案例。",
+      "importanceCn": "戰時識字運動與教育圖像文化的重要視覺案例。",
       "internationalRelevance": "Medium",
       "status": "Active",
-      "notes": "Educational visual culture"
+      "notes": "Educational visual culture",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-Literacy.jpg"
     }
   ]
 }

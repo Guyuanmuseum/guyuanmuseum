@@ -266,7 +266,7 @@ def build_site_content(documents, generated_at):
         ],
         "hero": {
             "eyebrowEn": "Digital Museum",
-            "eyebrowCn": "数字美术馆",
+            "eyebrowCn": "數字美術館",
             "titleEn": main_title,
             "titleCn": title_cn,
             "ledeEn": intro_en[0] if intro_en else "",
@@ -278,9 +278,9 @@ def build_site_content(documents, generated_at):
             "languageToggleEn": "中文",
             "languageToggleCn": "English",
             "primaryCtaEn": "Museum Canon",
-            "primaryCtaCn": "核心馆藏",
+            "primaryCtaCn": "核心館藏",
             "secondaryCtaEn": "Timeline",
-            "secondaryCtaCn": "时间线",
+            "secondaryCtaCn": "時間線",
         },
     }
 

@@ -1,0 +1,13 @@
+{
+  "name": "gu-yuan-digital-museum",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "check": "node --check src/js/main.js && npm run build"
+  }
+}

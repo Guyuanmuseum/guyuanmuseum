@@ -7,5 +7,8 @@ This folder contains static JSON exported from the Gu Yuan Digital Museum Google
 - `public/manifest.json` and `internal/manifest.json` map spreadsheet tabs to their generated JSON files.
 - `public/archive-index.json` is a derived index for future AI search, archive filtering, collection pages, exhibition pages, and multilingual rendering.
 - `public/local-assets.json` maps existing local image files while Sheet image URLs are still pending.
+- `internal/image-intake-checklist.json` tracks museum image intake status, missing files, duplicate files, unclear names, and recommended upload categories.
+
+Language standard: public website content is English + Traditional Chinese (`zh-Hant`). Do not add Simplified Chinese to public-facing JSON fields or rendered UI text.
 
 Future Google Sheets API sync should read credentials from environment variables only. Do not commit `.env` files, private keys, or service-account JSON files.
