@@ -54,6 +54,36 @@
       "captionEn": "Exhibition view featuring Gu Yuan archival imagery",
       "captionCn": "古元相關展覽現場影像",
       "imageUrlFile": "/images/family/FAM-011_Gu_Yuan_Museum_Exhibition_View_master.jpg"
+    },
+    {
+      "archiveId": "FAM-016",
+      "captionEn": "Young Gu Yuan and his wife during early years.",
+      "captionCn": "青年時期的古元與夫人。",
+      "imageUrlFile": "assets/family-archive/FAM-016_Young_Gu_Yuan_and_Wife_master.jpeg"
+    },
+    {
+      "archiveId": "FAM-017",
+      "captionEn": "Young Gu Yuan and his wife during the revolutionary period.",
+      "captionCn": "革命時期的青年古元與夫人。",
+      "imageUrlFile": "assets/family-archive/FAM-017_Young_Gu_Yuan_and_Wife_Revolutionary_Period_master.jpeg"
+    },
+    {
+      "archiveId": "FAM-012",
+      "captionEn": "Gu Yuan working on woodcut compositions and archival materials.",
+      "captionCn": "古元整理作品與創作時期影像。",
+      "imageUrlFile": "assets/family-archive/FAM-012_Gu_Yuan_Working_in_Studio_master.jpeg"
+    },
+    {
+      "archiveId": "FAM-013",
+      "captionEn": "Gu Yuan with artists, students, and colleagues.",
+      "captionCn": "古元與藝術家、學生及同事合影。",
+      "imageUrlFile": "assets/family-archive/FAM-013_Gu_Yuan_with_Artists_and_Students_master.jpeg"
+    },
+    {
+      "archiveId": "FAM-014",
+      "captionEn": "Gu Yuan during a field research and sketching period.",
+      "captionCn": "古元寫生與考察時期影像。",
+      "imageUrlFile": "assets/family-archive/FAM-014_Gu_Yuan_Field_Research_and_Sketching_master.jpeg"
     }
   ]
 }

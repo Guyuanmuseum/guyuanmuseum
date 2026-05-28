@@ -165,7 +165,7 @@
       "file": "public/historical-portrait-archive.json",
       "visibility": "public",
       "sheetName": "Historical Portrait Archive",
-      "recordCount": 7,
+      "recordCount": 12,
       "headers": [
         "Archive ID",
         "Caption EN",
@@ -295,7 +295,7 @@
       "file": "public/people-contributors.json",
       "visibility": "public",
       "sheetName": "People  Contributors tab",
-      "recordCount": 17,
+      "recordCount": 19,
       "headers": [
         "ID",
         "Name EN",

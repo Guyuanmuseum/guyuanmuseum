@@ -1,23 +1,17 @@
-# Featured Collections Direct Fix
+Gu Yuan Digital Museum family archive image patch
 
-Upload these files into the same paths in the GitHub repository:
+Upload these files to the GitHub repository using the same folder structure:
 
-- `index.html`
-- `src/js/main.js`
-- `src/data/README.md`
-- `src/data/public/README.md`
-- `src/data/public/manifest.json`
+- src/data/public/historical-portrait-archive.json
+- src/data/public/manifest.json
+- assets/family-archive/FAM-012_Gu_Yuan_Working_in_Studio_master.jpeg
+- assets/family-archive/FAM-013_Gu_Yuan_with_Artists_and_Students_master.jpeg
+- assets/family-archive/FAM-014_Gu_Yuan_Field_Research_and_Sketching_master.jpeg
+- assets/family-archive/FAM-016_Young_Gu_Yuan_and_Wife_master.jpeg
+- assets/family-archive/FAM-017_Young_Gu_Yuan_and_Wife_Revolutionary_Period_master.jpeg
 
-This removes the runtime dependency on:
+This patch adds five records to the Historical Portrait Archive / Family Archive
+section and keeps the captions bilingual in English and Traditional Chinese.
 
-- `src/data/public/featured-collections.json`
-
-The homepage Featured Collections section now uses the three uploaded artwork files directly from:
-
-- `assets/artworks/GY-003_Crossing_the_Yangtze_River_1949_master.jpeg`
-- `assets/artworks/GY-005_Human_Bridge_1948_master.jpeg`
-- `assets/artworks/GY-001_Early_Spring_1979_master.jpeg`
-
-If `src/data/public/featured-collections.json` still exists in GitHub, it can be deleted, but the fixed homepage no longer requests it.
-
-After these files are uploaded to the connected GitHub repository, Vercel should redeploy automatically.
+After uploading to GitHub, Vercel should redeploy automatically if the GitHub
+repository is connected to the Vercel project.
