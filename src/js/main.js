@@ -17,10 +17,52 @@ const DATA_FILES = {
   research: "public/research-themes.json",
   keywords: "public/keywords-tags.json",
   people: "public/people-contributors.json",
-  featuredCollections: "public/featured-collections.json",
   historicalPortraitArchive: "public/historical-portrait-archive.json",
   support: "public/support-us.json",
   architecture: "public/website-architecture.json",
+};
+
+const FEATURED_COLLECTIONS = {
+  intro: {
+    eyebrowEn: "Featured Collections",
+    eyebrowCn: "精選館藏",
+    titleEn: "Featured Collections",
+    titleCn: "精選館藏",
+    bodyEn: "A focused selection of key works from the digital collection.",
+    bodyCn: "從數字館藏中精選的重要作品。",
+  },
+  records: [
+    {
+      titleEn: "Crossing the Yangtze River",
+      titleCn: "打過長江",
+      year: "1949",
+      mediumEn: "Woodcut print",
+      mediumCn: "木刻版畫",
+      descriptionEn: "A key 1949 work from Gu Yuan's modern woodcut practice, presented as a featured collection highlight.",
+      descriptionCn: "古元現代木刻創作中的一件重要作品，作為精選館藏重點呈現。",
+      imageUrlFile: "assets/artworks/GY-003_Crossing_the_Yangtze_River_1949_master.jpeg",
+    },
+    {
+      titleEn: "Human Bridge",
+      titleCn: "人橋",
+      year: "1948",
+      mediumEn: "Woodcut print",
+      mediumCn: "木刻版畫",
+      descriptionEn: "A major woodcut composition noted for its strong structure, movement, and human presence.",
+      descriptionCn: "一件以結構、動勢與人物形象見長的重要木刻作品。",
+      imageUrlFile: "assets/artworks/GY-005_Human_Bridge_1948_master.jpeg",
+    },
+    {
+      titleEn: "Early Spring",
+      titleCn: "初春",
+      year: "1979",
+      mediumEn: "Woodcut print",
+      mediumCn: "木刻版畫",
+      descriptionEn: "A later landscape work that brings quiet atmosphere and spatial depth to the featured collection.",
+      descriptionCn: "一件晚期風景作品，以寧靜氣韻與空間層次呈現館藏深度。",
+      imageUrlFile: "assets/artworks/GY-001_Early_Spring_1979_master.jpeg",
+    },
+  ],
 };
 
 const state = {
@@ -957,8 +999,7 @@ function renderCollections() {
   reset(grid);
   grid.classList.add("featured-collections-grid");
 
-  const featuredCollections = state.data.featuredCollections || {};
-  const intro = featuredCollections.intro || {};
+  const intro = FEATURED_COLLECTIONS.intro;
   heading.append(
     makeHeading(
       localized(intro.eyebrowEn, intro.eyebrowCn),
@@ -967,21 +1008,19 @@ function renderCollections() {
     ),
   );
 
-  records("featuredCollections")
-    .slice(0, 3)
-    .forEach((item) => {
-      const card = document.createElement("article");
-      card.className = "collection-card featured-collection-card";
-      const media = createElement("div", "collection-card-media featured-collection-media");
-      media.append(makeImageElement(imagePath(item, "artworks"), featuredCollectionTitle(item)));
-      card.append(media);
-      card.append(createElement("h3", "", featuredCollectionTitle(item)));
-      const metadata = [item.year, localizedField(item, "mediumEn", "mediumCn")].filter(Boolean);
-      if (metadata.length) card.append(createElement("p", "featured-collection-meta", metadata.join(" · ")));
-      const description = localizedField(item, "descriptionEn", "descriptionCn");
-      if (description) card.append(createElement("p", "", description));
-      grid.append(card);
-    });
+  FEATURED_COLLECTIONS.records.forEach((item) => {
+    const card = document.createElement("article");
+    card.className = "collection-card featured-collection-card";
+    const media = createElement("div", "collection-card-media featured-collection-media");
+    media.append(makeImageElement(imagePath(item, "artworks"), featuredCollectionTitle(item)));
+    card.append(media);
+    card.append(createElement("h3", "", featuredCollectionTitle(item)));
+    const metadata = [item.year, localizedField(item, "mediumEn", "mediumCn")].filter(Boolean);
+    if (metadata.length) card.append(createElement("p", "featured-collection-meta", metadata.join(" · ")));
+    const description = localizedField(item, "descriptionEn", "descriptionCn");
+    if (description) card.append(createElement("p", "", description));
+    grid.append(card);
+  });
 }
 
 function renderExhibitions() {

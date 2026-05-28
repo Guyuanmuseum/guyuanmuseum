@@ -61,10 +61,6 @@
       "file": "public/people-contributors.json",
       "visibility": "public"
     },
-    "featuredCollections": {
-      "file": "public/featured-collections.json",
-      "visibility": "public"
-    },
     "historicalPortraitArchive": {
       "file": "public/historical-portrait-archive.json",
       "visibility": "public"
@@ -162,27 +158,6 @@
         "Related Collections",
         "Status",
         "Notes"
-      ]
-    },
-    {
-      "key": "featured-collections",
-      "file": "public/featured-collections.json",
-      "visibility": "public",
-      "sheetName": "Homepage Featured Collections",
-      "recordCount": 3,
-      "headers": [
-        "Featured ID",
-        "Title EN",
-        "Title CN",
-        "Year",
-        "Medium EN",
-        "Medium CN",
-        "Description EN",
-        "Description CN",
-        "Image URL/File",
-        "Collection EN",
-        "Collection CN",
-        "Status"
       ]
     },
     {

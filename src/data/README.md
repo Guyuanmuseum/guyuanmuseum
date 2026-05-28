@@ -7,7 +7,6 @@ This folder contains static JSON exported from the Gu Yuan Digital Museum Google
 - `public/manifest.json` and `internal/manifest.json` map spreadsheet tabs to their generated JSON files.
 - `public/archive-index.json` is a derived index for future AI search, archive filtering, collection pages, exhibition pages, and multilingual rendering.
 - `public/local-assets.json` maps existing local image files while Sheet image URLs are still pending.
-- `public/featured-collections.json` drives the homepage Featured Collections section and points to the exact local artwork asset paths.
 - `public/historical-portrait-archive.json` drives the Family Archive portrait gallery for Gu Yuan historical images.
 - `public/support-us.json` drives the preservation-first Support Us section. It contains future support systems only and does not enable payment, ecommerce, auction, or checkout functions.
 - `internal/image-intake-checklist.json` tracks museum image intake status, missing files, duplicate files, unclear names, and recommended upload categories.
