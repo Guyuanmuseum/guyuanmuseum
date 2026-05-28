@@ -1,0 +1,27 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Homepage Content",
+    "generatedAt": "2026-05-28T00:00:00.000000+00:00",
+    "headers": [
+      "Section ID",
+      "Website Area",
+      "English Content",
+      "Chinese Content",
+      "Status",
+      "Notes"
+    ]
+  },
+  "visibility": "public",
+  "records": [
+    {
+      "sectionId": "HOME-001",
+      "websiteArea": "Main Introduction",
+      "englishContent": "Gu Yuan was one of the most important woodcut artists of modern China. His work recorded the spirit, struggle, and transformation of twentieth-century China through powerful black-and-white imagery and deeply human visual storytelling.\n\nAs an artist, educator, and cultural figure, Gu Yuan played an influential role in the development of modern Chinese printmaking and art education. His works are closely connected with the history of Yan'an woodcut art, revolutionary visual culture, and the formation of modern Chinese artistic identity.\n\nThe Gu Yuan Digital Museum is created to preserve, organize, and share his artistic legacy with international audiences. Through photographs, artworks, family memories, oral history, archival materials, and research, this platform aims to build a living digital archive of Gu Yuan's life, art, and lasting influence.",
+      "chineseContent": "古元是中國現代最重要的木刻藝術家之一。他的作品以強有力的黑白圖像與深具人文關懷的視覺敘事，記錄了二十世紀中國的精神、掙扎與轉變。\n\n作為藝術家、教育家與文化人物，古元在中國現代版畫與美術教育的發展中具有重要影響。他的作品與延安木刻藝術史、革命視覺文化，以及中國現代藝術身份的形成密切相連。\n\n古元數字美術館旨在保存、整理並向國際觀眾分享他的藝術遺產。透過照片、作品、家族記憶、口述歷史、檔案資料與研究，本平臺希望建立一座關於古元生平、藝術與持久影響的活態數字檔案。",
+      "status": "Draft",
+      "notes": "Homepage official introduction, to be placed under the main hero title and Chinese subtitle."
+    }
+  ]
+}
