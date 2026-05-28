@@ -386,6 +386,13 @@ a {
   white-space: pre-line;
 }
 
+.hero-introduction-cn {
+  max-width: 800px;
+  margin-top: 20px;
+  color: var(--stone-200);
+  font-size: 1.04rem;
+}
+
 .hero-secondary {
   display: none;
   margin-top: 12px;

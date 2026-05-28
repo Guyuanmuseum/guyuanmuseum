@@ -688,15 +688,17 @@ function renderHeader() {
 function renderHero() {
   const { hero, ui } = state.data.site;
   const homepageIntro = records("homepageContent").find((item) => item.sectionId === "HOME-001");
-  const introText = homepageIntro
-    ? localizedField(homepageIntro, "englishContent", "chineseContent")
-    : localized(hero.ledeEn, hero.ledeCn);
+  const introText = homepageIntro?.englishContent || hero.ledeEn;
+  const introTextCn = toTraditional(homepageIntro?.chineseContent || hero.ledeCn || "");
   const introElement = $("[data-hero-lede]");
+  const introElementCn = $("[data-hero-lede-cn]");
 
   setText("[data-hero-eyebrow]", localized(hero.eyebrowEn, hero.eyebrowCn));
   setText("[data-hero-title]", localized(hero.titleEn, hero.titleCn));
   setText("[data-hero-lede]", introText);
+  setText("[data-hero-lede-cn]", introTextCn);
   if (introElement) introElement.hidden = !introText;
+  if (introElementCn) introElementCn.hidden = !introTextCn;
   setText("[data-hero-secondary]", localized(hero.secondaryEn, hero.secondaryCn));
   setText("[data-hero-primary]", `${localized(ui.primaryCtaEn, ui.primaryCtaCn)} ->`);
   setText("[data-hero-secondary-link]", localized(ui.secondaryCtaEn, ui.secondaryCtaCn));
