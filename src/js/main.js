@@ -17,6 +17,8 @@ const DATA_FILES = {
   research: "public/research-themes.json",
   keywords: "public/keywords-tags.json",
   people: "public/people-contributors.json",
+  featuredCollections: "public/featured-collections.json",
+  historicalPortraitArchive: "public/historical-portrait-archive.json",
   support: "public/support-us.json",
   architecture: "public/website-architecture.json",
 };
@@ -417,6 +419,10 @@ function collectionTitle(record) {
   return localizedField(record, "collectionTitleEn", "collectionTitleCn");
 }
 
+function featuredCollectionTitle(record) {
+  return localizedField(record, "titleEn", "titleCn");
+}
+
 function exhibitionTitle(record) {
   return localizedField(record, "exhibitionTitleEn", "exhibitionTitleCn");
 }
@@ -559,20 +565,16 @@ const FAMILY_PROFILE_OVERRIDES = {
     roleEn: "Chief Curator and Family Oral History Director",
     roleCn: "首席策展人暨家族口述歷史總監",
     bodyEn:
-      "Gu Ancun serves as the Chief Curator of the Gu Yuan Digital Museum. As a core member of the Gu Yuan family archive, she is the primary provider of family oral history materials, archival memory, and historical verification related to Gu Yuan’s life and artistic legacy.\n\nShe is also one of the principal donors of Gu Yuan artworks, documents, and family archival materials supporting this digital preservation initiative.\n\nThis website is officially authorized by the Gu Yuan family and operates with the family’s unique permission and long-term archival support.",
+      "Gu Ancun, eldest daughter of Gu Yuan, has long been dedicated to the preservation of her father’s artistic and cultural legacy. As an important witness to Gu Yuan’s later years and family archive history, she continues to support the documentation, preservation, and historical interpretation of Gu Yuan’s works and personal history.",
     bodyCn:
-      "古安村女士為古元數字美術館首席策展人。作為古元家族檔案的重要核心成員，她長期提供與古元生平、藝術創作及家族歷史相關的口述歷史、檔案記憶與歷史校訂資料。\n\n她同時亦為古元作品、文獻與家族檔案的重要捐贈者之一，支持本數字保存計畫的長期建設。\n\n本網站已獲古元家族正式授權，並在家族獨家許可與長期支持下建立。",
+      "古安村，古元長女，長期致力於其父藝術與文化遺產的保存工作。作為古元晚年生活與家庭檔案的重要見證者，她持續支持古元作品、歷史資料與個人記憶的整理、保存與歷史詮釋。",
   },
   "Wei Duan": {
     imageUrlFile: "/images/family/GY-FAM-WeiDuan-BrookeDuan.jpg",
-    nameEn: "Wei Duan / Brooke Duan / 段薇",
+    nameEn: "Duan Wei / Brooke Duan / 段薇",
     nameCn: "段薇",
     roleEn: "International Curator and Translation Director",
     roleCn: "國際策展人與翻譯總監",
-    bodyEn:
-      "Raised by Gu Yuan and his wife from infancy, Wei Duan accompanied them throughout their later years. She serves as the international curator for Gu Yuan’s artworks and oversees the international translation and cross-cultural interpretation of his artistic legacy.",
-    bodyCn:
-      "段薇自幼由古元與夫人撫養長大，並陪伴二老走過晚年。她負責古元作品的國際策展、翻譯與跨文化詮釋工作。",
   },
 };
 
@@ -588,8 +590,8 @@ function publicFamilyProfiles() {
       nameCn: override.nameCn || toTraditional(person.nameCn || person.nameEn),
       roleEn: override.roleEn || person.role || "",
       roleCn: override.roleCn || zh.role || "",
-      bodyEn: override.bodyEn || person.notes || "",
-      bodyCn: override.bodyCn || "",
+      bodyEn: override.bodyEn || person.bodyEn || person.notes || "",
+      bodyCn: override.bodyCn || toTraditional(person.bodyCn || ""),
       imageUrlFile: override.imageUrlFile || person.imageUrlFile || "",
       featured: Boolean(override.featured),
     };
@@ -918,25 +920,68 @@ function renderGuardian() {
     });
 }
 
+function renderHistoricalPortraitArchive() {
+  const heading = $("[data-portrait-archive-heading]");
+  const grid = $("[data-portrait-archive-grid]");
+  reset(heading);
+  reset(grid);
+
+  const archive = state.data.historicalPortraitArchive || {};
+  const intro = archive.intro || {};
+  heading.append(
+    makeHeading(
+      localized(intro.eyebrowEn, intro.eyebrowCn),
+      localized(intro.titleEn, intro.titleCn),
+      localized(intro.bodyEn, intro.bodyCn),
+    ),
+  );
+
+  records("historicalPortraitArchive").forEach((item) => {
+    const figure = createElement("figure", "portrait-archive-card");
+    const captionText = localizedField(item, "captionEn", "captionCn");
+    const media = createElement("div", "portrait-archive-media");
+    media.append(makeImageElement(item.imageUrlFile, captionText));
+
+    const caption = document.createElement("figcaption");
+    caption.append(createElement("h3", "", captionText));
+
+    figure.append(media, caption);
+    grid.append(figure);
+  });
+}
+
 function renderCollections() {
   const heading = $("[data-collections-heading]");
   const grid = $("[data-collections]");
   reset(heading);
   reset(grid);
+  grid.classList.add("featured-collections-grid");
 
-  const page = pageByName("Collections");
-  heading.append(makeHeading(localized(page.pageNameEn, page.pageNameCn), pageHeadingTitle(page), englishOnly(page.mainContent)));
+  const featuredCollections = state.data.featuredCollections || {};
+  const intro = featuredCollections.intro || {};
+  heading.append(
+    makeHeading(
+      localized(intro.eyebrowEn, intro.eyebrowCn),
+      localized(intro.titleEn, intro.titleCn),
+      localized(intro.bodyEn, intro.bodyCn),
+    ),
+  );
 
-  records("collections").forEach((item) => {
-    const card = document.createElement("article");
-    card.className = "collection-card";
-    const media = createElement("div", "collection-card-media");
-    media.append(makeImageElement(imagePath(item, "artworks"), collectionTitle(item)));
-    card.append(media);
-    card.append(createElement("h3", "", collectionTitle(item)));
-    card.append(createElement("p", "", localizedField(item, "descriptionEn", "descriptionCn")));
-    grid.append(card);
-  });
+  records("featuredCollections")
+    .slice(0, 3)
+    .forEach((item) => {
+      const card = document.createElement("article");
+      card.className = "collection-card featured-collection-card";
+      const media = createElement("div", "collection-card-media featured-collection-media");
+      media.append(makeImageElement(imagePath(item, "artworks"), featuredCollectionTitle(item)));
+      card.append(media);
+      card.append(createElement("h3", "", featuredCollectionTitle(item)));
+      const metadata = [item.year, localizedField(item, "mediumEn", "mediumCn")].filter(Boolean);
+      if (metadata.length) card.append(createElement("p", "featured-collection-meta", metadata.join(" · ")));
+      const description = localizedField(item, "descriptionEn", "descriptionCn");
+      if (description) card.append(createElement("p", "", description));
+      grid.append(card);
+    });
 }
 
 function renderExhibitions() {
@@ -1169,6 +1214,7 @@ function renderAll() {
   renderLife();
   renderArchive();
   renderGuardian();
+  renderHistoricalPortraitArchive();
   renderCollections();
   renderExhibitions();
   renderResearch();

@@ -1,0 +1,59 @@
+{
+  "source": {
+    "note": "Gu Yuan historical portrait archive images supplied for the public family archive section.",
+    "generatedAt": "2026-05-28T00:00:00.000000+00:00"
+  },
+  "visibility": "public",
+  "intro": {
+    "eyebrowEn": "Family Archive",
+    "eyebrowCn": "家族檔案",
+    "titleEn": "Historical Portrait Archive",
+    "titleCn": "歷史肖像檔案",
+    "bodyEn": "A focused portrait archive tracing Gu Yuan across different periods of family memory, studio life, and exhibition history.",
+    "bodyCn": "一組聚焦古元不同時期形象、家庭記憶、創作生活與展覽歷史的肖像檔案。"
+  },
+  "records": [
+    {
+      "archiveId": "FAM-004",
+      "captionEn": "Historical archival portrait of Gu Yuan",
+      "captionCn": "古元歷史檔案肖像",
+      "imageUrlFile": "/images/family/FAM-004_Gu_Yuan_Historical_Archive_Portrait_master.jpg"
+    },
+    {
+      "archiveId": "FAM-006",
+      "captionEn": "Gu Yuan in his later years",
+      "captionCn": "古元晚年肖像",
+      "imageUrlFile": "/images/family/FAM-006_Gu_Yuan_Later_Years_Smiling_Portrait_master.jpg.jpeg"
+    },
+    {
+      "archiveId": "FAM-007",
+      "captionEn": "Young Gu Yuan portrait",
+      "captionCn": "青年時期的古元",
+      "imageUrlFile": "/images/family/FAM-007_Young_Gu_Yuan_Studio_Portrait_master.jpg"
+    },
+    {
+      "archiveId": "FAM-008",
+      "captionEn": "Gu Yuan during the early revolutionary period",
+      "captionCn": "古元革命早期影像",
+      "imageUrlFile": "/images/family/FAM-008_Gu_Yuan_Early_Revolutionary_Period_master.jpg"
+    },
+    {
+      "archiveId": "FAM-009",
+      "captionEn": "Gu Yuan working in his studio",
+      "captionCn": "古元創作時期影像",
+      "imageUrlFile": "/images/family/FAM-009_Gu_Yuan_in_Studio_with_Woodcut_Tools_master.jpg"
+    },
+    {
+      "archiveId": "FAM-010",
+      "captionEn": "Gu Yuan in later years",
+      "captionCn": "古元晚年影像",
+      "imageUrlFile": "/images/family/FAM-010_Gu_Yuan_Later_Years_Seated_Portrait_master.jpg"
+    },
+    {
+      "archiveId": "FAM-011",
+      "captionEn": "Exhibition view featuring Gu Yuan archival imagery",
+      "captionCn": "古元相關展覽現場影像",
+      "imageUrlFile": "/images/family/FAM-011_Gu_Yuan_Museum_Exhibition_View_master.jpg"
+    }
+  ]
+}

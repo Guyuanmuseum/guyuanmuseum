@@ -1,6 +1,6 @@
 # Public Data
 
-Public JSON files in this folder are safe for the browser to load. They drive the current homepage, biography, collections, museum canon, archive summaries, exhibitions, research, and Support Us sections.
+Public JSON files in this folder are safe for the browser to load. They drive the current homepage, biography, featured collections, historical portrait archive, museum canon, archive summaries, exhibitions, research, and Support Us sections.
 
 All Chinese fields in public JSON must be Traditional Chinese (`zh-Hant`). The public bilingual system is English + Traditional Chinese for overseas Chinese communities, researchers, museums, universities, and cultural institutions.
 

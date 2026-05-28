@@ -61,6 +61,14 @@
       "file": "public/people-contributors.json",
       "visibility": "public"
     },
+    "featuredCollections": {
+      "file": "public/featured-collections.json",
+      "visibility": "public"
+    },
+    "historicalPortraitArchive": {
+      "file": "public/historical-portrait-archive.json",
+      "visibility": "public"
+    },
     "supportUs": {
       "file": "public/support-us.json",
       "visibility": "public"
@@ -154,6 +162,40 @@
         "Related Collections",
         "Status",
         "Notes"
+      ]
+    },
+    {
+      "key": "featured-collections",
+      "file": "public/featured-collections.json",
+      "visibility": "public",
+      "sheetName": "Homepage Featured Collections",
+      "recordCount": 3,
+      "headers": [
+        "Featured ID",
+        "Title EN",
+        "Title CN",
+        "Year",
+        "Medium EN",
+        "Medium CN",
+        "Description EN",
+        "Description CN",
+        "Image URL/File",
+        "Collection EN",
+        "Collection CN",
+        "Status"
+      ]
+    },
+    {
+      "key": "historical-portrait-archive",
+      "file": "public/historical-portrait-archive.json",
+      "visibility": "public",
+      "sheetName": "Historical Portrait Archive",
+      "recordCount": 7,
+      "headers": [
+        "Archive ID",
+        "Caption EN",
+        "Caption CN",
+        "Image URL/File"
       ]
     },
     {

@@ -1473,6 +1473,68 @@ a {
   line-height: 1.7;
 }
 
+.portrait-archive-section {
+  border-top: 1px solid var(--panel-border);
+  background:
+    linear-gradient(180deg, rgb(37 15 13 / 0.96), rgb(71 22 23 / 0.82)),
+    repeating-linear-gradient(115deg, rgb(248 240 228 / 0.018) 0 1px, transparent 1px 18px);
+}
+
+.portrait-archive-inner {
+  width: min(100% - 48px, 1280px);
+  margin: 0 auto;
+  padding: 112px 0 124px;
+}
+
+.portrait-archive-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 52px;
+}
+
+.portrait-archive-card {
+  margin: 0;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgb(248 240 228 / 0.1), rgb(248 240 228 / 0.045)),
+    repeating-linear-gradient(0deg, rgb(248 240 228 / 0.018) 0 1px, transparent 1px 14px);
+  box-shadow: 0 18px 42px rgb(16 9 8 / 0.18);
+  padding: 18px;
+}
+
+.portrait-archive-media {
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  border: 1px solid rgb(226 200 135 / 0.18);
+  border-radius: 6px;
+  background: rgb(20 12 10 / 0.24);
+}
+
+.portrait-archive-media img,
+.portrait-archive-media .museum-image-placeholder {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border: 0;
+  border-radius: 0;
+  object-fit: cover;
+  filter: saturate(0.82) contrast(1.05);
+}
+
+.portrait-archive-card figcaption {
+  padding: 18px 4px 4px;
+}
+
+.portrait-archive-card h3 {
+  margin: 0;
+  color: var(--stone-100);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
 .museum-sections {
   background:
     linear-gradient(180deg, #4f1719 0%, #20100e 100%);
@@ -1489,6 +1551,10 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 22px;
+}
+
+.museum-grid.featured-collections-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .museum-grid article {
@@ -1518,6 +1584,22 @@ a {
   margin: 14px 0 0;
   font-size: 1.08rem;
   line-height: 1.68;
+}
+
+.featured-collection-card {
+  min-height: 0;
+}
+
+.featured-collection-media img,
+.featured-collection-media .museum-image-placeholder {
+  height: clamp(240px, 27vw, 390px);
+  min-height: clamp(240px, 27vw, 390px);
+}
+
+.featured-collection-meta {
+  color: var(--amber-300);
+  font-size: 0.94rem;
+  font-weight: 650;
 }
 
 .research-inner {
@@ -1898,7 +1980,12 @@ a {
   .exhibition-grid,
   .support-grid,
   .support-phase-columns,
+  .portrait-archive-grid,
   .research-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .museum-grid.featured-collections-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1945,6 +2032,7 @@ a {
   .authorization-inner,
   .archive-note-inner,
   .museum-sections-inner,
+  .portrait-archive-inner,
   .site-footer {
     width: min(100% - 32px, 1280px);
   }
@@ -1986,7 +2074,12 @@ a {
   .exhibition-grid,
   .support-grid,
   .support-phase-columns,
+  .portrait-archive-grid,
   .research-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .museum-grid.featured-collections-grid {
     grid-template-columns: 1fr;
   }
 
