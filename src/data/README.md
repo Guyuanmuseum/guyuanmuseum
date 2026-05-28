@@ -13,4 +13,6 @@ This folder contains static JSON exported from the Gu Yuan Digital Museum Google
 
 Language standard: public website content is English + Traditional Chinese (`zh-Hant`). Do not add Simplified Chinese to public-facing JSON fields or rendered UI text.
 
+Public rendering standard: do not show technical IDs, sheet row numbers, or decorative card index letters/numbers. Keep those values in JSON for internal structure only. Meaningful museum metadata such as year, period, medium, collection, category, and status may still be displayed.
+
 Future Google Sheets API sync should read credentials from environment variables only. Do not commit `.env` files, private keys, or service-account JSON files.

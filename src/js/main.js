@@ -843,28 +843,24 @@ function renderArchive() {
   const cards = [
     {
       page: pageByName("Museum Canon"),
-      count: records("artworks").length,
       note: records("artworks")[0],
       imageSrc: assetForArtwork(canonArtwork, 0),
       imageAlt: artworkTitle(canonArtwork) || canonTitle(canonLead),
     },
     {
       page: pageByName("Archive"),
-      count: records("photos").length,
       note: photoLead,
       imageSrc: imagePathForPhoto(photoLead),
       imageAlt: localizedField(photoLead, "titleEn", "titleCn"),
     },
     {
       page: pageByName("Research"),
-      count: records("sources").length,
       note: records("sources")[0],
       imageSrc: imagePath(exhibitionLead, "exhibitions"),
       imageAlt: exhibitionTitle(exhibitionLead),
     },
     {
       page: pageByName("Search"),
-      count: records("keywords").length,
       note: records("keywords")[0],
       imageSrc: imagePathForPhoto(familyLead),
       imageAlt: localizedField(familyLead, "titleEn", "titleCn") || localized(familyLead.nameEn, familyLead.nameCn),
@@ -876,7 +872,7 @@ function renderArchive() {
       localizedField(item.note, "descriptionEn", "descriptionCn") ||
       englishOnly(item.note?.usedFor || item.page?.mainContent);
     archive.append(
-      makeRecordCard(localized(item.page.pageNameEn, item.page.pageNameCn), body, String(item.count), {
+      makeRecordCard(localized(item.page.pageNameEn, item.page.pageNameCn), body, "", {
         imageSrc: item.imageSrc,
         imageAlt: item.imageAlt,
       }),
@@ -931,13 +927,12 @@ function renderCollections() {
   const page = pageByName("Collections");
   heading.append(makeHeading(localized(page.pageNameEn, page.pageNameCn), pageHeadingTitle(page), englishOnly(page.mainContent)));
 
-  records("collections").forEach((item, index) => {
+  records("collections").forEach((item) => {
     const card = document.createElement("article");
     card.className = "collection-card";
     const media = createElement("div", "collection-card-media");
     media.append(makeImageElement(imagePath(item, "artworks"), collectionTitle(item)));
     card.append(media);
-    card.append(createElement("span", "", String(index + 1).padStart(2, "0")));
     card.append(createElement("h3", "", collectionTitle(item)));
     card.append(createElement("p", "", localizedField(item, "descriptionEn", "descriptionCn")));
     grid.append(card);
@@ -1003,8 +998,10 @@ function renderSupport() {
   const heading = $("[data-support-heading]");
   const grid = $("[data-support-cards]");
   const note = $("[data-support-note]");
+  const sectionContainer = $("[data-support-sections]");
   reset(heading);
   reset(grid);
+  reset(sectionContainer);
 
   const intro = state.data.support?.intro || {};
   heading.append(
@@ -1025,6 +1022,74 @@ function renderSupport() {
   });
 
   if (note) note.textContent = localized(intro.noteEn, intro.noteCn);
+
+  (state.data.support?.sections || []).forEach((section) => {
+    sectionContainer?.append(makeSupportSection(section));
+  });
+}
+
+function localizedArray(enItems = [], cnItems = []) {
+  const items = state.language === "zh" ? cnItems : enItems;
+  return (items || []).map((item) => (state.language === "zh" ? toTraditional(item) : item));
+}
+
+function appendParagraphList(parent, paragraphs) {
+  paragraphs.filter(Boolean).forEach((paragraph) => {
+    parent.append(createElement("p", "", paragraph));
+  });
+}
+
+function appendSupportList(parent, items) {
+  const list = createElement("ul", "support-list");
+  items.filter(Boolean).forEach((item) => {
+    list.append(createElement("li", "", item));
+  });
+  parent.append(list);
+}
+
+function makeSupportSection(section) {
+  const article = createElement("article", `support-detail support-detail-${section.type}`);
+  const header = createElement("div", "support-detail-header");
+  header.append(createElement("p", "eyebrow", localized(section.titleEn, section.titleCn)));
+
+  if (section.type === "quote") {
+    const quote = createElement("blockquote", "support-quote");
+    quote.textContent = localized(section.quoteEn, section.quoteCn);
+    article.append(header, quote);
+    return article;
+  }
+
+  if (section.headlineEn || section.headlineCn) {
+    header.append(createElement("h3", "", localized(section.headlineEn, section.headlineCn)));
+  }
+
+  const body = createElement("div", "support-detail-body");
+  appendParagraphList(body, localizedArray(section.paragraphsEn, section.paragraphsCn));
+
+  if (section.type === "phase") {
+    const columns = createElement("div", "support-phase-columns");
+    const focus = createElement("div", "support-phase-column");
+    focus.append(createElement("h4", "", localized(section.focusLabelEn, section.focusLabelCn)));
+    appendSupportList(focus, localizedArray(section.focusItemsEn, section.focusItemsCn));
+
+    const future = createElement("div", "support-phase-column");
+    future.append(createElement("h4", "", localized(section.futureLabelEn, section.futureLabelCn)));
+    appendSupportList(future, localizedArray(section.futureItemsEn, section.futureItemsCn));
+    columns.append(focus, future);
+    body.append(columns);
+  }
+
+  if (section.type === "supporters") {
+    body.append(createElement("h4", "", localized(section.listLabelEn, section.listLabelCn)));
+    appendSupportList(body, localizedArray(section.itemsEn, section.itemsCn));
+  }
+
+  if (section.footerEn || section.footerCn) {
+    body.append(createElement("p", "support-detail-note", localized(section.footerEn, section.footerCn)));
+  }
+
+  article.append(header, body);
+  return article;
 }
 
 function renderFooter() {

@@ -4,7 +4,7 @@
     "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
     "sheetName": "Support Us",
     "sourceType": "User-provided future support systems",
-    "generatedAt": "2026-05-28T17:12:45Z",
+    "generatedAt": "2026-05-28T17:32:05Z",
     "headers": [
       "Support ID",
       "Title EN",
@@ -93,6 +93,102 @@
       "statusEn": "In Development",
       "statusCn": "建設中",
       "notes": "Program planning only."
+    }
+  ],
+  "sections": [
+    {
+      "type": "editorial",
+      "titleEn": "Why This Matters",
+      "titleCn": "為什麼這項文化保存重要",
+      "paragraphsEn": [
+        "The Gu Yuan Digital Museum is not only building a website. It is building a long-term digital cultural archive dedicated to preserving modern Chinese artistic memory, oral history, visual culture, and historical research.",
+        "Many important memories, artworks, and personal histories may disappear over time without preservation efforts.",
+        "This project aims to gradually preserve and organize these materials for future generations, researchers, students, and global audiences."
+      ],
+      "paragraphsCn": [
+        "古元數字博物館不僅僅是在建設一個網站，而是在建立一個長期數字文化檔案系統，用於保存中國現代藝術記憶、口述歷史、視覺文化與歷史研究資料。",
+        "許多重要的記憶、作品與個人歷史，如果沒有保存工作，將可能隨著時間逐漸消失。",
+        "本項目希望逐步整理與保存這些文化資料，讓未來世代、研究者、學生與國際公眾能夠持續了解與研究。"
+      ]
+    },
+    {
+      "type": "phase",
+      "titleEn": "Current Phase",
+      "titleCn": "當前階段",
+      "headlineEn": "Archive Construction Phase",
+      "headlineCn": "檔案建設階段",
+      "focusLabelEn": "The museum is currently focused on:",
+      "focusLabelCn": "美術館目前專注於：",
+      "focusItemsEn": [
+        "archive organization",
+        "artwork documentation",
+        "oral history collection",
+        "historical research",
+        "digital preservation infrastructure"
+      ],
+      "focusItemsCn": [
+        "檔案整理",
+        "作品記錄",
+        "口述歷史採集",
+        "歷史研究",
+        "數字保存基礎架構"
+      ],
+      "futureLabelEn": "Future systems such as:",
+      "futureLabelCn": "未來系統包括：",
+      "futureItemsEn": [
+        "public donation",
+        "membership",
+        "digital exhibitions",
+        "educational programs",
+        "archive search systems"
+      ],
+      "futureItemsCn": [
+        "公眾捐贈",
+        "會員",
+        "數字展覽",
+        "教育項目",
+        "檔案搜索系統"
+      ],
+      "footerEn": "will be developed gradually over time.",
+      "footerCn": "將隨時間逐步建設與完善。"
+    },
+    {
+      "type": "supporters",
+      "titleEn": "Founding Supporters",
+      "titleCn": "創始支持者",
+      "paragraphsEn": [
+        "Future founding supporters may become part of the long-term preservation community behind the Gu Yuan Digital Museum."
+      ],
+      "paragraphsCn": [
+        "未來創始支持者可成為古元數字美術館背後長期文化保存社群的一部分。"
+      ],
+      "listLabelEn": "Possible future participation may include:",
+      "listLabelCn": "未來可能參與的方向包括：",
+      "itemsEn": [
+        "archive development updates",
+        "research newsletters",
+        "exhibition previews",
+        "educational resources",
+        "cultural preservation participation",
+        "acknowledgment within future supporter archives"
+      ],
+      "itemsCn": [
+        "檔案建設進展更新",
+        "研究通訊",
+        "展覽預覽",
+        "教育資源",
+        "文化保存參與",
+        "於未來支持者檔案中致謝"
+      ],
+      "footerEn": "Institutional supporter structure is currently under development.",
+      "footerCn": "機構支持者結構目前仍在建設中。"
+    },
+    {
+      "type": "quote",
+      "titleEn": "Preservation Statement",
+      "titleCn": "文化保存聲明",
+      "quoteEn": "Every archive preserved today protects cultural memory for future generations.",
+      "quoteCn": "今天保存的每一份檔案，都在為未來世代保留文化記憶。"
     }
   ]
 }
