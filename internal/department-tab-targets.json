@@ -1,0 +1,71 @@
+{
+  "source": {
+    "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
+    "sheetName": "Department Tab Targets",
+    "sourceType": "User-provided planning table",
+    "generatedAt": "2026-05-29T00:00:00-04:00",
+    "headers": [
+      "Department",
+      "Ideal Tabs"
+    ]
+  },
+  "records": [
+    {
+      "_row": 2,
+      "department": "01_Core_Museum",
+      "idealTabs": "12–18",
+      "idealTabsMin": 12,
+      "idealTabsMax": 18
+    },
+    {
+      "_row": 3,
+      "department": "02_Biography_History",
+      "idealTabs": "10–15",
+      "idealTabsMin": 10,
+      "idealTabsMax": 15
+    },
+    {
+      "_row": 4,
+      "department": "03_Collections",
+      "idealTabs": "10–20",
+      "idealTabsMin": 10,
+      "idealTabsMax": 20
+    },
+    {
+      "_row": 5,
+      "department": "04_Research",
+      "idealTabs": "10–15",
+      "idealTabsMin": 10,
+      "idealTabsMax": 15
+    },
+    {
+      "_row": 6,
+      "department": "05_Website_Media",
+      "idealTabs": "8–12",
+      "idealTabsMin": 8,
+      "idealTabsMax": 12
+    },
+    {
+      "_row": 7,
+      "department": "06_Branding_Design",
+      "idealTabs": "6–10",
+      "idealTabsMin": 6,
+      "idealTabsMax": 10
+    },
+    {
+      "_row": 8,
+      "department": "07_Development",
+      "idealTabs": "8–12",
+      "idealTabsMin": 8,
+      "idealTabsMax": 12
+    },
+    {
+      "_row": 9,
+      "department": "08_Technical",
+      "idealTabs": "8–12",
+      "idealTabsMin": 8,
+      "idealTabsMax": 12
+    }
+  ]
+}
