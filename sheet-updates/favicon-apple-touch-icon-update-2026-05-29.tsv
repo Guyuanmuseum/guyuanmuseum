@@ -1,0 +1,2 @@
+Target Sheet	Update ID	Website Section	Content Source	Main Tasks	Priority	Status	Notes
+Website Update Plan	UPD-016	Favicon / Apple Touch Icon	Official header logo	Updated favicon and Apple Touch Icon to use official Gu Yuan Museum header logo.	High	Implemented	Generated favicon.ico, favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png, android-chrome-192x192.png, android-chrome-512x512.png, and site.webmanifest from logo-transparent.png.

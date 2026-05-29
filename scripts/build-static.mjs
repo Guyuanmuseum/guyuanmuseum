@@ -5,11 +5,22 @@ import path from "node:path";
 const root = process.cwd();
 const dist = path.join(root, "dist");
 
+const iconFiles = [
+  "favicon.ico",
+  "favicon.png",
+  "favicon-16x16.png",
+  "favicon-32x32.png",
+  "apple-touch-icon.png",
+  "android-chrome-192x192.png",
+  "android-chrome-512x512.png",
+  "site.webmanifest",
+];
+
 const requiredFiles = [
   "index.html",
   "styles.css",
-  "favicon.png",
   "logo-transparent.png",
+  ...iconFiles,
   "src/js/main.js",
   "src/data/public/site-content.json",
   "src/data/public/museum-canon.json",
@@ -54,7 +65,9 @@ await mkdir(dist, { recursive: true });
 
 await copyIfExists("index.html", "index.html");
 await copyIfExists("styles.css", "styles.css");
-await copyIfExists("favicon.png", "favicon.png");
+for (const file of iconFiles) {
+  await copyIfExists(file, file);
+}
 await copyIfExists("logo-transparent.png", "logo-transparent.png");
 await copyIfExists("assets", "assets");
 await copyIfExists("src/js", "src/js");
