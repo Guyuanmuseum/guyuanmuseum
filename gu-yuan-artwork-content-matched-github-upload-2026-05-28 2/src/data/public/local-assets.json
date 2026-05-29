@@ -1,0 +1,40 @@
+{
+  "source": {
+    "note": "Local image map used while the Google Sheet Image URL/File fields are pending."
+  },
+  "artworks": {
+    "Rent Reduction Meeting": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+    "Burning Old Land Deeds": "/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg",
+    "Human Bridge": "/images/artworks/GY-ART-1948-HumanBridge-BrookePrint.jpg",
+    "Divorce Petition": "/images/artworks/GY-ART-1942-DivorcePetition.jpg",
+    "Brother’s Holiday": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg",
+    "Transporting Grass": "/images/artworks/GY-ART-1940-TransportingGrass-Master.jpg",
+    "Cattle": "/images/artworks/GY-ART-1940-Cattle.jpg",
+    "Sheep": "/images/artworks/GY-ART-1940-RuralHerdingScene-Master.jpg",
+    "Chopping Grass": "/images/artworks/GY-ART-1940-ChoppingGrass-Master.jpg",
+    "Jade Belt Bridge": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg",
+    "Xianglin’s Wife": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+    "Winter School": "/images/artworks/GY-ART-1940-WinterSchool-Master.jpg",
+    "Early Spring": "/images/artworks/GY-ART-1979-EarlySpring-Master.jpg",
+    "The Giant of Steel Industry": "/images/artworks/GY-ART-1949-GiantOfSteelIndustry-Master.jpg",
+    "Crossing the Yangtze River": "/images/artworks/GY-ART-1949-CrossingTheYangtzeRiver-BrookePrint.jpg",
+    "Niu Tu": "/images/artworks/GY-ART-1943-NiuTu-BrookePrint.jpg",
+    "Remembering Yan’an": "/images/artworks/GY-ART-1978-RememberingYanan-Master.jpg",
+    "Xianglin's Wife": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+    "Returning to Yan’an": "/images/artworks/GY-ART-1978-RememberingYanan-Master.jpg",
+    "The Biblical Era Has Passed 3": "/images/artworks/GY-ART-1940-BiblicalEraHasPassed-No3-Master.jpg",
+    "Protecting Our Own People’s Army": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-Color-Master.jpg",
+    "Protecting Our Own People’s Army (Color Version)": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-Color-Master.jpg",
+    "Protecting Our Own People’s Army (Black-and-white Version)": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-BW-Master.jpg",
+    "Winter School Scene": "/images/artworks/GY-ART-1943-WinterVillageScene-Master.jpg",
+    "Rural Herding Scene": "/images/artworks/GY-ART-1940-RuralHerdingScene-Master.jpg",
+    "The Biblical Era Has Passed, No. 3": "/images/artworks/GY-ART-1940-BiblicalEraHasPassed-No3-Master.jpg",
+    "Winter Village Scene": "/images/artworks/GY-ART-1943-WinterVillageScene-Master.jpg"
+  },
+  "fallbacks": [
+    "/images/artworks/GY-ART-1948-HumanBridge-BrookePrint.jpg",
+    "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+    "/images/artworks/GY-ART-1940-TransportingGrass-Master.jpg",
+    "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg"
+  ]
+}

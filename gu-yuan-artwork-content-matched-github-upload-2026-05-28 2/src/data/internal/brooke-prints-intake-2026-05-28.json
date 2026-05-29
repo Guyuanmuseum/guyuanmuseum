@@ -1,0 +1,167 @@
+{
+  "source": {
+    "type": "Artwork image intake report",
+    "generatedAt": "2026-05-28T00:00:00-04:00",
+    "sourceFolder": "/Users/huangfamily/Library/Mobile Documents/com~apple~CloudDocs/Guyuan Art Oakhill/15 brooke prints",
+    "destinationFolder": "/public/images/artworks/",
+    "processing": "Created web-ready JPEG derivatives with maximum dimension 2400px and formatOptions 85. Original master files remain in the source folder."
+  },
+  "visibility": "internal",
+  "summary": {
+    "sourceFilesFound": 13,
+    "webReadyArtworkFilesCreated": 13,
+    "clearMatchesUpdated": 7,
+    "toBeConfirmedItems": 6,
+    "duplicatesPreserved": true
+  },
+  "records": [
+    {
+      "sourceFile": "GY-002_The_Giant_of_Steel_Industry_1949_master.jpg",
+      "publicPath": "/images/artworks/GY-ART-1949-GiantOfSteelIndustry-Master.jpg",
+      "titleEn": "The Giant of Steel Industry",
+      "titleCn": "鋼鐵工業巨人",
+      "year": 1949,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "clear",
+      "note": "Title based on uploaded filename and visible industrial content; Chinese title to be verified against catalogue."
+    },
+    {
+      "sourceFile": "Image_20251205102438_12_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1978-RememberingYanan-Master.jpg",
+      "titleEn": "Remembering Yan’an",
+      "titleCn": "回憶延安",
+      "year": 1978,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "clear",
+      "note": "Visible inscription reads 回憶延安."
+    },
+    {
+      "sourceFile": "Image_20251205102612_18_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-BW-Master.jpg",
+      "titleEn": "Protecting Our Own People’s Army (Black-and-white Version)",
+      "titleCn": "保護咱們老百姓自己的軍隊（黑白版）",
+      "year": 1943,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "to be confirmed",
+      "note": "Exact catalogue title and version details to be confirmed."
+    },
+    {
+      "sourceFile": "Image_20251205102333_7_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1940-WinterSchool-Master.jpg",
+      "titleEn": "Winter School",
+      "titleCn": "冬學",
+      "year": 1940,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "to be confirmed",
+      "note": "Title appears from visible inscription; catalogue details to be confirmed."
+    },
+    {
+      "sourceFile": "Image_20251205102326_4_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1940-BiblicalEraHasPassed-No3-Master.jpg",
+      "titleEn": "The Biblical Era Has Passed, No. 3",
+      "titleCn": "聖經時代過去（三）",
+      "year": 1940,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "to be confirmed",
+      "note": "Title transcribed from visible inscription; exact catalogue title and series details to confirm."
+    },
+    {
+      "sourceFile": "Image_20251205102342_9_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-Color-Master.jpg",
+      "titleEn": "Protecting Our Own People’s Army (Color Version)",
+      "titleCn": "保護咱們老百姓自己的軍隊（彩色版）",
+      "year": 1943,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "to be confirmed",
+      "note": "Color version; exact catalogue title and version details to be confirmed."
+    },
+    {
+      "sourceFile": "GY-004_Niu_Tu_1943_master.jpg",
+      "publicPath": "/images/artworks/GY-ART-1940-RuralHerdingScene-Master.jpg",
+      "titleEn": "Rural Herding Scene",
+      "titleCn": "牧群場景",
+      "year": 1940,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "to be confirmed",
+      "note": "Descriptive content match only. Source filename says Niu Tu, but visible image shows a rural herding/livestock scene; exact catalogue title to confirm."
+    },
+    {
+      "sourceFile": "GY-006_Xianglin_Sao_1956_master.jpg",
+      "publicPath": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+      "titleEn": "Xianglin’s Wife",
+      "titleCn": "祥林嫂",
+      "year": 1956,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "clear",
+      "note": "Visible inscription and source filename match."
+    },
+    {
+      "sourceFile": "Image_20251205102330_6_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "titleEn": "Rent Reduction Meeting",
+      "titleCn": "減租會",
+      "year": 1943,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "clear",
+      "note": "Visible inscription reads 減租會."
+    },
+    {
+      "sourceFile": "Image_20251205102357_10_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1940-ChoppingGrass-Master.jpg",
+      "titleEn": "Chopping Grass",
+      "titleCn": "鍘草",
+      "year": 1940,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "clear",
+      "note": "Visible rural labor content matches existing record."
+    },
+    {
+      "sourceFile": "GY-001_Early_Spring_1979_master.jpg",
+      "publicPath": "/images/artworks/GY-ART-1979-EarlySpring-Master.jpg",
+      "titleEn": "Early Spring",
+      "titleCn": "初春",
+      "year": 1979,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "clear",
+      "note": "Visible inscription reads 初春."
+    },
+    {
+      "sourceFile": "Image_20251205102335_8_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1943-WinterVillageScene-Master.jpg",
+      "titleEn": "Winter Village Scene",
+      "titleCn": "冬日村莊場景",
+      "year": 1943,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "to be confirmed",
+      "note": "Descriptive content match only. Earlier Winter School Scene label was not verified by visible inscription; exact title and date to confirm."
+    },
+    {
+      "sourceFile": "Image_20251205102426_11_1.jpg",
+      "publicPath": "/images/artworks/GY-ART-1940-TransportingGrass-Master.jpg",
+      "titleEn": "Transporting Grass",
+      "titleCn": "運草",
+      "year": 1940,
+      "category": "Artwork",
+      "recommendedFolder": "/public/images/artworks/",
+      "status": "clear",
+      "note": "Visible image matches transporting grass/hay by horse cart; existing year should be verified."
+    }
+  ],
+  "publicRenderingPolicy": {
+    "missingImages": "Museum-style placeholder remains active for any missing asset.",
+    "indexLabels": "Public UI must not display technical IDs, row numbers, or decorative index letters/numbers.",
+    "uncertainty": "Do not guess artwork titles or metadata. Preserve uncertain images and mark them To be confirmed."
+  }
+}
