@@ -353,11 +353,27 @@ function shouldStripFragmentText(tag, className) {
     .some((name) => FRAGMENT_TEXT_CLASSES.has(name));
 }
 
+function protectTypographyOrphans(value) {
+  let text = String(value || "");
+  if (!text.trim()) return text;
+  if (/[\u3400-\u9fff]/u.test(text)) {
+    return text.replace(/([\u3400-\u9fff])([\u3400-\u9fff])([^\u3400-\u9fff]*)$/u, "$1\u2060$2$3");
+  }
+  text = text.replace(/\((\d{2,4})\s*([–—-])\s*(\d{2,4})\)/gu, "(\u2060$1\u2060$2\u2060$3\u2060)");
+  text = text.replace(/(\d{2,4})\s*([–—-])\s*(\d{2,4})/gu, "$1\u2060$2\u2060$3");
+  text = text.replace(/^([A-Z][A-Za-z]+)\s+([A-Z][A-Za-z]+)(\s+)/u, "$1\u00a0$2$3");
+  return text.replace(/([^ \t\n\u00a0]+)[ \t\n]+([^ \t\n\u00a0]+)$/u, "$1\u00a0$2");
+}
+
+function formatFragmentText(value) {
+  return protectTypographyOrphans(stripFragmentTerminator(value));
+}
+
 function createElement(tag, className, text) {
   const element = document.createElement(tag);
   if (className) element.className = className;
   if (text) {
-    element.textContent = shouldStripFragmentText(tag, className) ? stripFragmentTerminator(text) : text;
+    element.textContent = shouldStripFragmentText(tag, className) ? formatFragmentText(text) : text;
   }
   return element;
 }
@@ -368,7 +384,7 @@ function setText(selector, text) {
 }
 
 function setFragmentText(selector, text) {
-  setText(selector, stripFragmentTerminator(text));
+  setText(selector, formatFragmentText(text));
 }
 
 function reset(element) {
@@ -389,11 +405,11 @@ function stripFragmentTerminator(value) {
 }
 
 function localizedFragment(en, cn) {
-  return stripFragmentTerminator(localized(en, cn));
+  return formatFragmentText(localized(en, cn));
 }
 
 function localizedFragmentField(record, enKey, cnKey) {
-  return stripFragmentTerminator(localizedField(record, enKey, cnKey));
+  return formatFragmentText(localizedField(record, enKey, cnKey));
 }
 
 function englishOnly(value) {
@@ -1314,12 +1330,32 @@ function renderFooter() {
     createElement(
       "p",
       "footer-copyright",
-      uiText("© 2026 Gu Yuan Digital Museum. All Rights Reserved.", "© 2026 古元數字美術館 版權所有"),
+      uiText("© 2026 Gu Yuan Digital Museum All Rights Reserved", "© 2026 古元數字美術館 版權所有"),
+    ),
+  );
+  credit.append(
+    createElement(
+      "p",
+      "footer-credit-line",
+      uiText(
+        "A digital preservation initiative developed by OWL Art Foundation",
+        "由 OWL Art Foundation 開發的數字保存計劃",
+      ),
+    ),
+  );
+  credit.append(
+    createElement(
+      "p",
+      "footer-credit-line",
+      uiText(
+        "Website design and platform copyright © 2026 OWL Art Foundation",
+        "網站設計與平台版權 © 2026 OWL Art Foundation",
+      ),
     ),
   );
   const logoWrap = createElement("div", "footer-logo-wrap");
   const logo = document.createElement("img");
-  logo.src = "/assets/partners/owl-art-foundation-mark.png";
+  logo.src = "/assets/partners/owl-art-foundation-footer-final-dark.png";
   logo.alt = "OWL logo mark";
   logo.className = "footer-partner-logo";
   logo.decoding = "async";
