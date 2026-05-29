@@ -3,7 +3,7 @@
     "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
     "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
     "sheetName": "Collections",
-    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "generatedAt": "2026-05-29T08:50:00-04:00",
     "headers": [
       "Collection ID",
       "Collection Title EN",
@@ -44,7 +44,11 @@
       "priority": "Highest",
       "status": "Active",
       "notes": "Core museum canon",
-      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
     },
     {
       "_row": 4,
@@ -57,8 +61,12 @@
       "descriptionCn": "受民間藝術、年畫與大眾視覺文化影響的木刻與圖像作品。",
       "priority": "High",
       "status": "Active",
-      "notes": "Important visual language system",
-      "imageUrlFile": "/images/artworks/GY-ART-Unknown-SiftingGrain.jpg"
+      "notes": "Collection representative image updated from uploaded folk-style print on 2026-05-28.",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-Color-Master.jpg",
+      "imageWidthPx": 1705,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1705 x 2400 px",
+      "imageFileSizeBytes": 2133719
     },
     {
       "_row": 5,
@@ -71,8 +79,12 @@
       "descriptionCn": "描繪工業建設、工廠、工人與戰後現代化的工業題材作品。",
       "priority": "Medium",
       "status": "Active",
-      "notes": "Early PRC visual culture",
-      "imageUrlFile": "/images/artworks/GY-ART-1949-Steelworks.jpg"
+      "notes": "Collection representative image updated from uploaded industrial woodcut on 2026-05-28.",
+      "imageUrlFile": "/images/artworks/GY-ART-1949-GiantOfSteelIndustry-Master.jpg",
+      "imageWidthPx": 1800,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1800 x 2400 px",
+      "imageFileSizeBytes": 1932047
     },
     {
       "_row": 6,
@@ -86,7 +98,12 @@
       "priority": "Medium",
       "status": "Active",
       "notes": "Important late-period direction",
-      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1979-EarlySpring-Master.jpg",
+      "imageMatchStatus": "Verified representative landscape image path",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1800,
+      "imageSizeLabel": "2400 x 1800 px",
+      "imageFileSizeBytes": 2027049
     },
     {
       "_row": 7,

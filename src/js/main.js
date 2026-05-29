@@ -445,6 +445,18 @@ function imagePathForPhoto(record) {
   return imagePath(record, "artworks");
 }
 
+function archiveArtworkImageRecords() {
+  const seen = new Set();
+  return records("photos").filter((record) => {
+    const src = imagePathForPhoto(record);
+    const key = `${record.titleEn || ""}|${src}`;
+    if (!/Artwork/i.test(record.category || "") || !src || seen.has(key)) return false;
+    if (!/(-Master|-BrookePrint)\.(avif|gif|jpe?g|png|webp)$/i.test(src)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function safeMeta(value) {
   const text = String(value || "").trim();
   return /^[A-Z]{2,}-\d{3,}$/.test(text) ? "" : text;
@@ -544,6 +556,10 @@ function appendArtworkMetadata(parent, displayRecord, artwork) {
     {
       label: uiText("Collection", "館藏單元"),
       value: collectionName(displayRecord?.collection || artwork?.period),
+    },
+    {
+      label: uiText("Image size", "影像尺寸"),
+      value: artwork?.imageSizeLabel || displayRecord?.imageSizeLabel,
     },
     {
       label: uiText("Status", "狀態"),
@@ -679,8 +695,10 @@ function renderHeader() {
   });
 
   if (toggle) {
-    toggle.hidden = true;
-    toggle.setAttribute("aria-hidden", "true");
+    toggle.hidden = false;
+    toggle.removeAttribute("aria-hidden");
+    toggle.textContent = state.language === "zh" ? state.data.site.ui.languageToggleCn : state.data.site.ui.languageToggleEn;
+    toggle.setAttribute("aria-label", state.language === "zh" ? "Switch to English" : "Switch to Traditional Chinese");
   }
 
   const primary = $("[data-primary-cta]");
@@ -942,6 +960,47 @@ function renderArchive() {
       }),
     );
   });
+
+  const imageRecords = archiveArtworkImageRecords();
+  if (imageRecords.length) {
+    const imageSection = createElement("div", "archive-image-section");
+    const imageHeading = createElement("div", "archive-image-heading");
+    imageHeading.append(createElement("p", "eyebrow", uiText("Artwork image index", "作品影像索引")));
+    imageHeading.append(
+      createElement(
+        "h3",
+        "",
+        uiText("Matched Artwork Images", "已對照作品影像"),
+      ),
+    );
+    imageHeading.append(
+      createElement(
+        "p",
+        "",
+        uiText(
+          "Current uploaded artwork files are paired here with their public archive titles and catalogue context.",
+          "目前已上傳的作品影像在此與公開檔案標題及編目脈絡對照呈現。",
+        ),
+      ),
+    );
+
+    const imageGrid = createElement("div", "archive-image-gallery");
+    imageRecords.forEach((item) => {
+      const title = localizedField(item, "titleEn", "titleCn");
+      const meta = [item.year, collectionName(item.collection || item.category), item.imageSizeLabel]
+        .filter(Boolean)
+        .join(" · ");
+      imageGrid.append(
+        makeRecordCard(title, localizedField(item, "descriptionEn", "descriptionCn"), meta, {
+          imageSrc: imagePathForPhoto(item),
+          imageAlt: title,
+        }),
+      );
+    });
+
+    imageSection.append(imageHeading, imageGrid);
+    archive.append(imageSection);
+  }
 }
 
 function renderGuardian() {

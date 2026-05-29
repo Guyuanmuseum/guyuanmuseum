@@ -11,7 +11,7 @@
       "research-themes",
       "keywords-tags"
     ],
-    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "generatedAt": "2026-05-29T08:50:00-04:00",
     "sheetName": "Derived archive index",
     "headers": []
   },
@@ -35,12 +35,16 @@
         "zh": "這是古元延安時期的重要木刻作品，描繪戰時中國鄉村社會變遷中的減租場景。"
       },
       "year": 1943,
-      "category": null,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
     },
     {
       "type": "artwork",
@@ -54,12 +58,14 @@
         "zh": "這件作品與土地改革相關，記錄了中國北方社會變遷中的重要歷史場景。"
       },
       "year": 1947,
-      "category": null,
+      "category": "Postwar China",
       "period": "Postwar China",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg"
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "artwork",
@@ -73,12 +79,16 @@
         "zh": "古元20世紀40年代後期的重要作品之一，表現社會轉型時期的集體行動與歷史經驗。"
       },
       "year": 1948,
-      "category": null,
+      "category": "Postwar China",
       "period": "Postwar China",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge-BrookePrint.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1509,
+      "imageSizeLabel": "2400 x 1509 px",
+      "imageFileSizeBytes": 1445649
     },
     {
       "type": "artwork",
@@ -92,12 +102,14 @@
         "zh": "這件木刻作品反映延安時期鄉村社會中的法律、家庭與日常生活議題。"
       },
       "year": 1942,
-      "category": null,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1942-DivorcePetition.jpg"
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "artwork",
@@ -111,12 +123,16 @@
         "zh": "作品描繪戰時環境中士兵、家庭與鄉村社群之間的關系。"
       },
       "year": 1942,
-      "category": null,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg",
+      "imageWidthPx": 2000,
+      "imageHeightPx": 1714,
+      "imageSizeLabel": "2000 x 1714 px",
+      "imageFileSizeBytes": 953860
     },
     {
       "type": "artwork",
@@ -129,13 +145,17 @@
         "en": "An early woodcut showing Gu Yuan’s close observation of rural labor and everyday movement.",
         "zh": "早期木刻作品之一，體現古元對鄉村勞動與日常生活動態的觀察。"
       },
-      "year": 1942,
-      "category": null,
+      "year": 1940,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1942-TransportingGrass.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1940-TransportingGrass-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1375384
     },
     {
       "type": "artwork",
@@ -149,31 +169,39 @@
         "zh": "作品來自古元在碾莊鄉的農村經驗，關注牲畜、勞動與鄉村生活。"
       },
       "year": 1940,
-      "category": null,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1940-Cattle.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1940-Cattle.jpg",
+      "imageWidthPx": 2000,
+      "imageHeightPx": 1364,
+      "imageSizeLabel": "2000 x 1364 px",
+      "imageFileSizeBytes": 631872
     },
     {
       "type": "artwork",
       "id": "ART-008",
       "title": {
-        "en": "Sheep",
-        "zh": "羊群"
+        "en": "Rural Herding Scene",
+        "zh": "牧群場景"
       },
       "summary": {
-        "en": "A rural-life woodcut reflecting Gu Yuan’s interest in everyday scenes and local visual culture.",
-        "zh": "這件鄉村生活題材木刻體現了古元對日常場景與地方視覺文化的關注。"
+        "en": "A rural herding scene with livestock and a village shelter; exact catalogue title should be confirmed.",
+        "zh": "描繪牧群、鄉村棚舍與農村生活的木刻場景；確切圖錄題名待確認。"
       },
       "year": 1940,
-      "category": null,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
-      "status": "Draft",
+      "status": "To be confirmed",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1940-Sheep.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1940-RuralHerdingScene-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 2025,
+      "imageSizeLabel": "2400 x 2025 px",
+      "imageFileSizeBytes": 2073792
     },
     {
       "type": "artwork",
@@ -187,12 +215,16 @@
         "zh": "作品與鄉村勞動及村莊日常生活節奏相關。"
       },
       "year": 1940,
-      "category": null,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1940-ChoppingGrass.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1940-ChoppingGrass-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 2057,
+      "imageSizeLabel": "2400 x 2057 px",
+      "imageFileSizeBytes": 2630491
     },
     {
       "type": "artwork",
@@ -206,7 +238,7 @@
         "zh": "這是新中國初期與公共視覺藝術及新年畫形式相關的作品。"
       },
       "year": 1951,
-      "category": null,
+      "category": "Early PRC Period",
       "period": "Early PRC Period",
       "medium": "New Year picture / print",
       "status": "Draft",
@@ -225,7 +257,7 @@
         "zh": "這件作品具有抒情特征，體現古元對風景、農業生活與視覺氛圍的關注。"
       },
       "year": 1956,
-      "category": null,
+      "category": "Early PRC Period",
       "period": "Early PRC Period",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -244,12 +276,14 @@
         "zh": "這是一件具有代表性的套色木刻，體現古元成熟時期對風景、構圖與詩性視覺語言的探索。"
       },
       "year": 1962,
-      "category": null,
+      "category": "CAFA Period",
       "period": "CAFA Period",
       "medium": "Color woodcut",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "artwork",
@@ -263,7 +297,7 @@
         "zh": "這是一件歷史題材作品，與集體記憶和革命時期視覺文化相關。"
       },
       "year": "1950s",
-      "category": null,
+      "category": "Early PRC Period",
       "period": "Early PRC Period",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -282,7 +316,7 @@
         "zh": "這件代表作品常與古元的歷史記憶與文化視覺表達聯系在一起。"
       },
       "year": "Unknown",
-      "category": null,
+      "category": "To be confirmed",
       "period": "To be confirmed",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -301,7 +335,7 @@
         "zh": "古元晚年獻給故鄉的重要作品，體現記憶、風景與回歸主題。"
       },
       "year": 1993,
-      "category": null,
+      "category": "Late Years and Legacy",
       "period": "Late Years and Legacy",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -320,12 +354,16 @@
         "zh": "根據文學人物“祥林嫂”創作的木刻肖像，體現古元對人物心理與現實主義表達的關注。"
       },
       "year": 1956,
-      "category": null,
+      "category": "Early PRC Period",
       "period": "Early PRC Period",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 1337884
     },
     {
       "type": "artwork",
@@ -339,7 +377,7 @@
         "zh": "早期表現性人物木刻習作，以強烈黑白對比與簡化構圖形成視覺張力。"
       },
       "year": "circa 1940s",
-      "category": null,
+      "category": "Yan’an Period",
       "period": "Yan’an Period",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -358,7 +396,7 @@
         "zh": "反映戰爭時期強迫民眾參與偽軍的早期木刻作品。"
       },
       "year": 1939,
-      "category": null,
+      "category": "Early Wartime Works",
       "period": "Early Wartime Works",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -377,7 +415,7 @@
         "zh": "與戰爭時期民眾反抗與衝突相關的木刻作品。"
       },
       "year": 1939,
-      "category": null,
+      "category": "Early Wartime Works",
       "period": "Early Wartime Works",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -396,7 +434,7 @@
         "zh": "關注勞動、農業與戰時鄉村生活的社會性木刻作品。"
       },
       "year": 1939,
-      "category": null,
+      "category": "Early Wartime Works",
       "period": "Early Wartime Works",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -415,7 +453,7 @@
         "zh": "描繪戰爭暴力與平民苦難的戲劇性場景。"
       },
       "year": 1939,
-      "category": null,
+      "category": "Early Wartime Works",
       "period": "Early Wartime Works",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -434,7 +472,7 @@
         "zh": "聚焦戰爭時期生存、勞動與流離失所經驗的木刻作品。"
       },
       "year": 1939,
-      "category": null,
+      "category": "Early Wartime Works",
       "period": "Early Wartime Works",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -453,7 +491,7 @@
         "zh": "反映戰爭時期鄉村社會動蕩與流亡經驗的木刻作品。"
       },
       "year": 1939,
-      "category": null,
+      "category": "Early Wartime Works",
       "period": "Early Wartime Works",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -472,7 +510,7 @@
         "zh": "以日軍進攻上海為主題的歷史性戰時木刻作品。"
       },
       "year": 1939,
-      "category": null,
+      "category": "Early Wartime Works",
       "period": "Early Wartime Works",
       "medium": "Woodcut print",
       "status": "Draft",
@@ -491,7 +529,7 @@
         "zh": "一件融合民間裝飾性語言與簡化刀法的小幅木刻作品。"
       },
       "year": "Unknown",
-      "category": null,
+      "category": "Folk Graphic Style",
       "period": "Folk Graphic Style",
       "medium": "Woodcut print / folk-style graphic",
       "status": "Draft",
@@ -510,7 +548,7 @@
         "zh": "體現古元對印刷文化與圖像符號興趣的藏書票作品。"
       },
       "year": "Unknown",
-      "category": null,
+      "category": "Graphic Design / Print Culture",
       "period": "Graphic Design / Print Culture",
       "medium": "Ex Libris woodcut",
       "status": "Draft",
@@ -529,7 +567,7 @@
         "zh": "使用動物圖像與民間化構圖的個人藏書票作品。"
       },
       "year": "Unknown",
-      "category": null,
+      "category": "Graphic Design / Print Culture",
       "period": "Graphic Design / Print Culture",
       "medium": "Ex Libris woodcut",
       "status": "Draft",
@@ -540,26 +578,30 @@
       "type": "artwork",
       "id": "ART-028",
       "title": {
-        "en": "Steelworks Construction",
-        "zh": "我們自己修復"
+        "en": "The Giant of Steel Industry",
+        "zh": "鋼鐵工業巨人"
       },
       "summary": {
-        "en": "A large industrial-themed woodcut documenting reconstruction and industrial development after the war.",
-        "zh": "反映戰後工業建設與恢復的大型工業題材木刻作品。"
+        "en": "A large industrial-themed woodcut documenting steel production, reconstruction, and the scale of modern industry in postwar China.",
+        "zh": "大型工業題材木刻，描繪戰後中國鋼鐵生產、重建與現代工業規模。"
       },
       "year": 1949,
-      "category": null,
+      "category": "Early PRC Industrial Works",
       "period": "Early PRC Industrial Works",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1949-Steelworks.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1949-GiantOfSteelIndustry-Master.jpg",
+      "imageWidthPx": 1800,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1800 x 2400 px",
+      "imageFileSizeBytes": 1932047
     },
     {
       "type": "artwork",
       "id": "ART-029",
       "title": {
-        "en": "Returning to Yan’an",
+        "en": "Remembering Yan’an",
         "zh": "回憶延安"
       },
       "summary": {
@@ -567,12 +609,16 @@
         "zh": "通過風景與視覺氛圍重新回望延安記憶的作品。"
       },
       "year": 1978,
-      "category": null,
+      "category": "Late Reflection Works",
       "period": "Late Reflection Works",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1978-RememberingYanan.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1978-RememberingYanan-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1800,
+      "imageSizeLabel": "2400 x 1800 px",
+      "imageFileSizeBytes": 1311266
     },
     {
       "type": "artwork",
@@ -586,12 +632,16 @@
         "zh": "古元最具代表性的作品之一，以強烈視覺對比表現戰爭中的集體行動與渡河場景。"
       },
       "year": 1948,
-      "category": null,
+      "category": "Postwar China",
       "period": "Postwar China",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "artworks.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge-BrookePrint.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1509,
+      "imageSizeLabel": "2400 x 1509 px",
+      "imageFileSizeBytes": 1445649
     },
     {
       "type": "artwork",
@@ -605,7 +655,7 @@
         "zh": "以民間化構圖描繪鄉村勞動與農業生活節奏的作品。"
       },
       "year": "Unknown",
-      "category": null,
+      "category": "Rural Life / Folk Style",
       "period": "Rural Life / Folk Style",
       "medium": "Folk-style woodcut",
       "status": "Draft",
@@ -624,7 +674,7 @@
         "zh": "與戰時識字運動和公共教育相關的圖像作品。"
       },
       "year": 1943,
-      "category": null,
+      "category": "Wartime Education Graphics",
       "period": "Wartime Education Graphics",
       "medium": "Folk-style woodcut",
       "status": "Draft",
@@ -643,7 +693,7 @@
         "zh": "通過民間化圖像表現鄉村合作社組織的木刻作品。"
       },
       "year": 1943,
-      "category": null,
+      "category": "Rural Graphic Culture",
       "period": "Rural Graphic Culture",
       "medium": "Folk-style woodcut",
       "status": "Draft",
@@ -663,11 +713,15 @@
       },
       "year": 1956,
       "category": "Artwork",
-      "period": null,
+      "period": "Social Realism",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 1337884
     },
     {
       "type": "photo",
@@ -682,7 +736,7 @@
       },
       "year": "circa 1940s",
       "category": "Artwork",
-      "period": null,
+      "period": "Early Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -701,7 +755,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -720,7 +774,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -739,7 +793,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Rural Life",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -758,7 +812,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -777,7 +831,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -796,7 +850,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -815,7 +869,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Wartime History",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -834,7 +888,7 @@
       },
       "year": "Unknown",
       "category": "Graphic Design",
-      "period": null,
+      "period": "Folk Graphic Language",
       "medium": "Folk-style print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -853,7 +907,7 @@
       },
       "year": "Unknown",
       "category": "Ex Libris",
-      "period": null,
+      "period": "Print Culture",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -872,7 +926,7 @@
       },
       "year": "Unknown",
       "category": "Ex Libris",
-      "period": null,
+      "period": "Print Culture",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -882,8 +936,8 @@
       "type": "photo",
       "id": "PH-013",
       "title": {
-        "en": "Steelworks Construction",
-        "zh": "鋼鐵建設"
+        "en": "The Giant of Steel Industry",
+        "zh": "鋼鐵工業巨人"
       },
       "summary": {
         "en": "Industrial reconstruction and steel production scene.",
@@ -891,11 +945,15 @@
       },
       "year": 1949,
       "category": "Artwork",
-      "period": null,
+      "period": "Industrial Modernity",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1949-Steelworks.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1949-GiantOfSteelIndustry-Master.jpg",
+      "imageWidthPx": 1800,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1800 x 2400 px",
+      "imageFileSizeBytes": 1932047
     },
     {
       "type": "photo",
@@ -910,11 +968,15 @@
       },
       "year": 1978,
       "category": "Artwork",
-      "period": null,
+      "period": "Memory and Landscape",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1978-RememberingYanan.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1978-RememberingYanan-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1800,
+      "imageSizeLabel": "2400 x 1800 px",
+      "imageFileSizeBytes": 1311266
     },
     {
       "type": "photo",
@@ -929,11 +991,15 @@
       },
       "year": 1948,
       "category": "Artwork",
-      "period": null,
+      "period": "Museum Canon",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge-BrookePrint.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1509,
+      "imageSizeLabel": "2400 x 1509 px",
+      "imageFileSizeBytes": 1445649
     },
     {
       "type": "photo",
@@ -948,7 +1014,7 @@
       },
       "year": "Unknown",
       "category": "Folk Graphic",
-      "period": null,
+      "period": "Folk Graphic Language",
       "medium": "Folk-style print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -967,7 +1033,7 @@
       },
       "year": 1943,
       "category": "Educational Graphic",
-      "period": null,
+      "period": "Wartime Education",
       "medium": "Folk-style print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -981,8 +1047,8 @@
         "zh": "合作社"
       },
       "summary": {
-        "en": null,
-        "zh": null
+        "en": "",
+        "zh": ""
       },
       "year": 1943,
       "category": "Folk Graphic",
@@ -1005,7 +1071,7 @@
       },
       "year": "circa 1940s",
       "category": "Portrait",
-      "period": null,
+      "period": "Gu Yuan Portrait Archive",
       "medium": "Historical photograph",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1024,7 +1090,7 @@
       },
       "year": "circa 1950s",
       "category": "Portrait",
-      "period": null,
+      "period": "Gu Yuan Portrait Archive",
       "medium": "Historical photograph",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1043,7 +1109,7 @@
       },
       "year": "circa 1990s",
       "category": "Portrait",
-      "period": null,
+      "period": "Gu Yuan Portrait Archive",
       "medium": "Historical photograph",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1062,7 +1128,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Landscape Works",
       "medium": "Watercolor",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1081,7 +1147,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Yan’an Visual Culture",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1100,7 +1166,7 @@
       },
       "year": "Unknown",
       "category": "Folk Print",
-      "period": null,
+      "period": "Folk Graphic Language",
       "medium": "New Year print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1119,7 +1185,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Rural Social Scenes",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1138,7 +1204,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1157,7 +1223,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1176,7 +1242,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Industrial Modernity",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1195,7 +1261,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Yan’an Visual Culture",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1214,7 +1280,7 @@
       },
       "year": 1939,
       "category": "Artwork",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1233,7 +1299,7 @@
       },
       "year": "Unknown",
       "category": "Exhibition Photo",
-      "period": null,
+      "period": "Exhibition Archive",
       "medium": "Photograph",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1252,7 +1318,7 @@
       },
       "year": "Unknown",
       "category": "Exhibition Photo",
-      "period": null,
+      "period": "Exhibition Archive",
       "medium": "Photograph",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1271,7 +1337,7 @@
       },
       "year": "Unknown",
       "category": "Exhibition Photo",
-      "period": null,
+      "period": "Family Archive",
       "medium": "Photograph",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1290,7 +1356,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Urban Landscapes",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1307,13 +1373,17 @@
         "en": "One of Gu Yuan’s iconic rural labor scenes featuring horse carts and agricultural movement.",
         "zh": "古元最經典的鄉村勞動場景之一，描繪馬車運輸與農業勞動。"
       },
-      "year": "circa 1940s",
+      "year": 1940,
       "category": "Artwork",
-      "period": null,
+      "period": "Museum Canon",
       "medium": "Woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
-      "imageUrlFile": "/images/artworks/GY-ART-TransportingGrass.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1940-TransportingGrass-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1375384
     },
     {
       "type": "photo",
@@ -1328,7 +1398,7 @@
       },
       "year": "Unknown",
       "category": "Artwork",
-      "period": null,
+      "period": "Yan’an Visual Culture",
       "medium": "Color woodcut print",
       "status": "Draft",
       "sourceFile": "photos-archive.json",
@@ -1347,7 +1417,7 @@
       },
       "year": "1939–1940",
       "category": "Wartime Visual Culture",
-      "period": null,
+      "period": "1939–1940",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
@@ -1366,11 +1436,15 @@
       },
       "year": "1940–1945",
       "category": "Rural Society and Wartime Culture",
-      "period": null,
+      "period": "1940–1945",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
     },
     {
       "type": "collection",
@@ -1385,11 +1459,15 @@
       },
       "year": "1940s–1950s",
       "category": "Folk Visual Tradition",
-      "period": null,
+      "period": "1940s–1950s",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
-      "imageUrlFile": "/images/artworks/GY-ART-Unknown-SiftingGrain.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-Color-Master.jpg",
+      "imageWidthPx": 1705,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1705 x 2400 px",
+      "imageFileSizeBytes": 2133719
     },
     {
       "type": "collection",
@@ -1404,11 +1482,15 @@
       },
       "year": "1949–1960s",
       "category": "Industry and Reconstruction",
-      "period": null,
+      "period": "1949–1960s",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1949-Steelworks.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1949-GiantOfSteelIndustry-Master.jpg",
+      "imageWidthPx": 1800,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1800 x 2400 px",
+      "imageFileSizeBytes": 1932047
     },
     {
       "type": "collection",
@@ -1423,11 +1505,13 @@
       },
       "year": "1960s–1990s",
       "category": "Landscape and Reflection",
-      "period": null,
+      "period": "1960s–1990s",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "collection",
@@ -1442,7 +1526,7 @@
       },
       "year": "1940s–1990s",
       "category": "Artist Documentation",
-      "period": null,
+      "period": "1940s–1990s",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
@@ -1461,7 +1545,7 @@
       },
       "year": "2000s–Present",
       "category": "Museum and Public Memory",
-      "period": null,
+      "period": "2000s–Present",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
@@ -1480,7 +1564,7 @@
       },
       "year": "Multi-generational",
       "category": "Intergenerational Continuity",
-      "period": null,
+      "period": "Multi-generational",
       "medium": null,
       "status": "Active",
       "sourceFile": "collections.json",
@@ -1498,11 +1582,16 @@
         "zh": "古元最具國際代表性的木刻之一，體現現代中國版畫中的集體經驗與歷史張力。"
       },
       "year": 1948,
-      "category": "Postwar China",
-      "period": null,
+      "category": "Masterpiece",
+      "period": "Postwar China",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge-BrookePrint.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1509,
+      "imageSizeLabel": "2400 x 1509 px",
+      "imageFileSizeBytes": 1445649
     },
     {
       "type": "canon",
@@ -1516,11 +1605,16 @@
         "zh": "延安木刻文化的重要代表作，也是中國現代版畫史上的經典作品。"
       },
       "year": 1943,
-      "category": "Yan’an Visual Culture",
-      "period": null,
+      "category": "Masterpiece",
+      "period": "Yan’an Visual Culture",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
     },
     {
       "type": "canon",
@@ -1534,11 +1628,14 @@
         "zh": "探討法律、女性與鄉村社會的重要木刻作品。"
       },
       "year": 1942,
-      "category": "Yan’an Visual Culture",
-      "period": null,
+      "category": "Canon Work",
+      "period": "Yan’an Visual Culture",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "canon",
@@ -1551,12 +1648,17 @@
         "en": "A major rural labor scene demonstrating Gu Yuan’s mature visual composition and observation of movement.",
         "zh": "展現古元成熟構圖與勞動場景觀察的重要作品。"
       },
-      "year": 1942,
-      "category": "Rural Life",
-      "period": null,
+      "year": 1940,
+      "category": "Canon Work",
+      "period": "Rural Life",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-TransportingGrass-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1375384
     },
     {
       "type": "canon",
@@ -1570,11 +1672,16 @@
         "zh": "反映戰時鄉村生活與人物關系的重要作品。"
       },
       "year": 1942,
-      "category": "Yan’an Visual Culture",
-      "period": null,
+      "category": "Canon Work",
+      "period": "Yan’an Visual Culture",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg",
+      "imageWidthPx": 2000,
+      "imageHeightPx": 1714,
+      "imageSizeLabel": "2000 x 1714 px",
+      "imageFileSizeBytes": 953860
     },
     {
       "type": "canon",
@@ -1588,11 +1695,14 @@
         "zh": "古元後期最著名的套色木刻之一，以詩意構圖與抒情氛圍著稱。"
       },
       "year": 1962,
-      "category": "Landscape and Memory",
-      "period": null,
+      "category": "Masterpiece",
+      "period": "Landscape and Memory",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "canon",
@@ -1606,11 +1716,16 @@
         "zh": "以現代文學經典人物為基礎的心理性木刻肖像作品。"
       },
       "year": 1956,
-      "category": "Social Realism",
-      "period": null,
+      "category": "Canon Work",
+      "period": "Social Realism",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 1337884
     },
     {
       "type": "canon",
@@ -1624,11 +1739,14 @@
         "zh": "記錄社會變遷與土地改革的重要歷史木刻。"
       },
       "year": 1947,
-      "category": "Postwar China",
-      "period": null,
+      "category": "Canon Work",
+      "period": "Postwar China",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "canon",
@@ -1642,11 +1760,12 @@
         "zh": "對理解延安視覺文化中的象征性風景表達具有研究意義。"
       },
       "year": "Unknown",
-      "category": "Landscape and Memory",
-      "period": null,
+      "category": "Research Work",
+      "period": "Landscape and Memory",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": ""
     },
     {
       "type": "canon",
@@ -1660,11 +1779,12 @@
         "zh": "戰時識字運動與教育圖像文化的重要視覺案例。"
       },
       "year": 1943,
-      "category": "Folk Graphic Language",
-      "period": null,
+      "category": "Research Work",
+      "period": "Folk Graphic Language",
       "medium": null,
       "status": "Active",
-      "sourceFile": "museum-canon.json"
+      "sourceFile": "museum-canon.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-Literacy.jpg"
     },
     {
       "type": "exhibition",
@@ -1678,12 +1798,16 @@
         "zh": "介紹古元重要作品及其在中國現代視覺文化中意義的常設數字展覽。"
       },
       "year": null,
-      "category": "Masterpieces and Historical Narrative",
-      "period": null,
+      "category": "Permanent Exhibition",
+      "period": "Masterpieces and Historical Narrative",
       "medium": null,
       "status": "Active",
       "sourceFile": "exhibitions.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg",
+      "imageWidthPx": 2000,
+      "imageHeightPx": 1258,
+      "imageSizeLabel": "2000 x 1258 px",
+      "imageFileSizeBytes": 568348
     },
     {
       "type": "exhibition",
@@ -1697,8 +1821,8 @@
         "zh": "聚焦1939至1940年前後古元早期戰時木刻作品的專題展覽。"
       },
       "year": null,
-      "category": "Wartime Visual Culture",
-      "period": null,
+      "category": "Thematic Exhibition",
+      "period": "Wartime Visual Culture",
       "medium": null,
       "status": "Active",
       "sourceFile": "exhibitions.json",
@@ -1716,12 +1840,17 @@
         "zh": "探索古元延安時期視覺語言與鄉村戰爭經驗的研究型展覽。"
       },
       "year": null,
-      "category": "Rural Society and Wartime Experience",
-      "period": null,
+      "category": "Research Exhibition",
+      "period": "Rural Society and Wartime Experience",
       "medium": null,
       "status": "Active",
       "sourceFile": "exhibitions.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageMatchStatus": "Verified replacement image path",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
     },
     {
       "type": "exhibition",
@@ -1735,8 +1864,8 @@
         "zh": "研究古元如何吸收民間藝術、年畫與大眾視覺傳統的專題展覽。"
       },
       "year": null,
-      "category": "Folk Visual Tradition",
-      "period": null,
+      "category": "Research Exhibition",
+      "period": "Folk Visual Tradition",
       "medium": null,
       "status": "Active",
       "sourceFile": "exhibitions.json",
@@ -1754,12 +1883,14 @@
         "zh": "探索古元風景作品與晚年記憶表達的詩意展覽。"
       },
       "year": null,
-      "category": "Landscape and Emotional Reflection",
-      "period": null,
+      "category": "Thematic Exhibition",
+      "period": "Landscape and Emotional Reflection",
       "medium": null,
       "status": "Active",
       "sourceFile": "exhibitions.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending",
+      "notes": "Image path cleared because the local file was visibly matched to a different artwork; correct image pending."
     },
     {
       "type": "exhibition",
@@ -1773,8 +1904,8 @@
         "zh": "展示與古元藝術遺產相關的家族照片、口述歷史與跨代文化延續的數字檔案展覽。"
       },
       "year": null,
-      "category": "Family Continuity",
-      "period": null,
+      "category": "Archive Exhibition",
+      "period": "Family Continuity",
       "medium": null,
       "status": "Active",
       "sourceFile": "exhibitions.json",
@@ -1792,12 +1923,17 @@
         "zh": "探討古元對當代版畫、視覺文化與年輕藝術家的影響。"
       },
       "year": null,
-      "category": "Legacy and Influence",
-      "period": null,
+      "category": "Research Exhibition",
+      "period": "Legacy and Influence",
       "medium": null,
       "status": "Planning",
       "sourceFile": "exhibitions.json",
-      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+      "imageMatchStatus": "Verified replacement image path",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 1337884
     },
     {
       "type": "exhibition",
@@ -1811,8 +1947,8 @@
         "zh": "展示古元數字保存、翻譯、檔案整理與國際研究工作的數字項目展覽。"
       },
       "year": null,
-      "category": "Digital Humanities and Preservation",
-      "period": null,
+      "category": "Archive Exhibition",
+      "period": "Digital Humanities and Preservation",
       "medium": null,
       "status": "Active",
       "sourceFile": "exhibitions.json",
@@ -1831,10 +1967,11 @@
       },
       "year": null,
       "category": "Art History",
-      "period": null,
+      "period": "Museum Canon",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1849,10 +1986,11 @@
       },
       "year": null,
       "category": "Visual Culture",
-      "period": null,
+      "period": "Yan’an Visual Culture",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1867,10 +2005,11 @@
       },
       "year": null,
       "category": "Historical Visual Studies",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1885,10 +2024,11 @@
       },
       "year": null,
       "category": "Folk Art Studies",
-      "period": null,
+      "period": "Folk Graphic Language",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1903,10 +2043,11 @@
       },
       "year": null,
       "category": "Art History",
-      "period": null,
+      "period": "Museum Canon",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1921,10 +2062,11 @@
       },
       "year": null,
       "category": "Social History",
-      "period": null,
+      "period": "Rural Life",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1939,10 +2081,11 @@
       },
       "year": null,
       "category": "Translation Studies",
-      "period": null,
+      "period": "Translation System",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1957,10 +2100,11 @@
       },
       "year": null,
       "category": "Archive Studies",
-      "period": null,
+      "period": "Family Archive",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1975,10 +2119,11 @@
       },
       "year": null,
       "category": "Digital Humanities",
-      "period": null,
+      "period": "Digital Preservation Project",
       "medium": null,
       "status": "Active",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "research-theme",
@@ -1993,10 +2138,11 @@
       },
       "year": null,
       "category": "Contemporary Art Studies",
-      "period": null,
+      "period": "Contemporary Legacy",
       "medium": null,
       "status": "Planning",
-      "sourceFile": "research-themes.json"
+      "sourceFile": "research-themes.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2011,10 +2157,11 @@
       },
       "year": null,
       "category": "Medium",
-      "period": null,
+      "period": "Museum Canon",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2029,10 +2176,11 @@
       },
       "year": null,
       "category": "Historical Location",
-      "period": null,
+      "period": "Yan’an Visual Culture",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2047,10 +2195,11 @@
       },
       "year": null,
       "category": "Historical Theme",
-      "period": null,
+      "period": "Early Wartime Woodcuts",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2065,10 +2214,11 @@
       },
       "year": null,
       "category": "Social Theme",
-      "period": null,
+      "period": "Rural Life",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2083,10 +2233,11 @@
       },
       "year": null,
       "category": "Visual Language",
-      "period": null,
+      "period": "Folk Graphic Language",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2101,10 +2252,11 @@
       },
       "year": null,
       "category": "Art History",
-      "period": null,
+      "period": "Museum Canon",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2119,10 +2271,11 @@
       },
       "year": null,
       "category": "Art History",
-      "period": null,
+      "period": "Research Themes",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2137,10 +2290,11 @@
       },
       "year": null,
       "category": "Media Studies",
-      "period": null,
+      "period": "Ex Libris / Prints",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2155,10 +2309,11 @@
       },
       "year": null,
       "category": "Visual Theme",
-      "period": null,
+      "period": "Landscape and Memory",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2173,10 +2328,11 @@
       },
       "year": null,
       "category": "Historical Theme",
-      "period": null,
+      "period": "Industrial Modernity",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2191,10 +2347,11 @@
       },
       "year": null,
       "category": "Archive Studies",
-      "period": null,
+      "period": "Family Archive",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2209,10 +2366,11 @@
       },
       "year": null,
       "category": "Archive Studies",
-      "period": null,
+      "period": "Family Archive",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2227,10 +2385,11 @@
       },
       "year": null,
       "category": "Museum Studies",
-      "period": null,
+      "period": "Digital Preservation",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2245,10 +2404,11 @@
       },
       "year": null,
       "category": "Translation Studies",
-      "period": null,
+      "period": "Translation System",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2263,10 +2423,11 @@
       },
       "year": null,
       "category": "Digital Humanities",
-      "period": null,
+      "period": "Digital Preservation Project",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2281,10 +2442,11 @@
       },
       "year": null,
       "category": "Cultural Heritage",
-      "period": null,
+      "period": "Family Archive",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2299,10 +2461,11 @@
       },
       "year": null,
       "category": "Contemporary Art",
-      "period": null,
+      "period": "Contemporary Legacy",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2317,10 +2480,11 @@
       },
       "year": null,
       "category": "Museum Studies",
-      "period": null,
+      "period": "Museum Canon",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2335,10 +2499,11 @@
       },
       "year": null,
       "category": "Visual Culture",
-      "period": null,
+      "period": "Research Themes",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
     },
     {
       "type": "keyword",
@@ -2353,10 +2518,356 @@
       },
       "year": null,
       "category": "Educational Visual Culture",
-      "period": null,
+      "period": "Folk Graphic Language",
       "medium": null,
       "status": "Active",
-      "sourceFile": "keywords-tags.json"
+      "sourceFile": "keywords-tags.json",
+      "imageUrlFile": ""
+    },
+    {
+      "type": "artwork",
+      "id": "ART-034",
+      "title": {
+        "en": "Early Spring",
+        "zh": "初春"
+      },
+      "summary": {
+        "en": "A late-period landscape woodcut depicting trees reflected in water and a quiet seasonal atmosphere.",
+        "zh": "古元晚期風景木刻，描繪水面倒影、林木與初春的靜謐氣息。"
+      },
+      "year": 1979,
+      "category": "Late Reflection Works",
+      "period": "Late Reflection Works",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1979-EarlySpring-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1800,
+      "imageSizeLabel": "2400 x 1800 px",
+      "imageFileSizeBytes": 2027049
+    },
+    {
+      "type": "artwork",
+      "id": "ART-035",
+      "title": {
+        "en": "Winter School",
+        "zh": "冬學"
+      },
+      "summary": {
+        "en": "An early woodcut depicting a winter learning scene; exact catalogue details should be verified.",
+        "zh": "早期木刻作品，描繪冬季學習場景；確切圖錄資料待確認。"
+      },
+      "year": 1940,
+      "category": "Yan’an Period",
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-WinterSchool-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1551,
+      "imageSizeLabel": "2400 x 1551 px",
+      "imageFileSizeBytes": 1702357
+    },
+    {
+      "type": "artwork",
+      "id": "ART-036",
+      "title": {
+        "en": "The Biblical Era Has Passed, No. 3",
+        "zh": "聖經時代過去（三）"
+      },
+      "summary": {
+        "en": "A woodcut showing a church setting and a reader; title is transcribed from the visible inscription and should be verified against catalogue records.",
+        "zh": "描繪教堂場景與閱讀人物的木刻作品；題名依畫面題字轉錄，仍待圖錄資料校訂。"
+      },
+      "year": 1940,
+      "category": "Yan’an Period",
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "To be confirmed",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-BiblicalEraHasPassed-No3-Master.jpg",
+      "imageWidthPx": 1754,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1754 x 2400 px",
+      "imageFileSizeBytes": 1701052
+    },
+    {
+      "type": "artwork",
+      "id": "ART-037",
+      "title": {
+        "en": "Protecting Our Own People’s Army",
+        "zh": "保護咱們老百姓自己的軍隊（彩色版）"
+      },
+      "summary": {
+        "en": "A wartime folk-style image depicting civilian support for the people’s army; exact catalogue title and version details should be confirmed.",
+        "zh": "戰時民間圖像風格作品，描繪民眾支援軍隊的場景；確切圖錄題名與版本資料待確認。"
+      },
+      "year": 1943,
+      "category": "Wartime Folk Graphic Culture",
+      "period": "Wartime Folk Graphic Culture",
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-Color-Master.jpg",
+      "imageWidthPx": 1705,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1705 x 2400 px",
+      "imageFileSizeBytes": 2133719
+    },
+    {
+      "type": "artwork",
+      "id": "ART-038",
+      "title": {
+        "en": "Protecting Our Own People’s Army",
+        "zh": "保護咱們老百姓自己的軍隊（黑白版）"
+      },
+      "summary": {
+        "en": "A black-and-white version of a wartime folk-style image depicting civilian support for the people’s army; exact catalogue title and version details should be confirmed.",
+        "zh": "戰時民間圖像風格作品的黑白版本，描繪民眾支援軍隊的場景；確切圖錄題名與版本資料待確認。"
+      },
+      "year": 1943,
+      "category": "Wartime Folk Graphic Culture",
+      "period": "Wartime Folk Graphic Culture",
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-BW-Master.jpg",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 2214483
+    },
+    {
+      "type": "artwork",
+      "id": "ART-039",
+      "title": {
+        "en": "Winter Village Scene",
+        "zh": "冬日村莊場景"
+      },
+      "summary": {
+        "en": "A winter village scene with gathered figures, open snow ground, and rural dwellings; exact catalogue title and date should be confirmed.",
+        "zh": "描繪冬日村莊、雪地人物與鄉村居住環境的木刻場景；確切題名與年份待確認。"
+      },
+      "year": 1943,
+      "category": "Yan’an Period",
+      "period": "Yan’an Period",
+      "medium": "Woodcut print",
+      "status": "To be confirmed",
+      "sourceFile": "artworks.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-WinterVillageScene-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1636,
+      "imageSizeLabel": "2400 x 1636 px",
+      "imageFileSizeBytes": 1682741
+    },
+    {
+      "type": "photo",
+      "id": "PH-037",
+      "title": {
+        "en": "Rent Reduction Meeting",
+        "zh": "減租會"
+      },
+      "summary": {
+        "en": "A major woodcut depicting rural negotiation and social transformation.",
+        "zh": "描繪鄉村協商與社會變遷的重要木刻作品。"
+      },
+      "year": 1943,
+      "category": "Artwork",
+      "period": "Yan’an Visual Culture",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
+    },
+    {
+      "type": "photo",
+      "id": "PH-038",
+      "title": {
+        "en": "Rural Herding Scene",
+        "zh": "牧群場景"
+      },
+      "summary": {
+        "en": "A rural herding scene with livestock and a village shelter.",
+        "zh": "描繪牧群、鄉村棚舍與農村生活的木刻場景。"
+      },
+      "year": 1940,
+      "category": "Artwork",
+      "period": "Rural Life",
+      "medium": "Woodcut print",
+      "status": "To be confirmed",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-RuralHerdingScene-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 2025,
+      "imageSizeLabel": "2400 x 2025 px",
+      "imageFileSizeBytes": 2073792
+    },
+    {
+      "type": "photo",
+      "id": "PH-039",
+      "title": {
+        "en": "Chopping Grass",
+        "zh": "鍘草"
+      },
+      "summary": {
+        "en": "A rural labor scene connected to the everyday rhythms of village life.",
+        "zh": "與鄉村勞動及村莊日常節奏相關的作品。"
+      },
+      "year": 1940,
+      "category": "Artwork",
+      "period": "Rural Life",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-ChoppingGrass-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 2057,
+      "imageSizeLabel": "2400 x 2057 px",
+      "imageFileSizeBytes": 2630491
+    },
+    {
+      "type": "photo",
+      "id": "PH-040",
+      "title": {
+        "en": "Early Spring",
+        "zh": "初春"
+      },
+      "summary": {
+        "en": "A late-period landscape woodcut with water reflections and quiet seasonal atmosphere.",
+        "zh": "具有水面倒影與初春氣息的晚期風景木刻。"
+      },
+      "year": 1979,
+      "category": "Artwork",
+      "period": "Landscape and Memory",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1979-EarlySpring-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1800,
+      "imageSizeLabel": "2400 x 1800 px",
+      "imageFileSizeBytes": 2027049
+    },
+    {
+      "type": "photo",
+      "id": "PH-041",
+      "title": {
+        "en": "Winter School",
+        "zh": "冬學"
+      },
+      "summary": {
+        "en": "An early woodcut depicting a winter learning scene.",
+        "zh": "描繪冬季學習場景的早期木刻作品。"
+      },
+      "year": 1940,
+      "category": "Artwork",
+      "period": "Yan’an Visual Culture",
+      "medium": "Woodcut print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-WinterSchool-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1551,
+      "imageSizeLabel": "2400 x 1551 px",
+      "imageFileSizeBytes": 1702357
+    },
+    {
+      "type": "photo",
+      "id": "PH-042",
+      "title": {
+        "en": "The Biblical Era Has Passed, No. 3",
+        "zh": "聖經時代過去（三）"
+      },
+      "summary": {
+        "en": "A woodcut showing a church setting and a reader; title transcribed from visible inscription.",
+        "zh": "描繪教堂場景與閱讀人物的木刻作品；題名依畫面題字轉錄。"
+      },
+      "year": 1940,
+      "category": "Artwork",
+      "period": "Yan’an Visual Culture",
+      "medium": "Woodcut print",
+      "status": "To be confirmed",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-BiblicalEraHasPassed-No3-Master.jpg",
+      "imageWidthPx": 1754,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1754 x 2400 px",
+      "imageFileSizeBytes": 1701052
+    },
+    {
+      "type": "photo",
+      "id": "PH-043",
+      "title": {
+        "en": "Protecting Our Own People’s Army",
+        "zh": "保護咱們老百姓自己的軍隊（彩色版）"
+      },
+      "summary": {
+        "en": "A wartime folk-style image depicting civilian support for the people’s army.",
+        "zh": "戰時民間圖像風格作品，描繪民眾支援軍隊的場景。"
+      },
+      "year": 1943,
+      "category": "Artwork",
+      "period": "Folk Graphic Language",
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-Color-Master.jpg",
+      "imageWidthPx": 1705,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1705 x 2400 px",
+      "imageFileSizeBytes": 2133719
+    },
+    {
+      "type": "photo",
+      "id": "PH-044",
+      "title": {
+        "en": "Protecting Our Own People’s Army",
+        "zh": "保護咱們老百姓自己的軍隊（黑白版）"
+      },
+      "summary": {
+        "en": "A black-and-white version of a wartime folk-style image depicting civilian support for the people’s army.",
+        "zh": "戰時民間圖像風格作品的黑白版本，描繪民眾支援軍隊的場景。"
+      },
+      "year": 1943,
+      "category": "Artwork",
+      "period": "Folk Graphic Language",
+      "medium": "Folk-style print",
+      "status": "Draft",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-ProtectOurOwnPeoplesArmy-BW-Master.jpg",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 2214483
+    },
+    {
+      "type": "photo",
+      "id": "PH-045",
+      "title": {
+        "en": "Winter Village Scene",
+        "zh": "冬日村莊場景"
+      },
+      "summary": {
+        "en": "A winter village scene with gathered figures, open snow ground, and rural dwellings.",
+        "zh": "描繪冬日村莊、雪地人物與鄉村居住環境的木刻場景。"
+      },
+      "year": 1943,
+      "category": "Artwork",
+      "period": "Yan’an Visual Culture",
+      "medium": "Woodcut print",
+      "status": "To be confirmed",
+      "sourceFile": "photos-archive.json",
+      "imageUrlFile": "/images/artworks/GY-ART-1943-WinterVillageScene-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1636,
+      "imageSizeLabel": "2400 x 1636 px",
+      "imageFileSizeBytes": 1682741
     }
   ],
   "records": [

@@ -3,7 +3,7 @@
     "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
     "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
     "sheetName": "Exhibitions tab",
-    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "generatedAt": "2026-05-29T08:50:00-04:00",
     "headers": [
       "Exhibition ID",
       "Exhibition Title EN",
@@ -30,7 +30,11 @@
       "relatedCollections": "Museum Canon",
       "status": "Active",
       "notes": "Homepage core exhibition",
-      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg",
+      "imageWidthPx": 2000,
+      "imageHeightPx": 1258,
+      "imageSizeLabel": "2000 x 1258 px",
+      "imageFileSizeBytes": 568348
     },
     {
       "_row": 3,
@@ -58,7 +62,12 @@
       "relatedCollections": "Yan’an Visual Culture",
       "status": "Active",
       "notes": "Core historical direction",
-      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageMatchStatus": "Verified replacement image path",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
     },
     {
       "_row": 5,
@@ -86,7 +95,12 @@
       "relatedCollections": "Landscape and Memory",
       "status": "Active",
       "notes": "Later-period emotional direction",
-      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1979-EarlySpring-Master.jpg",
+      "imageMatchStatus": "Verified representative landscape image path",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1800,
+      "imageSizeLabel": "2400 x 1800 px",
+      "imageFileSizeBytes": 2027049
     },
     {
       "_row": 7,
@@ -114,7 +128,12 @@
       "relatedCollections": "Museum Canon / Youth Contributors",
       "status": "Planning",
       "notes": "Future international direction",
-      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+      "imageMatchStatus": "Verified replacement image path",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 1337884
     },
     {
       "_row": 9,

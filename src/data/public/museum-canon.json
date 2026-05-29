@@ -3,7 +3,7 @@
     "spreadsheetId": "1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ",
     "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1eljw6wpcWKclc3D4TTzZ4d6f7uLJYFbyxGo8R2L9buQ/edit?usp=sharing",
     "sheetName": "Museum Canon tab",
-    "generatedAt": "2026-05-28T01:09:48.232125+00:00",
+    "generatedAt": "2026-05-29T08:50:00-04:00",
     "headers": [
       "Canon ID",
       "Artwork Title EN",
@@ -32,7 +32,11 @@
       "internationalRelevance": "Very High",
       "status": "Active",
       "notes": "Museum-level masterpiece",
-      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1948-HumanBridge-BrookePrint.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1509,
+      "imageSizeLabel": "2400 x 1509 px",
+      "imageFileSizeBytes": 1445649
     },
     {
       "_row": 3,
@@ -47,7 +51,11 @@
       "internationalRelevance": "Very High",
       "status": "Active",
       "notes": "Core museum canon",
-      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1943-RentReductionMeeting-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1886394
     },
     {
       "_row": 4,
@@ -61,23 +69,28 @@
       "importanceCn": "探討法律、女性與鄉村社會的重要木刻作品。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Frequently studied work",
-      "imageUrlFile": "/images/artworks/GY-ART-1942-DivorcePetition.jpg"
+      "notes": "Frequently studied work Image path cleared because the local file was visibly matched to a different artwork; correct image pending.",
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending"
     },
     {
       "_row": 5,
       "canonId": "CAN-004",
       "artworkTitleEn": "Transporting Grass",
       "artworkTitleCn": "運草",
-      "year": 1942,
+      "year": 1940,
       "canonLevel": "Canon Work",
       "collection": "Rural Life",
       "importanceEn": "A major rural labor scene demonstrating Gu Yuan’s mature visual composition and observation of movement.",
       "importanceCn": "展現古元成熟構圖與勞動場景觀察的重要作品。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Widely reproduced work",
-      "imageUrlFile": "/images/artworks/GY-ART-1942-TransportingGrass.jpg"
+      "notes": "Updated with content-matched master image on 2026-05-28; catalogue year to be verified.",
+      "imageUrlFile": "/images/artworks/GY-ART-1940-TransportingGrass-Master.jpg",
+      "imageWidthPx": 2400,
+      "imageHeightPx": 1733,
+      "imageSizeLabel": "2400 x 1733 px",
+      "imageFileSizeBytes": 1375384
     },
     {
       "_row": 6,
@@ -92,7 +105,11 @@
       "internationalRelevance": "High",
       "status": "Active",
       "notes": "Human-centered narrative",
-      "imageUrlFile": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1942-BrothersHoliday.jpg",
+      "imageWidthPx": 2000,
+      "imageHeightPx": 1714,
+      "imageSizeLabel": "2000 x 1714 px",
+      "imageFileSizeBytes": 953860
     },
     {
       "_row": 7,
@@ -106,8 +123,9 @@
       "importanceCn": "古元後期最著名的套色木刻之一，以詩意構圖與抒情氛圍著稱。",
       "internationalRelevance": "Very High",
       "status": "Active",
-      "notes": "Major later masterpiece",
-      "imageUrlFile": "/images/artworks/GY-ART-1962-JadeBeltBridge.jpg"
+      "notes": "Major later masterpiece Image path cleared because the local file was visibly matched to a different artwork; correct image pending.",
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending"
     },
     {
       "_row": 8,
@@ -122,7 +140,11 @@
       "internationalRelevance": "High",
       "status": "Active",
       "notes": "Literary connection",
-      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao.jpg"
+      "imageUrlFile": "/images/artworks/GY-ART-1956-XianglinSao-Master.jpg",
+      "imageWidthPx": 1704,
+      "imageHeightPx": 2400,
+      "imageSizeLabel": "1704 x 2400 px",
+      "imageFileSizeBytes": 1337884
     },
     {
       "_row": 9,
@@ -136,8 +158,9 @@
       "importanceCn": "記錄社會變遷與土地改革的重要歷史木刻。",
       "internationalRelevance": "High",
       "status": "Active",
-      "notes": "Historical significance",
-      "imageUrlFile": "/images/artworks/GY-ART-1947-BurningOldLandDeeds.jpg"
+      "notes": "Historical significance Image path cleared because the local file was visibly matched to a different artwork; correct image pending.",
+      "imageUrlFile": "",
+      "imageMatchStatus": "Correct image pending"
     },
     {
       "_row": 10,
