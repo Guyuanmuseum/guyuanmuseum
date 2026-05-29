@@ -333,16 +333,43 @@ function toTraditional(value) {
 const $ = (selector, root = document) => root.querySelector(selector);
 const records = (key) => state.data[key]?.records || [];
 
+const FRAGMENT_TEXT_TAGS = new Set(["h1", "h2", "h3", "h4", "h5", "h6", "dt"]);
+const FRAGMENT_TEXT_CLASSES = new Set([
+  "eyebrow",
+  "icon",
+  "work-category",
+  "guardian-role",
+  "support-status",
+  "featured-collection-meta",
+  "footer-museum-name",
+  "footer-tagline",
+  "footer-copyright",
+  "footer-credit-line",
+]);
+
+function shouldStripFragmentText(tag, className) {
+  if (FRAGMENT_TEXT_TAGS.has(String(tag || "").toLowerCase())) return true;
+  return String(className || "")
+    .split(/\s+/)
+    .some((name) => FRAGMENT_TEXT_CLASSES.has(name));
+}
+
 function createElement(tag, className, text) {
   const element = document.createElement(tag);
   if (className) element.className = className;
-  if (text) element.textContent = text;
+  if (text) {
+    element.textContent = shouldStripFragmentText(tag, className) ? stripFragmentTerminator(text) : text;
+  }
   return element;
 }
 
 function setText(selector, text) {
   const element = $(selector);
   if (element) element.textContent = text || "";
+}
+
+function setFragmentText(selector, text) {
+  setText(selector, stripFragmentTerminator(text));
 }
 
 function reset(element) {
@@ -476,31 +503,31 @@ function safeMeta(value) {
 }
 
 function artworkTitle(record) {
-  return localizedField(record, "titleEn", "titleCn");
+  return localizedFragmentField(record, "titleEn", "titleCn");
 }
 
 function canonTitle(record) {
-  return localizedField(record, "artworkTitleEn", "artworkTitleCn");
+  return localizedFragmentField(record, "artworkTitleEn", "artworkTitleCn");
 }
 
 function collectionTitle(record) {
-  return localizedField(record, "collectionTitleEn", "collectionTitleCn");
+  return localizedFragmentField(record, "collectionTitleEn", "collectionTitleCn");
 }
 
 function featuredCollectionTitle(record) {
-  return localizedField(record, "titleEn", "titleCn");
+  return localizedFragmentField(record, "titleEn", "titleCn");
 }
 
 function exhibitionTitle(record) {
-  return localizedField(record, "exhibitionTitleEn", "exhibitionTitleCn");
+  return localizedFragmentField(record, "exhibitionTitleEn", "exhibitionTitleCn");
 }
 
 function researchTitle(record) {
-  return localizedField(record, "researchThemeEn", "researchThemeCn");
+  return localizedFragmentField(record, "researchThemeEn", "researchThemeCn");
 }
 
 function keywordTitle(record) {
-  return localizedField(record, "keywordEn", "keywordCn");
+  return localizedFragmentField(record, "keywordEn", "keywordCn");
 }
 
 function pageByName(name) {
@@ -508,7 +535,7 @@ function pageByName(name) {
 }
 
 function pageHeadingTitle(page) {
-  return localized(page.mainPurpose || page.pageNameEn, page.pageNameCn);
+  return localizedFragment(page.mainPurpose || page.pageNameEn, page.pageNameCn);
 }
 
 function artworkByEnglishTitle(title) {
@@ -704,20 +731,22 @@ function renderHeader() {
   state.data.site.navigation.forEach((item) => {
     const link = document.createElement("a");
     link.href = item.href;
-    link.textContent = localized(item.labelEn, item.labelCn);
+    link.textContent = localizedFragment(item.labelEn, item.labelCn);
     nav.insertBefore(link, toggle);
   });
 
   if (toggle) {
     toggle.hidden = false;
     toggle.removeAttribute("aria-hidden");
-    toggle.textContent = state.language === "zh" ? state.data.site.ui.languageToggleCn : state.data.site.ui.languageToggleEn;
+    toggle.textContent = stripFragmentTerminator(
+      state.language === "zh" ? state.data.site.ui.languageToggleCn : state.data.site.ui.languageToggleEn,
+    );
     toggle.setAttribute("aria-label", state.language === "zh" ? "Switch to English" : "Switch to Traditional Chinese");
   }
 
   const primary = $("[data-primary-cta]");
   if (primary) {
-    primary.textContent = localized(state.data.site.ui.primaryCtaEn, state.data.site.ui.primaryCtaCn);
+    primary.textContent = localizedFragment(state.data.site.ui.primaryCtaEn, state.data.site.ui.primaryCtaCn);
   }
 }
 
@@ -729,17 +758,17 @@ function renderHero() {
   const introElement = $("[data-hero-lede]");
   const introElementCn = $("[data-hero-lede-cn]");
 
-  setText("[data-hero-eyebrow]", localized(hero.eyebrowEn, hero.eyebrowCn));
-  setText("[data-hero-title]", localized(hero.titleEn, hero.titleCn));
+  setFragmentText("[data-hero-eyebrow]", localized(hero.eyebrowEn, hero.eyebrowCn));
+  setFragmentText("[data-hero-title]", localized(hero.titleEn, hero.titleCn));
   setText("[data-hero-lede]", introText);
   setText("[data-hero-lede-cn]", introTextCn);
   if (introElement) introElement.hidden = state.language === "zh" || !introText;
   if (introElementCn) introElementCn.hidden = state.language !== "zh" || !introTextCn;
   setText("[data-hero-secondary]", localized(hero.secondaryEn, hero.secondaryCn));
-  setText("[data-hero-primary]", `${localized(ui.primaryCtaEn, ui.primaryCtaCn)} ->`);
-  setText("[data-hero-secondary-link]", localized(ui.secondaryCtaEn, ui.secondaryCtaCn));
+  setText("[data-hero-primary]", `${localizedFragment(ui.primaryCtaEn, ui.primaryCtaCn)} ->`);
+  setFragmentText("[data-hero-secondary-link]", localized(ui.secondaryCtaEn, ui.secondaryCtaCn));
 
-  document.title = state.language === "zh" ? localized(hero.titleEn, hero.titleCn) : "Gu Yuan Digital Museum";
+  document.title = state.language === "zh" ? localizedFragment(hero.titleEn, hero.titleCn) : "Gu Yuan Digital Museum";
 }
 
 function renderResearchNotes() {
@@ -879,8 +908,8 @@ function makeArtworkButton(artwork, displayRecord, index, featured = false) {
   const button = createElement("button", "artwork-open");
   button.type = "button";
   button.dataset.src = assetForArtwork(artwork, index);
-  button.dataset.titleEn = displayRecord.artworkTitleEn || artwork.titleEn || "";
-  button.dataset.titleCn = toTraditional(displayRecord.artworkTitleCn || artwork.titleCn || "");
+  button.dataset.titleEn = stripFragmentTerminator(displayRecord.artworkTitleEn || artwork.titleEn || "");
+  button.dataset.titleCn = toTraditional(stripFragmentTerminator(displayRecord.artworkTitleCn || artwork.titleCn || ""));
   button.dataset.year = displayRecord.year || artwork.year || "";
   button.dataset.medium = artwork.medium || displayRecord.collection || "";
   button.dataset.mediumCn = localizedMedium(artwork.medium || displayRecord.medium || "");
@@ -1286,21 +1315,30 @@ function renderFooter() {
     createElement(
       "p",
       "footer-copyright",
-      uiText("© 2026 Gu Yuan Digital Museum. All Rights Reserved.", "© 2026 古元數字美術館。版權所有。"),
+      uiText("© 2026 Gu Yuan Digital Museum All Rights Reserved", "© 2026 古元數字美術館 版權所有"),
+    ),
+  );
+  credit.append(
+    createElement(
+      "p",
+      "footer-credit-line",
+      uiText(
+        "A digital preservation initiative developed by OWL Art Foundation",
+        "由 OWL Art Foundation 開發的數字保存項目",
+      ),
+    ),
+  );
+  credit.append(
+    createElement(
+      "p",
+      "footer-credit-line",
+      uiText(
+        "Website design and platform copyright © 2026 OWL Art Foundation",
+        "網站設計與平台版權 © 2026 OWL Art Foundation",
+      ),
     ),
   );
 
-  const partnership = createElement("div", "footer-partnership");
-  const mark = createElement("div", "footer-partner-mark");
-  const image = document.createElement("img");
-  image.src = "assets/partners/owl-art-foundation-mark.png";
-  image.alt = "OWL logo mark";
-  image.className = "footer-partner-logo";
-  image.decoding = "async";
-  mark.append(image);
-  partnership.append(mark, createElement("p", "footer-credit-line", "OWL Art Foundation"));
-
-  credit.append(partnership);
   footer.append(credit);
 }
 
@@ -1335,7 +1373,7 @@ function bindModal() {
         modalImage.after(makeImagePlaceholder(modalImage.alt));
         $(".museum-image-placeholder", artworkModal)?.classList.add("modal-image-placeholder");
       }
-      modalTitle.textContent = isZh ? button.dataset.titleCn : button.dataset.titleEn;
+      modalTitle.textContent = stripFragmentTerminator(isZh ? button.dataset.titleCn : button.dataset.titleEn);
       modalTitleZh.textContent = isZh ? "" : "";
       modalMeta.textContent = [
         button.dataset.year,
