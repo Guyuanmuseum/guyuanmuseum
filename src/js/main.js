@@ -67,7 +67,7 @@ const FEATURED_COLLECTIONS = {
 };
 
 const state = {
-  language: "en",
+  language: "zh",
   data: {},
 };
 
@@ -678,11 +678,15 @@ function renderHeader() {
     nav.insertBefore(link, toggle);
   });
 
-  toggle.textContent = localized(state.data.site.ui.languageToggleEn, state.data.site.ui.languageToggleCn);
-  toggle.setAttribute("aria-label", state.language === "zh" ? "Switch to English" : "Switch to Chinese");
+  if (toggle) {
+    toggle.hidden = true;
+    toggle.setAttribute("aria-hidden", "true");
+  }
 
   const primary = $("[data-primary-cta]");
-  primary.textContent = localized(state.data.site.ui.primaryCtaEn, state.data.site.ui.primaryCtaCn);
+  if (primary) {
+    primary.textContent = localized(state.data.site.ui.primaryCtaEn, state.data.site.ui.primaryCtaCn);
+  }
 }
 
 function renderHero() {
@@ -697,8 +701,8 @@ function renderHero() {
   setText("[data-hero-title]", localized(hero.titleEn, hero.titleCn));
   setText("[data-hero-lede]", introText);
   setText("[data-hero-lede-cn]", introTextCn);
-  if (introElement) introElement.hidden = !introText;
-  if (introElementCn) introElementCn.hidden = !introTextCn;
+  if (introElement) introElement.hidden = state.language === "zh" || !introText;
+  if (introElementCn) introElementCn.hidden = state.language !== "zh" || !introTextCn;
   setText("[data-hero-secondary]", localized(hero.secondaryEn, hero.secondaryCn));
   setText("[data-hero-primary]", `${localized(ui.primaryCtaEn, ui.primaryCtaCn)} ->`);
   setText("[data-hero-secondary-link]", localized(ui.secondaryCtaEn, ui.secondaryCtaCn));

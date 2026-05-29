@@ -22,6 +22,14 @@
       "chineseContent": "古元是中國現代最重要的木刻藝術家之一。他的作品以強有力的黑白圖像與深具人文關懷的視覺敘事，記錄了二十世紀中國的精神、掙扎與轉變。\n\n作為藝術家、教育家與文化人物，古元在中國現代版畫與美術教育的發展中具有重要影響。他的作品與延安木刻藝術史、革命視覺文化，以及中國現代藝術身份的形成密切相連。\n\n古元數字美術館旨在保存、整理並向國際觀眾分享他的藝術遺產。透過照片、作品、家族記憶、口述歷史、檔案資料與研究，本平臺希望建立一座關於古元生平、藝術與持久影響的活態數字檔案。",
       "status": "Draft",
       "notes": "Homepage official introduction, to be placed under the main hero title and Chinese subtitle."
+    },
+    {
+      "sectionId": "NAV-HEADER-001",
+      "websiteArea": "Header Navigation",
+      "englishContent": "Header navigation displays Traditional Chinese labels only on the public site. The duplicate Museum Canon header button has been removed, leaving Museum Canon only once in the main navigation.",
+      "chineseContent": "公開網站頁首導覽僅顯示繁體中文標籤。已移除重複的「核心館藏」頁首按鈕，僅在主導覽中保留一次「核心館藏」。",
+      "status": "Complete",
+      "notes": "Updated May 28, 2026. Header/navigation documentation matched to Chinese-only public header update."
     }
   ]
 }
