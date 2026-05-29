@@ -343,7 +343,6 @@ const FRAGMENT_TEXT_CLASSES = new Set([
   "featured-collection-meta",
   "footer-museum-name",
   "footer-tagline",
-  "footer-copyright",
   "footer-credit-line",
 ]);
 
@@ -1315,29 +1314,17 @@ function renderFooter() {
     createElement(
       "p",
       "footer-copyright",
-      uiText("© 2026 Gu Yuan Digital Museum All Rights Reserved", "© 2026 古元數字美術館 版權所有"),
+      uiText("© 2026 Gu Yuan Digital Museum. All Rights Reserved.", "© 2026 古元數字美術館 版權所有"),
     ),
   );
-  credit.append(
-    createElement(
-      "p",
-      "footer-credit-line",
-      uiText(
-        "A digital preservation initiative developed by OWL Art Foundation",
-        "由 OWL Art Foundation 開發的數字保存項目",
-      ),
-    ),
-  );
-  credit.append(
-    createElement(
-      "p",
-      "footer-credit-line",
-      uiText(
-        "Website design and platform copyright © 2026 OWL Art Foundation",
-        "網站設計與平台版權 © 2026 OWL Art Foundation",
-      ),
-    ),
-  );
+  const logoWrap = createElement("div", "footer-logo-wrap");
+  const logo = document.createElement("img");
+  logo.src = "/assets/partners/owl-art-foundation-mark.png";
+  logo.alt = "OWL logo mark";
+  logo.className = "footer-partner-logo";
+  logo.decoding = "async";
+  logoWrap.append(logo);
+  credit.append(logoWrap);
 
   footer.append(credit);
 }
