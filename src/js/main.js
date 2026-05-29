@@ -1261,8 +1261,10 @@ function renderFooter() {
   const credit = createElement("div", "footer-credit");
   const partnership = createElement("div", "footer-partnership");
   const image = document.createElement("img");
-  image.src = "assets/partners/owl-art-foundation-logo.png";
+  image.src = "assets/partners/owl-art-foundation-logo-footer.png";
   image.alt = "OWL Art Foundation logo";
+  image.className = "footer-partner-logo";
+  image.decoding = "async";
   partnership.append(image, createElement("p", "", uiText("Designed and developed by OWL Art Foundation", "由 OWL Art Foundation 設計與建置")));
   credit.append(partnership);
   credit.append(createElement("p", "", uiText("Gu Yuan Digital Museum", "古元數字美術館")));
